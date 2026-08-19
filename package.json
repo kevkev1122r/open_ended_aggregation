@@ -1,0 +1,8 @@
+{
+  "name": "open-ended-aggregation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kernel-Weighted Aggregation pilot - document build",
+  "scripts": { "plan": "node build_plan.js" },
+  "dependencies": { "docx": "^9.0.0" }
+}

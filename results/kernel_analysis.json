@@ -1,0 +1,15 @@
+{
+  "n": 970,
+  "encoder": "sentence-transformers/all-mpnet-base-v2",
+  "tau": 0.9,
+  "accuracy": {
+    "majority (exact)": 81.85567010309278,
+    "medoid / cluster (kernel only)": 83.50515463917526,
+    "OW exact (weights only)": 83.50515463917526,
+    "KWA (global beta)": 84.94845360824742,
+    "KWA (per-domain beta)": 84.74226804123711,
+    "best single model": 84.22680412371135,
+    "ceiling (any correct)": 94.02061855670102
+  },
+  "best_single": "anthropic/claude-sonnet-5"
+}

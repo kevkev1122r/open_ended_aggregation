@@ -1,0 +1,22 @@
+{
+  "n": 36,
+  "all_distinct_pct": 97.22222222222221,
+  "accuracy": {
+    "majority vote": 66.66666666666666,
+    "medoid / cluster": 61.111111111111114,
+    "OW exact (weights)": 63.888888888888886,
+    "KWA supervised beta": 61.111111111111114,
+    "KWA label-free beta": 50.0
+  },
+  "best_single": 69.44444444444444,
+  "best_model": "DeepSeek-V4-Flash",
+  "ceiling": 88.88888888888889,
+  "em_spearman": -0.20519567041703085,
+  "em_beta": [
+    1.8957106064191092,
+    6.673510850746394,
+    0.010423932371290653,
+    2.697855136133821,
+    0.010423932371290653
+  ]
+}

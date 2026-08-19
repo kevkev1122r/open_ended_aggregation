@@ -1,0 +1,22 @@
+# secrets
+.env
+*.key
+*.pem
+
+# environments / caches
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# public source datasets -- re-downloadable, large
+data/*.parquet
+data/*.zip
+share/
+
+# local logs
+*.log
+
+# raw generation data — pending decision on public release
+data/
