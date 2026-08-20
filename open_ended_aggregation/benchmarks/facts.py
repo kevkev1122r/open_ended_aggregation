@@ -33,11 +33,11 @@ Usage:  ./venv/bin/python run_facts.py [n_pilot] [n_full]
 """
 import os, sys, json, time, re, threading, collections
 import numpy as np, pandas as pd
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import azure_backend as AZ
+from open_ended_aggregation.backends import azure as AZ
 from concurrent.futures import ThreadPoolExecutor
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 POOL = ["grok-4.3", "Kimi-K2.5", "Cohere-command-a-plus-05-2026",
         "MAI-Thinking-1", "DeepSeek-V4-Flash"]
 JUDGE = "gpt-5.4-mini"

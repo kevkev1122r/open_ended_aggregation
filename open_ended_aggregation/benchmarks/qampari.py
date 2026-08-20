@@ -33,11 +33,11 @@ Usage:  ./venv/bin/python run_qampari.py [n]
 """
 import os, sys, json, re, time, zipfile, threading, collections
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import azure_backend as AZ
+from open_ended_aggregation.backends import azure as AZ
 from concurrent.futures import ThreadPoolExecutor
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 POOL = ["grok-4.3", "Kimi-K2.5", "Cohere-command-a-plus-05-2026",
         "MAI-Thinking-1", "DeepSeek-V4-Flash"]
 GEN_PATH = f"{HERE}/data/qampari_gen.jsonl"

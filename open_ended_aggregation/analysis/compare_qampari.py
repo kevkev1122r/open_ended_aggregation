@@ -35,9 +35,9 @@ Method definitions, all on the SAME parsed item sets so only the rule differs:
 """
 import sys, os, json, math, collections, statistics, zipfile, random
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-from verify_qampari_independent import norm, score_set, bootstrap
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
+from open_ended_aggregation.analysis.verify_qampari import norm, score_set, bootstrap
 
 
 def load(path):

@@ -21,7 +21,8 @@ ONE REAL ADVANTAGE OVER AZURE
 import os, time, threading
 import requests
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 KEY = [l.split("=", 1)[1].strip() for l in open(f"{HERE}/.env")
        if l.startswith("OPENROUTER_API_KEY=")][0]
 URL = "https://openrouter.ai/api/v1/chat/completions"

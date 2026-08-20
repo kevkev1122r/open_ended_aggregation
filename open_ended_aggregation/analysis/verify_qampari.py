@@ -11,7 +11,8 @@ Run:  ./venv/bin/python verify_qampari_independent.py
 """
 import json, re, zipfile, random, collections, statistics, os
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 random.seed(0)
 
 # ---------------------------------------------------------------- grading contract

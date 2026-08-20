@@ -1,0 +1,48 @@
+# Model pools. Names are AZURE DEPLOYMENT names, not catalogue ids -- they must
+# match the deployment exactly or calls 404.
+
+pool_8agent:
+  description: >
+    Current pool. Six vendors, F1 spanning 4.8x on QAMPARI. Used for the 800-question
+    QAMPARI run and QUEST.
+  models:
+    - grok-4.3
+    - Kimi-K2.5
+    - MAI-Thinking-1
+    - gpt-5.4
+    - DeepSeek-V4-Flash
+    - gpt-5.4-mini
+    - gpt-5.4-nano
+    - Cohere-command-a-plus-05-2026
+
+pool_7agent_noCohere:
+  description: >
+    Preferred for QUEST. Cohere burns the full 12k budget and returns empty on ~99
+    QUEST queries, so dropping it raises complete coverage from 297 to 386 of 400.
+  models:
+    - grok-4.3
+    - Kimi-K2.5
+    - MAI-Thinking-1
+    - gpt-5.4
+    - DeepSeek-V4-Flash
+    - gpt-5.4-mini
+    - gpt-5.4-nano
+
+pool_5model_legacy:
+  description: >
+    The original pool, deliberately peer-tier. All QAMPARI n=198..630, ASQA and
+    FACTS results use this.
+  models:
+    - grok-4.3
+    - Kimi-K2.5
+    - Cohere-command-a-plus-05-2026
+    - MAI-Thinking-1
+    - DeepSeek-V4-Flash
+
+roles:
+  clusterer: gpt-5.4-mini   # ASC_CLUSTERER env var overrides
+  composer: grok-4.3        # ASC P_combine step
+
+notes:
+  temperature_zero_rejected: [gpt-5.5, gpt-5.6-sol]
+  emits_literal_tokens: [Cohere-command-a-plus-05-2026]   # <|START_TEXT|>/<|END_TEXT|>

@@ -33,9 +33,9 @@ Usage:  ./venv/bin/python run_quest.py [n]
 """
 import os, sys, json, re, time, threading, collections
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-import azure_backend as AZ
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
+from open_ended_aggregation.backends import azure as AZ
 from concurrent.futures import ThreadPoolExecutor
 
 POOL = ["Cohere-command-a-plus-05-2026", "DeepSeek-V4-Flash", "Kimi-K2.5",

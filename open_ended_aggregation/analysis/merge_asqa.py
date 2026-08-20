@@ -17,10 +17,10 @@ Usage:  ./venv/bin/python analyze_merge_asqa_fixed.py
 import os, sys, json, re, collections
 import numpy as np
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import run_asqa as R
+from open_ended_aggregation.benchmarks import asqa as R
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 SEED = 0
 TAU = 0.85
 _SENT = re.compile(r"(?<=[.!?])\s+")

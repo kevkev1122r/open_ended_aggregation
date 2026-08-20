@@ -10,9 +10,8 @@ Usage:  ./venv/bin/python run_asc800.py [n]
 """
 import sys, os, json, time, collections
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 POOL = ["Cohere-command-a-plus-05-2026", "DeepSeek-V4-Flash", "Kimi-K2.5",
         "MAI-Thinking-1", "gpt-5.4", "gpt-5.4-mini", "gpt-5.4-nano", "grok-4.3"]
 OUT = f"{HERE}/data/qampari_asc800.jsonl"

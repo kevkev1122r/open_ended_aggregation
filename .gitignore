@@ -20,3 +20,8 @@ share/
 
 # raw generation data — pending decision on public release
 data/
+
+# build artifacts
+*.egg-info/
+build/
+dist/

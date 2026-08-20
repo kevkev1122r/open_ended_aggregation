@@ -1,0 +1,16 @@
+[project]
+name = "open-ended-aggregation"
+version = "0.1.0"
+description = "Aggregating open-ended LLM answers by merging atomic claims across heterogeneous agents"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy", "scipy", "pandas", "pyarrow", "requests",
+    "sentence-transformers", "statsmodels",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["open_ended_aggregation*"]

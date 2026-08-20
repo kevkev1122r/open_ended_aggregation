@@ -1,79 +1,93 @@
-# Open-ended LLM answer aggregation — Kernel-Weighted Aggregation (KWA)
+# Open-ended LLM answer aggregation
 
-Pilot study answering the open question in Ai, Pan, Simchi-Levi, Tambe & Xu,
-*Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order Information*
-(ICML 2026, arXiv:2510.01499), §7: **"How to derive optimal weights for open-ended
-questions?"**
+Aggregating **open-ended, set-valued** answers from heterogeneous LLM agents by merging
+atomic claims, rather than selecting one agent's whole response.
 
-> **Real-data status** (FINDINGS.md §0, §0.5, §0.6). Replicated on **3 independent corpora
-> × 3 encoders = 9 cells** with bootstrap CIs. The *effect* is bulletproof: 9/9 cells,
-> Cohen's d 1.43–3.14, placebo passes 9/9. The *log-linear form* is **refuted in 6/9 cells**
-> with disjoint CIs — and the split is by corpus, not encoder: it fails for model-generated
-> errors, holds only for hand-written exam distractors. β is not a constant (2.6–20.6).
-> **The kernel must be curved. All accuracy numbers remain synthetic.**
+Extends Ai, Pan, Simchi-Levi, Tambe & Xu, *Beyond Majority Voting: LLM Aggregation by
+Leveraging Higher-Order Information* (ICML 2026, [arXiv:2510.01499](https://arxiv.org/abs/2510.01499)),
+whose §7 asks how to derive optimal weights for open-ended questions.
 
-## The idea in three lines
+## Headline
 
-```
-  their OW:   argmax_s  Σ_j  w_j · 1{a_j = s}          needs "all wrong answers equally likely"
-  our KWA:    argmax_s  Σ_j  β_j · sim(a_j, s)          replaces the indicator with a kernel
-  reduction:  sim = exact match  ⟹  KWA IS OW           verified numerically, 1.0000 at every K
-```
+Two set-valued benchmarks, eight agents, judge-free programmatic grading.
 
-β is estimated from unlabelled data by EM with the truth as a latent variable.
+| | QAMPARI (n=777) | QUEST (n=297) |
+|---|---|---|
+| best single agent | 27.92 | 10.86 |
+| MV — strict majority | worse than best single | worse than best single |
+| OW — response selection | reproduces best single **exactly** | reproduces best single **exactly** |
+| MA-count filter | **+1.92 \*** | −0.10 (ns) |
+| **MA-count + OW (ours)** | +2.00 \* | **+1.17 \*** |
+| weighting gain (OW − count) | +0.08 (ns) | **+1.47 \*** |
 
-## Headline results
+`*` = 95% paired-bootstrap CI excludes zero.
 
-| | |
-|---|---|
-| Reduces exactly to OW on multiple choice | 1.0000 agreement, K ∈ {2,3,4,6,10} |
-| Label-free β recovery | corr 0.98 (strongest agent underestimated ~20%, does not improve with data) |
-| vs cluster-then-vote, oracle support | 96.1% vs 92.0% |
-| **vs cluster-then-vote, fully deployable** | **94.7% vs 93.1%** ← the honest number |
-| Correct on questions where *every* agent was wrong | **34.1%** (vote-based methods: 0% by construction) |
-| Errors land near the truth | **9/9 cells**, Cohen's d 1.43–3.14 |
-| Placebo (shuffled labels) | passes 9/9, max \|β\| 0.277 vs real β 2.6–20.6 |
-| **Log-LINEAR form** | **REFUTED 6/9, CIs disjoint — fails exactly where errors are model-made** |
-| β a constant? | **No — 2.6 to 20.6** across corpora/encoders/pool spread |
-| vs *tuned* baseline under real measured geometry | **93.3% vs 88.3% (+5.0)** |
+**The two benchmarks disagree about which component works, and that turns out to be
+predictable.** Sweeping all 56 five-of-eight agent subsets on both benchmarks, the
+weighting gain tracks **relative dominance** — `best precision / mean(rest)` — at
+r = +0.452 (QAMPARI) and +0.473 (QUEST). QUEST's best agent is 2.08× the rest; QAMPARI's
+is 1.43×. Reliability weighting pays off when one agent clearly dominates, and adds
+nothing when the pool is bunched.
 
-The main hypothesis was **refuted**: the gain is not from pooling votes split across
-paraphrases (it's largest when there are *zero* paraphrases). The mechanism is
-triangulation — wrong answers collectively point at the truth.
+The absolute gap `best − mean(rest)` does *not* explain it: that number is larger on
+QAMPARI (0.085 vs 0.063), pointing the wrong way.
 
-## Files
+## What is and is not established
 
-| file | what |
-|---|---|
-| `PLAN.docx` | the research plan, with pilot results and figures |
-| `FINDINGS.md` | full write-up, including what broke |
-| `kernel_agg.py` | library: generative model, aggregators, EM estimator |
-| `experiments.py` | the ten experiments (E1–E10) |
-| `make_figures.py` | summary figures from results.json |
-| `robustness_test.py` | the three stress tests (encoder / task / control design) |
-| `control_gradient.py` | the control-hardness sweep that broke the linear claim |
-| `triple_replication.py` | 3 corpora × 3 encoders × bootstrap CIs — the reliability run |
-| `real_data_test.py` | the real-data validation (TruthfulQA + HaluEval + MiniLM) |
-| `explain_figure.py` | the dartboard explainer diagram |
-| `results/results.json` | raw numbers |
-| `results/full_run.log` | complete console transcript |
-| `results/figures/` | six PNGs |
+**Established** — merging atomic claims beats selecting a whole response; majority voting
+is actively worse than the best single agent on set-valued answers; the published OW rule
+is structurally inert here (with global weights and open-ended answers no two responses
+coincide, so its argmax is always the highest-weighted agent — it reproduces best-single
+with a zero-width CI); relative dominance predicts when weighting helps, on both benchmarks.
 
-## Run it
+**Not established** — that any of this works label-free (all weights are supervised
+cross-fitted per-agent precision); published ASC as a baseline (see below).
+
+## Quick start
 
 ```bash
-./venv/bin/python experiments.py           # everything, ~200s
-./venv/bin/python experiments.py E4 E9     # selected experiments
-./venv/bin/python make_figures.py
-node build_plan.js                         # rebuild PLAN.docx
+python3 -m venv venv && ./venv/bin/pip install -e .
+cp .env.example .env      # add your Azure endpoint + key
+
+./venv/bin/python -m open_ended_aggregation.analysis.compare_qampari
+./venv/bin/python -m open_ended_aggregation.analysis.compare_quest
+./venv/bin/python -m open_ended_aggregation.analysis.subset_sweep
 ```
 
-## Next, in priority order
+Analysis needs no API calls — every model response is cached in `data/` (gitignored,
+~250 MB, ~$130 of Azure spend). Generation resumes from that cache and only fills gaps.
 
-1. **Replace the linear kernel with a curved one.** §0.5 shows `β·sim` is the wrong form exactly
-   where the aggregator operates; a quadratic captures 98% of the variance there. Fit a monotone
-   `g` and re-run the whole pilot with `β·g(sim)`.
-2. **Chase the triangulation result** — build a real candidate generator, see if 34% survives.
-3. **Add confidence-weighting baselines** (CISC, inverse-entropy voting) — the real incumbents.
-4. Fix strong-agent identifiability (prior on β, or multiple samples per agent).
-5. Diversity-aware extension — correlated agents are the main threat.
+See [docs/getting-started.md](docs/getting-started.md).
+
+## Layout
+
+```
+open_ended_aggregation/
+  backends/      azure, openrouter, judge — transport only
+  benchmarks/    qampari, quest, asqa, facts — loader + prompt + parser + metrics
+  methods/       kernel (KWA), asc (paper-exact), llm_cluster (variant)
+  analysis/      per-benchmark comparisons, subset sweep, independent verification
+  generation/    resumable backfill drivers
+configs/pools.yaml   agent pools and their quirks
+docs/                method, benchmarks, results, troubleshooting, handoffs
+archive/             superseded one-off scripts, kept for provenance
+```
+
+Each benchmark is **fully separate** — own loader, prompt, gold format and metrics.
+Coupling them is what produced the earlier "ASQA cannot replicate" confusion.
+
+## A naming warning
+
+No arm in this repo is published ASC. `MA-count` is a **multi-agent adaptation** of ASC's
+count filter: published ASC ([arXiv:2405.13131](https://arxiv.org/abs/2405.13131)) draws
+m=50 stochastic samples from **one** model, tunes Θ on a validation set, and composes
+survivors with an LLM. Counting over agents instead of samples measures inter-model
+agreement, not self-consistency — a different estimand. See
+[docs/method.md](docs/method.md).
+
+## Read before trusting a number
+
+[docs/troubleshooting.md](docs/troubleshooting.md) lists the silent-failure modes found so
+far — several produced wrong headline numbers before being caught. Every figure here was
+re-derived independently from raw generations, and the uniform/shuffled controls behave as
+predicted.

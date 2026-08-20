@@ -31,9 +31,9 @@ Usage:  ./venv/bin/python asc_llm_cluster.py [--limit N]
 """
 import sys, os, json, re, collections, argparse
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-import run_qampari as Q
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
+from open_ended_aggregation.benchmarks import qampari as Q
 
 CACHE = f"{HERE}/data/qampari_asc800_llmclusters.{os.environ.get('ASC_CLUSTERER','gpt-5.4-mini')}.jsonl"
 CLUSTERER = os.environ.get("ASC_CLUSTERER", "gpt-5.4-mini")

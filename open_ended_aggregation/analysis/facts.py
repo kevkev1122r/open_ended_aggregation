@@ -28,11 +28,11 @@ Usage:  ./venv/bin/python analyze_facts.py
 """
 import os, sys, json, collections
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import verify_aggregation as V          # unit-tested aggregators + normaliser
-import kernel_agg as K
+from open_ended_aggregation.methods import kernel as K
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 POOL = ["grok-4.3", "Kimi-K2.5", "Cohere-command-a-plus-05-2026",
         "MAI-Thinking-1", "DeepSeek-V4-Flash"]
 ENCODER = "sentence-transformers/all-mpnet-base-v2"

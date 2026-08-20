@@ -37,9 +37,8 @@ NO SPEND ENDPOINT
 import os, json, time, threading
 import requests
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-
-
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 def _env(key):
     for line in open(f"{HERE}/.env"):
         if line.startswith(key + "="):

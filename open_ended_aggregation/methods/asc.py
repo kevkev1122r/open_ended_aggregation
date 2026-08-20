@@ -34,9 +34,9 @@ Usage:
 """
 import sys, os, json, collections, statistics, random, argparse
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, HERE)
-import run_qampari as Q
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
+from open_ended_aggregation.benchmarks import qampari as Q
 
 GEN = f"{HERE}/data/qampari_asc800.jsonl"
 COMPOSED = f"{HERE}/data/qampari_asc800_composed.jsonl"

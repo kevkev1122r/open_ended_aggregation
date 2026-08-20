@@ -19,7 +19,8 @@ Design constraints, all learned the hard way on TriviaQA:
 import os, re, json
 import numpy as np, pandas as pd, requests
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+from open_ended_aggregation.paths import ROOT as _ROOT
+HERE = str(_ROOT)
 DATA = os.path.join(HERE, "data")
 os.makedirs(DATA, exist_ok=True)
 
