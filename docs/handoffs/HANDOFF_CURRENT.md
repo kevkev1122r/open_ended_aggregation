@@ -1,3 +1,11 @@
+> ## ⚠ SUPERSEDED — read `HANDOFF_2026-08-18.md` FIRST
+>
+> Three claims below are now known false: that no second benchmark can
+> adjudicate (QUEST existed; ASQA was mis-scored with STR-EM instead of DR),
+> that weighting is a null at +0.08 (it is -1.25 under honest cross-fitting),
+> and the labelling of the count filter as "ASC". The method description and
+> the environment notes remain useful.
+
 # HANDOFF — current state, 16 August 2026 (evening)
 
 **This supersedes `HANDOFF_2026-08-16.md`, which was written earlier the same day and
