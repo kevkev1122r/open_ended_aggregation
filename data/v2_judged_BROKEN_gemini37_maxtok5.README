@@ -1,0 +1,15 @@
+INVALID. 6,606 judgements, ALL graded INCORRECT (0.0% correct) while string
+matching on the same rows said 65.8%.
+
+Cause: JUDGE was google/gemini-3.7-flash with max_tokens=5. It is a thinking
+model; 5 tokens are consumed by reasoning, so it returned content=null with
+finish_reason="length". judge.py then did ("" or "").startswith("CORRECT")
+-> False, converting every silent failure into a confident wrong grade.
+
+The previous judge (deepseek-v3.2) was not a thinking model and answered within
+5 tokens, so the parameter was fine until the model was swapped.
+
+Fixed in judge.py: max_tokens=2000, and an unparseable verdict now returns None
+(ungraded, falls back to string) instead of False.
+
+Kept only as evidence of the failure mode. Do not analyse.

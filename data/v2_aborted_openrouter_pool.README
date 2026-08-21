@@ -1,0 +1,9 @@
+177 rows from the ABORTED v2 run (2026-08-13), OpenRouter pool, before the Azure
+migration. Every model here is absent from the current pool, and one of them
+(google/gemini-3.7-flash) is now the JUDGE -- if these rows were left in
+data/v2.jsonl the judge's own generations would sit in the candidate pool it
+grades, and nine phantom models at ~2% coverage would appear beside the real
+seven at 100%.
+
+Archived rather than deleted: the rows are valid generations, just from a
+different experiment. Do not merge them into a v2.jsonl analysis.

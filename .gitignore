@@ -10,7 +10,10 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# public source datasets -- re-downloadable, large
+# Cached model generations ARE tracked: they are the expensive research record
+# (~$130 of Azure spend) and every analysis runs off them with zero API calls,
+# so the team can reproduce results without regenerating.
+# Source datasets stay out -- they are public downloads and large.
 data/*.parquet
 data/*.zip
 share/
@@ -18,10 +21,12 @@ share/
 # local logs
 *.log
 
-# raw generation data — pending decision on public release
-data/
-
 # build artifacts
 *.egg-info/
 build/
 dist/
+
+# raw QUEST release — re-downloadable from storage.googleapis.com/gresearch/quest/
+data/quest_test.jsonl
+data/quest_train.jsonl
+data/quest_val.jsonl

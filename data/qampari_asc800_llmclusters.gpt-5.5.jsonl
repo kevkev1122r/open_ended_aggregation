@@ -1,0 +1,402 @@
+{"qid": "1003__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[1, 2], [7, 8], [13, 15]]}
+{"qid": "1004__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 9], [8, 17], [22, 265], [23, 235], [30, 154], [63, 277]]}
+{"qid": "1006__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 152, 268], [4, 12], [13, 20], [14, 21], [23, 155], [24, 158], [38, 157], [40, 153], [41, 185], [154, 270], [159, 218], [165, 267], [186, 272], [187, 273], [189, 274], [197, 271]]}
+{"qid": "1008__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 10], [1, 57]]}
+{"qid": "1009__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 21], [1, 23], [8, 63], [10, 46], [11, 45], [16, 64], [19, 50], [48, 52]]}
+{"qid": "1010__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[1, 2, 5], [3, 4]]}
+{"qid": "1012__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 6, 29], [1, 21, 30], [2, 13], [3, 12], [4, 11], [7, 16], [8, 15], [9, 14], [10, 17], [18, 32], [20, 31]]}
+{"qid": "1014__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 2], [3, 15], [4, 21], [14, 51]]}
+{"qid": "101__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 1511], [2, 1518], [3, 1512, 1515, 1520], [4, 1521], [5, 1519], [11, 1514], [1529, 1532]]}
+{"qid": "103__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 8], [1, 10], [2, 11], [3, 12], [4, 7, 13], [6, 9]]}
+{"qid": "104__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[16, 40]]}
+{"qid": "107__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 8, 13], [1, 14], [2, 15], [4, 21], [5, 17], [6, 11, 19], [7, 12], [9, 16], [10, 18]]}
+{"qid": "109__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[5, 98]]}
+{"qid": "1103__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [2, 7, 26, 32], [3, 8, 29], [4, 18], [5, 9, 17], [12, 33], [13, 34], [15, 19], [24, 35], [27, 37, 40], [31, 36]]}
+{"qid": "111__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "112__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 7]]}
+{"qid": "113__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 17], [14, 20]]}
+{"qid": "116__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[3, 5, 6, 14, 23, 24, 25, 37, 38, 40, 49, 57, 60], [12, 44]]}
+{"qid": "118__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 2, 7], [1, 3], [4, 8]]}
+{"qid": "120__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "122__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 18], [1, 46], [3, 70], [4, 69], [5, 44], [7, 10], [8, 45]]}
+{"qid": "123__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[3, 6]]}
+{"qid": "1250__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 4]]}
+{"qid": "1251__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[2, 4], [20, 21]]}
+{"qid": "1252__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 20, 22], [13, 21]]}
+{"qid": "1256__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 18], [1, 5, 14]]}
+{"qid": "129__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[7, 22], [9, 23], [10, 24], [11, 25], [12, 28], [13, 29], [14, 66], [15, 26], [16, 69], [17, 73], [18, 85], [19, 97], [20, 129], [21, 139]]}
+{"qid": "1300__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 146], [2, 145], [10, 30], [13, 160], [21, 162], [76, 116], [125, 159]]}
+{"qid": "132__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[18, 42], [19, 28, 41]]}
+{"qid": "1334__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 7], [4, 6]]}
+{"qid": "134__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[1, 3]]}
+{"qid": "1351__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[32, 34]]}
+{"qid": "1101__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [3, 6]]}
+{"qid": "115__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 2, 3, 4, 5, 6, 7]]}
+{"qid": "131__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 3, 16], [2, 4, 8, 11, 14], [6, 7, 12], [9, 13, 17]]}
+{"qid": "1354__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 16, 22, 28, 40], [1, 21, 27], [2, 23, 29, 39], [3, 13, 37], [4, 14, 20, 36], [5, 17, 24, 30], [6, 32], [9, 25, 31], [10, 18, 34], [11, 19, 35], [12, 26], [15, 33], [38, 41]]}
+{"qid": "1356__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 12, 15], [1, 8], [3, 17, 99], [14, 21], [16, 23], [18, 19], [20, 104], [24, 113], [26, 27, 91], [32, 33, 34], [35, 36], [41, 42], [50, 51], [52, 53], [54, 55, 56], [92, 114]]}
+{"qid": "1357__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 9, 12], [4, 6], [7, 18], [8, 13, 15]]}
+{"qid": "1359__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[23, 38]]}
+{"qid": "1360__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6]]}
+{"qid": "1363__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 5], [1, 15], [3, 27], [4, 26], [6, 21], [8, 17], [9, 16], [14, 24], [19, 23, 29], [25, 28]]}
+{"qid": "136__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 3], [2, 7]]}
+{"qid": "139__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[15, 26]]}
+{"qid": "13__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 80, 254], [4, 280], [7, 259], [10, 258], [11, 91, 276], [13, 267], [14, 101, 274], [16, 218, 250, 273], [17, 249, 272], [18, 252, 271], [19, 270], [20, 75], [21, 77], [22, 251], [26, 253], [28, 81], [30, 145], [34, 268], [41, 83], [42, 82], [43, 84], [46, 102], [49, 227], [53, 89], [56, 147], [58, 144], [59, 88], [65, 277], [66, 278], [68, 78], [93, 207], [105, 211], [107, 229], [108, 234], [111, 275], [115, 247], [118, 257], [119, 237], [120, 239], [125, 260], [137, 212, 279], [195, 256], [199, 262], [241, 245]]}
+{"qid": "142__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "144__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[7, 10], [8, 17]]}
+{"qid": "145__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 9]]}
+{"qid": "147__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[8, 41], [9, 131]]}
+{"qid": "150__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[3, 14], [4, 13], [5, 17], [10, 12], [11, 18]]}
+{"qid": "151__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[2, 11], [5, 14], [7, 21]]}
+{"qid": "153__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 17], [4, 22]]}
+{"qid": "158__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[7, 30], [15, 34, 41], [35, 36]]}
+{"qid": "159__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[10, 150], [19, 163], [20, 164, 252], [22, 193], [23, 144], [32, 347], [33, 346], [34, 343], [35, 345], [37, 348], [38, 237], [40, 344], [41, 351], [47, 357], [48, 352], [49, 353], [50, 359], [56, 238], [58, 240, 349], [59, 350], [61, 249], [66, 356], [72, 248], [82, 358], [170, 261], [294, 295]]}
+{"qid": "15__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[1, 17], [3, 20], [4, 21], [5, 24], [9, 29], [18, 19], [22, 23], [25, 26], [27, 28], [30, 31], [32, 33], [34, 35], [36, 37], [38, 39], [40, 41]]}
+{"qid": "161__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[32, 58], [41, 55]]}
+{"qid": "165__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 13], [2, 12], [4, 5]]}
+{"qid": "177__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[1, 14]]}
+{"qid": "178__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [1, 2]]}
+{"qid": "17__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[10, 11]]}
+{"qid": "181__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[4, 12]]}
+{"qid": "182__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 4, 13, 14, 15], [2, 5]]}
+{"qid": "184__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 5]]}
+{"qid": "191__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 156], [7, 13]]}
+{"qid": "202__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[15, 343], [16, 344], [31, 342], [262, 313], [263, 302], [268, 304], [289, 314]]}
+{"qid": "203__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 31], [23, 25]]}
+{"qid": "205__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 34], [8, 27], [9, 13], [25, 242], [29, 244, 356], [48, 406], [52, 243], [57, 245], [254, 363], [303, 331], [349, 355], [352, 361], [353, 362]]}
+{"qid": "207__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 14], [1, 2]]}
+{"qid": "208__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[44, 59]]}
+{"qid": "209__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[11, 29], [12, 19], [15, 30], [17, 24]]}
+{"qid": "20__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 17, 37], [1, 20, 39], [2, 21, 40], [3, 22, 41], [4, 23, 42], [5, 24, 43], [6, 25, 35, 44], [7, 15, 27, 46], [8, 26, 45], [9, 28, 47], [10, 29, 48], [11, 31, 49], [12, 36, 50], [13, 32, 51], [14, 16, 34, 53], [18, 33, 52], [19, 38]]}
+{"qid": "210__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[1, 5, 22]]}
+{"qid": "211__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 10], [1, 105], [2, 11], [3, 104], [4, 96], [5, 12], [20, 182], [21, 183], [22, 186], [23, 187], [25, 178], [28, 193], [29, 194], [30, 195], [31, 196], [32, 197], [33, 198], [34, 200], [35, 207], [36, 191], [41, 49]]}
+{"qid": "21__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[1, 254], [2, 256], [3, 251], [4, 255], [5, 253], [6, 252], [7, 257], [8, 262], [9, 258], [10, 261], [11, 260], [12, 41, 259, 325], [13, 268], [14, 267], [15, 265], [16, 266], [18, 264], [19, 263], [21, 319], [23, 270], [25, 315], [30, 305], [31, 316], [32, 307], [33, 306], [37, 451], [38, 113], [42, 269], [55, 317], [56, 308], [57, 250], [58, 309], [66, 285], [82, 310], [85, 444], [86, 121], [114, 453], [127, 131], [128, 443], [145, 229], [154, 368], [155, 367], [202, 457], [204, 456], [248, 249], [272, 436], [274, 439], [291, 292], [314, 455], [318, 430], [321, 454], [392, 428], [406, 427]]}
+{"qid": "228__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 6, 23], [1, 13], [2, 29], [3, 32], [4, 18, 26], [7, 25], [8, 21], [10, 24], [11, 31], [14, 22], [15, 27], [16, 30], [17, 28]]}
+{"qid": "22__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "233__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[2, 13, 16], [3, 15]]}
+{"qid": "234__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[4, 39]]}
+{"qid": "237__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 8], [1, 9], [2, 12], [88, 89]]}
+{"qid": "240__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[1, 2, 3, 4]]}
+{"qid": "247__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 15], [1, 16]]}
+{"qid": "24__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 12], [26, 76], [34, 44]]}
+{"qid": "253__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [3, 39]]}
+{"qid": "255__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 8, 17], [1, 9, 18], [2, 10, 19], [4, 12, 21], [6, 15], [7, 16], [11, 20], [14, 22]]}
+{"qid": "257__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 20]]}
+{"qid": "260__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 5], [1, 7]]}
+{"qid": "266__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [6, 11]]}
+{"qid": "269__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "271__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 11], [1, 2], [17, 28]]}
+{"qid": "272__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[2, 4], [8, 25], [15, 23, 26], [17, 28], [19, 24]]}
+{"qid": "280__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[2, 17]]}
+{"qid": "281__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 48], [52, 53]]}
+{"qid": "283__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [2, 3]]}
+{"qid": "285__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 37], [3, 6, 38], [4, 7, 39], [5, 9]]}
+{"qid": "288__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 10], [7, 9]]}
+{"qid": "290__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 4, 7], [1, 8], [2, 9], [3, 5, 10], [6, 11]]}
+{"qid": "292__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "293__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[15, 43]]}
+{"qid": "294__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 13], [2, 14]]}
+{"qid": "296__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 22, 69], [10, 19], [11, 93], [13, 80], [17, 88], [18, 81], [21, 74], [24, 73], [28, 84], [95, 106], [96, 105], [98, 107], [101, 108], [102, 104]]}
+{"qid": "301__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[8, 15], [9, 16]]}
+{"qid": "302__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 31], [1, 26], [4, 30], [6, 15], [7, 25], [8, 27], [9, 28], [10, 19], [11, 20], [12, 21], [13, 17, 22], [14, 23], [16, 24], [29, 32]]}
+{"qid": "304__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 5], [4, 43]]}
+{"qid": "307__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 14]]}
+{"qid": "309__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 6, 7, 8], [2, 11, 12, 20], [4, 9, 14]]}
+{"qid": "310__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [2, 7, 15], [3, 12, 16], [5, 8, 17], [18, 24], [23, 32]]}
+{"qid": "313__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 9], [8, 10], [17, 18, 19]]}
+{"qid": "314__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [5, 11], [10, 22], [31, 32], [33, 34], [45, 46, 47]]}
+{"qid": "317__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 2]]}
+{"qid": "319__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 9], [2, 13], [4, 14], [6, 10], [7, 11], [8, 12]]}
+{"qid": "324__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 8], [7, 10]]}
+{"qid": "325__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[4, 14], [12, 16], [18, 20]]}
+{"qid": "329__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 10], [1, 11], [2, 12], [3, 13], [4, 8], [6, 14]]}
+{"qid": "331__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[10, 12]]}
+{"qid": "332__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]]}
+{"qid": "333__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 12], [10, 11]]}
+{"qid": "340__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "345__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[7, 41], [16, 23]]}
+{"qid": "348__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[2, 21]]}
+{"qid": "34__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[10, 19], [11, 20], [12, 21], [13, 14, 22], [15, 23], [16, 24], [17, 25], [18, 26], [27, 106], [28, 32], [29, 33], [30, 34], [31, 35]]}
+{"qid": "352__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [3, 5]]}
+{"qid": "353__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[7, 29]]}
+{"qid": "355__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 2, 3], [4, 5], [9, 10, 13], [11, 12]]}
+{"qid": "356__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[12, 95], [30, 31], [52, 94], [56, 57], [60, 78]]}
+{"qid": "359__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 11]]}
+{"qid": "362__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 37], [1, 4, 6, 38, 40], [3, 19], [5, 39]]}
+{"qid": "363__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[1, 6]]}
+{"qid": "364__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[7, 20], [21, 28]]}
+{"qid": "36__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 8, 26], [1, 27], [2, 28], [3, 29], [4, 31], [5, 37], [7, 25, 40], [9, 46], [10, 47], [11, 45], [12, 39, 63], [13, 38, 62], [24, 49, 57], [34, 50, 58, 60, 61], [35, 51], [36, 52], [41, 65], [48, 59]]}
+{"qid": "370__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[7, 91], [26, 92], [38, 72], [43, 93], [49, 94], [52, 96], [54, 95], [57, 97], [65, 98]]}
+{"qid": "371__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 20], [5, 9], [7, 11, 17, 21]]}
+{"qid": "372__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 27, 29], [1, 30], [2, 31], [3, 32], [4, 33], [5, 34], [6, 35], [7, 36], [8, 37], [9, 38], [10, 39], [11, 40], [12, 41], [13, 42], [14, 43], [15, 44], [16, 45], [17, 46], [18, 47], [19, 48], [20, 49], [21, 50], [22, 51], [23, 52], [24, 53], [25, 54], [26, 28, 55]]}
+{"qid": "374__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 6, 11], [1, 7, 12], [2, 8, 13], [4, 9, 14], [5, 10], [15, 17], [16, 18]]}
+{"qid": "378__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[1, 26, 37], [2, 52], [3, 17, 27], [4, 18, 28], [5, 19, 29], [6, 20, 30], [7, 21, 31], [9, 22, 32], [11, 23, 33], [12, 61], [14, 39, 74], [15, 81], [16, 34], [24, 83], [25, 36], [38, 67], [40, 76], [41, 78], [42, 86]]}
+{"qid": "379__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 13], [11, 12], [15, 17]]}
+{"qid": "386__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 10], [3, 6, 16]]}
+{"qid": "387__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[3, 62], [4, 98], [5, 65]]}
+{"qid": "390__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 16], [1, 27], [6, 22], [17, 25]]}
+{"qid": "397__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 29, 31], [1, 14], [3, 16], [4, 19], [5, 20], [6, 21], [7, 22], [8, 24], [9, 25], [10, 27], [11, 28, 37], [15, 32], [17, 33], [18, 34], [23, 35], [26, 36]]}
+{"qid": "398__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [4, 15], [11, 33]]}
+{"qid": "39__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "3__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [4, 5]]}
+{"qid": "403__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [18, 402], [188, 189], [240, 241]]}
+{"qid": "405__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 38], [6, 58]]}
+{"qid": "407__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 15], [12, 19]]}
+{"qid": "413__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[20, 23], [21, 22], [50, 53, 56], [51, 54], [52, 55]]}
+{"qid": "414__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[1, 11], [2, 14], [3, 15, 108], [4, 19, 20, 100], [5, 17], [6, 12], [7, 24], [9, 18], [10, 28], [13, 106], [16, 91], [21, 88], [22, 99], [25, 107], [26, 102], [30, 113], [34, 111], [35, 115], [36, 110], [44, 112], [61, 94], [67, 96], [87, 97, 98]]}
+{"qid": "418__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[1, 12], [2, 13], [4, 8], [5, 9], [6, 10], [7, 11]]}
+{"qid": "424__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [2, 22], [4, 23], [5, 14]]}
+{"qid": "426__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 8], [7, 9]]}
+{"qid": "428__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 5]]}
+{"qid": "429__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 16]]}
+{"qid": "434__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [5, 7]]}
+{"qid": "438__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 2]]}
+{"qid": "439__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[4, 25], [5, 11]]}
+{"qid": "43__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 14, 23], [15, 22]]}
+{"qid": "440__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 25], [7, 16], [9, 26], [10, 27], [22, 23]]}
+{"qid": "441__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [2, 85], [3, 9], [5, 89]]}
+{"qid": "446__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "449__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[3, 22], [10, 35], [18, 38]]}
+{"qid": "44__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 10, 15], [2, 9], [4, 8], [6, 7, 33]]}
+{"qid": "450__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 7, 12, 17], [4, 8], [10, 14], [11, 15]]}
+{"qid": "451__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 358], [1, 360, 363], [2, 359, 364], [361, 365]]}
+{"qid": "453__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 9], [2, 11, 22], [3, 13, 23], [4, 14], [5, 15], [6, 17], [8, 10], [16, 24]]}
+{"qid": "456__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[6, 12], [19, 43]]}
+{"qid": "459__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[4, 26], [9, 29], [32, 43]]}
+{"qid": "460__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 2]]}
+{"qid": "465__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[17, 52], [33, 58]]}
+{"qid": "469__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 3], [1, 9], [11, 53], [12, 52], [13, 51]]}
+{"qid": "46__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 2]]}
+{"qid": "47__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "484__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 19, 30], [1, 39], [3, 37], [4, 5, 35], [6, 38], [7, 40], [8, 22], [15, 23], [20, 24], [32, 36], [33, 41], [34, 42]]}
+{"qid": "498__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 54, 55, 181, 182], [1, 183], [9, 78], [10, 79, 187], [19, 193], [22, 23, 69], [36, 38], [77, 190], [90, 191], [129, 131], [158, 192], [185, 186]]}
+{"qid": "4__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 12], [4, 7], [6, 9, 14], [8, 13]]}
+{"qid": "504__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 18], [17, 19], [5, 126], [13, 101], [24, 68], [31, 121], [33, 39, 122, 124, 128], [34, 37], [38, 123], [44, 102], [57, 97, 129], [98, 127]]}
+{"qid": "507__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 98], [4, 100], [7, 96], [11, 106], [12, 88], [18, 108], [20, 110, 176], [21, 111], [22, 112], [26, 113, 185, 192], [41, 89], [42, 94], [46, 93, 184], [48, 91], [52, 95], [53, 90], [54, 131], [58, 177, 188], [87, 92, 172], [97, 191], [102, 186], [129, 187], [166, 182], [167, 183], [173, 190]]}
+{"qid": "50__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "510__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 250], [108, 288], [145, 289]]}
+{"qid": "512__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 12, 15], [2, 16], [7, 19], [9, 23], [10, 22, 55], [14, 21, 110], [20, 53], [24, 56], [27, 54], [30, 90], [31, 59], [32, 64], [36, 77], [37, 76], [38, 78], [39, 72], [40, 73], [41, 74], [43, 69], [48, 75], [49, 57]]}
+{"qid": "513__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [5, 310], [6, 12], [15, 311], [17, 309], [287, 350], [307, 332], [330, 331]]}
+{"qid": "516__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 14, 33, 58], [1, 15, 34, 50], [2, 19, 59], [3, 17, 35, 56], [4, 39], [6, 43], [7, 40], [11, 41], [21, 38, 57], [36, 54, 60], [37, 70], [51, 62], [52, 61], [63, 64, 65], [66, 67], [68, 69], [79, 96], [80, 98], [81, 99], [82, 100], [83, 95], [84, 97]]}
+{"qid": "51__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[6, 8, 16]]}
+{"qid": "528__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 20], [10, 25], [43, 230]]}
+{"qid": "537__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 8, 36], [3, 15], [5, 72], [7, 46], [9, 17], [10, 37], [11, 38], [12, 40], [21, 53], [22, 73], [23, 39], [24, 69], [27, 51], [28, 52], [29, 58], [31, 79], [43, 54], [44, 77], [60, 74], [62, 76]]}
+{"qid": "543__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 5]]}
+{"qid": "544__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 11, 19], [2, 36], [3, 37], [5, 15, 24], [6, 16, 25, 66, 81, 98], [7, 32, 93], [8, 22], [9, 23], [10, 18, 21], [12, 20], [13, 17], [26, 70, 85], [27, 69, 86], [28, 67], [29, 68, 91], [30, 83], [33, 92], [45, 79], [46, 73, 84], [50, 74], [51, 75], [53, 88], [54, 72, 89], [55, 71, 87], [56, 90]]}
+{"qid": "549__wikitables_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 8, 72], [4, 5, 12], [13, 19], [15, 33], [31, 42], [43, 61]]}
+{"qid": "554__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [54, 214], [164, 175]]}
+{"qid": "557__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "559__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "55__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[3, 7]]}
+{"qid": "564__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 15], [5, 11]]}
+{"qid": "565__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1], [2, 6], [3, 7]]}
+{"qid": "567__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[4, 13], [5, 17, 66], [6, 15], [7, 18], [8, 14, 19, 20], [11, 16], [22, 69], [26, 67], [27, 63]]}
+{"qid": "568__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 53], [2, 54], [3, 55, 138], [4, 119], [5, 120, 142], [6, 71], [7, 72], [9, 69], [10, 70], [11, 65], [12, 79], [13, 94], [14, 96], [15, 104], [16, 98], [23, 80], [24, 25], [39, 118], [121, 122]]}
+{"qid": "569__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 3]]}
+{"qid": "571__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 4], [5, 58], [6, 57], [7, 56], [8, 78], [9, 77], [10, 74, 87], [11, 73], [12, 72], [13, 71, 92], [14, 69], [15, 68], [16, 67], [17, 65], [18, 84], [19, 48], [20, 49], [21, 61, 81], [22, 44], [25, 46]]}
+{"qid": "573__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 11], [12, 20], [13, 21, 29], [15, 30], [16, 31], [18, 25]]}
+{"qid": "575__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1], [10, 11]]}
+{"qid": "577__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [6, 11], [18, 24, 26]]}
+{"qid": "579__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[15, 19]]}
+{"qid": "581__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[4, 19], [6, 14]]}
+{"qid": "583__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 26], [3, 11], [4, 22], [17, 21]]}
+{"qid": "585__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[6, 43], [7, 44], [8, 45], [9, 46], [11, 52]]}
+{"qid": "586__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 10], [4, 21], [6, 19]]}
+{"qid": "589__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[26, 29]]}
+{"qid": "58__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 3], [1, 21]]}
+{"qid": "591__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "595__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [4, 23], [5, 11]]}
+{"qid": "604__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 13], [1, 631], [6, 11], [64, 633], [459, 460]]}
+{"qid": "605__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 17], [5, 22]]}
+{"qid": "607__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 11, 15], [6, 9, 12, 16], [8, 10, 13, 17], [19, 21], [22, 23]]}
+{"qid": "609__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 10, 86], [1, 18, 94], [2, 93], [3, 26], [4, 91], [9, 97], [11, 89], [12, 90], [13, 87], [17, 74], [20, 88], [21, 138], [30, 139], [33, 92], [60, 100, 140], [62, 141], [68, 95, 101], [70, 135], [72, 99], [78, 102, 142], [81, 146], [84, 129], [98, 104], [136, 159]]}
+{"qid": "60__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 7]]}
+{"qid": "610__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 2], [3, 13], [4, 16], [5, 18], [7, 12], [11, 14, 15]]}
+{"qid": "611__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[25, 52], [26, 54], [27, 53], [29, 55], [32, 57], [33, 58], [41, 56]]}
+{"qid": "613__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 56, 57], [1, 58, 409, 436], [2, 454], [3, 59, 408, 437], [4, 61, 445], [5, 60, 413, 455], [6, 62, 441], [7, 63, 414, 447], [8, 67, 446], [9, 64, 411, 439], [10, 65, 416, 449], [11, 66, 417, 440], [12, 70, 444], [13, 98], [14, 123], [15, 80], [16, 91], [17, 99], [18, 87, 452], [19, 95, 453], [20, 96], [21, 97], [22, 75, 426], [23, 83, 418], [24, 72, 419], [25, 74, 420, 448], [26, 78, 434], [27, 85, 427, 451], [28, 69, 428, 443], [29, 68, 415, 442], [30, 84, 423, 450], [31, 71, 410], [32, 89, 421], [33, 76], [34, 86, 424], [35, 104, 425], [36, 88], [37, 105], [38, 90, 422], [39, 73, 430], [40, 106, 431], [41, 107, 432], [42, 77, 433, 438], [43, 81, 429], [44, 108], [45, 109], [46, 112], [47, 110], [48, 197], [49, 198], [50, 195], [51, 196], [52, 114], [53, 113], [54, 115], [55, 111], [82, 412], [319, 320]]}
+{"qid": "615__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 3], [2, 12, 24, 33], [13, 26], [16, 23, 38], [21, 37], [25, 35], [27, 36]]}
+{"qid": "616__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 28], [2, 13], [4, 15], [32, 43], [34, 37], [35, 45, 46, 47, 48]]}
+{"qid": "61__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[3, 22], [9, 26], [13, 20], [23, 24]]}
+{"qid": "623__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[14, 15]]}
+{"qid": "625__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 77]]}
+{"qid": "627__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 59]]}
+{"qid": "629__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 19]]}
+{"qid": "62__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[6, 20], [3, 32], [13, 21, 31], [0, 7, 9, 11]]}
+{"qid": "630__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 3], [1, 27], [2, 30], [8, 45], [11, 28], [12, 13], [16, 39], [18, 40], [19, 41], [25, 42]]}
+{"qid": "631__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[57, 70], [67, 107], [89, 91], [93, 102], [94, 103], [96, 104], [100, 105], [101, 106]]}
+{"qid": "633__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[23, 33], [24, 25]]}
+{"qid": "634__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 14], [13, 27]]}
+{"qid": "636__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 23, 41, 47], [1, 32, 44, 50], [2, 31, 43, 49], [3, 33, 42, 48], [4, 34], [5, 45], [8, 26, 46], [9, 25], [18, 24, 38, 55], [28, 36]]}
+{"qid": "637__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 3], [1, 56], [2, 57], [4, 54], [5, 55], [6, 49], [10, 45], [12, 39], [17, 53], [36, 40], [43, 52], [47, 51]]}
+{"qid": "639__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 20]]}
+{"qid": "63__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 4, 5], [7, 12], [13, 20], [19, 22]]}
+{"qid": "642__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 30], [2, 18], [6, 12], [7, 27], [11, 19]]}
+{"qid": "643__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6, 14], [7, 12], [8, 13], [9, 15], [10, 17], [11, 16], [25, 44]]}
+{"qid": "644__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 2]]}
+{"qid": "645__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 12, 66], [4, 67], [6, 16], [9, 49]]}
+{"qid": "653__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[10, 14], [12, 15]]}
+{"qid": "654__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 5], [2, 4, 6], [17, 89]]}
+{"qid": "657__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 35, 38], [1, 7, 12, 14, 37, 39], [6, 8], [16, 36], [18, 40]]}
+{"qid": "659__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 24], [3, 21]]}
+{"qid": "65__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 22], [4, 17]]}
+{"qid": "664__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 66], [52, 67], [53, 667]]}
+{"qid": "665__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 74]]}
+{"qid": "666__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 9]]}
+{"qid": "668__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 35], [10, 25]]}
+{"qid": "66__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 2], [1, 3], [7, 8]]}
+{"qid": "670__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 18], [20, 35], [21, 37], [44, 75], [51, 65]]}
+{"qid": "672__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 21, 23, 24], [2, 50], [3, 49], [4, 48], [5, 47], [10, 71], [11, 69], [12, 65], [13, 70], [14, 63], [15, 64], [16, 60], [17, 62], [18, 61], [19, 59], [20, 45], [25, 52], [26, 53], [27, 55], [28, 56], [29, 54], [39, 57], [40, 58], [42, 66], [43, 67], [44, 68]]}
+{"qid": "673__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 3, 4, 5, 8, 9]]}
+{"qid": "676__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 30]]}
+{"qid": "677__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1], [4, 6]]}
+{"qid": "678__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[6, 101], [7, 82, 100], [9, 99], [11, 87], [20, 41], [25, 44], [46, 61], [48, 74]]}
+{"qid": "679__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 87]]}
+{"qid": "67__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 36], [6, 18], [28, 42]]}
+{"qid": "680__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[21, 15]]}
+{"qid": "684__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 11], [360, 438], [365, 440, 441]]}
+{"qid": "687__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 9, 30], [4, 11], [7, 13], [8, 18], [16, 23], [22, 29]]}
+{"qid": "689__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 9], [3, 4], [6, 7]]}
+{"qid": "692__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6, 7, 34, 35, 36, 37], [1, 39, 41], [9, 20], [10, 21], [11, 22], [12, 33]]}
+{"qid": "695__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 2], [1, 3]]}
+{"qid": "698__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[24, 25, 26]]}
+{"qid": "699__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 2], [1, 3]]}
+{"qid": "6__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 5], [6, 23], [9, 18], [14, 25], [15, 21], [20, 24]]}
+{"qid": "701__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 3], [19, 40]]}
+{"qid": "702__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 2], [1, 3]]}
+{"qid": "704__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [2, 3]]}
+{"qid": "705__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 16]]}
+{"qid": "70__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[99, 127]]}
+{"qid": "711__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[6, 24], [15, 31]]}
+{"qid": "712__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[5, 7]]}
+{"qid": "713__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 6, 17, 32], [1, 31, 42], [3, 16], [4, 15], [7, 30], [9, 43], [19, 23]]}
+{"qid": "714__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[6, 11], [9, 12, 13]]}
+{"qid": "715__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[5, 936], [6, 937], [7, 938], [8, 939], [9, 940], [10, 941], [11, 942], [12, 943], [13, 944], [14, 945], [15, 946], [48, 951], [49, 830], [50, 831], [51, 743, 842], [52, 744, 843], [53, 745, 844], [54, 746, 1552], [55, 755], [56, 775], [57, 840], [58, 59], [727, 861, 952], [728, 862, 953], [729, 863, 954], [730, 864, 955], [731, 865, 956], [732, 866, 957], [733, 867, 958], [734, 868, 959], [735, 869, 960], [736, 870, 961], [737, 871, 962], [738, 872, 963], [739, 873, 964], [740, 874, 965], [741, 875, 966], [742, 876, 967], [756, 1560], [757, 839, 1555], [758, 834, 1553], [759, 1554], [877, 925, 968], [878, 926, 969], [879, 927, 970], [880, 928, 971], [881, 929, 972], [882, 930, 973], [883, 931, 974], [932, 975], [933, 976]]}
+{"qid": "718__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [5, 10], [13, 14]]}
+{"qid": "719__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 10]]}
+{"qid": "720__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 5]]}
+{"qid": "721__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 10, 13], [1, 15], [4, 7, 17], [5, 9, 24], [11, 14, 23, 37], [16, 31]]}
+{"qid": "722__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 42], [21, 43], [22, 143], [23, 144], [24, 145], [25, 146], [26, 147], [27, 148], [28, 149], [29, 150], [30, 151], [31, 152], [142, 153]]}
+{"qid": "724__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 22, 211], [1, 23], [2, 25], [3, 30], [5, 28], [7, 26], [10, 42], [13, 103], [14, 107], [15, 183], [16, 184], [18, 50], [19, 48], [20, 209, 254], [21, 213], [24, 212], [27, 215], [29, 214], [31, 216], [32, 217], [33, 218], [34, 219], [35, 250], [37, 255], [38, 221], [39, 224], [40, 223], [41, 220], [43, 222], [44, 225], [45, 227], [47, 228], [49, 229], [52, 232], [53, 233], [54, 234], [57, 231], [58, 230], [60, 236], [62, 235], [67, 187], [93, 260], [100, 259], [127, 208], [175, 210], [179, 258], [182, 257], [186, 256], [189, 243], [190, 244], [191, 245], [192, 246], [194, 247], [196, 248], [197, 249]]}
+{"qid": "726__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[8, 29]]}
+{"qid": "729__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[6, 139], [17, 95], [36, 135], [41, 91], [42, 92], [55, 56, 137], [96, 109]]}
+{"qid": "735__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[5, 6]]}
+{"qid": "73__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 23]]}
+{"qid": "740__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 4]]}
+{"qid": "744__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 6], [1, 8], [4, 10, 14, 19], [11, 15]]}
+{"qid": "749__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 21, 35], [1, 23], [2, 24], [11, 19], [12, 36], [22, 34], [25, 46], [26, 45], [27, 47], [28, 48]]}
+{"qid": "74__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 96], [10, 97]]}
+{"qid": "750__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[8, 15], [9, 86], [10, 105], [16, 73], [18, 61, 98], [31, 80], [37, 76], [40, 78], [46, 89], [49, 75], [50, 70], [51, 74], [53, 71], [59, 85], [87, 95]]}
+{"qid": "751__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 13], [1, 16], [2, 21, 159], [20, 155], [33, 80, 163], [34, 43, 158], [39, 52], [64, 162], [100, 101], [106, 108], [111, 115]]}
+{"qid": "753__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 2], [1, 3], [12, 25]]}
+{"qid": "754__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 5, 12, 18], [1, 6], [2, 16, 17], [3, 8], [4, 9]]}
+{"qid": "756__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 5], [1, 4, 6], [2, 9]]}
+{"qid": "75__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 2, 35], [1, 27, 36], [3, 31], [4, 30]]}
+{"qid": "761__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[6, 31]]}
+{"qid": "766__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 13], [1, 12], [3, 22], [8, 9]]}
+{"qid": "767__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[76, 77]]}
+{"qid": "768__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 6], [7, 8]]}
+{"qid": "771__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[3, 8], [5, 6, 7]]}
+{"qid": "772__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 10, 22, 23], [1, 11], [2, 12], [3, 13], [4, 14], [5, 15], [6, 16], [7, 17], [8, 18], [9, 19, 24], [20, 25]]}
+{"qid": "773__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[10, 11]]}
+{"qid": "775__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 5]]}
+{"qid": "777__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1], [67, 69]]}
+{"qid": "778__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[19, 22], [20, 23], [21, 24]]}
+{"qid": "780__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[19, 28]]}
+{"qid": "782__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1], [4, 6]]}
+{"qid": "784__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 78], [1, 79], [2, 80], [11, 19], [82, 88], [83, 84, 85, 86, 87]]}
+{"qid": "787__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 8], [4, 9], [5, 10]]}
+{"qid": "788__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 82], [2, 91], [3, 33, 92], [4, 80], [5, 31], [9, 87], [17, 25], [36, 107, 108, 109], [55, 101], [57, 93], [62, 106], [63, 97], [67, 96]]}
+{"qid": "790__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 13], [1, 66], [3, 16], [8, 41], [9, 42], [11, 26], [12, 27], [33, 69], [35, 53], [36, 54], [37, 55], [38, 56], [44, 67]]}
+{"qid": "793__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 7, 12], [1, 13], [2, 14], [3, 19, 39, 108], [4, 15, 106], [6, 18, 97], [8, 41, 102], [9, 20], [10, 40], [16, 95], [17, 98], [53, 54]]}
+{"qid": "794__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 21], [5, 22]]}
+{"qid": "799__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[4, 188], [11, 52], [14, 56], [17, 55]]}
+{"qid": "800__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "804__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 2, 3]]}
+{"qid": "805__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[16, 121], [79, 116]]}
+{"qid": "80__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 11], [5, 8], [9, 37, 54], [12, 51]]}
+{"qid": "813__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 9], [28, 39]]}
+{"qid": "814__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "817__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[30, 44, 45]]}
+{"qid": "818__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 10], [9, 12]]}
+{"qid": "820__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 77], [43, 65], [45, 106], [183, 186]]}
+{"qid": "826__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[8, 65], [9, 35]]}
+{"qid": "829__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 113], [26, 180], [73, 163]]}
+{"qid": "82__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [3, 5], [6, 91, 121], [7, 107], [8, 116], [9, 98], [10, 100], [11, 99], [12, 105], [13, 108], [14, 106], [15, 104], [16, 124], [17, 119], [19, 103], [20, 102], [22, 110], [23, 114], [24, 123], [25, 112], [26, 111], [27, 118], [28, 120], [34, 117], [35, 109], [50, 127], [52, 115], [53, 129], [54, 113], [72, 101], [90, 97]]}
+{"qid": "834__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 25], [2, 34], [3, 47], [4, 6, 26], [9, 36], [15, 30], [16, 27, 39], [17, 28, 38], [18, 29, 40], [23, 32], [31, 59]]}
+{"qid": "835__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 13], [2, 10, 55], [3, 11, 54, 56], [7, 66], [8, 52], [9, 58], [12, 17], [15, 49], [34, 60], [48, 65], [53, 59], [61, 62]]}
+{"qid": "836__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 11], [2, 15], [3, 17], [4, 18], [5, 19], [6, 20], [7, 21], [8, 22], [12, 14], [16, 23]]}
+{"qid": "837__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 3, 68], [19, 74]]}
+{"qid": "838__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 32], [5, 35], [9, 31, 36], [19, 39], [29, 37], [30, 33]]}
+{"qid": "839__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 3], [7, 8, 10]]}
+{"qid": "842__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6, 17], [7, 144], [8, 35]]}
+{"qid": "844__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "846__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 20, 38], [1, 64], [2, 54], [3, 53], [4, 52], [5, 51], [6, 50], [7, 49], [8, 48], [11, 44], [12, 45], [13, 39], [14, 43], [15, 40], [16, 42], [17, 34], [18, 35], [19, 22, 37], [21, 41], [23, 36], [24, 46], [25, 55], [26, 47], [27, 56], [28, 57], [29, 58], [30, 59], [32, 60]]}
+{"qid": "848__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[28, 51], [30, 71], [84, 112]]}
+{"qid": "84__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 41], [6, 40], [39, 49], [113, 142]]}
+{"qid": "852__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 28], [3, 8, 27], [5, 18], [6, 19, 32], [10, 21]]}
+{"qid": "856__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [1, 14], [2, 10], [8, 15]]}
+{"qid": "857__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 4, 10], [5, 11]]}
+{"qid": "858__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 5, 7]]}
+{"qid": "85__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [5, 6], [9, 12], [16, 17]]}
+{"qid": "864__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 14], [11, 98], [13, 15, 93], [16, 94], [22, 97], [33, 99], [35, 96], [67, 102], [89, 101], [90, 100], [92, 95]]}
+{"qid": "865__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 2]]}
+{"qid": "866__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [5, 28], [14, 23, 49], [15, 105], [19, 43], [21, 44], [25, 35], [31, 34, 42]]}
+{"qid": "867__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 17], [1, 14], [11, 13, 15], [12, 16]]}
+{"qid": "868__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[19, 60]]}
+{"qid": "869__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[1, 73, 74]]}
+{"qid": "874__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 4]]}
+{"qid": "877__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "878__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[19, 29], [30, 31]]}
+{"qid": "879__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 26], [16, 48, 55], [54, 76]]}
+{"qid": "882__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[6, 27], [7, 49], [8, 21], [9, 20], [10, 51], [11, 23], [12, 31], [13, 24], [15, 26]]}
+{"qid": "887__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [3, 5], [8, 9]]}
+{"qid": "890__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[2, 11]]}
+{"qid": "893__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 16], [21, 55, 83], [31, 63], [36, 54, 84], [62, 85]]}
+{"qid": "895__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[14, 1]]}
+{"qid": "897__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 22, 161], [2, 156], [37, 54], [123, 125], [179, 182]]}
+{"qid": "8__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 2, 12, 17], [8, 9]]}
+{"qid": "900__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "901__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 24], [2, 14], [7, 23]]}
+{"qid": "902__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[4, 29], [5, 27], [6, 24], [7, 28], [8, 26]]}
+{"qid": "903__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[5, 6]]}
+{"qid": "90__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 1, 2, 3, 4, 5, 6]]}
+{"qid": "911__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[24, 75], [225, 434]]}
+{"qid": "912__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 14], [8, 11, 15], [10, 17]]}
+{"qid": "914__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 4], [3, 5], [18, 1307], [23, 24], [43, 55]]}
+{"qid": "916__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 1]]}
+{"qid": "919__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6, 44, 46], [5, 12, 47], [13, 49], [14, 52], [15, 38, 50], [17, 35], [32, 42], [37, 53]]}
+{"qid": "920__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [5, 7]]}
+{"qid": "923__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[3, 29], [4, 34], [5, 28], [10, 41, 42], [12, 39], [46, 52], [47, 53], [48, 50]]}
+{"qid": "924__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[9, 65], [61, 62, 63]]}
+{"qid": "925__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[26, 44]]}
+{"qid": "928__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 14], [4, 25], [5, 15]]}
+{"qid": "929__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 2], [4, 7]]}
+{"qid": "92__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 7], [18, 28]]}
+{"qid": "931__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[4, 34], [19, 20]]}
+{"qid": "935__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 17], [7, 10]]}
+{"qid": "941__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 15, 21, 24], [3, 25], [4, 26], [5, 27], [10, 18], [11, 16, 22], [12, 19], [14, 23], [17, 28]]}
+{"qid": "944__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 7, 24, 45, 56], [1, 8, 25, 57], [2, 11, 28, 59], [3, 9, 26], [4, 10, 27, 58], [6, 35], [13, 60], [16, 37, 51], [17, 38, 52], [18, 39, 53], [19, 40, 54], [20, 41, 55], [21, 42], [22, 43], [23, 44]]}
+{"qid": "945__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 27], [11, 29]]}
+{"qid": "946__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 8, 1004], [24, 1246], [34, 1008], [1017, 1224], [1064, 1088], [1129, 1201], [1133, 1223]]}
+{"qid": "947__wikidata_simple__dev", "clusterer": "gpt-5.5", "groups": [[0, 4, 79], [5, 83], [26, 89], [28, 92], [32, 90], [36, 96], [73, 93], [75, 97], [76, 98]]}
+{"qid": "949__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 14], [1, 15], [2, 9], [8, 10], [19, 39], [36, 37]]}
+{"qid": "950__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 13]]}
+{"qid": "957__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[1, 10], [2, 5], [3, 13, 14, 15, 16, 17, 18], [11, 19]]}
+{"qid": "958__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 3], [1, 28], [12, 154], [140, 151], [141, 152]]}
+{"qid": "960__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 23]]}
+{"qid": "961__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[14, 77]]}
+{"qid": "963__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[3, 25], [4, 28], [5, 35], [6, 40], [12, 37], [14, 69, 139], [16, 98], [17, 101], [19, 97], [22, 39, 96], [23, 32, 99], [29, 47], [36, 48, 102], [46, 92], [53, 93, 95], [59, 77], [62, 126], [68, 100], [89, 134]]}
+{"qid": "964__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[4, 10]]}
+{"qid": "965__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 3, 73], [1, 2, 72], [35, 117], [150, 153]]}
+{"qid": "966__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[8, 48], [19, 39, 40, 47], [21, 49]]}
+{"qid": "968__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 27], [8, 32], [14, 123], [19, 30], [21, 65], [22, 28, 51], [26, 33], [31, 61, 64], [36, 54], [37, 53], [38, 44]]}
+{"qid": "969__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 35], [1, 36], [5, 37], [13, 27, 41], [24, 93], [31, 39, 40], [32, 38]]}
+{"qid": "96__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [5, 8]]}
+{"qid": "976__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 4, 79], [7, 63], [8, 64], [9, 65], [10, 66], [11, 67], [12, 68], [13, 69], [14, 70], [15, 71], [16, 72], [17, 73], [18, 74], [19, 75], [20, 76], [21, 77], [22, 78]]}
+{"qid": "979__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[38, 75]]}
+{"qid": "9__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[10, 20], [22, 23]]}
+{"qid": "1011__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 47], [15, 16]]}
+{"qid": "102__wikidata_intersection__dev", "clusterer": "gpt-5.5", "groups": [[0, 6], [4, 8]]}
+{"qid": "119__wikidata_comp__dev", "clusterer": "gpt-5.5", "groups": [[0, 11], [2, 15], [9, 14]]}
+{"qid": "1254__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[3, 12], [2, 13], [7, 18]]}
+{"qid": "1255__wikitables_composition__dev", "clusterer": "gpt-5.5", "groups": [[0, 3, 32, 78], [1, 47, 80], [2, 57, 81], [4, 33, 36], [5, 84], [6, 66], [8, 67], [9, 68], [10, 69], [11, 70], [13, 71], [14, 72], [16, 73], [17, 21, 77], [18, 75, 85], [20, 76], [45, 79], [58, 82]]}
