@@ -5,7 +5,8 @@ separate this out from existing literature... just check if this is not similar
 to something that's already been done."*
 
 25+ arXiv sources surveyed. **Verdict: the combination is novel, but three of the
-four individual signals have prior art that must be cited.** The framing needs to
+four individual signals have prior art that must be cited.** The one open risk
+to the rank claim was resolved on 22 Aug and the claim stands (§3.5). The framing needs to
 change from "we found these signals" to "we are the first to use output-structure
 signals for multi-model *set* aggregation."
 
@@ -19,7 +20,7 @@ citation.
 
 | # | component | status |
 |---|---|---|
-| 1 | rank of a claim **within the generating model's own output list** as a per-claim reliability signal | **no prior art found** |
+| 1 | rank of a claim **within the generating model's own output list** as a per-claim reliability signal | **no prior art found** — nearest source confirmed input-side, §3.5 |
 | 2 | **omission strength** — a silent model's evidence weighted by how much it said | **no prior art found** |
 | 3 | per-question **keep-count** chosen by plug-in expected F1 over aggregated claims | **no direct prior art found** |
 | 4 | verbosity (list length) as a per-claim signal | **PRIOR ART EXISTS** — §3.1 |
@@ -119,10 +120,20 @@ add on top.
 
 ### 3.5 Position effects are about INPUT position, not generated position
 
-- **Serial Position Effects of Large Language Models**, arXiv:2406.15981 —
-  **[read, inconclusive]** the abstract does not settle whether it studies input
-  or output position. **Someone must read the full paper before we claim
-  novelty here.** This is the one unresolved risk to claim #1.
+- **Serial Position Effects of Large Language Models**, arXiv:2406.15981 (Guo &
+  Vosoughi, Dartmouth) — **[RESOLVED, full text read 22 Aug]. Input-side.**
+  Figure 1 plots "the distribution of label selections across 42 labels, with the
+  x-axis representing label positions": it measures which of the *supplied*
+  labels a model picks, and finds primacy/recency bias in that choice. The paper
+  itself frames prior work as "choice re-ranking methodologies... restricted to
+  single-label selections" and positions its own contribution as a fuller view of
+  "model focus across complete **inputs**."
+
+  So it is selection bias over a sequence given TO the model. It says nothing
+  about the correctness of items a model enumerates at position k of its own
+  free-form output. **Claim #1 stands.** Cite this paper explicitly as the
+  contrast: prior work measures position effects on the input side; we use
+  position in the model's own output as a correctness signal.
 - **The Position Curse: LLMs Struggle to Locate the Last Few Items in a List**,
   arXiv:2605.07127 **[search]** — locating items in a *given* list (input side).
 - **Lost in the Middle** follow-up, arXiv:2510.10276 **[search]** — context
@@ -170,8 +181,8 @@ Rethinking Mixture-of-Agents (arXiv:2502.00674); Best-of-∞ ensembling
 
 ## 4. What to do before the paper
 
-1. **Read arXiv:2406.15981 in full.** It is the only source that could
-   invalidate claim #1. Highest priority.
+1. ~~Read arXiv:2406.15981 in full.~~ **Done 22 Aug — it is input-side, claim
+   #1 stands.** See §3.5.
 2. **Cite Dawid–Skene** and relabel `pattern`/`nb-full` as classical
    annotator-reliability baselines rather than our own schemes.
 3. **Soften the verbosity claim** to its multi-model, per-claim, omission-weighted
