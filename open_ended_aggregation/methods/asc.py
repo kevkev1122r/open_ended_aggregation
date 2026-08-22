@@ -32,7 +32,7 @@ Usage:
   ./venv/bin/python asc_paper.py                 # full run (composes via API)
   ./venv/bin/python asc_paper.py --no-compose    # steps 1-5 only, no API calls
 """
-import sys, os, json, collections, statistics, random, argparse
+import sys, os, json, bisect, collections, statistics, random, argparse
 
 from open_ended_aggregation.paths import ROOT as _ROOT
 HERE = str(_ROOT)
@@ -118,12 +118,24 @@ def edges(byq, q, models, tau_max):
         if k not in first:
             first[k] = it; order.append(k)
         mult[k] += 1
+    # LENGTH BLOCKING -- exact, not an approximation. ned() already returns 1.0
+    # whenever |la-lb|/max >= tau_max, so those pairs can never form an edge.
+    # Sorting by length and bounding the window skips them without calling ned
+    # at all. Necessary because one agent can emit >2000 items on a single
+    # question, and the naive double loop is then ~3M distance calls for that
+    # question alone. Output is identical to the O(n^2) version.
+    lens = [len(s_) for s_ in order]
+    by_len = sorted(range(len(order)), key=lambda i: lens[i])
+    slens = [lens[i] for i in by_len]
     E = []
-    for i in range(len(order)):
-        for j in range(i + 1, len(order)):
+    for p_, i in enumerate(by_len):
+        hi = lens[i] / (1.0 - tau_max) if tau_max < 1.0 else float("inf")
+        end = bisect.bisect_left(slens, hi, p_ + 1, len(slens))
+        for pj in range(p_ + 1, end):
+            j = by_len[pj]
             d = ned(order[i], order[j], tau_max)
             if d < tau_max:
-                E.append((d, i, j))
+                E.append((d, min(i, j), max(i, j)))
     return order, mult, first, E
 
 

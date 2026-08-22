@@ -37,3 +37,6 @@ data/longweave.jsonl
 # mpnet sentence-embedding cache for ASQA — derived, regenerated automatically
 # by analysis/asqa_ensembles.py in ~1 min if absent
 data/asqa_sent_emb.npy
+
+# ASC edit-distance edge cache (124 MB) — derived, rebuilt by analysis/asc_ensembles.py
+data/asc_edges.pkl
