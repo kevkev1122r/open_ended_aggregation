@@ -1,0 +1,13 @@
+{
+  "count": 24.76548597607057,
+  "weighted": 27.454593334431916,
+  "pattern": 27.20296572887648,
+  "lr+rank": 26.300342596117225,
+  "lr+rank(dr-label)": 26.50426256928265,
+  "nb-rank": 27.503367609137598,
+  "adapt-count": 24.98166796637307,
+  "adapt-pattern": 26.333166325517055,
+  "adapt-rank(dr-label)": 26.702158177835596,
+  "learned-budget(nb-rank)": 26.13380622581275,
+  "learned-budget(dr-label)": 25.89539660922297
+}

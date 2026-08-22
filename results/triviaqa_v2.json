@@ -1,0 +1,6 @@
+{
+  "best single (Kimi-K2.5)": 69.38144329896907,
+  "majority vote (counting)": 68.35051546391753,
+  "weighted vote (OW log-odds)": 68.55670103092784,
+  "oracle (any agent right)": 76.39175257731958
+}

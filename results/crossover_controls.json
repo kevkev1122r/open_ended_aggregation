@@ -1,0 +1,3628 @@
+[
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5"
+  ],
+  "count": 22.544084829110524,
+  "uniform": 22.544084829110524,
+  "weighted-cf": 23.031618558971488,
+  "pattern-cf": 27.45315000062107,
+  "weighted-oracle": 22.544084829110524,
+  "pattern-oracle": 27.45315000062107,
+  "best": 27.402376785136056,
+  "dominance": 2.476520655410282
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1"
+  ],
+  "count": 20.391622694790367,
+  "uniform": 20.391622694790367,
+  "weighted-cf": 23.53017863421237,
+  "pattern-cf": 23.53017863421237,
+  "weighted-oracle": 23.53017863421237,
+  "pattern-oracle": 23.53017863421237,
+  "best": 23.201657561281504,
+  "dominance": 2.096875925793329
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4"
+  ],
+  "count": 17.325994709526416,
+  "uniform": 17.325994709526416,
+  "weighted-cf": 18.5493205416087,
+  "pattern-cf": 18.87534060829182,
+  "weighted-oracle": 18.5493205416087,
+  "pattern-oracle": 18.5493205416087,
+  "best": 17.67069846486669,
+  "dominance": 1.5970092699224168
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini"
+  ],
+  "count": 16.88308124300317,
+  "uniform": 16.88308124300317,
+  "weighted-cf": 16.88308124300317,
+  "pattern-cf": 17.90200458845318,
+  "weighted-oracle": 16.88308124300317,
+  "pattern-oracle": 16.88308124300317,
+  "best": 16.420058233090007,
+  "dominance": 1.5690242130853078
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-nano"
+  ],
+  "count": 13.421717650842368,
+  "uniform": 13.421717650842368,
+  "weighted-cf": 14.82022966015149,
+  "pattern-cf": 15.625422631748359,
+  "weighted-oracle": 14.82022966015149,
+  "pattern-oracle": 16.673574551357977,
+  "best": 16.420058233090007,
+  "dominance": 2.2363513001917315
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "grok-4.3"
+  ],
+  "count": 22.5298382205554,
+  "uniform": 22.5298382205554,
+  "weighted-cf": 27.31456831784837,
+  "pattern-cf": 27.31456831784837,
+  "weighted-oracle": 27.31456831784837,
+  "pattern-oracle": 27.31456831784837,
+  "best": 27.082821295652177,
+  "dominance": 2.447640468247618
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1"
+  ],
+  "count": 23.151225109804834,
+  "uniform": 23.151225109804834,
+  "weighted-cf": 22.839766247016936,
+  "pattern-cf": 26.173604875949913,
+  "weighted-oracle": 23.820217768698324,
+  "pattern-oracle": 26.173604875949913,
+  "best": 27.402376785136056,
+  "dominance": 1.895614606389643
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4"
+  ],
+  "count": 22.661720657604587,
+  "uniform": 22.661720657604587,
+  "weighted-cf": 22.661720657604587,
+  "pattern-cf": 26.462890374098773,
+  "weighted-oracle": 22.661720657604587,
+  "pattern-oracle": 25.495126817948037,
+  "best": 27.402376785136056,
+  "dominance": 2.34404904528671
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4-mini"
+  ],
+  "count": 23.656123358587653,
+  "uniform": 23.656123358587653,
+  "weighted-cf": 23.656123358587653,
+  "pattern-cf": 26.82644013992414,
+  "weighted-oracle": 23.656123358587653,
+  "pattern-oracle": 26.82644013992414,
+  "best": 27.402376785136056,
+  "dominance": 2.6184433734419343
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4-nano"
+  ],
+  "count": 20.573004714827846,
+  "uniform": 20.573004714827846,
+  "weighted-cf": 24.07590179524249,
+  "pattern-cf": 27.354776454770473,
+  "weighted-oracle": 24.07590179524249,
+  "pattern-oracle": 27.354776454770473,
+  "best": 27.402376785136056,
+  "dominance": 3.7321025347088868
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "grok-4.3"
+  ],
+  "count": 26.53415928767697,
+  "uniform": 26.53415928767697,
+  "weighted-cf": 27.430174787511145,
+  "pattern-cf": 27.21685325822149,
+  "weighted-oracle": 27.430174787511145,
+  "pattern-oracle": 27.667774925611717,
+  "best": 27.402376785136056,
+  "dominance": 1.6712587202027611
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4"
+  ],
+  "count": 20.810914259252765,
+  "uniform": 20.810914259252765,
+  "weighted-cf": 23.015938206910455,
+  "pattern-cf": 23.015938206910455,
+  "weighted-oracle": 23.41204836652297,
+  "pattern-oracle": 23.41204836652297,
+  "best": 23.201657561281504,
+  "dominance": 1.9847118986077048
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini"
+  ],
+  "count": 20.974897767686755,
+  "uniform": 20.974897767686755,
+  "weighted-cf": 23.754330804903603,
+  "pattern-cf": 23.754330804903603,
+  "weighted-oracle": 23.754330804903603,
+  "pattern-oracle": 23.754330804903603,
+  "best": 23.201657561281504,
+  "dominance": 2.2170422285106484
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano"
+  ],
+  "count": 17.77056679830053,
+  "uniform": 17.77056679830053,
+  "weighted-cf": 23.196385292121644,
+  "pattern-cf": 23.27754640868062,
+  "weighted-oracle": 23.27754640868062,
+  "pattern-oracle": 23.27754640868062,
+  "best": 23.201657561281504,
+  "dominance": 3.159980087598681
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "grok-4.3"
+  ],
+  "count": 23.791226546510075,
+  "uniform": 23.791226546510075,
+  "weighted-cf": 27.201579037066043,
+  "pattern-cf": 27.201579037066043,
+  "weighted-oracle": 27.201579037066043,
+  "pattern-oracle": 27.201579037066043,
+  "best": 27.082821295652177,
+  "dominance": 1.8735087117744644
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 17.58500624154392,
+  "uniform": 17.58500624154392,
+  "weighted-cf": 19.397473354037494,
+  "pattern-cf": 19.397473354037494,
+  "weighted-oracle": 19.397473354037494,
+  "pattern-oracle": 19.397473354037494,
+  "best": 17.67069846486669,
+  "dominance": 1.6885295630457484
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 14.388071137129527,
+  "uniform": 14.388071137129527,
+  "weighted-cf": 18.330172851741715,
+  "pattern-cf": 18.330172851741715,
+  "weighted-oracle": 18.330172851741715,
+  "pattern-oracle": 18.330172851741715,
+  "best": 17.67069846486669,
+  "dominance": 2.406683881763797
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 22.62240869946007,
+  "uniform": 22.62240869946007,
+  "weighted-cf": 27.19259941507043,
+  "pattern-cf": 27.19259941507043,
+  "weighted-oracle": 27.19259941507043,
+  "pattern-oracle": 27.19259941507043,
+  "best": 27.082821295652177,
+  "dominance": 2.3167136887257005
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 12.946832208468303,
+  "uniform": 12.946832208468303,
+  "weighted-cf": 16.135585539033187,
+  "pattern-cf": 16.135585539033187,
+  "weighted-oracle": 16.135585539033187,
+  "pattern-oracle": 16.135585539033187,
+  "best": 15.220600335254922,
+  "dominance": 2.0729895635114626
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 23.599795828986505,
+  "uniform": 23.599795828986505,
+  "weighted-cf": 27.174166928853243,
+  "pattern-cf": 27.23424447868591,
+  "weighted-oracle": 27.143545481865672,
+  "pattern-oracle": 27.23424447868591,
+  "best": 27.082821295652177,
+  "dominance": 2.5879081406609616
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 19.73821990553874,
+  "uniform": 19.73821990553874,
+  "weighted-cf": 27.04620865441513,
+  "pattern-cf": 27.04620865441513,
+  "weighted-oracle": 27.082821295652177,
+  "pattern-oracle": 27.082821295652177,
+  "best": 27.082821295652177,
+  "dominance": 3.688580257001581
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1"
+  ],
+  "count": 26.220167495773154,
+  "uniform": 26.220167495773154,
+  "weighted-cf": 25.068178869840196,
+  "pattern-cf": 25.420711589773802,
+  "weighted-oracle": 24.85906776939342,
+  "pattern-oracle": 26.220167495773154,
+  "best": 27.402376785136056,
+  "dominance": 1.383199906200363
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4"
+  ],
+  "count": 23.796264628659408,
+  "uniform": 23.796264628659408,
+  "weighted-cf": 24.386756910466232,
+  "pattern-cf": 25.495126817948037,
+  "weighted-oracle": 23.796264628659408,
+  "pattern-oracle": 25.495126817948037,
+  "best": 27.402376785136056,
+  "dominance": 1.607613291070097
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-mini"
+  ],
+  "count": 24.856464999697295,
+  "uniform": 24.856464999697295,
+  "weighted-cf": 25.60502356699618,
+  "pattern-cf": 27.17087378808221,
+  "weighted-oracle": 24.856464999697295,
+  "pattern-oracle": 26.82644013992414,
+  "best": 27.402376785136056,
+  "dominance": 1.7320990159510092
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-nano"
+  ],
+  "count": 21.7374212374407,
+  "uniform": 21.7374212374407,
+  "weighted-cf": 25.997803706798493,
+  "pattern-cf": 27.2554110992647,
+  "weighted-oracle": 25.412473896085015,
+  "pattern-oracle": 27.2554110992647,
+  "best": 27.402376785136056,
+  "dominance": 2.1580868233041466
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "grok-4.3"
+  ],
+  "count": 27.930821015320756,
+  "uniform": 27.930821015320756,
+  "weighted-cf": 27.59762269545314,
+  "pattern-cf": 27.59762269545314,
+  "weighted-oracle": 28.424291965295257,
+  "pattern-oracle": 28.424291965295257,
+  "best": 27.402376785136056,
+  "dominance": 1.2597959988846905
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4"
+  ],
+  "count": 22.4207619768911,
+  "uniform": 22.4207619768911,
+  "weighted-cf": 24.2367957299037,
+  "pattern-cf": 24.2367957299037,
+  "weighted-oracle": 24.2367957299037,
+  "pattern-oracle": 24.2367957299037,
+  "best": 23.201657561281504,
+  "dominance": 1.3611699949547995
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini"
+  ],
+  "count": 23.063826250297776,
+  "uniform": 23.063826250297776,
+  "weighted-cf": 23.754330804903603,
+  "pattern-cf": 23.87220834541303,
+  "weighted-oracle": 23.754330804903603,
+  "pattern-oracle": 23.87220834541303,
+  "best": 23.201657561281504,
+  "dominance": 1.4665723541224727
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano"
+  ],
+  "count": 19.80092272424779,
+  "uniform": 19.80092272424779,
+  "weighted-cf": 23.335265777697597,
+  "pattern-cf": 23.335265777697597,
+  "weighted-oracle": 23.335265777697597,
+  "pattern-oracle": 23.335265777697597,
+  "best": 23.201657561281504,
+  "dominance": 1.8272572432102634
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "grok-4.3"
+  ],
+  "count": 25.331479096692643,
+  "uniform": 25.331479096692643,
+  "weighted-cf": 27.66325502735777,
+  "pattern-cf": 27.66325502735777,
+  "weighted-oracle": 27.66325502735777,
+  "pattern-oracle": 27.66325502735777,
+  "best": 27.082821295652177,
+  "dominance": 1.3670695855881863
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 19.743269629209756,
+  "uniform": 19.743269629209756,
+  "weighted-cf": 19.743269629209756,
+  "pattern-cf": 19.743269629209756,
+  "weighted-oracle": 19.743269629209756,
+  "pattern-oracle": 19.743269629209756,
+  "best": 17.67069846486669,
+  "dominance": 1.1169614833836257
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 16.201287330087496,
+  "uniform": 16.201287330087496,
+  "weighted-cf": 19.266296813972943,
+  "pattern-cf": 19.266296813972943,
+  "weighted-oracle": 19.266296813972943,
+  "pattern-oracle": 19.266296813972943,
+  "best": 17.67069846486669,
+  "dominance": 1.3916640083678882
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 24.132098258407105,
+  "uniform": 24.132098258407105,
+  "weighted-cf": 27.826881558728545,
+  "pattern-cf": 27.826881558728545,
+  "weighted-oracle": 27.826881558728545,
+  "pattern-oracle": 27.826881558728545,
+  "best": 27.082821295652177,
+  "dominance": 1.5888659518828132
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 16.20721789682145,
+  "uniform": 16.20721789682145,
+  "weighted-cf": 19.041002443560608,
+  "pattern-cf": 19.041002443560608,
+  "weighted-oracle": 19.041002443560608,
+  "pattern-oracle": 19.041002443560608,
+  "best": 16.420058233090007,
+  "dominance": 1.3572760263140562
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 25.384068120250387,
+  "uniform": 25.384068120250387,
+  "weighted-cf": 27.568403816548653,
+  "pattern-cf": 27.849593688911256,
+  "weighted-oracle": 27.143545481865672,
+  "pattern-oracle": 27.849593688911256,
+  "best": 27.082821295652177,
+  "dominance": 1.7118999743417058
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 21.54796387732016,
+  "uniform": 21.54796387732016,
+  "weighted-cf": 27.313195317450383,
+  "pattern-cf": 27.313195317450383,
+  "weighted-oracle": 27.313195317450383,
+  "pattern-oracle": 27.313195317450383,
+  "best": 27.082821295652177,
+  "dominance": 2.132920083332023
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4"
+  ],
+  "count": 26.735848675675573,
+  "uniform": 26.735848675675573,
+  "weighted-cf": 26.228239164969807,
+  "pattern-cf": 26.735848675675573,
+  "weighted-oracle": 26.735848675675573,
+  "pattern-oracle": 26.735848675675573,
+  "best": 27.402376785136056,
+  "dominance": 1.3408758118864161
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini"
+  ],
+  "count": 25.086074200706626,
+  "uniform": 25.086074200706626,
+  "weighted-cf": 24.613060459520586,
+  "pattern-cf": 25.086074200706626,
+  "weighted-oracle": 25.56939088657895,
+  "pattern-oracle": 25.82156835505885,
+  "best": 27.402376785136056,
+  "dominance": 1.4263803475019745
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano"
+  ],
+  "count": 25.117335069047325,
+  "uniform": 25.117335069047325,
+  "weighted-cf": 26.173604875949913,
+  "pattern-cf": 24.971702535083754,
+  "weighted-oracle": 26.173604875949913,
+  "pattern-oracle": 26.173604875949913,
+  "best": 27.402376785136056,
+  "dominance": 1.7032453787250397
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "grok-4.3"
+  ],
+  "count": 29.039589731769876,
+  "uniform": 29.039589731769876,
+  "weighted-cf": 29.00208987877845,
+  "pattern-cf": 28.76021610916356,
+  "weighted-oracle": 29.00208987877845,
+  "pattern-oracle": 29.039589731769876,
+  "best": 27.402376785136056,
+  "dominance": 1.0898940352190831
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 24.893990520227874,
+  "uniform": 24.893990520227874,
+  "weighted-cf": 24.893990520227874,
+  "pattern-cf": 25.937126376163118,
+  "weighted-oracle": 24.893990520227874,
+  "pattern-oracle": 24.893990520227874,
+  "best": 27.402376785136056,
+  "dominance": 1.666238657929479
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 20.868752491674396,
+  "uniform": 20.868752491674396,
+  "weighted-cf": 25.495126817948037,
+  "pattern-cf": 26.529740218959887,
+  "weighted-oracle": 25.495126817948037,
+  "pattern-oracle": 25.495126817948037,
+  "best": 27.402376785136056,
+  "dominance": 2.056795067063423
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 27.88877286761021,
+  "uniform": 27.88877286761021,
+  "weighted-cf": 28.29656199038994,
+  "pattern-cf": 28.29656199038994,
+  "weighted-oracle": 28.29656199038994,
+  "pattern-oracle": 28.29656199038994,
+  "best": 27.402376785136056,
+  "dominance": 1.224590911810703
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 22.596204536518314,
+  "uniform": 22.596204536518314,
+  "weighted-cf": 26.82644013992414,
+  "pattern-cf": 26.82644013992414,
+  "weighted-oracle": 26.82644013992414,
+  "pattern-oracle": 26.82644013992414,
+  "best": 27.402376785136056,
+  "dominance": 2.265070473351843
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 26.856278079576157,
+  "uniform": 26.856278079576157,
+  "weighted-cf": 27.52234884903591,
+  "pattern-cf": 27.52234884903591,
+  "weighted-oracle": 27.45663462713085,
+  "pattern-oracle": 28.09000275461055,
+  "best": 27.402376785136056,
+  "dominance": 1.2955158579946042
+ },
+ {
+  "k": 3,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 26.717298646584158,
+  "uniform": 26.717298646584158,
+  "weighted-cf": 27.24081023920767,
+  "pattern-cf": 27.24081023920767,
+  "weighted-oracle": 27.667774925611717,
+  "pattern-oracle": 27.667774925611717,
+  "best": 27.402376785136056,
+  "dominance": 1.519912807565573
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 23.067408827575882,
+  "uniform": 23.067408827575882,
+  "weighted-cf": 23.754330804903603,
+  "pattern-cf": 24.035561839664016,
+  "weighted-oracle": 23.754330804903603,
+  "pattern-oracle": 24.035561839664016,
+  "best": 23.201657561281504,
+  "dominance": 1.4108082324311084
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 19.81981873228433,
+  "uniform": 19.81981873228433,
+  "weighted-cf": 23.183621345898423,
+  "pattern-cf": 23.183621345898423,
+  "weighted-oracle": 23.731741218255603,
+  "pattern-oracle": 23.731741218255603,
+  "best": 23.201657561281504,
+  "dominance": 1.741493272423873
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 24.427285468775477,
+  "uniform": 24.427285468775477,
+  "weighted-cf": 27.500368054892128,
+  "pattern-cf": 27.500368054892128,
+  "weighted-oracle": 27.500368054892128,
+  "pattern-oracle": 27.500368054892128,
+  "best": 27.082821295652177,
+  "dominance": 1.325239057828028
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 20.01508190894996,
+  "uniform": 20.01508190894996,
+  "weighted-cf": 23.754330804903603,
+  "pattern-cf": 23.754330804903603,
+  "weighted-oracle": 23.754330804903603,
+  "pattern-oracle": 23.754330804903603,
+  "best": 23.201657561281504,
+  "dominance": 1.9178405540130348
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 26.488629131868237,
+  "uniform": 26.488629131868237,
+  "weighted-cf": 27.345404117761625,
+  "pattern-cf": 27.598250769679627,
+  "weighted-oracle": 27.143545481865672,
+  "pattern-oracle": 27.598250769679627,
+  "best": 27.082821295652177,
+  "dominance": 1.4097464739620915
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 22.91584944828804,
+  "uniform": 22.91584944828804,
+  "weighted-cf": 27.226759301637742,
+  "pattern-cf": 27.16983257845214,
+  "weighted-oracle": 27.226759301637742,
+  "pattern-oracle": 27.082821295652177,
+  "best": 27.082821295652177,
+  "dominance": 1.683382816620395
+ },
+ {
+  "k": 3,
+  "ens": [
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 16.53579952195258,
+  "uniform": 16.53579952195258,
+  "weighted-cf": 19.397473354037494,
+  "pattern-cf": 19.397473354037494,
+  "weighted-oracle": 19.397473354037494,
+  "pattern-oracle": 19.397473354037494,
+  "best": 17.67069846486669,
+  "dominance": 1.4606534918527339
+ },
+ {
+  "k": 3,
+  "ens": [
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 25.34319580703754,
+  "uniform": 25.34319580703754,
+  "weighted-cf": 27.36756612547129,
+  "pattern-cf": 27.61194825390213,
+  "weighted-oracle": 27.143545481865672,
+  "pattern-oracle": 27.61194825390213,
+  "best": 27.082821295652177,
+  "dominance": 1.646807653308725
+ },
+ {
+  "k": 3,
+  "ens": [
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 21.43896767365911,
+  "uniform": 21.43896767365911,
+  "weighted-cf": 27.480356873637646,
+  "pattern-cf": 27.480356873637646,
+  "weighted-oracle": 27.480356873637646,
+  "pattern-oracle": 27.480356873637646,
+  "best": 27.082821295652177,
+  "dominance": 2.0328095507858714
+ },
+ {
+  "k": 3,
+  "ens": [
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 22.358807952437925,
+  "uniform": 22.358807952437925,
+  "weighted-cf": 27.303190576095098,
+  "pattern-cf": 27.32955251077262,
+  "weighted-oracle": 27.143545481865672,
+  "pattern-oracle": 27.32955251077262,
+  "best": 27.082821295652177,
+  "dominance": 2.238656133110377
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1"
+  ],
+  "count": 26.44847015252605,
+  "uniform": 26.44847015252605,
+  "weighted-cf": 25.120457706769887,
+  "pattern-cf": 25.452903907414598,
+  "weighted-oracle": 25.019346261291968,
+  "pattern-oracle": 26.44847015252605,
+  "best": 27.402376785136056,
+  "dominance": 1.8134700930178078
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4"
+  ],
+  "count": 23.283078978843065,
+  "uniform": 23.283078978843065,
+  "weighted-cf": 22.461801549068525,
+  "pattern-cf": 25.52946766095918,
+  "weighted-oracle": 21.324241596949392,
+  "pattern-oracle": 25.52946766095918,
+  "best": 27.402376785136056,
+  "dominance": 2.0654831302091954
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-mini"
+  ],
+  "count": 21.577842231153653,
+  "uniform": 21.577842231153653,
+  "weighted-cf": 22.708126210524455,
+  "pattern-cf": 26.800585011760937,
+  "weighted-oracle": 22.1588893807354,
+  "pattern-oracle": 26.800585011760937,
+  "best": 27.402376785136056,
+  "dominance": 2.200974174264601
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-nano"
+  ],
+  "count": 19.44719375260781,
+  "uniform": 19.44719375260781,
+  "weighted-cf": 22.99856105012482,
+  "pattern-cf": 27.171991053344314,
+  "weighted-oracle": 22.544084829110524,
+  "pattern-oracle": 27.171991053344314,
+  "best": 27.402376785136056,
+  "dominance": 2.6429129245301093
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "grok-4.3"
+  ],
+  "count": 28.109312541052095,
+  "uniform": 28.109312541052095,
+  "weighted-cf": 27.828539626746213,
+  "pattern-cf": 27.22450288989951,
+  "weighted-oracle": 28.49949235359446,
+  "pattern-oracle": 28.49949235359446,
+  "best": 27.402376785136056,
+  "dominance": 1.6704502127075287
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4"
+  ],
+  "count": 21.101336441503985,
+  "uniform": 21.101336441503985,
+  "weighted-cf": 24.382053841837006,
+  "pattern-cf": 24.382053841837006,
+  "weighted-oracle": 24.382053841837006,
+  "pattern-oracle": 24.382053841837006,
+  "best": 23.201657561281504,
+  "dominance": 1.7488494761415136
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini"
+  ],
+  "count": 20.510171566652026,
+  "uniform": 20.510171566652026,
+  "weighted-cf": 23.84968269246865,
+  "pattern-cf": 23.8214081413136,
+  "weighted-oracle": 23.84968269246865,
+  "pattern-oracle": 23.963296967402503,
+  "best": 23.201657561281504,
+  "dominance": 1.86357006521462
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano"
+  ],
+  "count": 17.34297474803917,
+  "uniform": 17.34297474803917,
+  "weighted-cf": 23.31997213838528,
+  "pattern-cf": 23.42027992361872,
+  "weighted-oracle": 23.53017863421237,
+  "pattern-oracle": 23.53402036758335,
+  "best": 23.201657561281504,
+  "dominance": 2.2377606555827874
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "grok-4.3"
+  ],
+  "count": 24.95749770645277,
+  "uniform": 24.95749770645277,
+  "weighted-cf": 27.729338196192877,
+  "pattern-cf": 27.90026363273297,
+  "weighted-oracle": 27.729338196192877,
+  "pattern-oracle": 27.90026363273297,
+  "best": 27.082821295652177,
+  "dominance": 1.7923221346570197
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 17.73743835289051,
+  "uniform": 17.73743835289051,
+  "weighted-cf": 19.812601884757928,
+  "pattern-cf": 19.812601884757928,
+  "weighted-oracle": 19.812601884757928,
+  "pattern-oracle": 19.812601884757928,
+  "best": 17.67069846486669,
+  "dominance": 1.419320348280351
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 16.98144632133988,
+  "uniform": 16.98144632133988,
+  "weighted-cf": 18.771033999124537,
+  "pattern-cf": 19.177796262175193,
+  "weighted-oracle": 18.966393814771266,
+  "pattern-oracle": 18.966393814771266,
+  "best": 17.67069846486669,
+  "dominance": 1.704308999342104
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 21.222611121204736,
+  "uniform": 21.222611121204736,
+  "weighted-cf": 27.911041812969067,
+  "pattern-cf": 27.935155630697995,
+  "weighted-oracle": 27.911041812969067,
+  "pattern-oracle": 27.93720601472211,
+  "best": 27.082821295652177,
+  "dominance": 2.0413962972359068
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 15.422359125377765,
+  "uniform": 15.422359125377765,
+  "weighted-cf": 16.976496750590748,
+  "pattern-cf": 18.196006369796724,
+  "weighted-oracle": 17.512289656349243,
+  "pattern-oracle": 17.512289656349243,
+  "best": 16.420058233090007,
+  "dominance": 1.6472062586851048
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 22.382328037728595,
+  "uniform": 22.382328037728595,
+  "weighted-cf": 27.560497794317662,
+  "pattern-cf": 27.849593688911256,
+  "weighted-oracle": 27.178969810253843,
+  "pattern-oracle": 27.874525009788982,
+  "best": 27.082821295652177,
+  "dominance": 2.1753072992663705
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 18.304392052114714,
+  "uniform": 18.304392052114714,
+  "weighted-cf": 27.14091867849947,
+  "pattern-cf": 27.22779632504756,
+  "weighted-oracle": 27.31456831784837,
+  "pattern-oracle": 27.41696562578342,
+  "best": 27.082821295652177,
+  "dominance": 2.6120923376925615
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4"
+  ],
+  "count": 27.130079558419933,
+  "uniform": 27.130079558419933,
+  "weighted-cf": 25.367898379618847,
+  "pattern-cf": 27.060163197061897,
+  "weighted-oracle": 26.860895243346217,
+  "pattern-oracle": 27.130079558419933,
+  "best": 27.402376785136056,
+  "dominance": 1.7647818248333653
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini"
+  ],
+  "count": 26.220555026376886,
+  "uniform": 26.220555026376886,
+  "weighted-cf": 25.21026028648339,
+  "pattern-cf": 25.19626347953307,
+  "weighted-oracle": 25.036587655397796,
+  "pattern-oracle": 26.220555026376886,
+  "best": 27.402376785136056,
+  "dominance": 1.8627582306900694
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano"
+  ],
+  "count": 25.411526466638044,
+  "uniform": 25.411526466638044,
+  "weighted-cf": 23.127131613371237,
+  "pattern-cf": 24.880853003670694,
+  "weighted-oracle": 24.2869200369863,
+  "pattern-oracle": 26.08116149686278,
+  "best": 27.402376785136056,
+  "dominance": 2.1698354284419588
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "grok-4.3"
+  ],
+  "count": 29.28972187737708,
+  "uniform": 29.28972187737708,
+  "weighted-cf": 28.970663195031225,
+  "pattern-cf": 28.706944601587097,
+  "weighted-oracle": 28.96530584987662,
+  "pattern-oracle": 29.28972187737708,
+  "best": 27.402376785136056,
+  "dominance": 1.468137609161016
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 21.84661197940131,
+  "uniform": 21.84661197940131,
+  "weighted-cf": 21.576118703878038,
+  "pattern-cf": 25.946729733152257,
+  "weighted-oracle": 22.210622928134207,
+  "pattern-oracle": 24.893990520227874,
+  "best": 27.402376785136056,
+  "dominance": 2.1296644058450713
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 21.853946965912595,
+  "uniform": 21.853946965912595,
+  "weighted-cf": 22.661720657604587,
+  "pattern-cf": 26.585517730432993,
+  "weighted-oracle": 22.661720657604587,
+  "pattern-oracle": 25.493818364078848,
+  "best": 27.402376785136056,
+  "dominance": 2.5407557938204732
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 28.183781169058538,
+  "uniform": 28.183781169058538,
+  "weighted-cf": 28.467390923189846,
+  "pattern-cf": 28.16090722923609,
+  "weighted-oracle": 28.467390923189846,
+  "pattern-oracle": 28.467390923189846,
+  "best": 27.402376785136056,
+  "dominance": 1.6290510890788377
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 20.356450709769575,
+  "uniform": 20.356450709769575,
+  "weighted-cf": 23.656123358587653,
+  "pattern-cf": 26.756656935681576,
+  "weighted-oracle": 23.656123358587653,
+  "pattern-oracle": 26.756656935681576,
+  "best": 27.402376785136056,
+  "dominance": 2.7489163499044036
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 27.741082201125906,
+  "uniform": 27.741082201125906,
+  "weighted-cf": 27.529940258390496,
+  "pattern-cf": 28.253406747073196,
+  "weighted-oracle": 27.46726194920821,
+  "pattern-oracle": 28.253406747073196,
+  "best": 27.402376785136056,
+  "dominance": 1.7121812118919446
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 26.861735165157434,
+  "uniform": 26.861735165157434,
+  "weighted-cf": 27.497089119419687,
+  "pattern-cf": 27.220057869933058,
+  "weighted-oracle": 27.691361002609554,
+  "pattern-oracle": 27.829944251802306,
+  "best": 27.402376785136056,
+  "dominance": 1.9682077246508203
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 20.180975054438775,
+  "uniform": 20.180975054438775,
+  "weighted-cf": 23.835406342607175,
+  "pattern-cf": 24.19002280113131,
+  "weighted-oracle": 23.835406342607175,
+  "pattern-oracle": 24.19002280113131,
+  "best": 23.201657561281504,
+  "dominance": 1.8031919147856517
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 19.610674384548847,
+  "uniform": 19.610674384548847,
+  "weighted-cf": 23.247023637967022,
+  "pattern-cf": 23.247023637967022,
+  "weighted-oracle": 23.926967942796434,
+  "pattern-oracle": 23.926967942796434,
+  "best": 23.201657561281504,
+  "dominance": 2.1512639701765153
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 25.243290986002933,
+  "uniform": 25.243290986002933,
+  "weighted-cf": 27.68353410722677,
+  "pattern-cf": 27.68353410722677,
+  "weighted-oracle": 27.68353410722677,
+  "pattern-oracle": 27.68353410722677,
+  "best": 27.082821295652177,
+  "dominance": 1.744201649460666
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 18.05374302226887,
+  "uniform": 18.05374302226887,
+  "weighted-cf": 23.68170091275618,
+  "pattern-cf": 23.592769744182704,
+  "weighted-oracle": 23.754330804903603,
+  "pattern-oracle": 23.739693566612104,
+  "best": 23.201657561281504,
+  "dominance": 2.327514007824529
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 24.386365048433213,
+  "uniform": 24.386365048433213,
+  "weighted-cf": 27.47644836320819,
+  "pattern-cf": 27.798907055247323,
+  "weighted-oracle": 27.21578357110312,
+  "pattern-oracle": 27.798907055247323,
+  "best": 27.082821295652177,
+  "dominance": 1.8410354939046538
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 23.53375185911694,
+  "uniform": 23.53375185911694,
+  "weighted-cf": 27.343393919560643,
+  "pattern-cf": 27.24946564061356,
+  "weighted-oracle": 27.343393919560643,
+  "pattern-oracle": 27.201579037066043,
+  "best": 27.082821295652177,
+  "dominance": 2.144531680965158
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 16.507918420426776,
+  "uniform": 16.507918420426776,
+  "weighted-cf": 19.72429696014039,
+  "pattern-cf": 19.72429696014039,
+  "weighted-oracle": 19.72429696014039,
+  "pattern-oracle": 19.72429696014039,
+  "best": 17.67069846486669,
+  "dominance": 1.772666375080701
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 22.460063379886115,
+  "uniform": 22.460063379886115,
+  "weighted-cf": 27.396562324254038,
+  "pattern-cf": 27.654387341540886,
+  "weighted-oracle": 27.14759604093837,
+  "pattern-oracle": 27.663885634037968,
+  "best": 27.082821295652177,
+  "dominance": 2.104829116666237
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 20.55588743430545,
+  "uniform": 20.55588743430545,
+  "weighted-cf": 27.546035069878926,
+  "pattern-cf": 27.528268607222156,
+  "weighted-oracle": 27.546035069878926,
+  "pattern-oracle": 27.546035069878926,
+  "best": 27.082821295652177,
+  "dominance": 2.511126522326268
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 19.979361241194223,
+  "uniform": 19.979361241194223,
+  "weighted-cf": 27.3508958549745,
+  "pattern-cf": 27.196001876041258,
+  "weighted-oracle": 27.143545481865672,
+  "pattern-oracle": 27.372730802162515,
+  "best": 27.082821295652177,
+  "dominance": 2.7168595937831452
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4"
+  ],
+  "count": 27.399279158416622,
+  "uniform": 27.399279158416622,
+  "weighted-cf": 25.742378235913897,
+  "pattern-cf": 27.41448524654313,
+  "weighted-oracle": 26.642261654976423,
+  "pattern-oracle": 27.562890195984224,
+  "best": 27.402376785136056,
+  "dominance": 1.4348693700257633
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini"
+  ],
+  "count": 27.18119491946603,
+  "uniform": 27.18119491946603,
+  "weighted-cf": 24.55272791536622,
+  "pattern-cf": 27.027003569471255,
+  "weighted-oracle": 24.952425705411848,
+  "pattern-oracle": 27.263623972153795,
+  "best": 27.402376785136056,
+  "dominance": 1.4989726210888268
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano"
+  ],
+  "count": 26.39723412906603,
+  "uniform": 26.39723412906603,
+  "weighted-cf": 24.454471311821255,
+  "pattern-cf": 25.72014611073914,
+  "weighted-oracle": 25.121259707505683,
+  "pattern-oracle": 26.860374562824745,
+  "best": 27.402376785136056,
+  "dominance": 1.6916188430757002
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "grok-4.3"
+  ],
+  "count": 29.578822906914283,
+  "uniform": 29.578822906914283,
+  "weighted-cf": 28.91693490612901,
+  "pattern-cf": 29.330212698063868,
+  "weighted-oracle": 28.85289037510409,
+  "pattern-oracle": 29.660887748290936,
+  "best": 27.402376785136056,
+  "dominance": 1.2324068787774114
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 23.09702567259421,
+  "uniform": 23.09702567259421,
+  "weighted-cf": 23.389418399190216,
+  "pattern-cf": 24.005140020008557,
+  "weighted-oracle": 23.32041006721864,
+  "pattern-oracle": 24.893990520227874,
+  "best": 27.402376785136056,
+  "dominance": 1.667103387563254
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 23.437149101005776,
+  "uniform": 23.437149101005776,
+  "weighted-cf": 24.367713846837592,
+  "pattern-cf": 25.372858456985302,
+  "weighted-oracle": 23.796264628659408,
+  "pattern-oracle": 25.372858456985302,
+  "best": 27.402376785136056,
+  "dominance": 1.9088743619471717
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 28.550618143390466,
+  "uniform": 28.550618143390466,
+  "weighted-cf": 28.421715392548986,
+  "pattern-cf": 27.721904370677713,
+  "weighted-oracle": 28.261941228325604,
+  "pattern-oracle": 28.820791883653968,
+  "best": 27.402376785136056,
+  "dominance": 1.343833940267427
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 21.679982390831462,
+  "uniform": 21.679982390831462,
+  "weighted-cf": 25.506936251783912,
+  "pattern-cf": 26.616248924915965,
+  "weighted-oracle": 24.856464999697295,
+  "pattern-oracle": 26.616248924915965,
+  "best": 27.402376785136056,
+  "dominance": 2.0240252415336766
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 28.484001489659995,
+  "uniform": 28.484001489659995,
+  "weighted-cf": 27.674170366233703,
+  "pattern-cf": 28.416070622501223,
+  "weighted-oracle": 27.835400699117823,
+  "pattern-oracle": 28.871491555680954,
+  "best": 27.402376785136056,
+  "dominance": 1.39990222898573
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 27.805406748049734,
+  "uniform": 27.805406748049734,
+  "weighted-cf": 28.399312433651712,
+  "pattern-cf": 27.944920146536873,
+  "weighted-oracle": 28.424291965295257,
+  "pattern-oracle": 28.318773752807864,
+  "best": 27.402376785136056,
+  "dominance": 1.5665099589084703
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 21.50263060247486,
+  "uniform": 21.50263060247486,
+  "weighted-cf": 24.288619696178987,
+  "pattern-cf": 24.757764884283098,
+  "weighted-oracle": 24.288619696178987,
+  "pattern-oracle": 24.757764884283098,
+  "best": 23.201657561281504,
+  "dominance": 1.4115404010675465
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 21.305499862291068,
+  "uniform": 21.305499862291068,
+  "weighted-cf": 24.51337483321693,
+  "pattern-cf": 24.422313320261722,
+  "weighted-oracle": 24.58277606463187,
+  "pattern-oracle": 24.542501191646902,
+  "best": 23.201657561281504,
+  "dominance": 1.6162484597844018
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 25.977932557151235,
+  "uniform": 25.977932557151235,
+  "weighted-cf": 28.10930652424346,
+  "pattern-cf": 28.10930652424346,
+  "weighted-oracle": 28.10930652424346,
+  "pattern-oracle": 28.10930652424346,
+  "best": 27.082821295652177,
+  "dominance": 1.4181365009217692
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 19.908237236773513,
+  "uniform": 19.908237236773513,
+  "weighted-cf": 23.77875277097402,
+  "pattern-cf": 23.878510543624216,
+  "weighted-oracle": 23.77875277097402,
+  "pattern-oracle": 24.12639455940684,
+  "best": 23.201657561281504,
+  "dominance": 1.7137469832517405
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 24.837470757683235,
+  "uniform": 24.837470757683235,
+  "weighted-cf": 27.609713378233874,
+  "pattern-cf": 28.016479887211183,
+  "weighted-oracle": 27.2716746500483,
+  "pattern-oracle": 28.016479887211183,
+  "best": 27.082821295652177,
+  "dominance": 1.4814922056704531
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 24.756991130738506,
+  "uniform": 24.756991130738506,
+  "weighted-cf": 27.66325502735777,
+  "pattern-cf": 27.562944880136385,
+  "weighted-oracle": 27.66325502735777,
+  "pattern-oracle": 27.66325502735777,
+  "best": 27.082821295652177,
+  "dominance": 1.6718918649504877
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 18.85221583200496,
+  "uniform": 18.85221583200496,
+  "weighted-cf": 19.280097548339036,
+  "pattern-cf": 19.280097548339036,
+  "weighted-oracle": 19.743269629209756,
+  "pattern-oracle": 19.743269629209756,
+  "best": 17.67069846486669,
+  "dominance": 1.3052130480820618
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 22.644666520845476,
+  "uniform": 22.644666520845476,
+  "weighted-cf": 27.455240155293875,
+  "pattern-cf": 27.80787021920054,
+  "weighted-oracle": 27.40198569820269,
+  "pattern-oracle": 28.107922065593772,
+  "best": 27.082821295652177,
+  "dominance": 1.647662298813537
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 22.147033393905044,
+  "uniform": 22.147033393905044,
+  "weighted-cf": 27.821863844318028,
+  "pattern-cf": 27.757151637942417,
+  "weighted-oracle": 27.885271572000658,
+  "pattern-oracle": 27.885271572000658,
+  "best": 27.082821295652177,
+  "dominance": 1.8866138373993107
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 21.414710251682063,
+  "uniform": 21.414710251682063,
+  "weighted-cf": 27.56055277945963,
+  "pattern-cf": 27.72384304132864,
+  "weighted-oracle": 27.143545481865672,
+  "pattern-oracle": 27.862926970518377,
+  "best": 27.082821295652177,
+  "dominance": 2.000421873772641
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 27.40359540559635,
+  "uniform": 27.40359540559635,
+  "weighted-cf": 25.637717656522035,
+  "pattern-cf": 27.242442436741214,
+  "weighted-oracle": 26.388927637896543,
+  "pattern-oracle": 27.407243777197294,
+  "best": 27.402376785136056,
+  "dominance": 1.4655517499515127
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 27.373123800756037,
+  "uniform": 27.373123800756037,
+  "weighted-cf": 25.639340398220956,
+  "pattern-cf": 27.198929500470086,
+  "weighted-oracle": 26.83519549370139,
+  "pattern-oracle": 27.373123800756037,
+  "best": 27.402376785136056,
+  "dominance": 1.6491771471749495
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 29.425001529067224,
+  "uniform": 29.425001529067224,
+  "weighted-cf": 28.808434022466017,
+  "pattern-cf": 28.790641469308042,
+  "weighted-oracle": 29.292645654652596,
+  "pattern-oracle": 29.65405376166126,
+  "best": 27.402376785136056,
+  "dominance": 1.2097257868391391
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 26.061690125393838,
+  "uniform": 26.061690125393838,
+  "weighted-cf": 24.613060459520586,
+  "pattern-cf": 25.21466835427035,
+  "weighted-oracle": 25.56939088657895,
+  "pattern-oracle": 26.214791730045654,
+  "best": 27.402376785136056,
+  "dominance": 1.7344277610009449
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 29.566254744333236,
+  "uniform": 29.566254744333236,
+  "weighted-cf": 28.02612606885255,
+  "pattern-cf": 29.25443148732283,
+  "weighted-oracle": 28.493612850449455,
+  "pattern-oracle": 29.566254744333236,
+  "best": 27.402376785136056,
+  "dominance": 1.2549733756403314
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.308206249054997,
+  "uniform": 29.308206249054997,
+  "weighted-cf": 28.92164997612706,
+  "pattern-cf": 29.021595773024078,
+  "weighted-oracle": 29.00208987877845,
+  "pattern-oracle": 29.376017103333368,
+  "best": 27.402376785136056,
+  "dominance": 1.3872400427994185
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 22.74048411137964,
+  "uniform": 22.74048411137964,
+  "weighted-cf": 24.893990520227874,
+  "pattern-cf": 25.99003477908237,
+  "weighted-oracle": 24.893990520227874,
+  "pattern-oracle": 24.893990520227874,
+  "best": 27.402376785136056,
+  "dominance": 1.9635630773358845
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 28.50943931603085,
+  "uniform": 28.50943931603085,
+  "weighted-cf": 27.761860199795173,
+  "pattern-cf": 28.71575403620305,
+  "weighted-oracle": 27.809520171845442,
+  "pattern-oracle": 28.807705407707907,
+  "best": 27.402376785136056,
+  "dominance": 1.3707100700123667
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.157828423190058,
+  "uniform": 28.157828423190058,
+  "weighted-cf": 28.160231293836414,
+  "pattern-cf": 27.901456132777675,
+  "weighted-oracle": 28.29656199038994,
+  "pattern-oracle": 28.432012033966302,
+  "best": 27.402376785136056,
+  "dominance": 1.5300462676170388
+ },
+ {
+  "k": 4,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 27.52109809762824,
+  "uniform": 27.52109809762824,
+  "weighted-cf": 27.401928579355673,
+  "pattern-cf": 28.067493806308473,
+  "weighted-oracle": 27.45663462713085,
+  "pattern-oracle": 28.149900023353315,
+  "best": 27.402376785136056,
+  "dominance": 1.6031523215517653
+ },
+ {
+  "k": 4,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 19.654227177903934,
+  "uniform": 19.654227177903934,
+  "weighted-cf": 23.972785404648253,
+  "pattern-cf": 24.357480024767824,
+  "weighted-oracle": 23.972785404648253,
+  "pattern-oracle": 24.357480024767824,
+  "best": 23.201657561281504,
+  "dominance": 1.662553525102808
+ },
+ {
+  "k": 4,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 24.823472769898164,
+  "uniform": 24.823472769898164,
+  "weighted-cf": 27.668349265357055,
+  "pattern-cf": 28.11013303852009,
+  "weighted-oracle": 27.346045396806367,
+  "pattern-oracle": 28.11013303852009,
+  "best": 27.082821295652177,
+  "dominance": 1.4484610752815057
+ },
+ {
+  "k": 4,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 25.317923667404717,
+  "uniform": 25.317923667404717,
+  "weighted-cf": 27.422465205145823,
+  "pattern-cf": 27.741500397137546,
+  "weighted-oracle": 27.50901893285318,
+  "pattern-oracle": 27.741500397137546,
+  "best": 27.082821295652177,
+  "dominance": 1.6299451070259
+ },
+ {
+  "k": 4,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 24.23485061335232,
+  "uniform": 24.23485061335232,
+  "weighted-cf": 27.443223370938085,
+  "pattern-cf": 27.584770039320844,
+  "weighted-oracle": 27.143545481865672,
+  "pattern-oracle": 27.682589292497312,
+  "best": 27.082821295652177,
+  "dominance": 1.714201562504115
+ },
+ {
+  "k": 4,
+  "ens": [
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 20.858267640166332,
+  "uniform": 20.858267640166332,
+  "weighted-cf": 27.415298156473238,
+  "pattern-cf": 27.551110540278458,
+  "weighted-oracle": 27.313067529944423,
+  "pattern-oracle": 27.855053435776,
+  "best": 27.082821295652177,
+  "dominance": 1.9406647949996274
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4"
+  ],
+  "count": 27.497538503087664,
+  "uniform": 27.497538503087664,
+  "weighted-cf": 25.964366091835096,
+  "pattern-cf": 27.413342463449553,
+  "weighted-oracle": 26.81341226712371,
+  "pattern-oracle": 27.723943125210663,
+  "best": 27.402376785136056,
+  "dominance": 1.7397756156191504
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini"
+  ],
+  "count": 27.293204706266895,
+  "uniform": 27.293204706266895,
+  "weighted-cf": 25.2538926904656,
+  "pattern-cf": 27.04210731297223,
+  "weighted-oracle": 25.146556341407912,
+  "pattern-oracle": 27.36776282371376,
+  "best": 27.402376785136056,
+  "dominance": 1.8101716597085573
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano"
+  ],
+  "count": 26.553610119745958,
+  "uniform": 26.553610119745958,
+  "weighted-cf": 24.619451706058566,
+  "pattern-cf": 25.717664722588946,
+  "weighted-oracle": 25.212573684599594,
+  "pattern-oracle": 27.009135304592608,
+  "best": 27.402376785136056,
+  "dominance": 2.018353337098823
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "grok-4.3"
+  ],
+  "count": 29.71715522345703,
+  "uniform": 29.71715522345703,
+  "weighted-cf": 29.043008133310177,
+  "pattern-cf": 29.240798427301474,
+  "weighted-oracle": 28.99916612899154,
+  "pattern-oracle": 29.738042539644972,
+  "best": 27.402376785136056,
+  "dominance": 1.5136462383471185
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 24.226961908521577,
+  "uniform": 24.226961908521577,
+  "weighted-cf": 22.299884676010027,
+  "pattern-cf": 24.275907294794898,
+  "weighted-oracle": 22.072223411635118,
+  "pattern-oracle": 24.86770266281971,
+  "best": 27.402376785136056,
+  "dominance": 1.99213815773373
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 23.76717932093024,
+  "uniform": 23.76717932093024,
+  "weighted-cf": 22.32250459564481,
+  "pattern-cf": 25.279634648427773,
+  "weighted-oracle": 21.688077526140866,
+  "pattern-oracle": 25.279634648427773,
+  "best": 27.402376785136056,
+  "dominance": 2.2472273185283704
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 28.583506736676405,
+  "uniform": 28.583506736676405,
+  "weighted-cf": 28.516771857002194,
+  "pattern-cf": 27.886057914421375,
+  "weighted-oracle": 28.36766622847954,
+  "pattern-oracle": 28.788089024643277,
+  "best": 27.402376785136056,
+  "dominance": 1.6388183022561882
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 21.93602728685086,
+  "uniform": 21.93602728685086,
+  "weighted-cf": 22.63678576023855,
+  "pattern-cf": 26.530106845363193,
+  "weighted-oracle": 22.1588893807354,
+  "pattern-oracle": 26.530106845363193,
+  "best": 27.402376785136056,
+  "dominance": 2.3660807779013373
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 28.536339317065135,
+  "uniform": 28.536339317065135,
+  "weighted-cf": 27.67809459797354,
+  "pattern-cf": 28.42124908655575,
+  "weighted-oracle": 27.87402225448738,
+  "pattern-oracle": 28.9034981172438,
+  "best": 27.402376785136056,
+  "dominance": 1.7011350607733782
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 27.918127013686313,
+  "uniform": 27.918127013686313,
+  "weighted-cf": 27.794464067743025,
+  "pattern-cf": 27.982982880304675,
+  "weighted-oracle": 28.400699640594233,
+  "pattern-oracle": 28.49949235359446,
+  "best": 27.402376785136056,
+  "dominance": 1.8837273269931663
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 22.39871715253335,
+  "uniform": 22.39871715253335,
+  "weighted-cf": 24.288018137612593,
+  "pattern-cf": 24.74493929202402,
+  "weighted-oracle": 24.33274297758171,
+  "pattern-oracle": 24.80052796708487,
+  "best": 23.201657561281504,
+  "dominance": 1.6867481136005664
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 21.778092698354794,
+  "uniform": 21.778092698354794,
+  "weighted-cf": 24.58071840422014,
+  "pattern-cf": 24.506858315079377,
+  "weighted-oracle": 24.738680349074716,
+  "pattern-oracle": 24.585336182860964,
+  "best": 23.201657561281504,
+  "dominance": 1.9027327124096123
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 26.279208888718543,
+  "uniform": 26.279208888718543,
+  "weighted-cf": 27.832659283651317,
+  "pattern-cf": 27.852551920693212,
+  "weighted-oracle": 28.124927835721493,
+  "pattern-oracle": 28.22973512003134,
+  "best": 27.082821295652177,
+  "dominance": 1.7194870525941042
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 20.261475688706284,
+  "uniform": 20.261475688706284,
+  "weighted-cf": 23.738238741665164,
+  "pattern-cf": 23.89604138016182,
+  "weighted-oracle": 23.84968269246865,
+  "pattern-oracle": 23.964104801786256,
+  "best": 23.201657561281504,
+  "dominance": 2.0033662189834316
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 25.63025831761234,
+  "uniform": 25.63025831761234,
+  "weighted-cf": 27.66089906768942,
+  "pattern-cf": 27.865490232935137,
+  "weighted-oracle": 27.319424015767307,
+  "pattern-oracle": 28.07697879023558,
+  "best": 27.082821295652177,
+  "dominance": 1.7890621663495072
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 25.14253129989931,
+  "uniform": 25.14253129989931,
+  "weighted-cf": 27.66055616789741,
+  "pattern-cf": 27.65449405028675,
+  "weighted-oracle": 27.729338196192877,
+  "pattern-oracle": 27.940656360381887,
+  "best": 27.082821295652177,
+  "dominance": 1.9948161128045458
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 19.31862654673307,
+  "uniform": 19.31862654673307,
+  "weighted-cf": 19.582037607418286,
+  "pattern-cf": 19.63577857232786,
+  "weighted-oracle": 20.001157859875963,
+  "pattern-oracle": 20.001157859875963,
+  "best": 17.67069846486669,
+  "dominance": 1.5257910033735105
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 23.086305168297717,
+  "uniform": 23.086305168297717,
+  "weighted-cf": 27.439568025970377,
+  "pattern-cf": 27.813015420086696,
+  "weighted-oracle": 27.406439211237593,
+  "pattern-oracle": 28.13289464041788,
+  "best": 27.082821295652177,
+  "dominance": 1.9689066443104335
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 22.509426167696965,
+  "uniform": 22.509426167696965,
+  "weighted-cf": 28.009369209946588,
+  "pattern-cf": 27.31594254652043,
+  "weighted-oracle": 28.009369209946588,
+  "pattern-oracle": 28.037765559949086,
+  "best": 27.082821295652177,
+  "dominance": 2.221021057977154
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 21.019241809646985,
+  "uniform": 21.019241809646985,
+  "weighted-cf": 27.490846647137573,
+  "pattern-cf": 27.606420868240843,
+  "weighted-oracle": 27.178969810253843,
+  "pattern-oracle": 27.886929410045365,
+  "best": 27.082821295652177,
+  "dominance": 2.338488496141647
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 27.622524026003802,
+  "uniform": 27.622524026003802,
+  "weighted-cf": 25.677991978851715,
+  "pattern-cf": 27.137385545601095,
+  "weighted-oracle": 26.413525578797,
+  "pattern-oracle": 27.622524026003802,
+  "best": 27.402376785136056,
+  "dominance": 1.773540964948189
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 27.51271697472883,
+  "uniform": 27.51271697472883,
+  "weighted-cf": 25.949446321707615,
+  "pattern-cf": 27.335484697816025,
+  "weighted-oracle": 26.996752923287588,
+  "pattern-oracle": 27.588788553122452,
+  "best": 27.402376785136056,
+  "dominance": 1.9729183427836725
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 29.60015291045873,
+  "uniform": 29.60015291045873,
+  "weighted-cf": 28.88900628321486,
+  "pattern-cf": 28.79213333049354,
+  "weighted-oracle": 29.29028327976707,
+  "pattern-oracle": 29.799123575403108,
+  "best": 27.402376785136056,
+  "dominance": 1.4879484096414752
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 26.347872220493016,
+  "uniform": 26.347872220493016,
+  "weighted-cf": 25.134381157096374,
+  "pattern-cf": 26.17009482035725,
+  "weighted-oracle": 25.072175453013738,
+  "pattern-oracle": 26.496167256835907,
+  "best": 27.402376785136056,
+  "dominance": 2.0639392751418884
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 29.74193040099814,
+  "uniform": 29.74193040099814,
+  "weighted-cf": 28.14112104170797,
+  "pattern-cf": 29.162752900057527,
+  "weighted-oracle": 28.473229240151447,
+  "pattern-oracle": 29.74193040099814,
+  "best": 27.402376785136056,
+  "dominance": 1.539140320731354
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.406663988859517,
+  "uniform": 29.406663988859517,
+  "weighted-cf": 28.908224423001872,
+  "pattern-cf": 28.890019528826944,
+  "weighted-oracle": 29.037680799400928,
+  "pattern-oracle": 29.4752928656141,
+  "best": 27.402376785136056,
+  "dominance": 1.6871004499557318
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 23.183218444573356,
+  "uniform": 23.183218444573356,
+  "weighted-cf": 21.518881723303064,
+  "pattern-cf": 25.9603617447656,
+  "weighted-oracle": 22.210622928134207,
+  "pattern-oracle": 24.84989509057674,
+  "best": 27.402376785136056,
+  "dominance": 2.3038830991893264
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 28.684057085636848,
+  "uniform": 28.684057085636848,
+  "weighted-cf": 27.81455980978052,
+  "pattern-cf": 28.562116818552973,
+  "weighted-oracle": 27.92691128740859,
+  "pattern-oracle": 28.90873214060538,
+  "best": 27.402376785136056,
+  "dominance": 1.668744913628663
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.231009582281665,
+  "uniform": 28.231009582281665,
+  "weighted-cf": 28.351157345433155,
+  "pattern-cf": 27.996254341823523,
+  "weighted-oracle": 28.49277604676434,
+  "pattern-oracle": 28.515826864059584,
+  "best": 27.402376785136056,
+  "dominance": 1.8440917903282033
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 27.647762499562035,
+  "uniform": 27.647762499562035,
+  "weighted-cf": 27.436898478153037,
+  "pattern-cf": 27.7161766601293,
+  "weighted-oracle": 27.46726194920821,
+  "pattern-oracle": 28.3321387507042,
+  "best": 27.402376785136056,
+  "dominance": 1.9233751011787936
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 21.492325979492737,
+  "uniform": 21.492325979492737,
+  "weighted-cf": 24.039972724781787,
+  "pattern-cf": 24.19468174588374,
+  "weighted-oracle": 24.054485198683395,
+  "pattern-oracle": 24.294757037690193,
+  "best": 23.201657561281504,
+  "dominance": 1.9507032965698743
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 26.143974080950876,
+  "uniform": 26.143974080950876,
+  "weighted-cf": 27.801067746415203,
+  "pattern-cf": 28.246632050324084,
+  "weighted-oracle": 27.441959286935884,
+  "pattern-oracle": 28.262789279472855,
+  "best": 27.082821295652177,
+  "dominance": 1.7528586440087457
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 25.6871413939152,
+  "uniform": 25.6871413939152,
+  "weighted-cf": 27.61274028125367,
+  "pattern-cf": 27.869163716835267,
+  "weighted-oracle": 27.698218786759437,
+  "pattern-oracle": 27.89975621178355,
+  "best": 27.082821295652177,
+  "dominance": 1.9499109631069598
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 24.715450858273385,
+  "uniform": 24.715450858273385,
+  "weighted-cf": 27.577382685404256,
+  "pattern-cf": 27.718698296461884,
+  "weighted-oracle": 27.241056865901943,
+  "pattern-oracle": 27.864013875349013,
+  "best": 27.082821295652177,
+  "dominance": 2.039870445985042
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 21.950153276548654,
+  "uniform": 21.950153276548654,
+  "weighted-cf": 27.454448022063005,
+  "pattern-cf": 27.35013899420026,
+  "weighted-oracle": 27.343954999722538,
+  "pattern-oracle": 27.921795469091897,
+  "best": 27.082821295652177,
+  "dominance": 2.2770161417261905
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 27.692549207287655,
+  "uniform": 27.692549207287655,
+  "weighted-cf": 25.787591835876807,
+  "pattern-cf": 27.818062779333037,
+  "weighted-oracle": 26.16198122664377,
+  "pattern-oracle": 28.07246437116135,
+  "best": 27.402376785136056,
+  "dominance": 1.5115839239825004
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 27.43100367855386,
+  "uniform": 27.43100367855386,
+  "weighted-cf": 25.97945492629636,
+  "pattern-cf": 27.556786484312994,
+  "weighted-oracle": 26.60807223020883,
+  "pattern-oracle": 27.98569671833024,
+  "best": 27.402376785136056,
+  "dominance": 1.6540481982950495
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 29.575127097351373,
+  "uniform": 29.575127097351373,
+  "weighted-cf": 28.745478983644464,
+  "pattern-cf": 29.023761303334254,
+  "weighted-oracle": 29.17233649567843,
+  "pattern-oracle": 29.908189061053235,
+  "best": 27.402376785136056,
+  "dominance": 1.2990720134847824
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 26.908488074408687,
+  "uniform": 26.908488074408687,
+  "weighted-cf": 24.581063936787725,
+  "pattern-cf": 26.798948408964595,
+  "weighted-oracle": 24.952425705411848,
+  "pattern-oracle": 27.311913163481655,
+  "best": 27.402376785136056,
+  "dominance": 1.7175510257340278
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 29.960569925554374,
+  "uniform": 29.960569925554374,
+  "weighted-cf": 28.260664895117532,
+  "pattern-cf": 29.523510720712583,
+  "weighted-oracle": 28.414681332728257,
+  "pattern-oracle": 30.117488237672717,
+  "best": 27.402376785136056,
+  "dominance": 1.3379227741975495
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.25025805307438,
+  "uniform": 29.25025805307438,
+  "weighted-cf": 28.946074286579044,
+  "pattern-cf": 29.484376314729154,
+  "weighted-oracle": 28.85289037510409,
+  "pattern-oracle": 29.88324321979888,
+  "best": 27.402376785136056,
+  "dominance": 1.4483373262695394
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 24.104129758223518,
+  "uniform": 24.104129758223518,
+  "weighted-cf": 23.25833382472401,
+  "pattern-cf": 23.85903064994234,
+  "weighted-oracle": 23.32041006721864,
+  "pattern-oracle": 24.753863340516446,
+  "best": 27.402376785136056,
+  "dominance": 1.8805343372592105
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 28.71029211290891,
+  "uniform": 28.71029211290891,
+  "weighted-cf": 27.79134985016994,
+  "pattern-cf": 28.121419792807767,
+  "weighted-oracle": 27.716708720407425,
+  "pattern-oracle": 28.973908034153123,
+  "best": 27.402376785136056,
+  "dominance": 1.434788743570147
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.44377807964047,
+  "uniform": 28.44377807964047,
+  "weighted-cf": 28.357874021998587,
+  "pattern-cf": 28.186142655351777,
+  "weighted-oracle": 28.354867861015205,
+  "pattern-oracle": 28.821486868765046,
+  "best": 27.402376785136056,
+  "dominance": 1.5625334233188253
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.054351893774506,
+  "uniform": 28.054351893774506,
+  "weighted-cf": 27.557635638497647,
+  "pattern-cf": 28.23737426321905,
+  "weighted-oracle": 27.835400699117823,
+  "pattern-oracle": 28.752172884854666,
+  "best": 27.402376785136056,
+  "dominance": 1.6190835834470272
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 22.418194078366692,
+  "uniform": 22.418194078366692,
+  "weighted-cf": 24.2578050395778,
+  "pattern-cf": 24.852999366072346,
+  "weighted-oracle": 24.406945013361288,
+  "pattern-oracle": 24.83252724099789,
+  "best": 23.201657561281504,
+  "dominance": 1.5922528935149456
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 26.38251656348488,
+  "uniform": 26.38251656348488,
+  "weighted-cf": 27.750301533460476,
+  "pattern-cf": 28.138940618774054,
+  "weighted-oracle": 27.541711843020337,
+  "pattern-oracle": 28.313163935598013,
+  "best": 27.082821295652177,
+  "dominance": 1.4939564406254286
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 26.070330322498137,
+  "uniform": 26.070330322498137,
+  "weighted-cf": 27.845477963092442,
+  "pattern-cf": 27.977651277760106,
+  "weighted-oracle": 28.035228428511026,
+  "pattern-oracle": 28.212691690053855,
+  "best": 27.082821295652177,
+  "dominance": 1.6347593539082803
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 25.44099680348493,
+  "uniform": 25.44099680348493,
+  "weighted-cf": 27.66184544666895,
+  "pattern-cf": 27.89903446000889,
+  "weighted-oracle": 27.2716746500483,
+  "pattern-oracle": 28.052693990368464,
+  "best": 27.082821295652177,
+  "dominance": 1.6975216369315318
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 23.047102238041596,
+  "uniform": 23.047102238041596,
+  "weighted-cf": 27.483733333514564,
+  "pattern-cf": 27.868100942083913,
+  "weighted-oracle": 27.4097743755834,
+  "pattern-oracle": 28.107922065593772,
+  "best": 27.082821295652177,
+  "dominance": 1.8586043026733026
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 27.44157215646121,
+  "uniform": 27.44157215646121,
+  "weighted-cf": 25.736277917715427,
+  "pattern-cf": 27.390346680617128,
+  "weighted-oracle": 26.390335046232387,
+  "pattern-oracle": 27.59103982614091,
+  "best": 27.402376785136056,
+  "dominance": 1.6845387976903397
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 29.665173837722293,
+  "uniform": 29.665173837722293,
+  "weighted-cf": 28.109677750796834,
+  "pattern-cf": 29.488611950737685,
+  "weighted-oracle": 28.53154911430819,
+  "pattern-oracle": 29.912852784577616,
+  "best": 27.402376785136056,
+  "dominance": 1.3178056187521168
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.565230569834217,
+  "uniform": 29.565230569834217,
+  "weighted-cf": 28.761142323298046,
+  "pattern-cf": 28.93740582285334,
+  "weighted-oracle": 29.29680696559097,
+  "pattern-oracle": 29.734121372067918,
+  "best": 27.402376785136056,
+  "dominance": 1.4247919653927108
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.39492677039076,
+  "uniform": 29.39492677039076,
+  "weighted-cf": 28.493612850449455,
+  "pattern-cf": 29.189393585807387,
+  "weighted-oracle": 28.493612850449455,
+  "pattern-oracle": 29.52343260938608,
+  "best": 27.402376785136056,
+  "dominance": 1.4716619457226958
+ },
+ {
+  "k": 5,
+  "ens": [
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.383469802721322,
+  "uniform": 28.383469802721322,
+  "weighted-cf": 27.637140871669853,
+  "pattern-cf": 28.291582838951,
+  "weighted-oracle": 27.809520171845442,
+  "pattern-oracle": 28.685736773258235,
+  "best": 27.402376785136056,
+  "dominance": 1.5897156830580188
+ },
+ {
+  "k": 5,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 25.938134521961747,
+  "uniform": 25.938134521961747,
+  "weighted-cf": 27.729651492213186,
+  "pattern-cf": 27.986687010540688,
+  "weighted-oracle": 27.346045396806367,
+  "pattern-oracle": 28.228071908154924,
+  "best": 27.082821295652177,
+  "dominance": 1.6648943842049182
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "count": 27.72261465048022,
+  "uniform": 27.72261465048022,
+  "weighted-cf": 25.81428288115546,
+  "pattern-cf": 27.823668568064008,
+  "weighted-oracle": 26.250195864875543,
+  "pattern-oracle": 28.240521890745786,
+  "best": 27.402376785136056,
+  "dominance": 1.751561804688767
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "count": 27.49437863373936,
+  "uniform": 27.49437863373936,
+  "weighted-cf": 26.19742463676093,
+  "pattern-cf": 27.42153435159428,
+  "weighted-oracle": 26.779808334475323,
+  "pattern-oracle": 27.82382393879057,
+  "best": 27.402376785136056,
+  "dominance": 1.903548261472107
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "count": 29.619485880706346,
+  "uniform": 29.619485880706346,
+  "weighted-cf": 28.839053127977877,
+  "pattern-cf": 28.771212170289008,
+  "weighted-oracle": 29.22065321561268,
+  "pattern-oracle": 30.025513396669297,
+  "best": 27.402376785136056,
+  "dominance": 1.5209192709248864
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 27.01200719881133,
+  "uniform": 27.01200719881133,
+  "weighted-cf": 25.15118508118588,
+  "pattern-cf": 26.73913733269278,
+  "weighted-oracle": 25.097248856405407,
+  "pattern-oracle": 27.359600776961862,
+  "best": 27.402376785136056,
+  "dominance": 1.9706283871367696
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 29.99063888440281,
+  "uniform": 29.99063888440281,
+  "weighted-cf": 28.250422665949102,
+  "pattern-cf": 29.828318018233453,
+  "weighted-oracle": 28.567735532661942,
+  "pattern-oracle": 30.192421737047987,
+  "best": 27.402376785136056,
+  "dominance": 1.5634411997081934
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.37449051069368,
+  "uniform": 29.37449051069368,
+  "weighted-cf": 28.991242192609374,
+  "pattern-cf": 29.35581664652615,
+  "weighted-oracle": 28.957317519913158,
+  "pattern-oracle": 30.006739002016058,
+  "best": 27.402376785136056,
+  "dominance": 1.6834155536378743
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 24.243899390829714,
+  "uniform": 24.243899390829714,
+  "weighted-cf": 22.19005635728122,
+  "pattern-cf": 23.886948975399175,
+  "weighted-oracle": 22.312737173615847,
+  "pattern-oracle": 24.67639140123497,
+  "best": 27.402376785136056,
+  "dominance": 2.140943058158405
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 28.734595223161786,
+  "uniform": 28.734595223161786,
+  "weighted-cf": 27.84333509905586,
+  "pattern-cf": 28.161787136948046,
+  "weighted-oracle": 27.767823512467015,
+  "pattern-oracle": 29.089021488035005,
+  "best": 27.402376785136056,
+  "dominance": 1.668763038564724
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.45959122448747,
+  "uniform": 28.45959122448747,
+  "weighted-cf": 28.42917527346182,
+  "pattern-cf": 28.229949077115673,
+  "weighted-oracle": 28.427943399815398,
+  "pattern-oracle": 28.830825768819864,
+  "best": 27.402376785136056,
+  "dominance": 1.8061563347762446
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.12398166756802,
+  "uniform": 28.12398166756802,
+  "weighted-cf": 27.582882103829085,
+  "pattern-cf": 28.351666984447444,
+  "weighted-oracle": 27.80485926333372,
+  "pattern-oracle": 28.762160049033454,
+  "best": 27.402376785136056,
+  "dominance": 1.866439277551433
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 22.66030688963695,
+  "uniform": 22.66030688963695,
+  "weighted-cf": 24.46942995998267,
+  "pattern-cf": 24.813209156531624,
+  "weighted-oracle": 24.46942995998267,
+  "pattern-oracle": 24.884716303578085,
+  "best": 23.201657561281504,
+  "dominance": 1.8127415765094723
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 26.61206164357699,
+  "uniform": 26.61206164357699,
+  "weighted-cf": 27.833932970458914,
+  "pattern-cf": 28.17744215765579,
+  "weighted-oracle": 27.578001691819576,
+  "pattern-oracle": 28.358580828547765,
+  "best": 27.082821295652177,
+  "dominance": 1.731135795870357
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 26.292742210093113,
+  "uniform": 26.292742210093113,
+  "weighted-cf": 27.840171398512894,
+  "pattern-cf": 28.072915112079304,
+  "weighted-oracle": 28.108800536669236,
+  "pattern-oracle": 28.32941285770911,
+  "best": 27.082821295652177,
+  "dominance": 1.8813498477644004
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 25.683056131073638,
+  "uniform": 25.683056131073638,
+  "weighted-cf": 27.719317756982477,
+  "pattern-cf": 27.982582921812188,
+  "weighted-oracle": 27.319424015767307,
+  "pattern-oracle": 28.144463082884,
+  "best": 27.082821295652177,
+  "dominance": 1.9476477120011768
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 23.237208768898803,
+  "uniform": 23.237208768898803,
+  "weighted-cf": 27.477005076171483,
+  "pattern-cf": 27.621408462640133,
+  "weighted-oracle": 27.465470018071702,
+  "pattern-oracle": 28.15001996729281,
+  "best": 27.082821295652177,
+  "dominance": 2.1159762418755914
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 27.578312641620272,
+  "uniform": 27.578312641620272,
+  "weighted-cf": 25.84423287237167,
+  "pattern-cf": 27.125250587400007,
+  "weighted-oracle": 26.454740701532696,
+  "pattern-oracle": 27.662266891393795,
+  "best": 27.402376785136056,
+  "dominance": 1.9358074032336139
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 29.823175243442623,
+  "uniform": 29.823175243442623,
+  "weighted-cf": 28.22968492391171,
+  "pattern-cf": 29.115318727009733,
+  "weighted-oracle": 28.606835229360733,
+  "pattern-oracle": 30.036119175244373,
+  "best": 27.402376785136056,
+  "dominance": 1.5414431978049945
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.681028336563003,
+  "uniform": 29.681028336563003,
+  "weighted-cf": 29.05578516620476,
+  "pattern-cf": 28.841403445593848,
+  "weighted-oracle": 29.337738441092533,
+  "pattern-oracle": 29.977533190119804,
+  "best": 27.402376785136056,
+  "dominance": 1.657939383477297
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.555298350338973,
+  "uniform": 29.555298350338973,
+  "weighted-cf": 28.43524424286351,
+  "pattern-cf": 29.00651108561489,
+  "weighted-oracle": 28.473229240151447,
+  "pattern-oracle": 29.688083552009324,
+  "best": 27.402376785136056,
+  "dominance": 1.7085956508503228
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.443108763860288,
+  "uniform": 28.443108763860288,
+  "weighted-cf": 27.841810912514987,
+  "pattern-cf": 28.453076960739367,
+  "weighted-oracle": 27.92785905562613,
+  "pattern-oracle": 28.812534827217114,
+  "best": 27.402376785136056,
+  "dominance": 1.835173788923661
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Cohere-command-a-plus-05-2026",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 26.266845297099238,
+  "uniform": 26.266845297099238,
+  "weighted-cf": 27.854071121414858,
+  "pattern-cf": 28.075147448659436,
+  "weighted-oracle": 27.441959286935884,
+  "pattern-oracle": 28.40278652982171,
+  "best": 27.082821295652177,
+  "dominance": 1.9132327963979623
+ },
+ {
+  "k": 6,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "count": 27.53289300233814,
+  "uniform": 27.53289300233814,
+  "weighted-cf": 25.77465154151551,
+  "pattern-cf": 27.691573980645405,
+  "weighted-oracle": 26.13950800567909,
+  "pattern-oracle": 28.049794093976292,
+  "best": 27.402376785136056,
+  "dominance": 1.6813745489228247
+ },
+ {
+  "k": 6,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "count": 29.64952403000754,
+  "uniform": 29.64952403000754,
+  "weighted-cf": 28.23015168602331,
+  "pattern-cf": 29.329634620367163,
+  "weighted-oracle": 28.44634721425619,
+  "pattern-oracle": 30.114823734843732,
+  "best": 27.402376785136056,
+  "dominance": 1.375678839392493
+ },
+ {
+  "k": 6,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.333270076413324,
+  "uniform": 29.333270076413324,
+  "weighted-cf": 28.826351074977737,
+  "pattern-cf": 29.171802643862243,
+  "weighted-oracle": 29.108423951334238,
+  "pattern-oracle": 30.035571453905224,
+  "best": 27.402376785136056,
+  "dominance": 1.4677185789201435
+ },
+ {
+  "k": 6,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.48174242988319,
+  "uniform": 29.48174242988319,
+  "weighted-cf": 28.184495244980322,
+  "pattern-cf": 29.707708781766414,
+  "weighted-oracle": 28.340914790637346,
+  "pattern-oracle": 30.142564478180685,
+  "best": 27.402376785136056,
+  "dominance": 1.5072790725363838
+ },
+ {
+  "k": 6,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "Kimi-K2.5",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 28.404301807351075,
+  "uniform": 28.404301807351075,
+  "weighted-cf": 27.69174624990738,
+  "pattern-cf": 27.976678065612187,
+  "weighted-oracle": 27.801080899940928,
+  "pattern-oracle": 29.056251675869248,
+  "best": 27.402376785136056,
+  "dominance": 1.604933735156952
+ },
+ {
+  "k": 6,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 26.31469626142413,
+  "uniform": 26.31469626142413,
+  "weighted-cf": 27.778195843629522,
+  "pattern-cf": 28.080085618589614,
+  "weighted-oracle": 27.47739102706321,
+  "pattern-oracle": 28.339907967052834,
+  "best": 27.082821295652177,
+  "dominance": 1.6617670356330205
+ },
+ {
+  "k": 6,
+  "ens": [
+   "Kimi-K2.5",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "count": 29.463056793851568,
+  "uniform": 29.463056793851568,
+  "weighted-cf": 28.266033548676894,
+  "pattern-cf": 29.172344603791323,
+  "weighted-oracle": 28.494847147122865,
+  "pattern-oracle": 29.90647621370567,
+  "best": 27.402376785136056,
+  "dominance": 1.48682277500816
+ }
+]

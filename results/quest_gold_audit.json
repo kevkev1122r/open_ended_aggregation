@@ -1,0 +1,17 @@
+{
+  "HIGH-CONSENSUS, not in gold": {
+    "YES": 44,
+    "NO": 14,
+    "UNSURE": 2
+  },
+  "IN GOLD (calibration)": {
+    "YES": 52,
+    "NO": 6,
+    "UNSURE": 2
+  },
+  "SOLO, not in gold": {
+    "YES": 17,
+    "NO": 30,
+    "UNSURE": 13
+  }
+}

@@ -30,3 +30,10 @@ dist/
 data/quest_test.jsonl
 data/quest_train.jsonl
 data/quest_val.jsonl
+
+# LongWeave raw release (224 MB) — re-downloadable, never commit
+data/longweave.jsonl
+
+# mpnet sentence-embedding cache for ASQA — derived, regenerated automatically
+# by analysis/asqa_ensembles.py in ~1 min if absent
+data/asqa_sent_emb.npy

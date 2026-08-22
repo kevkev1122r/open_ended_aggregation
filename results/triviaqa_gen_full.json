@@ -1,0 +1,6 @@
+{
+  "best single (llama-3.3-70b-inst)": 86.34713144517066,
+  "majority vote (counting)": 85.039941902687,
+  "weighted vote (OW log-odds)": 85.94771241830065,
+  "oracle (any agent right)": 92.95570079883805
+}
