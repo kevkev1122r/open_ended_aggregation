@@ -252,12 +252,14 @@ the candidate volume, not a universal aggregation rule.**
 
 ## 6. Next
 
-1. **Headline `BLEND + budget` vs best-single (+16.8%)**, MA-count (+9.1%) as
-   secondary, `pattern` (+0.8%, ns) as the foil that makes both interesting.
-   Report `RRF` (+2.9%) as the off-the-shelf baseline — a reviewer will ask.
-2. **`LEAN + budget` is the version to put in the paper's method section**:
-   +15.8% / +8.1%, linear, no boosting, far easier to describe. The GBM blend
-   buys the last +0.3.
+1. **Headline `rank scorer + budget` vs best-single (+15.8%)**, MA-count
+   (+8.1%) as secondary, `pattern` (+0.8%, ns) as the foil that makes both
+   interesting. Report `RRF` (+2.9%) as the off-the-shelf baseline — a reviewer
+   will ask. Boosting is a rejected ablation, not part of the method.
+2. **The ASQA per-ensemble sweep is now complete** and it cuts the other way:
+   weighting beats our method at every size there (27.01 vs 26.35 at n=6). Two
+   mirror-image sweeps, same two methods, opposite verdicts — that contrast is
+   a stronger result than either sweep alone.
 3. ~~Re-run the ensemble-size sweep with the budget arm.~~ **Done — §2.2.**
    210/210 ensembles, every size. This is probably the paper's central figure:
    it shows the mechanism holding across the whole ensemble-size range while the

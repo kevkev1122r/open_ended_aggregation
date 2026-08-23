@@ -479,7 +479,7 @@ kids.push(...callout('One useful confirmation', [
 // ============ 12
 kids.push(sectionHead('12', 'Open items'));
 kids.push(...bullets([
-  [b('The ASQA per-ensemble table is incomplete'), r(' — it has counting versus weighting only; our method is not in it. Roughly 30–45 minutes, free.')],
+  [b('The ASQA per-ensemble table'), r(' — DONE 23 August. All 42 ASQA ensembles now carry our method. It beats counting at every size (+2.7% to +8.6%, significant in 29 of 42) but loses to reliability weighting at every size, with the gap widening as the pool grows — the mirror image of QAMPARI.')],
   [b('Paper-exact single-model Atomic Self-Consistency'), r(' needs new generation (777 × m calls on one model). The current arm substitutes agents for stochastic samples — unavoidable from cache, and it is the extension we propose, but it should be stated.')],
   [b('The ASQA metric'), r(' is a proxy: the square root of ROUGE-L times string exact-match. A faithful published metric needs the RoBERTa-SQuADv2 reader.')],
   [b('Roughly 15 novelty-check sources'), r(' were read only as search summaries and need direct reads before entering a bibliography.')],
