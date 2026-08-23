@@ -1,0 +1,746 @@
+[
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 28.69083687654954,
+  "count": 27.054098904682057,
+  "weighted": 28.90916921755562,
+  "ours": 27.41028055222271,
+  "wgt_vs_cnt": 1.8550703128735635,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.3561816475406512,
+  "ours_sig": false
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 26.399147922781214,
+  "count": 26.379586238446624,
+  "weighted": 25.706815051229277,
+  "ours": 26.837591643045823,
+  "wgt_vs_cnt": -0.6727711872173453,
+  "wgt_sig": false,
+  "ours_vs_cnt": 0.45800540459920047,
+  "ours_sig": false
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 25.723997645163195,
+  "count": 25.58763092380709,
+  "weighted": 25.587207002246938,
+  "ours": 26.22696720290382,
+  "wgt_vs_cnt": -0.0004239215601570603,
+  "wgt_sig": false,
+  "ours_vs_cnt": 0.639336279096729,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "grok-4.3"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 26.39147256551442,
+  "count": 25.66813185445519,
+  "weighted": 26.490687383073336,
+  "ours": 27.503715627542313,
+  "wgt_vs_cnt": 0.822555528618145,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.8355837730871207,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.709778199415908,
+  "count": 26.728197400266847,
+  "weighted": 27.900647001679445,
+  "ours": 27.000893875329048,
+  "wgt_vs_cnt": 1.1724496014126067,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.27269647506220523,
+  "ours_sig": false
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.656790334810722,
+  "count": 26.497505647251383,
+  "weighted": 27.563034106437957,
+  "ours": 26.351292378357353,
+  "wgt_vs_cnt": 1.0655284591865695,
+  "wgt_sig": true,
+  "ours_vs_cnt": -0.14621326889402864,
+  "ours_sig": false
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.803838659569045,
+  "count": 26.040676545821896,
+  "weighted": 27.941116608678918,
+  "ours": 27.23794149508994,
+  "wgt_vs_cnt": 1.9004400628570202,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.1972649492680425,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "DeepSeek-V4-Flash",
+  "best": 25.10441453575782,
+  "count": 24.994532007300386,
+  "weighted": 25.240257269370854,
+  "ours": 25.480311419865302,
+  "wgt_vs_cnt": 0.2457252620704588,
+  "wgt_sig": false,
+  "ours_vs_cnt": 0.48577941256491397,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "best_model": "DeepSeek-V4-Flash",
+  "best": 25.5321604219949,
+  "count": 25.154351934714324,
+  "weighted": 25.589112254329212,
+  "ours": 26.365203750816256,
+  "wgt_vs_cnt": 0.4347603196148776,
+  "wgt_sig": false,
+  "ours_vs_cnt": 1.210851816101927,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "DeepSeek-V4-Flash",
+  "best": 24.5165451681216,
+  "count": 24.916453600548337,
+  "weighted": 24.916453600548337,
+  "ours": 25.509050491575607,
+  "wgt_vs_cnt": 0.0,
+  "wgt_sig": false,
+  "ours_vs_cnt": 0.5925968910272719,
+  "ours_sig": false
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 28.109888523244848,
+  "count": 27.20260207798526,
+  "weighted": 28.316034011226414,
+  "ours": 27.04963341177483,
+  "wgt_vs_cnt": 1.1134319332411555,
+  "wgt_sig": true,
+  "ours_vs_cnt": -0.15296866621042662,
+  "ours_sig": false
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 28.16249673834237,
+  "count": 26.82871223063714,
+  "weighted": 28.09369179052602,
+  "ours": 26.886650932156332,
+  "wgt_vs_cnt": 1.2649795598888809,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.05793870151919355,
+  "ours_sig": false
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.884343365893454,
+  "count": 26.293123327604455,
+  "weighted": 28.034637093535824,
+  "ours": 28.016356865657382,
+  "wgt_vs_cnt": 1.7415137659313664,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.7232335380529258,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 25.796630411600475,
+  "count": 26.103417825667442,
+  "weighted": 26.337599755578594,
+  "ours": 26.76780907651989,
+  "wgt_vs_cnt": 0.23418192991115538,
+  "wgt_sig": false,
+  "ours_vs_cnt": 0.6643912508524501,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 26.08778198762177,
+  "count": 25.83431608227114,
+  "weighted": 26.816358078737572,
+  "ours": 26.735554268843625,
+  "wgt_vs_cnt": 0.9820419964664252,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.9012381865724806,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 25.430029683655604,
+  "count": 24.992544225843154,
+  "weighted": 25.47244220862349,
+  "ours": 26.08278925140743,
+  "wgt_vs_cnt": 0.4798979827803346,
+  "wgt_sig": false,
+  "ours_vs_cnt": 1.0902450255642744,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.98056125318996,
+  "count": 25.86464676827365,
+  "weighted": 26.95015700150161,
+  "ours": 25.48226060284658,
+  "wgt_vs_cnt": 1.0855102332279523,
+  "wgt_sig": true,
+  "ours_vs_cnt": -0.3823861654270786,
+  "ours_sig": false
+ },
+ {
+  "k": 3,
+  "ens": [
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.02966335738543,
+  "count": 25.70550997119453,
+  "weighted": 27.253192362356376,
+  "ours": 27.124300791695998,
+  "wgt_vs_cnt": 1.5476823911618494,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.418790820501472,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.602444557991983,
+  "count": 25.437106052905236,
+  "weighted": 26.685627850531162,
+  "ours": 26.560591509876485,
+  "wgt_vs_cnt": 1.2485217976259302,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.1234854569712578,
+  "ours_sig": true
+ },
+ {
+  "k": 3,
+  "ens": [
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4-mini",
+  "best": 24.08450842677389,
+  "count": 24.324186458710496,
+  "weighted": 24.324186458710496,
+  "ours": 25.08573989370639,
+  "wgt_vs_cnt": 0.0,
+  "wgt_sig": false,
+  "ours_vs_cnt": 0.7615534349958908,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.768170066080682,
+  "count": 26.15236621147634,
+  "weighted": 28.197865298079805,
+  "ours": 26.573718984587064,
+  "wgt_vs_cnt": 2.045499086603465,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.42135277311072294,
+  "ours_sig": false
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.72268642952529,
+  "count": 26.01593583144058,
+  "weighted": 27.79121136529323,
+  "ours": 26.588119003724024,
+  "wgt_vs_cnt": 1.7752755338526498,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.5721831722834504,
+  "ours_sig": false
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.942231138364036,
+  "count": 25.513437543692262,
+  "weighted": 28.278511176506477,
+  "ours": 27.879002029074968,
+  "wgt_vs_cnt": 2.765073632814216,
+  "wgt_sig": true,
+  "ours_vs_cnt": 2.3655644853827087,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 25.5201851143051,
+  "count": 25.307133245752777,
+  "weighted": 25.114150468215428,
+  "ours": 26.149233429318343,
+  "wgt_vs_cnt": -0.19298277753735507,
+  "wgt_sig": false,
+  "ours_vs_cnt": 0.8421001835655618,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 25.93763085370295,
+  "count": 25.00178349461134,
+  "weighted": 25.461705177832656,
+  "ours": 26.88815413837823,
+  "wgt_vs_cnt": 0.4599216832213172,
+  "wgt_sig": false,
+  "ours_vs_cnt": 1.8863706437668875,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 25.299576174513298,
+  "count": 24.672764390761962,
+  "weighted": 25.608049768953826,
+  "ours": 26.232786278508836,
+  "wgt_vs_cnt": 0.9352853781918661,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.5600218877468726,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.01571727503691,
+  "count": 25.75929354869288,
+  "weighted": 27.059812607245014,
+  "ours": 26.284880125902767,
+  "wgt_vs_cnt": 1.300519058552134,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.5255865772098853,
+  "ours_sig": false
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.901525209839956,
+  "count": 25.171598821514518,
+  "weighted": 27.21500251998583,
+  "ours": 26.56948261217395,
+  "wgt_vs_cnt": 2.043403698471316,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.3978837906594317,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.860290432872503,
+  "count": 25.181851369290477,
+  "weighted": 26.970104117779485,
+  "ours": 26.417761816696988,
+  "wgt_vs_cnt": 1.788252748489006,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.23591044740651,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "DeepSeek-V4-Flash",
+  "best": 24.532481942987506,
+  "count": 24.278902358324817,
+  "weighted": 24.802674743604687,
+  "ours": 25.153770234547622,
+  "wgt_vs_cnt": 0.523772385279871,
+  "wgt_sig": false,
+  "ours_vs_cnt": 0.8748678762228081,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.5679954659773,
+  "count": 26.12998002265719,
+  "weighted": 27.568760230016714,
+  "ours": 26.524290307226394,
+  "wgt_vs_cnt": 1.4387802073595286,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.39431028456920725,
+  "ours_sig": false
+ },
+ {
+  "k": 4,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.421365734710136,
+  "count": 25.509921712049373,
+  "weighted": 27.70312872138841,
+  "ours": 27.036000668621195,
+  "wgt_vs_cnt": 2.19320700933904,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.5260789565718307,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.173901546651734,
+  "count": 25.359051023028023,
+  "weighted": 27.341706078020223,
+  "ours": 27.364167529708705,
+  "wgt_vs_cnt": 1.9826550549921989,
+  "wgt_sig": true,
+  "ours_vs_cnt": 2.0051165066806815,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 25.19441022659869,
+  "count": 24.80574962803196,
+  "weighted": 25.682409598523677,
+  "ours": 26.192587501858,
+  "wgt_vs_cnt": 0.8766599704917133,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.386837873826038,
+  "ours_sig": true
+ },
+ {
+  "k": 4,
+  "ens": [
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.206478805297905,
+  "count": 24.702425797921492,
+  "weighted": 26.356517937489805,
+  "ours": 25.78786260817806,
+  "wgt_vs_cnt": 1.6540921395683152,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.0854368102565686,
+  "ours_sig": true
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.25616104087515,
+  "count": 25.433606349353465,
+  "weighted": 27.504354025500295,
+  "ours": 26.157831924521442,
+  "wgt_vs_cnt": 2.0707476761468273,
+  "wgt_sig": true,
+  "ours_vs_cnt": 0.7242255751679758,
+  "ours_sig": false
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 27.177014031142765,
+  "count": 24.82012630683537,
+  "weighted": 27.57269547701412,
+  "ours": 26.899495774105294,
+  "wgt_vs_cnt": 2.7525691701787496,
+  "wgt_sig": true,
+  "ours_vs_cnt": 2.0793694672699163,
+  "ours_sig": true
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.945426227897652,
+  "count": 24.8469138504942,
+  "weighted": 27.26467153093565,
+  "ours": 27.0762910685431,
+  "wgt_vs_cnt": 2.4177576804414533,
+  "wgt_sig": true,
+  "ours_vs_cnt": 2.2293772180489,
+  "ours_sig": true
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "MAI-Thinking-1",
+  "best": 25.157104750717725,
+  "count": 24.30345630140765,
+  "weighted": 25.441157445231184,
+  "ours": 26.2182699376877,
+  "wgt_vs_cnt": 1.1377011438235332,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.9148136362800476,
+  "ours_sig": true
+ },
+ {
+  "k": 5,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.15812199322407,
+  "count": 24.543523709626587,
+  "weighted": 26.49936643946404,
+  "ours": 26.091753332290214,
+  "wgt_vs_cnt": 1.955842729837455,
+  "wgt_sig": true,
+  "ours_vs_cnt": 1.5482296226636274,
+  "ours_sig": true
+ },
+ {
+  "k": 5,
+  "ens": [
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.816229085919325,
+  "count": 24.27363860302837,
+  "weighted": 27.09453750991368,
+  "ours": 26.443226299958905,
+  "wgt_vs_cnt": 2.8208989068853136,
+  "wgt_sig": true,
+  "ours_vs_cnt": 2.169587696930533,
+  "ours_sig": true
+ },
+ {
+  "k": 6,
+  "ens": [
+   "DeepSeek-V4-Flash",
+   "MAI-Thinking-1",
+   "gpt-5.4",
+   "gpt-5.4-mini",
+   "gpt-5.4-nano",
+   "grok-4.3"
+  ],
+  "best_model": "gpt-5.4",
+  "best": 26.533603445985854,
+  "count": 24.271156740828843,
+  "weighted": 27.013330818054982,
+  "ours": 26.353544044000383,
+  "wgt_vs_cnt": 2.7421740772261396,
+  "wgt_sig": true,
+  "ours_vs_cnt": 2.0823873031715383,
+  "ours_sig": true
+ }
+]

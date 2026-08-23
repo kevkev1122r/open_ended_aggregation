@@ -178,6 +178,7 @@ Insights:
 
 ### 5.5 When does this transfer? The solo ratio
 - Solo ratio across QAMPARI 0.06, TriviaQA 0.24, ASQA 0.47, monotone with weighting's value.
+- `[Strongest form of this, added 23 Aug: the per-ensemble sweeps are mirror images. On QAMPARI our method beats weighting in 210/210 ensembles; on ASQA weighting beats ours at every size and the gap widens with n. Same two methods, opposite verdicts, predicted in advance by the solo ratio.]`
 - `[Be careful here: three points is an observation, not an established law. Say so.]`
 
 ### 5.6 Negative results

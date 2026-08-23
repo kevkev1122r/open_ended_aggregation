@@ -37,6 +37,11 @@ def main():
     except FileNotFoundError:
         A = []
     try:
+        OA = json.load(open(RESULTS / "asqa_ours_ensembles.json"))
+        OURSMAP = {(r["k"], frozenset(r["ens"])): r for r in OA}
+    except FileNotFoundError:
+        OURSMAP = {}
+    try:
         SC = json.load(open(RESULTS / "asc_ensembles.json"))
         ASCMAP = {(r["k"], frozenset(r["ens"])): r for r in SC["ensembles"]}
         ASCFULL, ASCTAU = SC["full_pool"], SC["tau"]
@@ -187,21 +192,40 @@ def main():
     if A:
         w("---\n")
         w("## 3. ASQA — every ensemble (DR*, 400 questions)\n")
-        w("The rank/budget arms were not run per-ensemble on ASQA (the budget "
-          "does not transfer there — see the weighting sweep doc). This is "
-          "counting vs reliability weighting only.\n")
-        w("| n | ensembles | best single | count | weighted | wgt − cnt | cnt − best |")
-        w("|---|---|---|---|---|---|---|")
+        w("The per-question **budget** is deliberately excluded here: it was "
+          "measured on the full ASQA pool and does not transfer, because DR's "
+          "length penalty is steeper than the F1-shaped surrogate the budget "
+          "rule assumes. `ours` is therefore the scoring half of the method "
+          "only — the rank scorer.\n")
+        w("| n | ensembles | best single | count | weighted | **ours** | ours − cnt | wgt − cnt |")
+        w("|---|---|---|---|---|---|---|---|")
         for k in (3, 4, 5, 6):
             R = [r for r in A if r["k"] == k]
             if not R:
                 continue
+            O = [OURSMAP.get((k, frozenset(r["ens"]))) for r in R]
+            O = [x for x in O if x]
+            oc = f"{statistics.mean(x['ours'] for x in O):.2f}" if O else "—"
+            od = (f"**{statistics.mean(x['ours_vs_cnt'] for x in O):+.2f}**"
+                  if O else "—")
             w(f"| **{k}** | {len(R)} | {statistics.mean(r['best'] for r in R):.2f} | "
               f"{statistics.mean(r['count'] for r in R):.2f} | "
-              f"{statistics.mean(r['weighted'] for r in R):.2f} | "
-              f"**{statistics.mean(r['wgt_vs_cnt'] for r in R):+.2f}** | "
-              f"{statistics.mean(r['cnt_vs_best'] for r in R):+.2f} |")
+              f"**{statistics.mean(r['weighted'] for r in R):.2f}** | "
+              f"{oc} | {od} | "
+              f"{statistics.mean(r['wgt_vs_cnt'] for r in R):+.2f} |")
         w("")
+        if OURSMAP:
+            wsig = sum(1 for r in A if r.get("wgt_cnt_sig") and r["wgt_vs_cnt"] > 0)
+            osig = sum(1 for x in OURSMAP.values() if x["ours_sig"] and x["ours_vs_cnt"] > 0)
+            w(f"Significantly beating counting: weighted **{wsig}/{len(A)}**, "
+              f"ours **{osig}/{len(OURSMAP)}**.\n")
+            w("**On ASQA, reliability weighting beats our method at every ensemble "
+              "size, and the gap widens with n** (26.71 vs 26.59 at n=3; 27.01 vs "
+              "26.35 at n=6). Our method still beats counting everywhere (+2.7% to "
+              "+8.6%), but it is not the best arm here. This is the mirror image of "
+              "QAMPARI and is the clearest statement of the regime split: where a "
+              "solo claim is informative, weighting wins; where it is not, output "
+              "structure wins.\n")
         w("**This is the opposite trend to QAMPARI.** On ASQA weighting's gain "
           "over counting *grows* with ensemble size (+0.83 → +2.74) while "
           "counting falls further behind the best single agent (−0.70 → −2.26). "

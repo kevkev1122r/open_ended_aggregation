@@ -291,14 +291,18 @@ Sorted within each size by `rank+budget`. `Δcnt` and `Δbest` are our method's 
 
 ## 3. ASQA — every ensemble (DR*, 400 questions)
 
-The rank/budget arms were not run per-ensemble on ASQA (the budget does not transfer there — see the weighting sweep doc). This is counting vs reliability weighting only.
+The per-question **budget** is deliberately excluded here: it was measured on the full ASQA pool and does not transfer, because DR's length penalty is steeper than the F1-shaped surrogate the budget rule assumes. `ours` is therefore the scoring half of the method only — the rank scorer.
 
-| n | ensembles | best single | count | weighted | wgt − cnt | cnt − best |
-|---|---|---|---|---|---|---|
-| **3** | 20 | 26.58 | 25.88 | 26.71 | **+0.83** | -0.70 |
-| **4** | 15 | 26.60 | 25.30 | 26.74 | **+1.44** | -1.30 |
-| **5** | 6 | 26.59 | 24.70 | 26.90 | **+2.19** | -1.88 |
-| **6** | 1 | 26.53 | 24.27 | 27.01 | **+2.74** | -2.26 |
+| n | ensembles | best single | count | weighted | **ours** | ours − cnt | wgt − cnt |
+|---|---|---|---|---|---|---|---|
+| **3** | 20 | 26.58 | 25.88 | **26.71** | 26.59 | **+0.71** | +0.83 |
+| **4** | 15 | 26.60 | 25.30 | **26.74** | 26.51 | **+1.21** | +1.44 |
+| **5** | 6 | 26.59 | 24.70 | **26.90** | 26.48 | **+1.78** | +2.19 |
+| **6** | 1 | 26.53 | 24.27 | **27.01** | 26.35 | **+2.08** | +2.74 |
+
+Significantly beating counting: weighted **31/42**, ours **29/42**.
+
+**On ASQA, reliability weighting beats our method at every ensemble size, and the gap widens with n** (26.71 vs 26.59 at n=3; 27.01 vs 26.35 at n=6). Our method still beats counting everywhere (+2.7% to +8.6%), but it is not the best arm here. This is the mirror image of QAMPARI and is the clearest statement of the regime split: where a solo claim is informative, weighting wins; where it is not, output structure wins.
 
 **This is the opposite trend to QAMPARI.** On ASQA weighting's gain over counting *grows* with ensemble size (+0.83 → +2.74) while counting falls further behind the best single agent (−0.70 → −2.26). The crossover does not replicate; it reverses.
 
