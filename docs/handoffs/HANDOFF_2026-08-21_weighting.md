@@ -1,5 +1,10 @@
 # Weighting mechanisms — overnight run, 21 August 2026
 
+> **Superseded in one respect, 23 Aug: boosting removed from the method.** Every
+> `BLEND` number below is the boosted variant. Leave-one-source-out later showed
+> it transfers worst of any arm, so the method is now `rank scorer + budget`
+> (the `LEAN + budget` rows). See `docs/ROBUSTNESS.md` §1.1.
+
 Continues `HANDOFF_2026-08-20.md`. Cached generations only, zero API spend.
 Every number is 5-fold cross-fitted over questions on QAMPARI (777 q, 8 agents)
 or 2-fold on ASQA (400 q, 6 agents); weights, likelihood tables, logistic and

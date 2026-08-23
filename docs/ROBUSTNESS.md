@@ -61,9 +61,11 @@ what it flags.
 **The GBM transfers worst.** `BLEND + budget` loses 0.58 under shift while
 `LEAN + budget` loses 0.26 and ends up *ahead* of it (31.48 vs 31.44). The extra
 capacity buys +0.3 in-distribution and costs more than that out of it.
-**Recommendation: make `LEAN + budget` the headline method** — a plain L2
-logistic plus the budget. Simpler to describe, one fewer moving part, and more
-robust.
+**Decision taken 23 Aug: boosting is dropped from the method.** The headline is
+`rank scorer + budget` — a plain L2 logistic plus the per-question budget. It is
+simpler to describe, has one fewer moving part, and is more robust out of
+distribution. The boosted variant remains in the repository as the ablation that
+justifies the choice; it is not part of the method.
 
 ---
 

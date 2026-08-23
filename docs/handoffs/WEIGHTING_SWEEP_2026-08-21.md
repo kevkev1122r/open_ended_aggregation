@@ -19,22 +19,29 @@ coefficients and keep thresholds are fitted on training folds only. Bootstrap
   best single (Kimi)    27.40           --                      -1.95
   MA-count              29.35     +1.95  ( +7.1%)*            (reference)
   pattern  [CEILING]    29.60     +2.20  ( +8.0%)*    +0.25  ( +0.8%)  ns
-  BLEND + budget        32.01     +4.61  (+16.8%)*    +2.66  ( +9.1%)*
+  rank scorer + budget  31.74     +4.34  (+15.8%)*    +2.39  ( +8.1%)*
 ```
 
-**+16.8% over the best single agent** (CI [+3.64, +5.58]) and **+9.1% over
-MA-count** (CI [+1.86, +3.47]).
+**+15.8% over the best single agent** (CI [+3.41, +5.30]) and **+8.1% over
+MA-count** (CI [+1.62, +3.16]).
+
+> **Updated 23 Aug — boosting removed from the method.** The earlier headline of
+> 32.01 was `BLEND + budget`, which added a gradient-boosted model. Leave-one-
+> source-out showed it transfers worst of any arm (−0.58 versus −0.26), so out of
+> distribution the plain logistic beats it (31.48 versus 31.44). Boosting is now
+> reported as a rejected ablation, not as part of the method. `analysis/gbm.py`
+> and the boosted arms stay in the repository as the evidence for that call.
 
 Seed stability — three independent fold assignments:
 
 ```
   seed        F1     vs best single     vs count
-    0       32.01       +16.8%           +9.1%
-    1       32.04       +16.9%           +9.2%
-    2       32.11       +17.2%           +9.4%
+    0       31.74       +15.8%           +8.1%
+    1       31.63       +15.4%           +7.7%
+    2       31.63       +15.4%           +7.8%
 ```
 
-Spread 0.10 F1 across seeds, against CI half-widths near 1.0. This is not noise.
+Spread 0.11 F1 across seeds, against CI half-widths near 1.0. This is not noise.
 
 The bar this has to clear is `pattern`, the **best rule expressible from the
 support pattern alone** — i.e. the ceiling on all reliability weighting,
@@ -42,15 +49,14 @@ including correlation-aware and omission-aware forms. It is +0.8% and not
 significant. Everything above it comes from information reliability weighting
 cannot see.
 
-### 1.1 What `BLEND + budget` is
+### 1.1 What `rank scorer + budget` is
 
 1. Per-claim features outside the support pattern: rank of the claim inside each
    supporter's own list; how much each supporter said on this question; **how
    much each SILENT agent said**; per-agent rank buckets; the pattern
    probability stacked in as a feature.
-2. Two scorers over those features — an L2 logistic and a histogram GBM
-   (`analysis/gbm.py`, ~200 lines, no new dependencies) — combined by a
-   meta-logistic fitted on a held-out slice of train.
+2. One scorer over those features: an L2-regularised logistic regression. A
+   gradient-boosted alternative was tested and rejected — see the note above.
 3. A **per-question keep budget**: `k*(q) = argmax_k 2·(Σ_{i≤k} p_i)/(k + Ĝ_q)`,
    with `Ĝ` a ridge-predicted gold count.
 
@@ -130,10 +136,10 @@ k=8 — scores **29.41, no gain over counting**. The value is in the budget
 
 | rule | vs count | |
 |---|---|---|
-| BLEND + budget | **+2.66** * | champion |
-| GBM(bagged) + budget | +2.47 * | |
+| **rank scorer + budget** | **+2.39** * | **the method** — linear, no boosting |
+| BLEND + budget | +2.66 * | boosted variant; **rejected**, transfers worst under shift |
+| GBM(bagged) + budget | +2.47 * | boosted, rejected |
 | STACK + budget (8 scorers) | +2.27 * | stacking did **not** beat the 2-way blend |
-| LEAN + budget | +2.39 * | linear, much simpler, 90% of the gain |
 | v3 +omission | +1.65 * | best single feature block |
 | LEAN (logistic) | +1.44 * | |
 | nb-rank | +1.34 * | rank-conditioned NB, nonparametric in rank |
