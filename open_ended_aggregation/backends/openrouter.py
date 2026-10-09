@@ -47,11 +47,17 @@ def prices():
     return _price
 
 
-def chat(model, system, user, max_out, temp=0, retries=3, throttle_retries=8):
-    """Mirrors azure_backend.chat -- returns (text, meta)."""
+def chat(model, system, user, max_out, temp=0, retries=3, throttle_retries=8,
+         extra=None):
+    """Mirrors azure_backend.chat -- returns (text, meta).
+
+    `extra` is merged into the request body, e.g. {"reasoning": {"effort": "low"}}.
+    Reasoning tokens bill as OUTPUT, so the effort level is the main cost lever
+    on reasoning models."""
     body = {"model": model, "temperature": temp, "max_tokens": max_out,
             "messages": ([{"role": "system", "content": system}] if system else [])
                         + [{"role": "user", "content": user}]}
+    body.update(extra or {})
     a = t = 0
     meta = {"error": "no attempt made"}
     while a < retries and t < throttle_retries:

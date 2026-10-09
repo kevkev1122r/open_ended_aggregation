@@ -217,6 +217,14 @@ def main():
     json.dump(res, open(RESULTS / f"weighting_v5_seed{a.seed}.json", "w"), indent=2)
     print(f"  wrote results/weighting_v5_seed{a.seed}.json")
 
+    # Per-question scores, kept so that power and equivalence analyses can be
+    # run without refitting. `per[arm]` is one held-out F1 per question, in the
+    # order of `qids`, which is what the paired bootstrap resamples.
+    json.dump({"qids": list(qids),
+               "per_question": {arm: [float(x) for x in per[arm]] for arm in ARMS}},
+              open(RESULTS / f"weighting_v5_perq_seed{a.seed}.json", "w"))
+    print(f"  wrote results/weighting_v5_perq_seed{a.seed}.json")
+
 
 if __name__ == "__main__":
     main()

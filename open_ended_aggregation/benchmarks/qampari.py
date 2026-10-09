@@ -51,10 +51,30 @@ PROMPT = ("List every correct answer to the question, one per line, as a bare "
 
 _PUNC = re.compile(r"[^a-z0-9 ]")
 _ART = re.compile(r"\b(a|an|the)\b")
+_SPECIAL = re.compile(r"<\|[^|>]{0,40}\|>")
+
+
+def strip_special(s):
+    """Remove chat/control tokens that leaked into a generation.
+
+    Some agents wrap their output in <|START_TEXT|> ... <|END_TEXT|>. This must
+    run BEFORE _PUNC, because _PUNC maps every non-alphanumeric to a space and
+    would otherwise turn the token into the WORDS "start text" -- producing a
+    candidate ("start text harvard university") that can never match gold and
+    that silently pads the precision denominator of every arm.
+
+    Measured on data/qampari_asc800.jsonl before this fix: 1,519 occurrences,
+    yielding 1,244 of 110,801 candidates (1.12%), of which ZERO matched gold.
+
+    Applied in norm() rather than only in parse_list() because the cached
+    generations store already-parsed `items` with the tokens baked in, so a
+    parse-time fix alone would not reach them without regenerating.
+    """
+    return _SPECIAL.sub(" ", str(s))
 
 
 def norm(s):
-    s = str(s).lower().replace("’", "'")
+    s = strip_special(s).lower().replace("’", "'")
     s = _PUNC.sub(" ", s)
     s = _ART.sub(" ", s)
     return " ".join(s.split())
@@ -64,7 +84,7 @@ def parse_list(txt):
     """Pull list items out of a model response. Models ignore formatting
     instructions often enough that this must be forgiving."""
     out = []
-    for line in str(txt).splitlines():
+    for line in strip_special(txt).splitlines():
         s = line.strip()
         if not s:
             continue
