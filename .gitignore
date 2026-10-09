@@ -1,5 +1,6 @@
-# secrets
+# secrets (and any backup copy of them)
 .env
+.env.*
 *.key
 *.pem
 
@@ -18,8 +19,9 @@ data/*.parquet
 data/*.zip
 share/
 
-# local logs
+# local logs; run logs under results/ are kept, they record every result (good or bad)
 *.log
+!results/*.log
 
 # build artifacts
 *.egg-info/
@@ -40,3 +42,6 @@ data/asqa_sent_emb.npy
 
 # ASC edit-distance edge cache (124 MB) — derived, rebuilt by analysis/asc_ensembles.py
 data/asc_edges.pkl
+
+# raw CWQ/WebQSP source parquet shards (3.4 GB, files over GitHub's 100 MB limit) -- public downloads
+data/raw_cwq/
