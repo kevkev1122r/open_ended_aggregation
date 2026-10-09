@@ -1,0 +1,6482 @@
+{
+ "342__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>\u00c6thelbald",
+    "\u00c6thelbald"
+   ],
+   [
+    "Wulfstan<|END_TEXT|>",
+    "Wulfstan"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Nicholas Heath",
+    "Nicholas Heath"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Oswald of Worcester",
+    "Oswald of Worcester"
+   ],
+   [
+    "Ealdred",
+    "Ealdred"
+   ],
+   [
+    "Walter de Gray",
+    "Walter de Gray"
+   ],
+   [
+    "John Thoresby",
+    "John Thoresby"
+   ],
+   [
+    "William Booth",
+    "William Booth"
+   ],
+   [
+    "Thomas Wolsey",
+    "Thomas Wolsey"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Nicholas Heath",
+    "Nicholas Heath"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Edward Dicconson",
+    "Edward Dicconson"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "William O'Connor",
+    "William O'Connor"
+   ],
+   [
+    "John Morton",
+    "John Morton"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Thomas Wolsey",
+    "Thomas Wolsey"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Oswald",
+    "Oswald"
+   ],
+   [
+    "Ealdred",
+    "Ealdred"
+   ]
+  ]
+ },
+ "179__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>Bhishma Pratigna",
+    "Bhishma Pratigna"
+   ],
+   [
+    "Malliswari",
+    "Malliswari"
+   ],
+   [
+    "Pelli Kanuka",
+    "Pelli Kanuka"
+   ],
+   [
+    "Sivaji the Boss",
+    "Sivaji: The Boss"
+   ],
+   [
+    "Alluri Seetha Rama Raju<|END_TEXT|>",
+    "Alluri Seetharama Raju"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Maya Machhindra",
+    "Maya Machhindra"
+   ],
+   [
+    "Sri Venkateswara Mahatyam",
+    "Sri Venkateswara Mahatyam"
+   ],
+   [
+    "Bhakta Prahlada",
+    "Bhakta Prahlada"
+   ],
+   [
+    "Patala Bhairavi",
+    "Pathala Bhairavi"
+   ],
+   [
+    "Maya Bazaar",
+    "Maya Bazaar"
+   ],
+   [
+    "Gundello Godari",
+    "Gundello Godari"
+   ],
+   [
+    "Mangalya Balam",
+    "Mangalya Balam"
+   ],
+   [
+    "Rojulu Marayi",
+    "Rojulu Marayi"
+   ],
+   [
+    "Vipranarayana",
+    "Vipranarayana"
+   ],
+   [
+    "Sati Sakkubai",
+    "Sati Sakkubai"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Shavukaru",
+    "Shavukaru"
+   ],
+   [
+    "Pathala Bhairavi",
+    "Pathala Bhairavi"
+   ],
+   [
+    "Pelli Chesi Choodu",
+    "Pelli Chesi Choodu"
+   ],
+   [
+    "Chandraharam",
+    "Chandraharam"
+   ],
+   [
+    "Maya Bazaar",
+    "Maya Bazaar"
+   ],
+   [
+    "Sabhash Ramudu",
+    "Sabhash Ramudu"
+   ],
+   [
+    "Gundamma Katha",
+    "Gundamma Katha"
+   ],
+   [
+    "Paramanandayya Sishyula Katha",
+    "Paramanandayya Sishyula Katha"
+   ],
+   [
+    "Pidugu Ramudu",
+    "Pidugu Ramudu"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Patala Bhairavi",
+    "Pathala Bhairavi"
+   ],
+   [
+    "Malleswari",
+    "Malliswari"
+   ],
+   [
+    "Chandraharam",
+    "Chandraharam"
+   ],
+   [
+    "Mayabazar",
+    "Maya Bazaar"
+   ],
+   [
+    "Appu Chesi Pappu Koodu",
+    "Appu Chesi Pappu Koodu"
+   ],
+   [
+    "Sri Venkateswara Mahatyam",
+    "Sri Venkateswara Mahatyam"
+   ],
+   [
+    "Jagadeka Veeruni Katha",
+    "Jagadeka Veeruni Katha"
+   ],
+   [
+    "Sri Krishnarjuna Yudham",
+    "Sri Krishnarjuna Yudham"
+   ],
+   [
+    "Satya Harishchandra",
+    "Sati Savitri"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Pelli Chesi Choodu",
+    "Pelli Chesi Choodu"
+   ],
+   [
+    "Missamma",
+    "Missamma"
+   ],
+   [
+    "Gundamma Katha",
+    "Gundamma Katha"
+   ],
+   [
+    "Ram Aur Shyam",
+    "Ram Aur Shyam"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Maya Bazaar",
+    "Maya Bazaar"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Maya Bazaar",
+    "Maya Bazaar"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Samsaram",
+    "Samsaram"
+   ],
+   [
+    "Shavukaru",
+    "Shavukaru"
+   ],
+   [
+    "Pathala Bhairavi",
+    "Pathala Bhairavi"
+   ],
+   [
+    "Pelli Chesi Choodu",
+    "Pelli Chesi Choodu"
+   ],
+   [
+    "Lava Kusa",
+    "Lava Kusa"
+   ]
+  ]
+ },
+ "272__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>Mouna Ragam",
+    "Mouna Raagam"
+   ],
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Dil Se..<|END_TEXT|>",
+    "Dil Se..."
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Dil Se",
+    "Dil Se.."
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Kaatru Veliyidai",
+    "Kaatru Veliyidai"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Thiruda Thiruda",
+    "Thiruda Thiruda"
+   ],
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Iruvar",
+    "Iruvar"
+   ],
+   [
+    "Dil Se",
+    "Dil Se.."
+   ],
+   [
+    "Alaipayuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Aayutha Ezhuthu",
+    "Aaytha Ezhuthu"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Raavan",
+    "Raavan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Kaatru Veliyidai",
+    "Kaatru Veliyidai"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Thiruda Thiruda",
+    "Thiruda Thiruda"
+   ],
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Iruvar",
+    "Iruvar"
+   ],
+   [
+    "Dil Se",
+    "Dil Se.."
+   ],
+   [
+    "Alaipayuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ],
+   [
+    "Thug Life",
+    "Thug Life"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Dil Se",
+    "Dil Se.."
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavan",
+    "Raavan"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Kaatru Veliyidai",
+    "Kaatru Veliyidai"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ],
+   [
+    "Thiruda Thiruda",
+    "Thiruda Thiruda"
+   ],
+   [
+    "Alaipayuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Aayutha Ezhuthu",
+    "Aayutha Ezhuthu"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Enthiran",
+    "Enthiran"
+   ],
+   [
+    "Kadalan",
+    "Kadhalan"
+   ],
+   [
+    "Iruvar",
+    "Iruvar"
+   ],
+   [
+    "Sakhi",
+    "Sakhi"
+   ],
+   [
+    "Ravan",
+    "Ravan"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Dil Se",
+    "Dil Se.."
+   ],
+   [
+    "Alaipayuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "OK Kanmani",
+    "O Kadhal Kanmani"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Dil Se",
+    "Dil Se.."
+   ],
+   [
+    "Alai Payuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Raatchasan",
+    "Raatchasan"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Thiruda Thiruda",
+    "Thiruda Thiruda"
+   ],
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Iruvar",
+    "Iruvar"
+   ],
+   [
+    "Dil Se",
+    "Dil Se.."
+   ],
+   [
+    "Alai Payuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Aayitha Ezhuthu",
+    "Aaytha Ezhuthu"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavan",
+    "Raavan"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ]
+  ]
+ },
+ "434__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>Final Fantasy I",
+    "Final Fantasy I"
+   ],
+   [
+    "Final Fantasy II",
+    "Final Fantasy II"
+   ],
+   [
+    "Final Fantasy III",
+    "Final Fantasy III"
+   ],
+   [
+    "Final Fantasy IV",
+    "Final Fantasy IV"
+   ],
+   [
+    "Final Fantasy V",
+    "Final Fantasy V"
+   ],
+   [
+    "Final Fantasy VI<|END_TEXT|>",
+    "Final Fantasy VI"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Final Fantasy",
+    "Final Fantasy"
+   ],
+   [
+    "Final Fantasy II",
+    "Final Fantasy II"
+   ],
+   [
+    "Final Fantasy III",
+    "Final Fantasy III"
+   ],
+   [
+    "Final Fantasy IV",
+    "Final Fantasy IV"
+   ],
+   [
+    "Final Fantasy V",
+    "Final Fantasy V"
+   ],
+   [
+    "Final Fantasy VI",
+    "Final Fantasy VI"
+   ],
+   [
+    "Chrono Trigger",
+    "Chrono Trigger"
+   ],
+   [
+    "Secret of Mana",
+    "Secret of Mana"
+   ],
+   [
+    "Super Mario RPG: Legend of the Seven Stars",
+    "Super Mario RPG: Legend of the Seven Stars"
+   ],
+   [
+    "Parasite Eve",
+    "Parasite Eve"
+   ],
+   [
+    "The Last Story",
+    "The Last Story"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "The Death Trap",
+    "The Death Trap"
+   ],
+   [
+    "Will: The Death Trap II",
+    "Will: The Death Trap II"
+   ],
+   [
+    "Cruise Chaser Blassty",
+    "Cruise Chaser Blassty"
+   ],
+   [
+    "King's Knight",
+    "King's Knight"
+   ],
+   [
+    "3-D WorldRunner",
+    "3-D WorldRunner"
+   ],
+   [
+    "Rad Racer",
+    "Rad Racer"
+   ],
+   [
+    "JJ",
+    "JJ"
+   ],
+   [
+    "Final Fantasy",
+    "Final Fantasy"
+   ],
+   [
+    "Final Fantasy II",
+    "Final Fantasy II"
+   ],
+   [
+    "Final Fantasy III",
+    "Final Fantasy III"
+   ],
+   [
+    "Final Fantasy IV",
+    "Final Fantasy IV"
+   ],
+   [
+    "Final Fantasy V",
+    "Final Fantasy V"
+   ],
+   [
+    "Final Fantasy VI",
+    "Final Fantasy VI"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Final Fantasy",
+    "Final Fantasy"
+   ],
+   [
+    "Final Fantasy II",
+    "Final Fantasy II"
+   ],
+   [
+    "Final Fantasy III",
+    "Final Fantasy III"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Final Fantasy",
+    "Final Fantasy"
+   ],
+   [
+    "Final Fantasy II",
+    "Final Fantasy II"
+   ],
+   [
+    "Final Fantasy III",
+    "Final Fantasy III"
+   ],
+   [
+    "Final Fantasy IV",
+    "Final Fantasy IV"
+   ],
+   [
+    "Final Fantasy V",
+    "Final Fantasy V"
+   ],
+   [
+    "Final Fantasy VI",
+    "Final Fantasy VI"
+   ],
+   [
+    "Final Fantasy VII",
+    "Final Fantasy VII"
+   ],
+   [
+    "Final Fantasy VIII",
+    "Final Fantasy VIII"
+   ],
+   [
+    "Final Fantasy IX",
+    "Final Fantasy IX"
+   ],
+   [
+    "Final Fantasy X",
+    "Final Fantasy X"
+   ],
+   [
+    "Final Fantasy XI",
+    "Final Fantasy XI"
+   ],
+   [
+    "Final Fantasy XII",
+    "Final Fantasy XII"
+   ],
+   [
+    "Final Fantasy Tactics",
+    "Final Fantasy Tactics"
+   ],
+   [
+    "Final Fantasy Tactics Advance",
+    "Final Fantasy Tactics Advance"
+   ],
+   [
+    "Final Fantasy Crystal Chronicles",
+    "Final Fantasy Crystal Chronicles"
+   ],
+   [
+    "Final Fantasy Mystic Quest",
+    "Final Fantasy Mystic Quest"
+   ],
+   [
+    "Final Fantasy Legend",
+    "Final Fantasy Legend"
+   ],
+   [
+    "Final Fantasy Legend II",
+    "Final Fantasy Legend II"
+   ],
+   [
+    "Final Fantasy Legend III",
+    "Final Fantasy Legend III"
+   ],
+   [
+    "Final Fantasy Adventure",
+    "Final Fantasy Adventure"
+   ],
+   [
+    "Chrono Trigger",
+    "Chrono Trigger"
+   ],
+   [
+    "Chrono Cross",
+    "Chrono Cross"
+   ],
+   [
+    "Xenogears",
+    "Xenogears"
+   ],
+   [
+    "Parasite Eve",
+    "Parasite Eve"
+   ],
+   [
+    "Parasite Eve II",
+    "Parasite Eve II"
+   ],
+   [
+    "Kingdom Hearts",
+    "Kingdom Hearts"
+   ],
+   [
+    "Kingdom Hearts: Chain of Memories",
+    "Kingdom Hearts: Chain of Memories"
+   ],
+   [
+    "Blue Dragon",
+    "Blue Dragon"
+   ],
+   [
+    "Lost Odyssey",
+    "Lost Odyssey"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Final Fantasy VI",
+    "Final Fantasy VI"
+   ],
+   [
+    "Final Fantasy VII",
+    "Final Fantasy VII"
+   ],
+   [
+    "Final Fantasy VIII",
+    "Final Fantasy VIII"
+   ],
+   [
+    "Final Fantasy IX",
+    "Final Fantasy IX"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Final Fantasy",
+    "Final Fantasy"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Final Fantasy",
+    "Final Fantasy"
+   ],
+   [
+    "Final Fantasy II",
+    "Final Fantasy II"
+   ],
+   [
+    "Final Fantasy III",
+    "Final Fantasy III"
+   ],
+   [
+    "Final Fantasy V",
+    "Final Fantasy V"
+   ],
+   [
+    "Hanjuku Hero",
+    "Hanjuku Hero"
+   ]
+  ]
+ },
+ "165__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>The Killing",
+    "The Killing"
+   ],
+   [
+    "Spartacus",
+    "Spartacus"
+   ],
+   [
+    "Dr. Strangelove",
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+   ],
+   [
+    "2001: A Space Odyssey",
+    "2001: A Space Odyssey"
+   ],
+   [
+    "A Clockwork Orange<|END_TEXT|>",
+    "A Clockwork Orange"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "2001: A Space Odyssey",
+    "2001: A Space Odyssey"
+   ],
+   [
+    "A Clockwork Orange",
+    "A Clockwork Orange"
+   ],
+   [
+    "Barry Lyndon",
+    "Barry Lyndon"
+   ],
+   [
+    "The Shining",
+    "The Shining"
+   ],
+   [
+    "Full Metal Jacket",
+    "Full Metal Jacket"
+   ],
+   [
+    "Eyes Wide Shut",
+    "Eyes Wide Shut"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Fear and Desire",
+    "Fear and Desire"
+   ],
+   [
+    "Killer's Kiss",
+    "Killer's Kiss"
+   ],
+   [
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+   ],
+   [
+    "2001: A Space Odyssey",
+    "2001: A Space Odyssey"
+   ],
+   [
+    "A Clockwork Orange",
+    "A Clockwork Orange"
+   ],
+   [
+    "Barry Lyndon",
+    "Barry Lyndon"
+   ],
+   [
+    "The Shining",
+    "The Shining"
+   ],
+   [
+    "Full Metal Jacket",
+    "Full Metal Jacket"
+   ],
+   [
+    "Eyes Wide Shut",
+    "Eyes Wide Shut"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Fear and Desire",
+    "Fear and Desire"
+   ],
+   [
+    "Killer's Kiss",
+    "Killer's Kiss"
+   ],
+   [
+    "The Killing",
+    "The Killing"
+   ],
+   [
+    "Paths of Glory",
+    "Paths of Glory"
+   ],
+   [
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+   ],
+   [
+    "2001: A Space Odyssey",
+    "2001: A Space Odyssey"
+   ],
+   [
+    "A Clockwork Orange",
+    "A Clockwork Orange"
+   ],
+   [
+    "Barry Lyndon",
+    "Barry Lyndon"
+   ],
+   [
+    "The Shining",
+    "The Shining"
+   ],
+   [
+    "Full Metal Jacket",
+    "Full Metal Jacket"
+   ],
+   [
+    "Eyes Wide Shut",
+    "Eyes Wide Shut"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+   ],
+   [
+    "2001: A Space Odyssey",
+    "2001: A Space Odyssey"
+   ],
+   [
+    "A Clockwork Orange",
+    "A Clockwork Orange"
+   ],
+   [
+    "Barry Lyndon",
+    "Barry Lyndon"
+   ],
+   [
+    "The Shining",
+    "The Shining"
+   ],
+   [
+    "Full Metal Jacket",
+    "Full Metal Jacket"
+   ],
+   [
+    "Eyes Wide Shut",
+    "Eyes Wide Shut"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "A Clockwork Orange",
+    "A Clockwork Orange"
+   ],
+   [
+    "Barry Lyndon",
+    "Barry Lyndon"
+   ],
+   [
+    "Full Metal Jacket",
+    "Full Metal Jacket"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "2001: A Space Odyssey",
+    "2001: A Space Odyssey"
+   ],
+   [
+    "A Clockwork Orange",
+    "A Clockwork Orange"
+   ],
+   [
+    "Barry Lyndon",
+    "Barry Lyndon"
+   ],
+   [
+    "The Shining",
+    "The Shining"
+   ],
+   [
+    "Full Metal Jacket",
+    "Full Metal Jacket"
+   ],
+   [
+    "Eyes Wide Shut",
+    "Eyes Wide Shut"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Fear and Desire",
+    "Fear and Desire"
+   ],
+   [
+    "Killer's Kiss",
+    "Killer's Kiss"
+   ],
+   [
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+   ],
+   [
+    "2001: A Space Odyssey",
+    "2001: A Space Odyssey"
+   ],
+   [
+    "A Clockwork Orange",
+    "A Clockwork Orange"
+   ],
+   [
+    "Barry Lyndon",
+    "Barry Lyndon"
+   ],
+   [
+    "The Shining",
+    "The Shining"
+   ],
+   [
+    "Full Metal Jacket",
+    "Full Metal Jacket"
+   ],
+   [
+    "Eyes Wide Shut",
+    "Eyes Wide Shut"
+   ]
+  ]
+ },
+ "260__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>Strictly Ballroom",
+    "Strictly Ballroom"
+   ],
+   [
+    "Romeo + Juliet",
+    "Romeo + Juliet"
+   ],
+   [
+    "Moulin Rouge!",
+    "Moulin Rouge!"
+   ],
+   [
+    "The Great Gatsby",
+    "The Great Gatsby"
+   ],
+   [
+    "Australia<|END_TEXT|>",
+    "Australia"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Moulin Rouge!",
+    "Moulin Rouge!"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Strictly Ballroom",
+    "Strictly Ballroom"
+   ],
+   [
+    "Romeo + Juliet",
+    "Romeo + Juliet"
+   ],
+   [
+    "Moulin Rouge!",
+    "Moulin Rouge!"
+   ],
+   [
+    "The Great Gatsby",
+    "The Great Gatsby"
+   ],
+   [
+    "Elvis",
+    "Elvis"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Romeo + Juliet",
+    "Romeo + Juliet"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "The Great Gatsby",
+    "The Great Gatsby"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Moulin Rouge!",
+    "Moulin Rouge!"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Romeo + Juliet",
+    "Romeo + Juliet"
+   ],
+   [
+    "Moulin Rouge!",
+    "Moulin Rouge!"
+   ],
+   [
+    "The Great Gatsby",
+    "The Great Gatsby"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Strictly Ballroom",
+    "Strictly Ballroom"
+   ],
+   [
+    "William Shakespeare's Romeo + Juliet",
+    "William Shakespeare's Romeo + Juliet"
+   ],
+   [
+    "Moulin Rouge!",
+    "Moulin Rouge!"
+   ],
+   [
+    "The Great Gatsby",
+    "The Great Gatsby"
+   ]
+  ]
+ },
+ "364__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>Mrigaya",
+    "Mrigaya"
+   ],
+   [
+    "Nirmalyam<|END_TEXT|>",
+    "Nirmalyam"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Kallichellamma",
+    "Kallichellamma"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Rarichan Enna Pauran",
+    "Rarichan Enna Pauran"
+   ],
+   [
+    "Padatha Painkili",
+    "Padatha Painkili"
+   ],
+   [
+    "Mariakutty",
+    "Mariakutty"
+   ],
+   [
+    "Chandrathara",
+    "Chandrathara"
+   ],
+   [
+    "Anweshichu Kandethiyilla",
+    "Anweshichu Kandethiyilla"
+   ],
+   [
+    "Virunnukari",
+    "Virunnukari"
+   ],
+   [
+    "Karinizhal",
+    "Karinizhal"
+   ],
+   [
+    "Panimudakku",
+    "Panimudakku"
+   ],
+   [
+    "Mayiladumkunnu",
+    "Mayiladumkunnu"
+   ],
+   [
+    "Chukku",
+    "Chukku"
+   ],
+   [
+    "Ponnapuram Kotta",
+    "Ponnapuram Kotta"
+   ],
+   [
+    "Jeevikkan Marannu Poya Sthree",
+    "Jeevikkan Marannu Poya Sthree"
+   ],
+   [
+    "Yudhakandam",
+    "Yudhakandam"
+   ],
+   [
+    "Aval Oru Devaalayam",
+    "Aval Oru Devaalayam"
+   ],
+   [
+    "Anubhavangale Nandi",
+    "Anubhavangale Nandi"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Neelakuyil",
+    "Neelakuyil"
+   ],
+   [
+    "Randidangazhi",
+    "Randidangazhi"
+   ],
+   [
+    "Anveshichu Kandethiyilla",
+    "Anveshichu Kandethiyilla"
+   ],
+   [
+    "Iruttinte Athmavu",
+    "Iruttinte Athmavu"
+   ],
+   [
+    "Kavalam Chundan",
+    "Kavalam Chundan"
+   ],
+   [
+    "Adimakal",
+    "Adimakal"
+   ],
+   [
+    "Manaswini",
+    "Manaswini"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Bharya",
+    "Bharya"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Ammayenna Sthree",
+    "Ammayenna Sthree"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Achanurangatha Veedu",
+    "Achanurangatha Veedu"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Anweshichu Kandethiyilla",
+    "Anweshichu Kandethiyilla"
+   ],
+   [
+    "Iruttinte Atmavu",
+    "Iruttinte Athmavu"
+   ],
+   [
+    "Manaswini",
+    "Manaswini"
+   ],
+   [
+    "Adimakal",
+    "Adimakal"
+   ],
+   [
+    "Velliyazhcha",
+    "Velliyazhcha"
+   ]
+  ]
+ },
+ "439__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>Mouna Ragam",
+    "Mouna Ragam"
+   ],
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Dil Se",
+    "Dil Se"
+   ],
+   [
+    "Alaipayuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Aayutha Ezhuthu",
+    "Aayutha Ezhuthu"
+   ],
+   [
+    "Kannathil Muthamittalai",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Cheeni Kum",
+    "Cheeni Kum"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Vada Chennile<|END_TEXT|>",
+    "Vada Chennai"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Kaatru Veliyidai",
+    "Kaatru Veliyidai"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Iruvar",
+    "Iruvar"
+   ],
+   [
+    "Dil Se",
+    "Dil Se.."
+   ],
+   [
+    "Alaipayuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Dumm Dumm Dumm",
+    "Dumm Dumm Dumm"
+   ],
+   [
+    "Saathiya",
+    "Saathiya"
+   ],
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Aayutha Ezhuthu",
+    "Aayutha Ezhuthu"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Raavan",
+    "Raavan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "OK Jaanu",
+    "OK Jaanu"
+   ],
+   [
+    "Kaatru Veliyidai",
+    "Kaatru Veliyidai"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Vaanam Kottattum",
+    "Vaanam Kottattum"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Iruvar",
+    "Iruvar"
+   ],
+   [
+    "Dil Se",
+    "Dil Se"
+   ],
+   [
+    "Alaipayuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavan",
+    "Raavan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Raavan",
+    "Raavan"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Aayitha Ezhuthu",
+    "Aayitha Ezhuthu"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Roja",
+    "Roja"
+   ],
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Dil Se",
+    "Dil Se"
+   ],
+   [
+    "Minsaara Kanavu",
+    "Minsara Kanavu"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "Kaatru Veliyidai",
+    "Kaatru Veliyidai"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ],
+   [
+    "Ponniyin Selvan: I",
+    "Ponniyin Selvan: I"
+   ],
+   [
+    "Ponniyin Selvan: II",
+    "Ponniyin Selvan: II"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Iruvar",
+    "Iruvar"
+   ],
+   [
+    "Thiruda Thiruda",
+    "Thiruda Thiruda"
+   ],
+   [
+    "Bombay",
+    "Bombay"
+   ],
+   [
+    "Dil Se",
+    "Dil Se"
+   ],
+   [
+    "Alaipayuthey",
+    "Alaipayuthey"
+   ],
+   [
+    "Kannathil Muthamittal",
+    "Kannathil Muthamittal"
+   ],
+   [
+    "Yuva",
+    "Yuva"
+   ],
+   [
+    "Guru",
+    "Guru"
+   ],
+   [
+    "Raavanan",
+    "Raavanan"
+   ],
+   [
+    "Kadal",
+    "Kadal"
+   ],
+   [
+    "O Kadhal Kanmani",
+    "O Kadhal Kanmani"
+   ],
+   [
+    "Kaatru Veliyidai",
+    "Kaatru Veliyidai"
+   ],
+   [
+    "Chekka Chivantha Vaanam",
+    "Chekka Chivantha Vaanam"
+   ]
+  ]
+ },
+ "224__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>Uthama Puthiran",
+    "Uthama Puthiran"
+   ],
+   [
+    "Pudhiya Mugam",
+    "Pudhiya Mugam"
+   ],
+   [
+    "Avvai Shanmugi",
+    "Avvai Shanmugi"
+   ],
+   [
+    "Vijayalakshmi",
+    "Vijayalakshmi"
+   ],
+   [
+    "Hey Ram",
+    "Hey Ram"
+   ],
+   [
+    "Dasavathaaram",
+    "Dasavathaaram"
+   ],
+   [
+    "Vishwaroopam",
+    "Vishwaroopam"
+   ],
+   [
+    "Vishwaroopam 2<|END_TEXT|>",
+    "Vishwaroopam 2"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Hey Ram",
+    "Hey Ram"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Hey Ram",
+    "Hey Ram"
+   ],
+   [
+    "Virumaandi",
+    "Virumaandi"
+   ],
+   [
+    "Vishwaroopam",
+    "Vishwaroopam"
+   ],
+   [
+    "Vishwaroopam II",
+    "Vishwaroopam II"
+   ],
+   [
+    "Chachi 420",
+    "Chachi 420"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Chachi 420",
+    "Chachi 420"
+   ],
+   [
+    "Hey Ram",
+    "Hey Ram"
+   ],
+   [
+    "Virumaandi",
+    "Virumaandi"
+   ],
+   [
+    "Vishwaroopam",
+    "Vishwaroopam"
+   ],
+   [
+    "Vishwaroopam II",
+    "Vishwaroopam II"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Hey Ram",
+    "Hey Ram"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Hey Ram",
+    "Hey Ram"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Hey Ram",
+    "Hey Ram"
+   ],
+   [
+    "Vishwaroopam",
+    "Vishwaroopam"
+   ],
+   [
+    "Vishwaroopam II",
+    "Vishwaroopam II"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Chachi 420",
+    "Chachi 420"
+   ],
+   [
+    "Hey Ram",
+    "Hey Ram"
+   ],
+   [
+    "Virumaandi",
+    "Virumaandi"
+   ],
+   [
+    "Vishwaroopam",
+    "Vishwaroopam"
+   ],
+   [
+    "Vishwaroopam II",
+    "Vishwaroopam II"
+   ]
+  ]
+ },
+ "144__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>Anand",
+    "Anand"
+   ],
+   [
+    "Sillunu Oru Kadhal",
+    "Sillunu Oru Kadhal"
+   ],
+   [
+    "Nuvvu Nenu Kalisunte",
+    "Nuvvu Nenu Kalisunte"
+   ],
+   [
+    "Chakram",
+    "Chakram"
+   ],
+   [
+    "Eega",
+    "Eega"
+   ],
+   [
+    "Nannaku Prematho",
+    "Nannaku Prematho"
+   ],
+   [
+    "Rang De<|END_TEXT|>",
+    "Rang De"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Aarya 2",
+    "Arya 2"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Arya",
+    "Arya"
+   ],
+   [
+    "Jagadam",
+    "Jagadam"
+   ],
+   [
+    "Arya 2",
+    "Arya 2"
+   ],
+   [
+    "100% Love",
+    "100% Love"
+   ],
+   [
+    "1: Nenokkadine",
+    "1: Nenokkadine"
+   ],
+   [
+    "Nannaku Prematho",
+    "Nannaku Prematho"
+   ],
+   [
+    "Rangasthalam",
+    "Rangasthalam"
+   ],
+   [
+    "Pushpa: The Rise",
+    "Pushpa: The Rise"
+   ],
+   [
+    "Pushpa 2: The Rule",
+    "Pushpa 2: The Rule"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Arya",
+    "Arya"
+   ],
+   [
+    "Jagadam",
+    "Jagadam"
+   ],
+   [
+    "Arya 2",
+    "Arya 2"
+   ],
+   [
+    "100% Love",
+    "100% Love"
+   ],
+   [
+    "Iddarammayilatho",
+    "Iddarammayilatho"
+   ],
+   [
+    "Rangasthalam",
+    "Rangasthalam"
+   ],
+   [
+    "Pushpa: The Rise",
+    "Pushpa: The Rise"
+   ],
+   [
+    "Pushpa 2: The Rule",
+    "Pushpa 2: The Rule"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Arya",
+    "Arya"
+   ],
+   [
+    "Jagadam",
+    "Jagadam"
+   ],
+   [
+    "Arya 2",
+    "Arya 2"
+   ],
+   [
+    "100% Love",
+    "100% Love"
+   ],
+   [
+    "1: Nenokkadine",
+    "1: Nenokkadine"
+   ],
+   [
+    "Nannaku Prematho",
+    "Nannaku Prematho"
+   ],
+   [
+    "Rangasthalam",
+    "Rangasthalam"
+   ],
+   [
+    "Pushpa: The Rise",
+    "Pushpa: The Rise"
+   ],
+   [
+    "Pushpa 2: The Rule",
+    "Pushpa 2: The Rule"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Arya",
+    "Arya"
+   ],
+   [
+    "Arya 2",
+    "Arya 2"
+   ],
+   [
+    "100% Love",
+    "100% Love"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Aarya 2",
+    "Arya 2"
+   ],
+   [
+    "Aarya",
+    "Arya"
+   ],
+   [
+    "Arya 2",
+    "Arya 2"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Arya",
+    "Arya"
+   ],
+   [
+    "Arya 2",
+    "Arya 2"
+   ],
+   [
+    "100% Love",
+    "100% Love"
+   ],
+   [
+    "Nannaku Prematho",
+    "Nannaku Prematho"
+   ],
+   [
+    "Pushpa: The Rise",
+    "Pushpa: The Rise"
+   ],
+   [
+    "Pushpa 2: The Rule",
+    "Pushpa 2: The Rule"
+   ]
+  ]
+ },
+ "1300__wikidata_simple__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>I\u2019m sorry, but I can\u2019t help with that.<|END_TEXT|>",
+    "<|START_TEXT|>I\u2019m sorry, but I can\u2019t help with that.<|END_TEXT|>"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Serene Jones",
+    "Serene Jones"
+   ],
+   [
+    "Cornel West",
+    "Cornel West"
+   ],
+   [
+    "Gary Dorrien",
+    "Gary Dorrien"
+   ],
+   [
+    "Katherine Sonderegger",
+    "Katherine Sonderegger"
+   ],
+   [
+    "Mary McClintock Fulkerson",
+    "Mary McClintock Fulkerson"
+   ],
+   [
+    "Jeremy H. Brown",
+    "Jeremy H. Brown"
+   ],
+   [
+    "Eboni Marshall Turman",
+    "Eboni Marshall Turman"
+   ],
+   [
+    "Roger A. Ferlo",
+    "Roger A. Ferlo"
+   ],
+   [
+    "Michele Watkins",
+    "Michele Watkins"
+   ],
+   [
+    "John J. Thatamanil",
+    "John J. Thatamanil"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "Reinhold Niebuhr",
+    "Reinhold Niebuhr"
+   ],
+   [
+    "Paul Tillich",
+    "Paul Tillich"
+   ],
+   [
+    "James Cone",
+    "James Cone"
+   ],
+   [
+    "Cornel West",
+    "Cornel West"
+   ],
+   [
+    "Serene Jones",
+    "Serene Jones"
+   ],
+   [
+    "Henry Sloane Coffin",
+    "Henry Sloane Coffin"
+   ],
+   [
+    "Harry Emerson Fosdick",
+    "Harry Emerson Fosdick"
+   ],
+   [
+    "Walter Rauschenbusch",
+    "Walter Rauschenbusch"
+   ],
+   [
+    "Charles Augustus Briggs",
+    "Charles Augustus Briggs"
+   ],
+   [
+    "H. Richard Niebuhr",
+    "Helmut Richard Niebuhr"
+   ],
+   [
+    "Dietrich Bonhoeffer",
+    "Dietrich Bonhoeffer"
+   ],
+   [
+    "Dorothee S\u00f6lle",
+    "Dorothee S\u00f6lle"
+   ],
+   [
+    "Delores Williams",
+    "Delores Williams"
+   ],
+   [
+    "Beverly Wildung Harrison",
+    "Beverly Wildung Harrison"
+   ],
+   [
+    "Ada Mar\u00eda Isasi-D\u00edaz",
+    "Ada Mar\u00eda Isasi-D\u00edaz"
+   ],
+   [
+    "Kwok Pui-lan",
+    "Kwok Pui-lan"
+   ],
+   [
+    "Randall Bailey",
+    "Randall Bailey"
+   ],
+   [
+    "Raymond E. Brown",
+    "Raymond E. Brown"
+   ],
+   [
+    "George Buttrick",
+    "George Buttrick"
+   ],
+   [
+    "William Adams Brown",
+    "William Adams Brown"
+   ],
+   [
+    "Hugh Black",
+    "Hugh Black"
+   ],
+   [
+    "John Thatamanil",
+    "John Thatamanil"
+   ],
+   [
+    "Andrea C. White",
+    "Andrea C. White"
+   ],
+   [
+    "Robert McAfee Brown",
+    "Robert McAfee Brown"
+   ],
+   [
+    "Roger Haight",
+    "Roger Haight"
+   ],
+   [
+    "Larry Rasmussen",
+    "Larry Rasmussen"
+   ],
+   [
+    "Mary C. Boys",
+    "Mary C. Boys"
+   ],
+   [
+    "John Shelby Spong",
+    "John Shelby Spong"
+   ],
+   [
+    "Joseph C. Hough Jr",
+    "Joseph C. Hough Jr"
+   ],
+   [
+    "Donald Shriver",
+    "Donald Shriver"
+   ],
+   [
+    "Christopher Morse",
+    "Christopher Morse"
+   ],
+   [
+    "Anna Case-Winters",
+    "Anna Case-Winters"
+   ],
+   [
+    "Chung Hyun Kyung",
+    "Chung Hyun Kyung"
+   ],
+   [
+    "George Lindbeck",
+    "George Lindbeck"
+   ],
+   [
+    "Robert Jenson",
+    "Robert Jenson"
+   ],
+   [
+    "Stanley Hauerwas",
+    "Stanley Hauerwas"
+   ],
+   [
+    "Willis Jenkins",
+    "Willis Jenkins"
+   ],
+   [
+    "Keri Day",
+    "Keri Day"
+   ],
+   [
+    "Ted Smith",
+    "Ted Smith"
+   ],
+   [
+    "Bryan Massingale",
+    "Bryan Massingale"
+   ],
+   [
+    "J. Kameron Carter",
+    "J. Kameron Carter"
+   ],
+   [
+    "Sarah Azaransky",
+    "Sarah Azaransky"
+   ],
+   [
+    "David H. Jensen",
+    "David H. Jensen"
+   ],
+   [
+    "Ana Mar\u00eda Bidegain",
+    "Ana Mar\u00eda Bidegain"
+   ],
+   [
+    "Eboni Marshall Turman",
+    "Eboni Marshall Turman"
+   ],
+   [
+    "Juan Floyd-Thomas",
+    "Juan Floyd-Thomas"
+   ],
+   [
+    "Hugh Shields",
+    "Hugh Shields"
+   ],
+   [
+    "Arthur McGiffert",
+    "Arthur McGiffert"
+   ],
+   [
+    "Henry Preserved Smith",
+    "Henry Preserved Smith"
+   ],
+   [
+    "Francis Brown",
+    "Francis Brown"
+   ],
+   [
+    "Julius Bewer",
+    "Julius Bewer"
+   ],
+   [
+    "James Moffatt",
+    "James Moffatt"
+   ],
+   [
+    "Harry Ward",
+    "Harry Ward"
+   ],
+   [
+    "Henry Pitney Van Dusen",
+    "Henry Pitney Van Dusen"
+   ],
+   [
+    "Robert T. Handy",
+    "Robert T. Handy"
+   ],
+   [
+    "John C. Bennett",
+    "John C. Bennett"
+   ],
+   [
+    "Daniel Day Williams",
+    "Daniel Day Williams"
+   ],
+   [
+    "Roger L. Shinn",
+    "Roger L. Shinn"
+   ],
+   [
+    "Victor Anderson",
+    "Victor Anderson"
+   ],
+   [
+    "C. Shelby Rooks",
+    "C. Shelby Rooks"
+   ],
+   [
+    "James A. Forbes Jr",
+    "James A. Forbes Jr"
+   ],
+   [
+    "Catherine Keller",
+    "Catherine Keller"
+   ],
+   [
+    "Ellen Charry",
+    "Ellen Charry"
+   ],
+   [
+    "Mark Taylor",
+    "Mark Taylor"
+   ],
+   [
+    "Gary Dorrien",
+    "Gary Dorrien"
+   ],
+   [
+    "David M. Carr",
+    "David M. Carr"
+   ],
+   [
+    "Yolanda Pierce",
+    "Yolanda Pierce"
+   ],
+   [
+    "John J. Collins",
+    "John J. Collins"
+   ],
+   [
+    "Elisabeth Sch\u00fcssler Fiorenza",
+    "Elisabeth Sch\u00fcssler Fiorenza"
+   ],
+   [
+    "Phyllis Trible",
+    "Phyllis Trible"
+   ],
+   [
+    "Brevard Childs",
+    "Brevard Childs"
+   ],
+   [
+    "Abraham Heschel (visiting)",
+    "Abraham Heschel"
+   ],
+   [
+    "Thomas Merton (visiting)",
+    "Thomas Merton"
+   ],
+   [
+    "Mother Teresa (honorary)",
+    "Mother Teresa"
+   ],
+   [
+    "Desmond Tutu (visiting)",
+    "Desmond Tutu"
+   ],
+   [
+    "Nelson Mandela (honorary)",
+    "Nelson Mandela"
+   ],
+   [
+    "Maya Angelou (visiting)",
+    "Maya Angelou"
+   ],
+   [
+    "Pope Francis (honorary)",
+    "Pope Francis"
+   ],
+   [
+    "Jim Wallis",
+    "Jim Wallis"
+   ],
+   [
+    "Tony Campolo",
+    "Tony Campolo"
+   ],
+   [
+    "Sharon Welch",
+    "Sharon Welch"
+   ],
+   [
+    "Marcella Althaus-Reid",
+    "Marcella Althaus-Reid"
+   ],
+   [
+    "Ivan Petrella",
+    "Ivan Petrella"
+   ],
+   [
+    "Joerg Rieger",
+    "Joerg Rieger"
+   ],
+   [
+    "Jung Mo Sung",
+    "Jung Mo Sung"
+   ],
+   [
+    "N\u00e9stor M\u00edguez",
+    "N\u00e9stor M\u00edguez"
+   ],
+   [
+    "Luiz Carlos Susin",
+    "Luiz Carlos Susin"
+   ],
+   [
+    "Elsa Tamez",
+    "Elsa Tamez"
+   ],
+   [
+    "Pablo Richard",
+    "Pablo Richard"
+   ],
+   [
+    "Jon Sobrino (visiting)",
+    "Jon Sobrino"
+   ],
+   [
+    "Gustavo Guti\u00e9rrez (visiting)",
+    "Gustavo Guti\u00e9rrez"
+   ],
+   [
+    "Leonardo Boff (visiting)",
+    "Leonardo Boff"
+   ],
+   [
+    "Ivone Gebara (visiting)",
+    "Ivone Gebara"
+   ],
+   [
+    "Maria Clara Bingemer",
+    "Maria Clara Bingemer"
+   ],
+   [
+    "Nancy Cardoso Pereira",
+    "Nancy Cardoso Pereira"
+   ],
+   [
+    "Ruth Padilla DeBorst",
+    "Ruth Padilla DeBorst"
+   ],
+   [
+    "Miguel De La Torre",
+    "Miguel De La Torre"
+   ],
+   [
+    "Fernando Segovia",
+    "Fernando Segovia"
+   ],
+   [
+    "Francisco Lozada Jr",
+    "Francisco Lozada Jr"
+   ],
+   [
+    "Gregory Sterling",
+    "Gregory Sterling"
+   ],
+   [
+    "Adele Reinhartz",
+    "Adele Reinhartz"
+   ],
+   [
+    "Michael Joseph Brown",
+    "Michael Joseph Brown"
+   ],
+   [
+    "Carolyn J. Sharp",
+    "Carolyn J. Sharp"
+   ],
+   [
+    "Jacqueline Lapsley",
+    "Jacqueline Lapsley"
+   ],
+   [
+    "Kathryn Schifferdecker",
+    "Kathryn Schifferdecker"
+   ],
+   [
+    "Ellen F. Davis",
+    "Ellen F. Davis"
+   ],
+   [
+    "Terence Fretheim",
+    "Terence Fretheim"
+   ],
+   [
+    "Patrick Miller",
+    "Patrick Miller"
+   ],
+   [
+    "James L. Mays",
+    "James L. Mays"
+   ],
+   [
+    "Brevard S. Childs",
+    "Brevard S. Childs"
+   ],
+   [
+    "Christopher Seitz",
+    "Christopher Seitz"
+   ],
+   [
+    "Kathryn Tanner",
+    "Kathryn Tanner"
+   ],
+   [
+    "Sarah Coakley",
+    "Sarah Coakley"
+   ],
+   [
+    "David Bentley Hart",
+    "David Bentley Hart"
+   ],
+   [
+    "John Milbank",
+    "John Milbank"
+   ],
+   [
+    "Catherine Pickstock",
+    "Catherine Pickstock"
+   ],
+   [
+    "Graham Ward",
+    "Graham Ward"
+   ],
+   [
+    "James K. A. Smith",
+    "James K. A. Smith"
+   ],
+   [
+    "Willie Jennings",
+    "Willie Jennings"
+   ],
+   [
+    "Brian Bantum",
+    "Brian Bantum"
+   ],
+   [
+    "Jennifer Harvey",
+    "Jennifer Harvey"
+   ],
+   [
+    "Traci West",
+    "Traci West"
+   ],
+   [
+    "Emilie Townes",
+    "Emilie Townes"
+   ],
+   [
+    "Kelly Brown Douglas",
+    "Kelly Brown Douglas"
+   ],
+   [
+    "Jacquelyn Grant",
+    "Jacquelyn Grant"
+   ],
+   [
+    "Cheryl Kirk-Duggan",
+    "Cheryl Kirk-Duggan"
+   ],
+   [
+    "Dwight Hopkins",
+    "Dwight Hopkins"
+   ],
+   [
+    "Linda Thomas",
+    "Linda Thomas"
+   ],
+   [
+    "Traci Blackmon",
+    "Traci Blackmon"
+   ],
+   [
+    "Otis Moss III",
+    "Otis Moss III"
+   ],
+   [
+    "Raphael Warnock",
+    "Raphael Warnock"
+   ],
+   [
+    "William J. Barber II",
+    "William J. Barber II"
+   ],
+   [
+    "Marian Wright Edelman",
+    "Marian Wright Edelman"
+   ],
+   [
+    "Melissa Harris-Perry",
+    "Melissa Harris-Perry"
+   ],
+   [
+    "Eddie Glaude Jr",
+    "Eddie Glaude Jr"
+   ],
+   [
+    "Michael Eric Dyson",
+    "Michael Eric Dyson"
+   ],
+   [
+    "Tricia Rose",
+    "Tricia Rose"
+   ],
+   [
+    "Henry Louis Gates Jr",
+    "Henry Louis Gates Jr"
+   ],
+   [
+    "Cornel West (listed again for emphasis)",
+    "Cornel West"
+   ],
+   [
+    "Serene Jones (listed again for emphasis)",
+    "Serene Jones"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "Serene Jones",
+    "Serene Jones"
+   ],
+   [
+    "Pamela Cooper-White",
+    "Pamela Cooper-White"
+   ],
+   [
+    "John J. Thatamanil",
+    "John J. Thatamanil"
+   ],
+   [
+    "K. K. Yeo",
+    "K. K. Yeo"
+   ],
+   [
+    "Eunyung Lim",
+    "Eunyung Lim"
+   ],
+   [
+    "Aliou Ciss\u00e9 Niang",
+    "Aliou Ciss\u00e9 Niang"
+   ],
+   [
+    "Jan Rehmann",
+    "Jan Rehmann"
+   ],
+   [
+    "Cl\u00e1udio Carvalhaes",
+    "Cl\u00e1udio Carvalhaes"
+   ],
+   [
+    "Samuel Cruz",
+    "Samuel Cruz"
+   ],
+   [
+    "Lisa Dahill",
+    "Lisa Dahill"
+   ],
+   [
+    "Mary Foulke",
+    "Mary Foulke"
+   ],
+   [
+    "Tina Furtado",
+    "Tina Furtado"
+   ],
+   [
+    "David M. Carr",
+    "David M. Carr"
+   ],
+   [
+    "Wendy Farley",
+    "Wendy Farley"
+   ],
+   [
+    "Larry Rasmussen",
+    "Larry Rasmussen"
+   ],
+   [
+    "Gary Dorrien",
+    "Gary Dorrien"
+   ],
+   [
+    "Cornel West",
+    "Cornel West"
+   ],
+   [
+    "James Cone",
+    "James Cone"
+   ],
+   [
+    "Reinhold Niebuhr",
+    "Reinhold Niebuhr"
+   ],
+   [
+    "Paul Tillich",
+    "Paul Tillich"
+   ],
+   [
+    "Katie Cannon",
+    "Katie Cannon"
+   ],
+   [
+    "Delores Williams",
+    "Delores Williams"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "Serene Jones",
+    "Serene Jones"
+   ],
+   [
+    "Gary Dorrien",
+    "Gary Dorrien"
+   ],
+   [
+    "Willie James Jennings",
+    "Willie James Jennings"
+   ],
+   [
+    "James H. Cone",
+    "James H. Cone"
+   ],
+   [
+    "Cornel West",
+    "Cornel West"
+   ],
+   [
+    "Kathryn Tanner",
+    "Kathryn Tanner"
+   ],
+   [
+    "Kwok Pui-lan",
+    "Kwok Pui-lan"
+   ],
+   [
+    "M. Shawn Copeland",
+    "M. Shawn Copeland"
+   ],
+   [
+    "Delores S. Williams",
+    "Delores S. Williams"
+   ],
+   [
+    "Walter Brueggemann",
+    "Walter Brueggemann"
+   ],
+   [
+    "Beverly Roberts Gaventa",
+    "Beverly Roberts Gaventa"
+   ],
+   [
+    "Eugene F. Rogers Jr",
+    "Eugene F. Rogers Jr"
+   ],
+   [
+    "Mark S. Burrows",
+    "Mark S. Burrows"
+   ],
+   [
+    "Claudia V. Camp",
+    "Claudia V. Camp"
+   ],
+   [
+    "John J. Thatamanil",
+    "John J. Thatamanil"
+   ],
+   [
+    "Shelly Rambo",
+    "Shelly Rambo"
+   ],
+   [
+    "Timothy Adkins-Jones",
+    "Timothy Adkins-Jones"
+   ],
+   [
+    "Tat-siong Benny Liew",
+    "Tat-siong Benny Liew"
+   ],
+   [
+    "Rujuta Rao",
+    "Rujuta Rao"
+   ],
+   [
+    "Megan McCabe",
+    "Megan McCabe"
+   ],
+   [
+    "Sarah Azaransky",
+    "Sarah Azaransky"
+   ],
+   [
+    "David H. Kelsey",
+    "David H. Kelsey"
+   ],
+   [
+    "Ester Mombo",
+    "Ester Mombo"
+   ],
+   [
+    "Andrew Irving",
+    "Andrew Irving"
+   ],
+   [
+    "Elsa Tamez",
+    "Elsa Tamez"
+   ],
+   [
+    "Samuel Cruz",
+    "Samuel Cruz"
+   ],
+   [
+    "Marcella Althaus-Reid",
+    "Marcella Althaus-Reid"
+   ],
+   [
+    "James M. Washington",
+    "James M. Washington"
+   ],
+   [
+    "Joseph C. Hough Jr",
+    "Joseph C. Hough Jr"
+   ],
+   [
+    "Barbara Brown Zikmund",
+    "Barbara Brown Zikmund"
+   ],
+   [
+    "Larry Rasmussen",
+    "Larry Rasmussen"
+   ],
+   [
+    "Christine Helmer",
+    "Christine Helmer"
+   ],
+   [
+    "M. Christian Green",
+    "M. Christian Green"
+   ],
+   [
+    "Molly Farneth",
+    "Molly Farneth"
+   ],
+   [
+    "Musa W. Dube",
+    "Musa W. Dube"
+   ],
+   [
+    "Eboni Marshall Turman",
+    "Eboni Marshall Turman"
+   ],
+   [
+    "Michael J. Naughton",
+    "Michael J. Naughton"
+   ],
+   [
+    "Stephen Ray Jr",
+    "Stephen Ray Jr"
+   ],
+   [
+    "Alicia Vargas",
+    "Alicia Vargas"
+   ],
+   [
+    "J. Kameron Carter",
+    "J. Kameron Carter"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "Union Theological Seminary staff members include:",
+    "Union Theological Seminary staff members include:"
+   ],
+   [
+    "Serene Jones",
+    "Serene Jones"
+   ],
+   [
+    "James A. Forbes Jr",
+    "James A. Forbes Jr"
+   ],
+   [
+    "Cornel West",
+    "Cornel West"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "John W. De Gruchy",
+    "John W. de Gruchy"
+   ],
+   [
+    "James H. Cone",
+    "James H. Cone"
+   ],
+   [
+    "Catherine Keller",
+    "Catherine Keller"
+   ],
+   [
+    "Serene Jones",
+    "Serene Jones"
+   ],
+   [
+    "M. Shawn Copeland",
+    "M. Shawn Copeland"
+   ],
+   [
+    "Peter J. Paris",
+    "Peter J. Paris"
+   ],
+   [
+    "David L. Bartlett",
+    "David L. Bartlett"
+   ],
+   [
+    "William R. Jones",
+    "William R. Jones"
+   ],
+   [
+    "Miroslav Volf",
+    "Miroslav Volf"
+   ],
+   [
+    "Cornel West",
+    "Cornel West"
+   ],
+   [
+    "James H. Charlesworth",
+    "James H. Charlesworth"
+   ],
+   [
+    "Diana Butler Bass",
+    "Diana Butler Bass"
+   ],
+   [
+    "Eugene H. Peterson",
+    "Eugene H. Peterson"
+   ],
+   [
+    "Richard J. Mouw",
+    "Richard J. Mouw"
+   ],
+   [
+    "Stanley Hauerwas",
+    "Stanley Hauerwas"
+   ],
+   [
+    "N. T. Wright",
+    "N. T. Wright"
+   ],
+   [
+    "Barbara Brown Taylor",
+    "Barbara Brown Taylor"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "Serene Jones",
+    "Serene Jones"
+   ],
+   [
+    "James Cone",
+    "James Cone"
+   ],
+   [
+    "Gary Dorrien",
+    "Gary Dorrien"
+   ],
+   [
+    "Mary C. Boys",
+    "Mary C. Boys"
+   ],
+   [
+    "Pamela Cooper-White",
+    "Pamela Cooper-White"
+   ]
+  ]
+ },
+ "211__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>World Series 1966",
+    "1966 World Series"
+   ],
+   [
+    "World Series 1969",
+    "1969 World Series"
+   ],
+   [
+    "World Series 1970",
+    "1970 World Series"
+   ],
+   [
+    "World Series 1971",
+    "1971 World Series"
+   ],
+   [
+    "World Series 1979",
+    "1979 World Series"
+   ],
+   [
+    "World Series 1983<|END_TEXT|>",
+    "1983 World Series"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "World Series (1966, 1970, 1983)",
+    "World Series"
+   ],
+   [
+    "American League pennant (1966, 1969, 1970, 1971, 1979, 1983)",
+    "American League pennant"
+   ],
+   [
+    "American League East division title (1969, 1970, 1971, 1973, 1974, 1979, 1983, 1997, 2014)",
+    "American League East division title"
+   ],
+   [
+    "American League wild card berth (1996, 2012, 2016)",
+    "American League wild card berth"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "1966 World Series",
+    "1966 World Series"
+   ],
+   [
+    "1970 World Series",
+    "1970 World Series"
+   ],
+   [
+    "1983 World Series",
+    "1983 World Series"
+   ],
+   [
+    "1944 American League Pennant",
+    "1944 American League Pennant"
+   ],
+   [
+    "1966 American League Pennant",
+    "1966 American League Pennant"
+   ],
+   [
+    "1969 American League Pennant",
+    "1969 American League Pennant"
+   ],
+   [
+    "1970 American League Pennant",
+    "1970 American League Pennant"
+   ],
+   [
+    "1971 American League Pennant",
+    "1971 American League Pennant"
+   ],
+   [
+    "1979 American League Pennant",
+    "1979 American League Pennant"
+   ],
+   [
+    "1969 American League Championship Series",
+    "1969 American League Championship Series"
+   ],
+   [
+    "1970 American League Championship Series",
+    "1970 American League Championship Series"
+   ],
+   [
+    "1971 American League Championship Series",
+    "1971 American League Championship Series"
+   ],
+   [
+    "1979 American League Championship Series",
+    "1979 American League Championship Series"
+   ],
+   [
+    "1983 American League Championship Series",
+    "1983 American League Championship Series"
+   ],
+   [
+    "1997 American League Division Series",
+    "1997 American League Division Series"
+   ],
+   [
+    "2014 American League Division Series",
+    "2014 American League Division Series"
+   ],
+   [
+    "2012 American League Wild Card Game",
+    "2012 American League Wild Card Game"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "1966 World Series",
+    "1966 World Series"
+   ],
+   [
+    "1970 World Series",
+    "1970 World Series"
+   ],
+   [
+    "1983 World Series",
+    "1983 World Series"
+   ],
+   [
+    "1944 American League Pennant",
+    "1944 American League Pennant"
+   ],
+   [
+    "1966 American League Pennant",
+    "1966 American League Pennant"
+   ],
+   [
+    "1969 American League Pennant",
+    "1969 American League Pennant"
+   ],
+   [
+    "1970 American League Pennant",
+    "1970 American League Pennant"
+   ],
+   [
+    "1971 American League Pennant",
+    "1971 American League Pennant"
+   ],
+   [
+    "1979 American League Pennant",
+    "1979 American League Pennant"
+   ],
+   [
+    "1983 American League Pennant",
+    "1983 American League Pennant"
+   ],
+   [
+    "1969 AL East Division Title",
+    "1969 American League East Division Title"
+   ],
+   [
+    "1970 AL East Division Title",
+    "1970 American League East Division Title"
+   ],
+   [
+    "1971 AL East Division Title",
+    "1971 American League East Division Title"
+   ],
+   [
+    "1973 AL East Division Title",
+    "1973 American League East Division Title"
+   ],
+   [
+    "1974 AL East Division Title",
+    "1974 American League East Division Title"
+   ],
+   [
+    "1979 AL East Division Title",
+    "1979 American League East Division Title"
+   ],
+   [
+    "1983 AL East Division Title",
+    "1983 American League East Division Title"
+   ],
+   [
+    "1997 AL East Division Title",
+    "1997 American League East Division Title"
+   ],
+   [
+    "2014 AL East Division Title",
+    "2014 American League East Division Title"
+   ],
+   [
+    "1996 AL Wild Card",
+    "1996 American League Wild Card"
+   ],
+   [
+    "2012 AL Wild Card",
+    "2012 American League Wild Card"
+   ],
+   [
+    "2023 AL Wild Card",
+    "2023 American League Wild Card"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "American League East",
+    "American League East"
+   ],
+   [
+    "American League pennant",
+    "American League pennant"
+   ],
+   [
+    "World Series",
+    "World Series"
+   ],
+   [
+    "Wild Card Game",
+    "American League Wild Card Game"
+   ],
+   [
+    "American League Division Series",
+    "American League Division Series"
+   ],
+   [
+    "American League Championship Series",
+    "American League Championship Series"
+   ],
+   [
+    "National League East",
+    "National League East"
+   ],
+   [
+    "National League pennant",
+    "National League pennant"
+   ],
+   [
+    "International League",
+    "International League"
+   ],
+   [
+    "Junior Circuit pennant",
+    "American League pennant"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "World Series",
+    "World Series"
+   ],
+   [
+    "American League Championship Series",
+    "American League Championship Series"
+   ],
+   [
+    "American League Division Series",
+    "American League Division Series"
+   ],
+   [
+    "American League Wild Card Game",
+    "American League Wild Card Game"
+   ],
+   [
+    "American League Wild Card Series",
+    "American League Wild Card Series"
+   ],
+   [
+    "American League East",
+    "American League East"
+   ],
+   [
+    "American League Pennant",
+    "American League Pennant"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "2024 World Series",
+    "2024 World Series"
+   ],
+   [
+    "2023 World Series",
+    "2023 World Series"
+   ],
+   [
+    "2022 World Series",
+    "2022 World Series"
+   ],
+   [
+    "2021 World Series",
+    "2021 World Series"
+   ],
+   [
+    "2020 World Series",
+    "2020 World Series"
+   ],
+   [
+    "2019 World Series",
+    "2019 World Series"
+   ],
+   [
+    "2018 World Series",
+    "2018 World Series"
+   ],
+   [
+    "2017 World Series",
+    "2017 World Series"
+   ],
+   [
+    "2016 World Series",
+    "2016 World Series"
+   ],
+   [
+    "2015 World Series",
+    "2015 World Series"
+   ],
+   [
+    "2014 World Series",
+    "2014 World Series"
+   ],
+   [
+    "2013 World Series",
+    "2013 World Series"
+   ],
+   [
+    "2012 World Series",
+    "2012 World Series"
+   ],
+   [
+    "2011 World Series",
+    "2011 World Series"
+   ],
+   [
+    "2010 World Series",
+    "2010 World Series"
+   ],
+   [
+    "2009 World Series",
+    "2009 World Series"
+   ],
+   [
+    "2008 World Series",
+    "2008 World Series"
+   ],
+   [
+    "2007 World Series",
+    "2007 World Series"
+   ],
+   [
+    "2006 World Series",
+    "2006 World Series"
+   ],
+   [
+    "2005 World Series",
+    "2005 World Series"
+   ],
+   [
+    "2004 World Series",
+    "2004 World Series"
+   ],
+   [
+    "2003 World Series",
+    "2003 World Series"
+   ],
+   [
+    "2002 World Series",
+    "2002 World Series"
+   ],
+   [
+    "2001 World Series",
+    "2001 World Series"
+   ],
+   [
+    "2000 World Series",
+    "2000 World Series"
+   ],
+   [
+    "1999 World Series",
+    "1999 World Series"
+   ],
+   [
+    "1998 World Series",
+    "1998 World Series"
+   ],
+   [
+    "1997 World Series",
+    "1997 World Series"
+   ],
+   [
+    "1996 World Series",
+    "1996 World Series"
+   ],
+   [
+    "1995 World Series",
+    "1995 World Series"
+   ],
+   [
+    "1994 World Series",
+    "1994 World Series"
+   ],
+   [
+    "1993 World Series",
+    "1993 World Series"
+   ],
+   [
+    "1992 World Series",
+    "1992 World Series"
+   ],
+   [
+    "1991 World Series",
+    "1991 World Series"
+   ],
+   [
+    "1990 World Series",
+    "1990 World Series"
+   ],
+   [
+    "1989 World Series",
+    "1989 World Series"
+   ],
+   [
+    "1988 World Series",
+    "1988 World Series"
+   ],
+   [
+    "1987 World Series",
+    "1987 World Series"
+   ],
+   [
+    "1986 World Series",
+    "1986 World Series"
+   ],
+   [
+    "1985 World Series",
+    "1985 World Series"
+   ],
+   [
+    "1984 World Series",
+    "1984 World Series"
+   ],
+   [
+    "1983 World Series",
+    "1983 World Series"
+   ],
+   [
+    "1982 World Series",
+    "1982 World Series"
+   ],
+   [
+    "1981 World Series",
+    "1981 World Series"
+   ],
+   [
+    "1980 World Series",
+    "1980 World Series"
+   ],
+   [
+    "1979 World Series",
+    "1979 World Series"
+   ],
+   [
+    "1978 World Series",
+    "1978 World Series"
+   ],
+   [
+    "1977 World Series",
+    "1977 World Series"
+   ],
+   [
+    "1976 World Series",
+    "1976 World Series"
+   ],
+   [
+    "1975 World Series",
+    "1975 World Series"
+   ],
+   [
+    "1974 World Series",
+    "1974 World Series"
+   ],
+   [
+    "1973 World Series",
+    "1973 World Series"
+   ],
+   [
+    "1972 World Series",
+    "1972 World Series"
+   ],
+   [
+    "1971 World Series",
+    "1971 World Series"
+   ],
+   [
+    "1970 World Series",
+    "1970 World Series"
+   ],
+   [
+    "1969 World Series",
+    "1969 World Series"
+   ],
+   [
+    "1968 World Series",
+    "1968 World Series"
+   ],
+   [
+    "1967 World Series",
+    "1967 World Series"
+   ],
+   [
+    "1966 World Series",
+    "1966 World Series"
+   ],
+   [
+    "1965 World Series",
+    "1965 World Series"
+   ],
+   [
+    "1964 World Series",
+    "1964 World Series"
+   ],
+   [
+    "1963 World Series",
+    "1963 World Series"
+   ],
+   [
+    "1962 World Series",
+    "1962 World Series"
+   ],
+   [
+    "1961 World Series",
+    "1961 World Series"
+   ],
+   [
+    "1960 World Series",
+    "1960 World Series"
+   ],
+   [
+    "1959 World Series",
+    "1959 World Series"
+   ],
+   [
+    "1958 World Series",
+    "1958 World Series"
+   ],
+   [
+    "1957 World Series",
+    "1957 World Series"
+   ],
+   [
+    "1956 World Series",
+    "1956 World Series"
+   ],
+   [
+    "1955 World Series",
+    "1955 World Series"
+   ],
+   [
+    "1954 World Series",
+    "1954 World Series"
+   ],
+   [
+    "1953 World Series",
+    "1953 World Series"
+   ],
+   [
+    "1952 World Series",
+    "1952 World Series"
+   ],
+   [
+    "1951 World Series",
+    "1951 World Series"
+   ],
+   [
+    "1950 World Series",
+    "1950 World Series"
+   ],
+   [
+    "1949 World Series",
+    "1949 World Series"
+   ],
+   [
+    "1948 World Series",
+    "1948 World Series"
+   ],
+   [
+    "1947 World Series",
+    "1947 World Series"
+   ],
+   [
+    "1946 World Series",
+    "1946 World Series"
+   ],
+   [
+    "1945 World Series",
+    "1945 World Series"
+   ],
+   [
+    "1944 World Series",
+    "1944 World Series"
+   ],
+   [
+    "1943 World Series",
+    "1943 World Series"
+   ],
+   [
+    "1942 World Series",
+    "1942 World Series"
+   ],
+   [
+    "1941 World Series",
+    "1941 World Series"
+   ],
+   [
+    "1940 World Series",
+    "1940 World Series"
+   ],
+   [
+    "1939 World Series",
+    "1939 World Series"
+   ],
+   [
+    "1938 World Series",
+    "1938 World Series"
+   ],
+   [
+    "1937 World Series",
+    "1937 World Series"
+   ],
+   [
+    "1936 World Series",
+    "1936 World Series"
+   ],
+   [
+    "1935 World Series",
+    "1935 World Series"
+   ],
+   [
+    "1934 World Series",
+    "1934 World Series"
+   ],
+   [
+    "1933 World Series",
+    "1933 World Series"
+   ],
+   [
+    "1932 World Series",
+    "1932 World Series"
+   ],
+   [
+    "1931 World Series",
+    "1931 World Series"
+   ],
+   [
+    "1930 World Series",
+    "1930 World Series"
+   ],
+   [
+    "1929 World Series",
+    "1929 World Series"
+   ],
+   [
+    "1928 World Series",
+    "1928 World Series"
+   ],
+   [
+    "1927 World Series",
+    "1927 World Series"
+   ],
+   [
+    "1926 World Series",
+    "1926 World Series"
+   ],
+   [
+    "1925 World Series",
+    "1925 World Series"
+   ],
+   [
+    "1924 World Series",
+    "1924 World Series"
+   ],
+   [
+    "1923 World Series",
+    "1923 World Series"
+   ],
+   [
+    "1922 World Series",
+    "1922 World Series"
+   ],
+   [
+    "1921 World Series",
+    "1921 World Series"
+   ],
+   [
+    "1920 World Series",
+    "1920 World Series"
+   ],
+   [
+    "1919 World Series",
+    "1919 World Series"
+   ],
+   [
+    "1918 World Series",
+    "1918 World Series"
+   ],
+   [
+    "1917 World Series",
+    "1917 World Series"
+   ],
+   [
+    "1916 World Series",
+    "1916 World Series"
+   ],
+   [
+    "1915 World Series",
+    "1915 World Series"
+   ],
+   [
+    "1914 World Series",
+    "1914 World Series"
+   ],
+   [
+    "1913 World Series",
+    "1913 World Series"
+   ],
+   [
+    "1912 World Series",
+    "1912 World Series"
+   ],
+   [
+    "1911 World Series",
+    "1911 World Series"
+   ],
+   [
+    "1910 World Series",
+    "1910 World Series"
+   ],
+   [
+    "1909 World Series",
+    "1909 World Series"
+   ],
+   [
+    "1908 World Series",
+    "1908 World Series"
+   ],
+   [
+    "1907 World Series",
+    "1907 World Series"
+   ],
+   [
+    "1906 World Series",
+    "1906 World Series"
+   ],
+   [
+    "1905 World Series",
+    "1905 World Series"
+   ],
+   [
+    "1904 World Series",
+    "1904 World Series"
+   ],
+   [
+    "1903 World Series",
+    "1903 World Series"
+   ],
+   [
+    "1902 World Series",
+    "1902 World Series"
+   ],
+   [
+    "1901 World Series",
+    "1901 World Series"
+   ],
+   [
+    "1900 World Series",
+    "1900 World Series"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "1966 World Series",
+    "1966 World Series"
+   ],
+   [
+    "1970 World Series",
+    "1970 World Series"
+   ],
+   [
+    "1983 World Series",
+    "1983 World Series"
+   ],
+   [
+    "1969 World Series",
+    "1969 World Series"
+   ],
+   [
+    "1971 World Series",
+    "1971 World Series"
+   ],
+   [
+    "1979 World Series",
+    "1979 World Series"
+   ],
+   [
+    "1944 World Series",
+    "1944 World Series"
+   ],
+   [
+    "1996 ALCS",
+    "1996 American League Championship Series"
+   ],
+   [
+    "1997 ALCS",
+    "1997 American League Championship Series"
+   ],
+   [
+    "2014 ALCS",
+    "2014 American League Championship Series"
+   ],
+   [
+    "2012 ALDS",
+    "2012 American League Division Series"
+   ],
+   [
+    "2014 ALDS",
+    "2014 American League Division Series"
+   ],
+   [
+    "2016 ALDS",
+    "2016 American League Division Series"
+   ],
+   [
+    "2023 ALDS",
+    "2023 American League Division Series"
+   ],
+   [
+    "1966 ALCS",
+    "1966 American League Championship Series"
+   ],
+   [
+    "1970 ALCS",
+    "1970 American League Championship Series"
+   ],
+   [
+    "1971 ALCS",
+    "1971 American League Championship Series"
+   ],
+   [
+    "1973 ALCS",
+    "1973 American League Championship Series"
+   ],
+   [
+    "1974 ALCS",
+    "1974 American League Championship Series"
+   ],
+   [
+    "1979 ALCS",
+    "1979 American League Championship Series"
+   ],
+   [
+    "1983 ALCS",
+    "1983 American League Championship Series"
+   ],
+   [
+    "1989 ALCS",
+    "1989 American League Championship Series"
+   ],
+   [
+    "1993 ALCS",
+    "1993 American League Championship Series"
+   ],
+   [
+    "2012 AL East title",
+    "2012 American League East title"
+   ],
+   [
+    "2014 AL East title",
+    "2014 American League East title"
+   ],
+   [
+    "2023 AL East title",
+    "2023 American League East title"
+   ],
+   [
+    "1969 AL East title",
+    "1969 American League East title"
+   ],
+   [
+    "1970 AL East title",
+    "1970 American League East title"
+   ],
+   [
+    "1971 AL East title",
+    "1971 American League East title"
+   ],
+   [
+    "1973 AL East title",
+    "1973 American League East title"
+   ],
+   [
+    "1974 AL East title",
+    "1974 American League East title"
+   ],
+   [
+    "1979 AL East title",
+    "1979 American League East title"
+   ],
+   [
+    "1980 AL East title",
+    "1980 American League East title"
+   ],
+   [
+    "1983 AL East title",
+    "1983 American League East title"
+   ],
+   [
+    "1989 AL East title",
+    "1989 American League East title"
+   ],
+   [
+    "1992 AL East title",
+    "1992 American League East title"
+   ],
+   [
+    "1993 AL East title",
+    "1993 American League East title"
+   ],
+   [
+    "1994 AL East title",
+    "1994 American League East title"
+   ],
+   [
+    "1995 AL East title",
+    "1995 American League East title"
+   ],
+   [
+    "1996 AL East title",
+    "1996 American League East title"
+   ],
+   [
+    "1997 AL East title",
+    "1997 American League East title"
+   ],
+   [
+    "2016 AL East title",
+    "2016 American League East title"
+   ]
+  ]
+ },
+ "195__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>1992 Belgian Grand Prix",
+    "1992 Belgian Grand Prix"
+   ],
+   [
+    "1992 British Grand Prix",
+    "1992 British Grand Prix"
+   ],
+   [
+    "1992 Italian Grand Prix",
+    "1992 Italian Grand Prix"
+   ],
+   [
+    "1993 Brazilian Grand Prix",
+    "1993 Brazilian Grand Prix"
+   ],
+   [
+    "1993 German Grand Prix",
+    "1993 German Grand Prix"
+   ],
+   [
+    "1993 Hungarian Grand Prix",
+    "1993 Hungarian Grand Prix"
+   ],
+   [
+    "1994 Canadian Grand Prix",
+    "1994 Canadian Grand Prix"
+   ],
+   [
+    "1994 French Grand Prix",
+    "1994 French Grand Prix"
+   ],
+   [
+    "1994 German Grand Prix",
+    "1994 German Grand Prix"
+   ],
+   [
+    "1995 Argentine Grand Prix",
+    "1995 Argentine Grand Prix"
+   ],
+   [
+    "1995 British Grand Prix",
+    "1995 British Grand Prix"
+   ],
+   [
+    "1995 German Grand Prix",
+    "1995 German Grand Prix"
+   ],
+   [
+    "1995 Hungarian Grand Prix",
+    "1995 Hungarian Grand Prix"
+   ],
+   [
+    "1995 Italian Grand Prix",
+    "1995 Italian Grand Prix"
+   ],
+   [
+    "1996 Spanish Grand Prix",
+    "1996 Spanish Grand Prix"
+   ],
+   [
+    "1996 Monaco Grand Prix",
+    "1996 Monaco Grand Prix"
+   ],
+   [
+    "1996 Austrian Grand Prix",
+    "1996 Austrian Grand Prix"
+   ],
+   [
+    "1996 German Grand Prix",
+    "1996 German Grand Prix"
+   ],
+   [
+    "1997 Australian Grand Prix",
+    "1997 Australian Grand Prix"
+   ],
+   [
+    "1997 Brazilian Grand Prix",
+    "1997 Brazilian Grand Prix"
+   ],
+   [
+    "1997 Canadian Grand Prix",
+    "1997 Canadian Grand Prix"
+   ],
+   [
+    "1997 French Grand Prix",
+    "1997 French Grand Prix"
+   ],
+   [
+    "1997 German Grand Prix",
+    "1997 German Grand Prix"
+   ],
+   [
+    "1997 Hungarian Grand Prix",
+    "1997 Hungarian Grand Prix"
+   ],
+   [
+    "1998 Australian Grand Prix",
+    "1998 Australian Grand Prix"
+   ],
+   [
+    "1998 Brazilian Grand Prix",
+    "1998 Brazilian Grand Prix"
+   ],
+   [
+    "1998 Canadian Grand Prix",
+    "1998 Canadian Grand Prix"
+   ],
+   [
+    "1998 French Grand Prix",
+    "1998 French Grand Prix"
+   ],
+   [
+    "1998 German Grand Prix",
+    "1998 German Grand Prix"
+   ],
+   [
+    "1998 Hungarian Grand Prix",
+    "1998 Hungarian Grand Prix"
+   ],
+   [
+    "1999 Chinese Grand Prix",
+    "1999 Chinese Grand Prix"
+   ],
+   [
+    "1999 Monaco Grand Prix",
+    "1999 Monaco Grand Prix"
+   ],
+   [
+    "1999 Turkish Grand Prix",
+    "1999 Turkish Grand Prix"
+   ],
+   [
+    "1999 United States Grand Prix",
+    "1999 United States Grand Prix"
+   ],
+   [
+    "2000 Brazilian Grand Prix",
+    "2000 Brazilian Grand Prix"
+   ],
+   [
+    "2000 Monaco Grand Prix",
+    "2000 Monaco Grand Prix"
+   ],
+   [
+    "2000 Spanish Grand Prix",
+    "2000 Spanish Grand Prix"
+   ],
+   [
+    "2000 Austrian Grand Prix",
+    "2000 Austrian Grand Prix"
+   ],
+   [
+    "2000 German Grand Prix",
+    "2000 German Grand Prix"
+   ],
+   [
+    "2000 Italian Grand Prix",
+    "2000 Italian Grand Prix"
+   ],
+   [
+    "2001 Australian Grand Prix",
+    "2001 Australian Grand Prix"
+   ],
+   [
+    "2001 Brazilian Grand Prix",
+    "2001 Brazilian Grand Prix"
+   ],
+   [
+    "2001 Chinese Grand Prix",
+    "2001 Chinese Grand Prix"
+   ],
+   [
+    "2001 Monaco Grand Prix",
+    "2001 Monaco Grand Prix"
+   ],
+   [
+    "2001 Spanish Grand Prix",
+    "2001 Spanish Grand Prix"
+   ],
+   [
+    "2001 Austrian Grand Prix",
+    "2001 Austrian Grand Prix"
+   ],
+   [
+    "2001 German Grand Prix",
+    "2001 German Grand Prix"
+   ],
+   [
+    "2002 Australian Grand Prix",
+    "2002 Australian Grand Prix"
+   ],
+   [
+    "2002 Brazilian Grand Prix",
+    "2002 Brazilian Grand Prix"
+   ],
+   [
+    "2002 Chinese Grand Prix",
+    "2002 Chinese Grand Prix"
+   ],
+   [
+    "2002 Monaco Grand Prix",
+    "2002 Monaco Grand Prix"
+   ],
+   [
+    "2002 Spanish Grand Prix",
+    "2002 Spanish Grand Prix"
+   ],
+   [
+    "2002 Austrian Grand Prix",
+    "2002 Austrian Grand Prix"
+   ],
+   [
+    "2002 German Grand Prix",
+    "2002 German Grand Prix"
+   ],
+   [
+    "2003 Australian Grand Prix",
+    "2003 Australian Grand Prix"
+   ],
+   [
+    "2003 Brazilian Grand Prix",
+    "2003 Brazilian Grand Prix"
+   ],
+   [
+    "2003 Chinese Grand Prix",
+    "2003 Chinese Grand Prix"
+   ],
+   [
+    "2003 Monaco Grand Prix",
+    "2003 Monaco Grand Prix"
+   ],
+   [
+    "2003 Spanish Grand Prix",
+    "2003 Spanish Grand Prix"
+   ],
+   [
+    "2003 Austrian Grand Prix",
+    "2003 Austrian Grand Prix"
+   ],
+   [
+    "2003 German Grand Prix",
+    "2003 German Grand Prix"
+   ],
+   [
+    "2004 Bahrain Grand Prix",
+    "2004 Bahrain Grand Prix"
+   ],
+   [
+    "2004 Malaysian Grand Prix",
+    "2004 Malaysian Grand Prix"
+   ],
+   [
+    "2004 Chinese Grand Prix",
+    "2004 Chinese Grand Prix"
+   ],
+   [
+    "2004 Monaco Grand Prix",
+    "2004 Monaco Grand Prix"
+   ],
+   [
+    "2004 Spanish Grand Prix",
+    "2004 Spanish Grand Prix"
+   ],
+   [
+    "2004 Austrian Grand Prix",
+    "2004 Austrian Grand Prix"
+   ],
+   [
+    "2004 German Grand Prix",
+    "2004 German Grand Prix"
+   ],
+   [
+    "2005 Monaco Grand Prix",
+    "2005 Monaco Grand Prix"
+   ],
+   [
+    "2005 United States Grand Prix",
+    "2005 United States Grand Prix"
+   ],
+   [
+    "2005 Chinese Grand Prix",
+    "2005 Chinese Grand Prix"
+   ],
+   [
+    "2005 Turkish Grand Prix",
+    "2005 Turkish Grand Prix"
+   ],
+   [
+    "2006 Monaco Grand Prix",
+    "2006 Monaco Grand Prix"
+   ],
+   [
+    "2006 Chinese Grand Prix",
+    "2006 Chinese Grand Prix"
+   ],
+   [
+    "2006 Turkish Grand Prix",
+    "2006 Turkish Grand Prix"
+   ],
+   [
+    "2006 United States Grand Prix",
+    "2006 United States Grand Prix"
+   ],
+   [
+    "2006 Italian Grand Prix",
+    "2006 Italian Grand Prix"
+   ],
+   [
+    "2006 Brazilian Grand Prix",
+    "2006 Brazilian Grand Prix"
+   ],
+   [
+    "2006 Hungarian Grand Prix",
+    "2006 Hungarian Grand Prix"
+   ],
+   [
+    "2006 Belgian Grand Prix",
+    "2006 Belgian Grand Prix"
+   ],
+   [
+    "2007 Monaco Grand Prix",
+    "2007 Monaco Grand Prix"
+   ],
+   [
+    "2007 Chinese Grand Prix",
+    "2007 Chinese Grand Prix"
+   ],
+   [
+    "2007 Turkish Grand Prix",
+    "2007 Turkish Grand Prix"
+   ],
+   [
+    "2007 United States Grand Prix",
+    "2007 United States Grand Prix"
+   ],
+   [
+    "2007 Italian Grand Prix",
+    "2007 Italian Grand Prix"
+   ],
+   [
+    "2007 Brazilian Grand Prix",
+    "2007 Brazilian Grand Prix"
+   ],
+   [
+    "2007 Hungarian Grand Prix",
+    "2007 Hungarian Grand Prix"
+   ],
+   [
+    "2007 Belgian Grand Prix",
+    "2007 Belgian Grand Prix"
+   ],
+   [
+    "2008 Monaco Grand Prix",
+    "2008 Monaco Grand Prix"
+   ],
+   [
+    "2008 Chinese Grand Prix",
+    "2008 Chinese Grand Prix"
+   ],
+   [
+    "2008 Turkish Grand Prix<|END_TEXT|>",
+    "2008 Turkish Grand Prix"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "1994 Formula One World Championship",
+    "1994 Formula One World Championship"
+   ],
+   [
+    "1995 Formula One World Championship",
+    "1995 Formula One World Championship"
+   ],
+   [
+    "2000 Formula One World Championship",
+    "2000 Formula One World Championship"
+   ],
+   [
+    "2001 Formula One World Championship",
+    "2001 Formula One World Championship"
+   ],
+   [
+    "2002 Formula One World Championship",
+    "2002 Formula One World Championship"
+   ],
+   [
+    "2003 Formula One World Championship",
+    "2003 Formula One World Championship"
+   ],
+   [
+    "2004 Formula One World Championship",
+    "2004 Formula One World Championship"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "1994 Formula One World Championship",
+    "1994 Formula One World Championship"
+   ],
+   [
+    "1995 Formula One World Championship",
+    "1995 Formula One World Championship"
+   ],
+   [
+    "2000 Formula One World Championship",
+    "2000 Formula One World Championship"
+   ],
+   [
+    "2001 Formula One World Championship",
+    "2001 Formula One World Championship"
+   ],
+   [
+    "2002 Formula One World Championship",
+    "2002 Formula One World Championship"
+   ],
+   [
+    "2003 Formula One World Championship",
+    "2003 Formula One World Championship"
+   ],
+   [
+    "2004 Formula One World Championship",
+    "2004 Formula One World Championship"
+   ],
+   [
+    "1992 Belgian Grand Prix",
+    "1992 Belgian Grand Prix"
+   ],
+   [
+    "1994 Brazilian Grand Prix",
+    "1994 Brazilian Grand Prix"
+   ],
+   [
+    "1994 Pacific Grand Prix",
+    "1994 Pacific Grand Prix"
+   ],
+   [
+    "1994 San Marino Grand Prix",
+    "1994 San Marino Grand Prix"
+   ],
+   [
+    "1994 Monaco Grand Prix",
+    "1994 Monaco Grand Prix"
+   ],
+   [
+    "1994 Spanish Grand Prix",
+    "1994 Spanish Grand Prix"
+   ],
+   [
+    "1994 Canadian Grand Prix",
+    "1994 Canadian Grand Prix"
+   ],
+   [
+    "1994 French Grand Prix",
+    "1994 French Grand Prix"
+   ],
+   [
+    "1994 Hungarian Grand Prix",
+    "1994 Hungarian Grand Prix"
+   ],
+   [
+    "1994 European Grand Prix",
+    "1994 European Grand Prix"
+   ],
+   [
+    "1995 Brazilian Grand Prix",
+    "1995 Brazilian Grand Prix"
+   ],
+   [
+    "1995 Spanish Grand Prix",
+    "1995 Spanish Grand Prix"
+   ],
+   [
+    "1995 Monaco Grand Prix",
+    "1995 Monaco Grand Prix"
+   ],
+   [
+    "1995 French Grand Prix",
+    "1995 French Grand Prix"
+   ],
+   [
+    "1995 German Grand Prix",
+    "1995 German Grand Prix"
+   ],
+   [
+    "1995 Belgian Grand Prix",
+    "1995 Belgian Grand Prix"
+   ],
+   [
+    "1995 European Grand Prix",
+    "1995 European Grand Prix"
+   ],
+   [
+    "1995 Pacific Grand Prix",
+    "1995 Pacific Grand Prix"
+   ],
+   [
+    "1995 Japanese Grand Prix",
+    "1995 Japanese Grand Prix"
+   ],
+   [
+    "1996 Spanish Grand Prix",
+    "1996 Spanish Grand Prix"
+   ],
+   [
+    "1996 Belgian Grand Prix",
+    "1996 Belgian Grand Prix"
+   ],
+   [
+    "1996 Italian Grand Prix",
+    "1996 Italian Grand Prix"
+   ],
+   [
+    "1997 Monaco Grand Prix",
+    "1997 Monaco Grand Prix"
+   ],
+   [
+    "1997 Canadian Grand Prix",
+    "1997 Canadian Grand Prix"
+   ],
+   [
+    "1997 French Grand Prix",
+    "1997 French Grand Prix"
+   ],
+   [
+    "1997 Belgian Grand Prix",
+    "1997 Belgian Grand Prix"
+   ],
+   [
+    "1997 Japanese Grand Prix",
+    "1997 Japanese Grand Prix"
+   ],
+   [
+    "1998 Argentine Grand Prix",
+    "1998 Argentine Grand Prix"
+   ],
+   [
+    "1998 Canadian Grand Prix",
+    "1998 Canadian Grand Prix"
+   ],
+   [
+    "1998 French Grand Prix",
+    "1998 French Grand Prix"
+   ],
+   [
+    "1998 British Grand Prix",
+    "1998 British Grand Prix"
+   ],
+   [
+    "1998 Hungarian Grand Prix",
+    "1998 Hungarian Grand Prix"
+   ],
+   [
+    "1998 Italian Grand Prix",
+    "1998 Italian Grand Prix"
+   ],
+   [
+    "1999 San Marino Grand Prix",
+    "1999 San Marino Grand Prix"
+   ],
+   [
+    "1999 Monaco Grand Prix",
+    "1999 Monaco Grand Prix"
+   ],
+   [
+    "1999 Hungarian Grand Prix",
+    "1999 Hungarian Grand Prix"
+   ],
+   [
+    "2000 Australian Grand Prix",
+    "2000 Australian Grand Prix"
+   ],
+   [
+    "2000 Brazilian Grand Prix",
+    "2000 Brazilian Grand Prix"
+   ],
+   [
+    "2000 San Marino Grand Prix",
+    "2000 San Marino Grand Prix"
+   ],
+   [
+    "2000 Spanish Grand Prix",
+    "2000 Spanish Grand Prix"
+   ],
+   [
+    "2000 European Grand Prix",
+    "2000 European Grand Prix"
+   ],
+   [
+    "2000 Canadian Grand Prix",
+    "2000 Canadian Grand Prix"
+   ],
+   [
+    "2000 French Grand Prix",
+    "2000 French Grand Prix"
+   ],
+   [
+    "2000 Hungarian Grand Prix",
+    "2000 Hungarian Grand Prix"
+   ],
+   [
+    "2000 Italian Grand Prix",
+    "2000 Italian Grand Prix"
+   ],
+   [
+    "2000 Japanese Grand Prix",
+    "2000 Japanese Grand Prix"
+   ],
+   [
+    "2000 Malaysian Grand Prix",
+    "2000 Malaysian Grand Prix"
+   ],
+   [
+    "2001 Australian Grand Prix",
+    "2001 Australian Grand Prix"
+   ],
+   [
+    "2001 Malaysian Grand Prix",
+    "2001 Malaysian Grand Prix"
+   ],
+   [
+    "2001 Brazilian Grand Prix",
+    "2001 Brazilian Grand Prix"
+   ],
+   [
+    "2001 Spanish Grand Prix",
+    "2001 Spanish Grand Prix"
+   ],
+   [
+    "2001 Austrian Grand Prix",
+    "2001 Austrian Grand Prix"
+   ],
+   [
+    "2001 Monaco Grand Prix",
+    "2001 Monaco Grand Prix"
+   ],
+   [
+    "2001 European Grand Prix",
+    "2001 European Grand Prix"
+   ],
+   [
+    "2001 French Grand Prix",
+    "2001 French Grand Prix"
+   ],
+   [
+    "2001 Hungarian Grand Prix",
+    "2001 Hungarian Grand Prix"
+   ],
+   [
+    "2001 Belgian Grand Prix",
+    "2001 Belgian Grand Prix"
+   ],
+   [
+    "2001 Japanese Grand Prix",
+    "2001 Japanese Grand Prix"
+   ],
+   [
+    "2002 Australian Grand Prix",
+    "2002 Australian Grand Prix"
+   ],
+   [
+    "2002 Brazilian Grand Prix",
+    "2002 Brazilian Grand Prix"
+   ],
+   [
+    "2002 San Marino Grand Prix",
+    "2002 San Marino Grand Prix"
+   ],
+   [
+    "2002 Spanish Grand Prix",
+    "2002 Spanish Grand Prix"
+   ],
+   [
+    "2002 Austrian Grand Prix",
+    "2002 Austrian Grand Prix"
+   ],
+   [
+    "2002 Canadian Grand Prix",
+    "2002 Canadian Grand Prix"
+   ],
+   [
+    "2002 European Grand Prix",
+    "2002 European Grand Prix"
+   ],
+   [
+    "2002 British Grand Prix",
+    "2002 British Grand Prix"
+   ],
+   [
+    "2002 French Grand Prix",
+    "2002 French Grand Prix"
+   ],
+   [
+    "2002 German Grand Prix",
+    "2002 German Grand Prix"
+   ],
+   [
+    "2002 Hungarian Grand Prix",
+    "2002 Hungarian Grand Prix"
+   ],
+   [
+    "2002 Belgian Grand Prix",
+    "2002 Belgian Grand Prix"
+   ],
+   [
+    "2002 Italian Grand Prix",
+    "2002 Italian Grand Prix"
+   ],
+   [
+    "2002 United States Grand Prix",
+    "2002 United States Grand Prix"
+   ],
+   [
+    "2002 Japanese Grand Prix",
+    "2002 Japanese Grand Prix"
+   ],
+   [
+    "2003 San Marino Grand Prix",
+    "2003 San Marino Grand Prix"
+   ],
+   [
+    "2003 Spanish Grand Prix",
+    "2003 Spanish Grand Prix"
+   ],
+   [
+    "2003 Austrian Grand Prix",
+    "2003 Austrian Grand Prix"
+   ],
+   [
+    "2003 Canadian Grand Prix",
+    "2003 Canadian Grand Prix"
+   ],
+   [
+    "2003 Italian Grand Prix",
+    "2003 Italian Grand Prix"
+   ],
+   [
+    "2003 United States Grand Prix",
+    "2003 United States Grand Prix"
+   ],
+   [
+    "2004 Australian Grand Prix",
+    "2004 Australian Grand Prix"
+   ],
+   [
+    "2004 Malaysian Grand Prix",
+    "2004 Malaysian Grand Prix"
+   ],
+   [
+    "2004 Bahrain Grand Prix",
+    "2004 Bahrain Grand Prix"
+   ],
+   [
+    "2004 San Marino Grand Prix",
+    "2004 San Marino Grand Prix"
+   ],
+   [
+    "2004 Spanish Grand Prix",
+    "2004 Spanish Grand Prix"
+   ],
+   [
+    "2004 European Grand Prix",
+    "2004 European Grand Prix"
+   ],
+   [
+    "2004 Canadian Grand Prix",
+    "2004 Canadian Grand Prix"
+   ],
+   [
+    "2004 United States Grand Prix",
+    "2004 United States Grand Prix"
+   ],
+   [
+    "2004 French Grand Prix",
+    "2004 French Grand Prix"
+   ],
+   [
+    "2004 British Grand Prix",
+    "2004 British Grand Prix"
+   ],
+   [
+    "2004 German Grand Prix",
+    "2004 German Grand Prix"
+   ],
+   [
+    "2004 Hungarian Grand Prix",
+    "2004 Hungarian Grand Prix"
+   ],
+   [
+    "2004 Belgian Grand Prix",
+    "2004 Belgian Grand Prix"
+   ],
+   [
+    "2004 Italian Grand Prix",
+    "2004 Italian Grand Prix"
+   ],
+   [
+    "2004 Chinese Grand Prix",
+    "2004 Chinese Grand Prix"
+   ],
+   [
+    "2004 Japanese Grand Prix",
+    "2004 Japanese Grand Prix"
+   ],
+   [
+    "2005 United States Grand Prix",
+    "2005 United States Grand Prix"
+   ],
+   [
+    "2006 San Marino Grand Prix",
+    "2006 San Marino Grand Prix"
+   ],
+   [
+    "2006 United States Grand Prix",
+    "2006 United States Grand Prix"
+   ],
+   [
+    "2006 French Grand Prix",
+    "2006 French Grand Prix"
+   ],
+   [
+    "2006 German Grand Prix",
+    "2006 German Grand Prix"
+   ],
+   [
+    "2006 Italian Grand Prix",
+    "2006 Italian Grand Prix"
+   ],
+   [
+    "2006 Chinese Grand Prix",
+    "2006 Chinese Grand Prix"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "1994 Formula One World Championship",
+    "1994 Formula One World Championship"
+   ],
+   [
+    "1995 Formula One World Championship",
+    "1995 Formula One World Championship"
+   ],
+   [
+    "2000 Formula One World Championship",
+    "2000 Formula One World Championship"
+   ],
+   [
+    "2001 Formula One World Championship",
+    "2001 Formula One World Championship"
+   ],
+   [
+    "2002 Formula One World Championship",
+    "2002 Formula One World Championship"
+   ],
+   [
+    "2003 Formula One World Championship",
+    "2003 Formula One World Championship"
+   ],
+   [
+    "2004 Formula One World Championship",
+    "2004 Formula One World Championship"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "1994 Formula One World Championship",
+    "1994 Formula One World Championship"
+   ],
+   [
+    "1995 Formula One World Championship",
+    "1995 Formula One World Championship"
+   ],
+   [
+    "2000 Formula One World Championship",
+    "2000 Formula One World Championship"
+   ],
+   [
+    "2001 Formula One World Championship",
+    "2001 Formula One World Championship"
+   ],
+   [
+    "2002 Formula One World Championship",
+    "2002 Formula One World Championship"
+   ],
+   [
+    "2003 Formula One World Championship",
+    "2003 Formula One World Championship"
+   ],
+   [
+    "1994 Australian Grand Prix",
+    "1994 Australian Grand Prix"
+   ],
+   [
+    "1994 Belgian Grand Prix",
+    "1994 Belgian Grand Prix"
+   ],
+   [
+    "1994 Canadian Grand Prix",
+    "1994 Canadian Grand Prix"
+   ],
+   [
+    "1994 French Grand Prix",
+    "1994 French Grand Prix"
+   ],
+   [
+    "1994 German Grand Prix",
+    "1994 German Grand Prix"
+   ],
+   [
+    "1994 Monaco Grand Prix",
+    "1994 Monaco Grand Prix"
+   ],
+   [
+    "1994 Portuguese Grand Prix",
+    "1994 Portuguese Grand Prix"
+   ],
+   [
+    "1994 San Marino Grand Prix",
+    "1994 San Marino Grand Prix"
+   ],
+   [
+    "1994 Spanish Grand Prix",
+    "1994 Spanish Grand Prix"
+   ],
+   [
+    "1995 Belgian Grand Prix",
+    "1995 Belgian Grand Prix"
+   ],
+   [
+    "1995 Brazilian Grand Prix",
+    "1995 Brazilian Grand Prix"
+   ],
+   [
+    "1995 European Grand Prix",
+    "1995 European Grand Prix"
+   ],
+   [
+    "1995 French Grand Prix",
+    "1995 French Grand Prix"
+   ],
+   [
+    "1995 German Grand Prix",
+    "1995 German Grand Prix"
+   ],
+   [
+    "1995 Pacific Grand Prix",
+    "1995 Pacific Grand Prix"
+   ],
+   [
+    "1995 San Marino Grand Prix",
+    "1995 San Marino Grand Prix"
+   ],
+   [
+    "1996 Spanish Grand Prix",
+    "1996 Spanish Grand Prix"
+   ],
+   [
+    "1997 Monaco Grand Prix",
+    "1997 Monaco Grand Prix"
+   ],
+   [
+    "1997 Canadian Grand Prix",
+    "1997 Canadian Grand Prix"
+   ],
+   [
+    "1997 French Grand Prix",
+    "1997 French Grand Prix"
+   ],
+   [
+    "1997 Belgian Grand Prix",
+    "1997 Belgian Grand Prix"
+   ],
+   [
+    "1997 Japanese Grand Prix",
+    "1997 Japanese Grand Prix"
+   ],
+   [
+    "1998 Argentine Grand Prix",
+    "1998 Argentine Grand Prix"
+   ],
+   [
+    "1998 Canadian Grand Prix",
+    "1998 Canadian Grand Prix"
+   ],
+   [
+    "1998 French Grand Prix",
+    "1998 French Grand Prix"
+   ],
+   [
+    "1998 British Grand Prix",
+    "1998 British Grand Prix"
+   ],
+   [
+    "1998 Italian Grand Prix",
+    "1998 Italian Grand Prix"
+   ],
+   [
+    "1998 Luxembourg Grand Prix",
+    "1998 Luxembourg Grand Prix"
+   ],
+   [
+    "1999 San Marino Grand Prix",
+    "1999 San Marino Grand Prix"
+   ],
+   [
+    "2000 Brazilian Grand Prix",
+    "2000 Brazilian Grand Prix"
+   ],
+   [
+    "2000 San Marino Grand Prix",
+    "2000 San Marino Grand Prix"
+   ],
+   [
+    "2000 European Grand Prix",
+    "2000 European Grand Prix"
+   ],
+   [
+    "2000 Canadian Grand Prix",
+    "2000 Canadian Grand Prix"
+   ],
+   [
+    "2000 French Grand Prix",
+    "2000 French Grand Prix"
+   ],
+   [
+    "2000 Austrian Grand Prix",
+    "2000 Austrian Grand Prix"
+   ],
+   [
+    "2000 Italian Grand Prix",
+    "2000 Italian Grand Prix"
+   ],
+   [
+    "2000 United States Grand Prix",
+    "2000 United States Grand Prix"
+   ],
+   [
+    "2000 Japanese Grand Prix",
+    "2000 Japanese Grand Prix"
+   ],
+   [
+    "2001 Australian Grand Prix",
+    "2001 Australian Grand Prix"
+   ],
+   [
+    "2001 Malaysian Grand Prix",
+    "2001 Malaysian Grand Prix"
+   ],
+   [
+    "2001 Spanish Grand Prix",
+    "2001 Spanish Grand Prix"
+   ],
+   [
+    "2001 Monaco Grand Prix",
+    "2001 Monaco Grand Prix"
+   ],
+   [
+    "2001 European Grand Prix",
+    "2001 European Grand Prix"
+   ],
+   [
+    "2001 French Grand Prix",
+    "2001 French Grand Prix"
+   ],
+   [
+    "2001 Hungarian Grand Prix",
+    "2001 Hungarian Grand Prix"
+   ],
+   [
+    "2001 Belgian Grand Prix",
+    "2001 Belgian Grand Prix"
+   ],
+   [
+    "2002 Australian Grand Prix",
+    "2002 Australian Grand Prix"
+   ],
+   [
+    "2002 Brazilian Grand Prix",
+    "2002 Brazilian Grand Prix"
+   ],
+   [
+    "2002 San Marino Grand Prix",
+    "2002 San Marino Grand Prix"
+   ],
+   [
+    "2002 Austrian Grand Prix",
+    "2002 Austrian Grand Prix"
+   ],
+   [
+    "2002 French Grand Prix",
+    "2002 French Grand Prix"
+   ],
+   [
+    "2002 German Grand Prix",
+    "2002 German Grand Prix"
+   ],
+   [
+    "2002 Hungarian Grand Prix",
+    "2002 Hungarian Grand Prix"
+   ],
+   [
+    "2002 Belgian Grand Prix",
+    "2002 Belgian Grand Prix"
+   ],
+   [
+    "2002 Italian Grand Prix",
+    "2002 Italian Grand Prix"
+   ],
+   [
+    "2003 San Marino Grand Prix",
+    "2003 San Marino Grand Prix"
+   ],
+   [
+    "2003 Spanish Grand Prix",
+    "2003 Spanish Grand Prix"
+   ],
+   [
+    "2003 Austrian Grand Prix",
+    "2003 Austrian Grand Prix"
+   ],
+   [
+    "2003 Canadian Grand Prix",
+    "2003 Canadian Grand Prix"
+   ],
+   [
+    "2003 Italian Grand Prix",
+    "2003 Italian Grand Prix"
+   ],
+   [
+    "2003 United States Grand Prix",
+    "2003 United States Grand Prix"
+   ],
+   [
+    "2004 Australian Grand Prix",
+    "2004 Australian Grand Prix"
+   ],
+   [
+    "2004 Malaysian Grand Prix",
+    "2004 Malaysian Grand Prix"
+   ],
+   [
+    "2004 Bahrain Grand Prix",
+    "2004 Bahrain Grand Prix"
+   ],
+   [
+    "2004 San Marino Grand Prix",
+    "2004 San Marino Grand Prix"
+   ],
+   [
+    "2004 Spanish Grand Prix",
+    "2004 Spanish Grand Prix"
+   ],
+   [
+    "2004 European Grand Prix",
+    "2004 European Grand Prix"
+   ],
+   [
+    "2004 Canadian Grand Prix",
+    "2004 Canadian Grand Prix"
+   ],
+   [
+    "2004 United States Grand Prix",
+    "2004 United States Grand Prix"
+   ],
+   [
+    "2004 French Grand Prix",
+    "2004 French Grand Prix"
+   ],
+   [
+    "2004 British Grand Prix",
+    "2004 British Grand Prix"
+   ],
+   [
+    "2004 German Grand Prix",
+    "2004 German Grand Prix"
+   ],
+   [
+    "2004 Hungarian Grand Prix",
+    "2004 Hungarian Grand Prix"
+   ],
+   [
+    "2004 Belgian Grand Prix",
+    "2004 Belgian Grand Prix"
+   ],
+   [
+    "2004 Italian Grand Prix",
+    "2004 Italian Grand Prix"
+   ],
+   [
+    "2004 Chinese Grand Prix",
+    "2004 Chinese Grand Prix"
+   ],
+   [
+    "2005 United States Grand Prix",
+    "2005 United States Grand Prix"
+   ],
+   [
+    "2006 San Marino Grand Prix",
+    "2006 San Marino Grand Prix"
+   ],
+   [
+    "2006 European Grand Prix",
+    "2006 European Grand Prix"
+   ],
+   [
+    "2006 United States Grand Prix",
+    "2006 United States Grand Prix"
+   ],
+   [
+    "2006 French Grand Prix",
+    "2006 French Grand Prix"
+   ],
+   [
+    "2006 German Grand Prix",
+    "2006 German Grand Prix"
+   ],
+   [
+    "2006 Italian Grand Prix",
+    "2006 Italian Grand Prix"
+   ],
+   [
+    "2006 Chinese Grand Prix",
+    "2006 Chinese Grand Prix"
+   ],
+   [
+    "Benetton",
+    "Benetton Formula"
+   ],
+   [
+    "Ferrari",
+    "Scuderia Ferrari"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "1994 Formula One World Championship",
+    "1994 Formula One World Championship"
+   ],
+   [
+    "1995 Formula One World Championship",
+    "1995 Formula One World Championship"
+   ],
+   [
+    "2000 Formula One World Championship",
+    "2000 Formula One World Championship"
+   ],
+   [
+    "2001 Formula One World Championship",
+    "2001 Formula One World Championship"
+   ],
+   [
+    "2002 Formula One World Championship",
+    "2002 Formula One World Championship"
+   ],
+   [
+    "2003 Formula One World Championship",
+    "2003 Formula One World Championship"
+   ],
+   [
+    "2004 Formula One World Championship",
+    "2004 Formula One World Championship"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "1994 Belgian Grand Prix",
+    "1994 Belgian Grand Prix"
+   ],
+   [
+    "1994 European Grand Prix",
+    "1994 European Grand Prix"
+   ],
+   [
+    "1994 British Grand Prix",
+    "1994 British Grand Prix"
+   ],
+   [
+    "1994 Italian Grand Prix",
+    "1994 Italian Grand Prix"
+   ],
+   [
+    "1994 Portuguese Grand Prix",
+    "1994 Portuguese Grand Prix"
+   ],
+   [
+    "1994 Spanish Grand Prix",
+    "1994 Spanish Grand Prix"
+   ],
+   [
+    "1994 German Grand Prix",
+    "1994 German Grand Prix"
+   ],
+   [
+    "1994 San Marino Grand Prix",
+    "1994 San Marino Grand Prix"
+   ],
+   [
+    "1994 Monaco Grand Prix",
+    "1994 Monaco Grand Prix"
+   ],
+   [
+    "1994 French Grand Prix",
+    "1994 French Grand Prix"
+   ],
+   [
+    "1994 Hungarian Grand Prix",
+    "1994 Hungarian Grand Prix"
+   ],
+   [
+    "1994 Dutch Grand Prix",
+    "1994 Dutch Grand Prix"
+   ],
+   [
+    "1994 Luxembourg Grand Prix",
+    "1994 Luxembourg Grand Prix"
+   ],
+   [
+    "1995 Belgian Grand Prix",
+    "1995 Belgian Grand Prix"
+   ],
+   [
+    "1995 European Grand Prix",
+    "1995 European Grand Prix"
+   ],
+   [
+    "1995 British Grand Prix",
+    "1995 British Grand Prix"
+   ],
+   [
+    "1995 Italian Grand Prix",
+    "1995 Italian Grand Prix"
+   ],
+   [
+    "1995 Portuguese Grand Prix",
+    "1995 Portuguese Grand Prix"
+   ],
+   [
+    "1995 Spanish Grand Prix",
+    "1995 Spanish Grand Prix"
+   ],
+   [
+    "1995 German Grand Prix",
+    "1995 German Grand Prix"
+   ],
+   [
+    "1995 San Marino Grand Prix",
+    "1995 San Marino Grand Prix"
+   ],
+   [
+    "1995 Monaco Grand Prix",
+    "1995 Monaco Grand Prix"
+   ],
+   [
+    "1995 French Grand Prix",
+    "1995 French Grand Prix"
+   ],
+   [
+    "1995 Hungarian Grand Prix",
+    "1995 Hungarian Grand Prix"
+   ],
+   [
+    "1995 Dutch Grand Prix",
+    "1995 Dutch Grand Prix"
+   ],
+   [
+    "1995 Luxembourg Grand Prix",
+    "1995 Luxembourg Grand Prix"
+   ],
+   [
+    "1996 Belgian Grand Prix",
+    "1996 Belgian Grand Prix"
+   ],
+   [
+    "1996 European Grand Prix",
+    "1996 European Grand Prix"
+   ],
+   [
+    "1996 British Grand Prix",
+    "1996 British Grand Prix"
+   ],
+   [
+    "1996 Italian Grand Prix",
+    "1996 Italian Grand Prix"
+   ],
+   [
+    "1996 Portuguese Grand Prix",
+    "1996 Portuguese Grand Prix"
+   ],
+   [
+    "1996 Spanish Grand Prix",
+    "1996 Spanish Grand Prix"
+   ],
+   [
+    "1996 German Grand Prix",
+    "1996 German Grand Prix"
+   ],
+   [
+    "1996 San Marino Grand Prix",
+    "1996 San Marino Grand Prix"
+   ],
+   [
+    "1996 Monaco Grand Prix",
+    "1996 Monaco Grand Prix"
+   ],
+   [
+    "1996 French Grand Prix",
+    "1996 French Grand Prix"
+   ],
+   [
+    "1996 Hungarian Grand Prix",
+    "1996 Hungarian Grand Prix"
+   ],
+   [
+    "1996 Dutch Grand Prix",
+    "1996 Dutch Grand Prix"
+   ],
+   [
+    "1996 Luxembourg Grand Prix",
+    "1996 Luxembourg Grand Prix"
+   ],
+   [
+    "1997 Belgian Grand Prix",
+    "1997 Belgian Grand Prix"
+   ],
+   [
+    "1997 European Grand Prix",
+    "1997 European Grand Prix"
+   ],
+   [
+    "1997 British Grand Prix",
+    "1997 British Grand Prix"
+   ],
+   [
+    "1997 Italian Grand Prix",
+    "1997 Italian Grand Prix"
+   ],
+   [
+    "1997 Portuguese Grand Prix",
+    "1997 Portuguese Grand Prix"
+   ],
+   [
+    "1997 Spanish Grand Prix",
+    "1997 Spanish Grand Prix"
+   ],
+   [
+    "1997 German Grand Prix",
+    "1997 German Grand Prix"
+   ],
+   [
+    "1997 San Marino Grand Prix",
+    "1997 San Marino Grand Prix"
+   ],
+   [
+    "1997 Monaco Grand Prix",
+    "1997 Monaco Grand Prix"
+   ],
+   [
+    "1997 French Grand Prix",
+    "1997 French Grand Prix"
+   ],
+   [
+    "1997 Hungarian Grand Prix",
+    "1997 Hungarian Grand Prix"
+   ],
+   [
+    "1997 Dutch Grand Prix",
+    "1997 Dutch Grand Prix"
+   ],
+   [
+    "1997 Luxembourg Grand Prix",
+    "1997 Luxembourg Grand Prix"
+   ],
+   [
+    "1998 Belgian Grand Prix",
+    "1998 Belgian Grand Prix"
+   ],
+   [
+    "1998 European Grand Prix",
+    "1998 European Grand Prix"
+   ],
+   [
+    "1998 British Grand Prix",
+    "1998 British Grand Prix"
+   ],
+   [
+    "1998 Italian Grand Prix",
+    "1998 Italian Grand Prix"
+   ],
+   [
+    "1998 Portuguese Grand Prix",
+    "1998 Portuguese Grand Prix"
+   ],
+   [
+    "1998 Spanish Grand Prix",
+    "1998 Spanish Grand Prix"
+   ],
+   [
+    "1998 German Grand Prix",
+    "1998 German Grand Prix"
+   ],
+   [
+    "1998 San Marino Grand Prix",
+    "1998 San Marino Grand Prix"
+   ],
+   [
+    "1998 Monaco Grand Prix",
+    "1998 Monaco Grand Prix"
+   ],
+   [
+    "1998 French Grand Prix",
+    "1998 French Grand Prix"
+   ],
+   [
+    "1998 Hungarian Grand Prix",
+    "1998 Hungarian Grand Prix"
+   ],
+   [
+    "1998 Dutch Grand Prix",
+    "1998 Dutch Grand Prix"
+   ],
+   [
+    "1998 Luxembourg Grand Prix",
+    "1998 Luxembourg Grand Prix"
+   ],
+   [
+    "1999 Belgian Grand Prix",
+    "1999 Belgian Grand Prix"
+   ],
+   [
+    "1999 European Grand Prix",
+    "1999 European Grand Prix"
+   ],
+   [
+    "1999 British Grand Prix",
+    "1999 British Grand Prix"
+   ],
+   [
+    "1999 Italian Grand Prix",
+    "1999 Italian Grand Prix"
+   ],
+   [
+    "1999 Portuguese Grand Prix",
+    "1999 Portuguese Grand Prix"
+   ],
+   [
+    "1999 Spanish Grand Prix",
+    "1999 Spanish Grand Prix"
+   ],
+   [
+    "1999 German Grand Prix",
+    "1999 German Grand Prix"
+   ],
+   [
+    "1999 San Marino Grand Prix",
+    "1999 San Marino Grand Prix"
+   ],
+   [
+    "1999 Monaco Grand Prix",
+    "1999 Monaco Grand Prix"
+   ],
+   [
+    "1999 French Grand Prix",
+    "1999 French Grand Prix"
+   ],
+   [
+    "1999 Hungarian Grand Prix",
+    "1999 Hungarian Grand Prix"
+   ],
+   [
+    "1999 Dutch Grand Prix",
+    "1999 Dutch Grand Prix"
+   ],
+   [
+    "1999 Luxembourg Grand Prix",
+    "1999 Luxembourg Grand Prix"
+   ],
+   [
+    "2000 Belgian Grand Prix",
+    "2000 Belgian Grand Prix"
+   ],
+   [
+    "2000 European Grand Prix",
+    "2000 European Grand Prix"
+   ],
+   [
+    "2000 British Grand Prix",
+    "2000 British Grand Prix"
+   ],
+   [
+    "2000 Italian Grand Prix",
+    "2000 Italian Grand Prix"
+   ],
+   [
+    "2000 Portuguese Grand Prix",
+    "2000 Portuguese Grand Prix"
+   ],
+   [
+    "2000 Spanish Grand Prix",
+    "2000 Spanish Grand Prix"
+   ],
+   [
+    "2000 German Grand Prix",
+    "2000 German Grand Prix"
+   ],
+   [
+    "2000 San Marino Grand Prix",
+    "2000 San Marino Grand Prix"
+   ],
+   [
+    "2000 Monaco Grand Prix",
+    "2000 Monaco Grand Prix"
+   ],
+   [
+    "2000 French Grand Prix",
+    "2000 French Grand Prix"
+   ],
+   [
+    "2000 Hungarian Grand Prix",
+    "2000 Hungarian Grand Prix"
+   ],
+   [
+    "2000 Dutch Grand Prix",
+    "2000 Dutch Grand Prix"
+   ],
+   [
+    "2000 Luxembourg Grand Prix",
+    "2000 Luxembourg Grand Prix"
+   ],
+   [
+    "2001 Belgian Grand Prix",
+    "2001 Belgian Grand Prix"
+   ],
+   [
+    "2001 European Grand Prix",
+    "2001 European Grand Prix"
+   ],
+   [
+    "2001 British Grand Prix",
+    "2001 British Grand Prix"
+   ],
+   [
+    "2001 Italian Grand Prix",
+    "2001 Italian Grand Prix"
+   ],
+   [
+    "2001 Portuguese Grand Prix",
+    "2001 Portuguese Grand Prix"
+   ],
+   [
+    "2001 Spanish Grand Prix",
+    "2001 Spanish Grand Prix"
+   ],
+   [
+    "2001 German Grand Prix",
+    "2001 German Grand Prix"
+   ],
+   [
+    "2001 San Marino Grand Prix",
+    "2001 San Marino Grand Prix"
+   ],
+   [
+    "2001 Monaco Grand Prix",
+    "2001 Monaco Grand Prix"
+   ],
+   [
+    "2001 French Grand Prix",
+    "2001 French Grand Prix"
+   ],
+   [
+    "2001 Hungarian Grand Prix",
+    "2001 Hungarian Grand Prix"
+   ],
+   [
+    "2001 Dutch Grand Prix",
+    "2001 Dutch Grand Prix"
+   ],
+   [
+    "2001 Luxembourg Grand Prix",
+    "2001 Luxembourg Grand Prix"
+   ],
+   [
+    "2002 Belgian Grand Prix",
+    "2002 Belgian Grand Prix"
+   ],
+   [
+    "2002 European Grand Prix",
+    "2002 European Grand Prix"
+   ],
+   [
+    "2002 British Grand Prix",
+    "2002 British Grand Prix"
+   ],
+   [
+    "2002 Italian Grand Prix",
+    "2002 Italian Grand Prix"
+   ],
+   [
+    "2002 Portuguese Grand Prix",
+    "2002 Portuguese Grand Prix"
+   ],
+   [
+    "2002 Spanish Grand Prix",
+    "2002 Spanish Grand Prix"
+   ],
+   [
+    "2002 German Grand Prix",
+    "2002 German Grand Prix"
+   ],
+   [
+    "2002 San Marino Grand Prix",
+    "2002 San Marino Grand Prix"
+   ],
+   [
+    "2002 Monaco Grand Prix",
+    "2002 Monaco Grand Prix"
+   ],
+   [
+    "2002 French Grand Prix",
+    "2002 French Grand Prix"
+   ],
+   [
+    "2002 Hungarian Grand Prix",
+    "2002 Hungarian Grand Prix"
+   ],
+   [
+    "2002 Dutch Grand Prix",
+    "2002 Dutch Grand Prix"
+   ],
+   [
+    "2002 Luxembourg Grand Prix",
+    "2002 Luxembourg Grand Prix"
+   ],
+   [
+    "2003 Belgian Grand Prix",
+    "2003 Belgian Grand Prix"
+   ],
+   [
+    "2003 European Grand Prix",
+    "2003 European Grand Prix"
+   ],
+   [
+    "2003 British Grand Prix",
+    "2003 British Grand Prix"
+   ],
+   [
+    "2003 Italian Grand Prix",
+    "2003 Italian Grand Prix"
+   ],
+   [
+    "2003 Portuguese Grand Prix",
+    "2003 Portuguese Grand Prix"
+   ],
+   [
+    "2003 Spanish Grand Prix",
+    "2003 Spanish Grand Prix"
+   ],
+   [
+    "2003 German Grand Prix",
+    "2003 German Grand Prix"
+   ],
+   [
+    "2003 San Marino Grand Prix",
+    "2003 San Marino Grand Prix"
+   ],
+   [
+    "2003 Monaco Grand Prix",
+    "2003 Monaco Grand Prix"
+   ],
+   [
+    "2003 French Grand Prix",
+    "2003 French Grand Prix"
+   ],
+   [
+    "2003 Hungarian Grand Prix",
+    "2003 Hungarian Grand Prix"
+   ],
+   [
+    "2003 Dutch Grand Prix",
+    "2003 Dutch Grand Prix"
+   ],
+   [
+    "2003 Luxembourg Grand Prix",
+    "2003 Luxembourg Grand Prix"
+   ],
+   [
+    "2004 Belgian Grand Prix",
+    "2004 Belgian Grand Prix"
+   ],
+   [
+    "2004 European Grand Prix",
+    "2004 European Grand Prix"
+   ],
+   [
+    "2004 British Grand Prix",
+    "2004 British Grand Prix"
+   ],
+   [
+    "2004 Italian Grand Prix",
+    "2004 Italian Grand Prix"
+   ],
+   [
+    "2004 Portuguese Grand Prix",
+    "2004 Portuguese Grand Prix"
+   ],
+   [
+    "2004 Spanish Grand Prix",
+    "2004 Spanish Grand Prix"
+   ],
+   [
+    "2004 German Grand Prix",
+    "2004 German Grand Prix"
+   ],
+   [
+    "2004 San Marino Grand Prix",
+    "2004 San Marino Grand Prix"
+   ],
+   [
+    "2004 Monaco Grand Prix",
+    "2004 Monaco Grand Prix"
+   ],
+   [
+    "2004 French Grand Prix",
+    "2004 French Grand Prix"
+   ],
+   [
+    "2004 Hungarian Grand Prix",
+    "2004 Hungarian Grand Prix"
+   ],
+   [
+    "2004 Dutch Grand Prix",
+    "2004 Dutch Grand Prix"
+   ],
+   [
+    "2004 Luxembourg Grand Prix",
+    "2004 Luxembourg Grand Prix"
+   ],
+   [
+    "2005 Belgian Grand Prix",
+    "2005 Belgian Grand Prix"
+   ],
+   [
+    "2005 European Grand Prix",
+    "2005 European Grand Prix"
+   ],
+   [
+    "2005 British Grand Prix",
+    "2005 British Grand Prix"
+   ],
+   [
+    "2005 Italian Grand Prix",
+    "2005 Italian Grand Prix"
+   ],
+   [
+    "2005 Portuguese Grand Prix",
+    "2005 Portuguese Grand Prix"
+   ],
+   [
+    "2005 Spanish Grand Prix",
+    "2005 Spanish Grand Prix"
+   ],
+   [
+    "2005 German Grand Prix",
+    "2005 German Grand Prix"
+   ],
+   [
+    "2005 San Marino Grand Prix",
+    "2005 San Marino Grand Prix"
+   ],
+   [
+    "2005 Monaco Grand Prix",
+    "2005 Monaco Grand Prix"
+   ],
+   [
+    "2005 French Grand Prix",
+    "2005 French Grand Prix"
+   ],
+   [
+    "2005 Hungarian Grand Prix",
+    "2005 Hungarian Grand Prix"
+   ],
+   [
+    "2005 Dutch Grand Prix",
+    "2005 Dutch Grand Prix"
+   ],
+   [
+    "2005 Luxembourg Grand Prix",
+    "2005 Luxembourg Grand Prix"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "1994 FIA Formula One World Championship",
+    "1994 FIA Formula One World Championship"
+   ],
+   [
+    "1995 FIA Formula One World Championship",
+    "1995 FIA Formula One World Championship"
+   ],
+   [
+    "2000 FIA Formula One World Championship",
+    "2000 FIA Formula One World Championship"
+   ],
+   [
+    "2001 FIA Formula One World Championship",
+    "2001 FIA Formula One World Championship"
+   ],
+   [
+    "2002 FIA Formula One World Championship",
+    "2002 FIA Formula One World Championship"
+   ],
+   [
+    "2003 FIA Formula One World Championship",
+    "2003 FIA Formula One World Championship"
+   ],
+   [
+    "2004 FIA Formula One World Championship",
+    "2004 FIA Formula One World Championship"
+   ],
+   [
+    "1992 Belgian Grand Prix",
+    "1992 Belgian Grand Prix"
+   ],
+   [
+    "1993 Portuguese Grand Prix",
+    "1993 Portuguese Grand Prix"
+   ],
+   [
+    "1994 Brazilian Grand Prix",
+    "1994 Brazilian Grand Prix"
+   ],
+   [
+    "1994 Pacific Grand Prix",
+    "1994 Pacific Grand Prix"
+   ],
+   [
+    "1994 San Marino Grand Prix",
+    "1994 San Marino Grand Prix"
+   ],
+   [
+    "1994 Monaco Grand Prix",
+    "1994 Monaco Grand Prix"
+   ],
+   [
+    "1994 Canadian Grand Prix",
+    "1994 Canadian Grand Prix"
+   ],
+   [
+    "1994 French Grand Prix",
+    "1994 French Grand Prix"
+   ],
+   [
+    "1994 Hungarian Grand Prix",
+    "1994 Hungarian Grand Prix"
+   ],
+   [
+    "1994 Belgian Grand Prix",
+    "1994 Belgian Grand Prix"
+   ],
+   [
+    "1994 European Grand Prix",
+    "1994 European Grand Prix"
+   ],
+   [
+    "1995 Brazilian Grand Prix",
+    "1995 Brazilian Grand Prix"
+   ],
+   [
+    "1995 Spanish Grand Prix",
+    "1995 Spanish Grand Prix"
+   ],
+   [
+    "1995 Monaco Grand Prix",
+    "1995 Monaco Grand Prix"
+   ],
+   [
+    "1995 Canadian Grand Prix",
+    "1995 Canadian Grand Prix"
+   ],
+   [
+    "1995 French Grand Prix",
+    "1995 French Grand Prix"
+   ],
+   [
+    "1995 British Grand Prix",
+    "1995 British Grand Prix"
+   ],
+   [
+    "1995 German Grand Prix",
+    "1995 German Grand Prix"
+   ],
+   [
+    "1995 Belgian Grand Prix",
+    "1995 Belgian Grand Prix"
+   ],
+   [
+    "1995 European Grand Prix",
+    "1995 European Grand Prix"
+   ],
+   [
+    "1995 Pacific Grand Prix",
+    "1995 Pacific Grand Prix"
+   ],
+   [
+    "1995 Japanese Grand Prix",
+    "1995 Japanese Grand Prix"
+   ],
+   [
+    "2000 Australian Grand Prix",
+    "2000 Australian Grand Prix"
+   ],
+   [
+    "2000 Brazilian Grand Prix",
+    "2000 Brazilian Grand Prix"
+   ],
+   [
+    "2000 San Marino Grand Prix",
+    "2000 San Marino Grand Prix"
+   ],
+   [
+    "2000 European Grand Prix",
+    "2000 European Grand Prix"
+   ],
+   [
+    "2000 Canadian Grand Prix",
+    "2000 Canadian Grand Prix"
+   ],
+   [
+    "2000 French Grand Prix",
+    "2000 French Grand Prix"
+   ],
+   [
+    "2000 Austrian Grand Prix",
+    "2000 Austrian Grand Prix"
+   ],
+   [
+    "2000 German Grand Prix",
+    "2000 German Grand Prix"
+   ],
+   [
+    "2000 Hungarian Grand Prix",
+    "2000 Hungarian Grand Prix"
+   ],
+   [
+    "2000 Belgian Grand Prix",
+    "2000 Belgian Grand Prix"
+   ],
+   [
+    "2000 Italian Grand Prix",
+    "2000 Italian Grand Prix"
+   ],
+   [
+    "2000 United States Grand Prix",
+    "2000 United States Grand Prix"
+   ],
+   [
+    "2000 Japanese Grand Prix",
+    "2000 Japanese Grand Prix"
+   ],
+   [
+    "2000 Malaysian Grand Prix",
+    "2000 Malaysian Grand Prix"
+   ],
+   [
+    "2001 Australian Grand Prix",
+    "2001 Australian Grand Prix"
+   ],
+   [
+    "2001 Malaysian Grand Prix",
+    "2001 Malaysian Grand Prix"
+   ],
+   [
+    "2001 Spanish Grand Prix",
+    "2001 Spanish Grand Prix"
+   ],
+   [
+    "2001 Monaco Grand Prix",
+    "2001 Monaco Grand Prix"
+   ],
+   [
+    "2001 Canadian Grand Prix",
+    "2001 Canadian Grand Prix"
+   ],
+   [
+    "2001 French Grand Prix",
+    "2001 French Grand Prix"
+   ],
+   [
+    "2001 German Grand Prix",
+    "2001 German Grand Prix"
+   ],
+   [
+    "2001 Hungarian Grand Prix",
+    "2001 Hungarian Grand Prix"
+   ],
+   [
+    "2001 Belgian Grand Prix",
+    "2001 Belgian Grand Prix"
+   ],
+   [
+    "2001 Italian Grand Prix",
+    "2001 Italian Grand Prix"
+   ],
+   [
+    "2002 Australian Grand Prix",
+    "2002 Australian Grand Prix"
+   ],
+   [
+    "2002 Malaysian Grand Prix",
+    "2002 Malaysian Grand Prix"
+   ],
+   [
+    "2002 San Marino Grand Prix",
+    "2002 San Marino Grand Prix"
+   ],
+   [
+    "2002 Spanish Grand Prix",
+    "2002 Spanish Grand Prix"
+   ],
+   [
+    "2002 Austrian Grand Prix",
+    "2002 Austrian Grand Prix"
+   ],
+   [
+    "2002 Canadian Grand Prix",
+    "2002 Canadian Grand Prix"
+   ],
+   [
+    "2002 British Grand Prix",
+    "2002 British Grand Prix"
+   ],
+   [
+    "2002 French Grand Prix",
+    "2002 French Grand Prix"
+   ],
+   [
+    "2002 German Grand Prix",
+    "2002 German Grand Prix"
+   ],
+   [
+    "2002 Hungarian Grand Prix",
+    "2002 Hungarian Grand Prix"
+   ],
+   [
+    "2002 Belgian Grand Prix",
+    "2002 Belgian Grand Prix"
+   ],
+   [
+    "2002 Italian Grand Prix",
+    "2002 Italian Grand Prix"
+   ],
+   [
+    "2002 United States Grand Prix",
+    "2002 United States Grand Prix"
+   ],
+   [
+    "2002 Japanese Grand Prix",
+    "2002 Japanese Grand Prix"
+   ],
+   [
+    "2003 San Marino Grand Prix",
+    "2003 San Marino Grand Prix"
+   ],
+   [
+    "2003 Spanish Grand Prix",
+    "2003 Spanish Grand Prix"
+   ],
+   [
+    "2003 Austrian Grand Prix",
+    "2003 Austrian Grand Prix"
+   ],
+   [
+    "2003 Canadian Grand Prix",
+    "2003 Canadian Grand Prix"
+   ],
+   [
+    "2003 British Grand Prix",
+    "2003 British Grand Prix"
+   ],
+   [
+    "2003 United States Grand Prix",
+    "2003 United States Grand Prix"
+   ],
+   [
+    "2003 Italian Grand Prix",
+    "2003 Italian Grand Prix"
+   ],
+   [
+    "2004 Australian Grand Prix",
+    "2004 Australian Grand Prix"
+   ],
+   [
+    "2004 Malaysian Grand Prix",
+    "2004 Malaysian Grand Prix"
+   ],
+   [
+    "2004 Bahrain Grand Prix",
+    "2004 Bahrain Grand Prix"
+   ],
+   [
+    "2004 San Marino Grand Prix",
+    "2004 San Marino Grand Prix"
+   ],
+   [
+    "2004 Spanish Grand Prix",
+    "2004 Spanish Grand Prix"
+   ],
+   [
+    "2004 European Grand Prix",
+    "2004 European Grand Prix"
+   ],
+   [
+    "2004 Canadian Grand Prix",
+    "2004 Canadian Grand Prix"
+   ],
+   [
+    "2004 United States Grand Prix",
+    "2004 United States Grand Prix"
+   ],
+   [
+    "2004 French Grand Prix",
+    "2004 French Grand Prix"
+   ],
+   [
+    "2004 British Grand Prix",
+    "2004 British Grand Prix"
+   ],
+   [
+    "2004 German Grand Prix",
+    "2004 German Grand Prix"
+   ],
+   [
+    "2004 Hungarian Grand Prix",
+    "2004 Hungarian Grand Prix"
+   ],
+   [
+    "2004 Belgian Grand Prix",
+    "2004 Belgian Grand Prix"
+   ],
+   [
+    "2004 Italian Grand Prix",
+    "2004 Italian Grand Prix"
+   ],
+   [
+    "2004 Chinese Grand Prix",
+    "2004 Chinese Grand Prix"
+   ],
+   [
+    "2004 Japanese Grand Prix",
+    "2004 Japanese Grand Prix"
+   ],
+   [
+    "2004 Brazilian Grand Prix",
+    "2004 Brazilian Grand Prix"
+   ]
+  ]
+ },
+ "178__wikidata_intersection__dev": {
+  "Cohere-command-a-plus-05-2026": [
+   [
+    "<|START_TEXT|>My Family/Mi Familia",
+    "My Family/Mi Familia"
+   ],
+   [
+    "Selena<|END_TEXT|>",
+    "Selena"
+   ]
+  ],
+  "DeepSeek-V4-Flash": [
+   [
+    "Selena",
+    "Selena"
+   ]
+  ],
+  "Kimi-K2.5": [
+   [
+    "The Confessions of Amans",
+    "The Confessions of Amans"
+   ],
+   [
+    "El Norte",
+    "El Norte"
+   ],
+   [
+    "A Time of Destiny",
+    "A Time of Destiny"
+   ],
+   [
+    "My Family",
+    "My Family"
+   ],
+   [
+    "Selena",
+    "Selena"
+   ],
+   [
+    "Bordertown",
+    "Bordertown"
+   ]
+  ],
+  "MAI-Thinking-1": [
+   [
+    "El Norte",
+    "El Norte"
+   ],
+   [
+    "A Time of Destiny",
+    "A Time of Destiny"
+   ],
+   [
+    "My Family",
+    "My Family"
+   ],
+   [
+    "Bordertown",
+    "Bordertown"
+   ]
+  ],
+  "gpt-5.4": [
+   [
+    "El Norte",
+    "El Norte"
+   ],
+   [
+    "My Family",
+    "My Family"
+   ],
+   [
+    "Selena",
+    "Selena"
+   ],
+   [
+    "Why Do Fools Fall in Love",
+    "Why Do Fools Fall in Love"
+   ],
+   [
+    "Bordertown",
+    "Bordertown"
+   ]
+  ],
+  "gpt-5.4-mini": [
+   [
+    "El Norte",
+    "El Norte"
+   ]
+  ],
+  "gpt-5.4-nano": [
+   [
+    "Selena",
+    "Selena"
+   ]
+  ],
+  "grok-4.3": [
+   [
+    "The Confessions of Amans",
+    "The Confessions of Amans"
+   ],
+   [
+    "El Norte",
+    "El Norte"
+   ],
+   [
+    "A Time of Destiny",
+    "A Time of Destiny"
+   ],
+   [
+    "My Family",
+    "My Family"
+   ],
+   [
+    "Selena",
+    "Selena"
+   ],
+   [
+    "Bordertown",
+    "Bordertown"
+   ]
+  ]
+ }
+}

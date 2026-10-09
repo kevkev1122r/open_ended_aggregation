@@ -1,0 +1,138 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+============================================================================================
+ TRIPLE REPLICATION -- three independent datasets, three encoders, bootstrap CIs
+============================================================================================
+
+
+############################################################################################
+# HaluEval-QA   n=3000   wrong answers: model-generated (ChatGPT)
+############################################################################################
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7429.29it/s]
+
+  all-MiniLM-L6-v2   (Cohen's d vs random controls = 1.50)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    2.60         0.685  [0.58,0.76]         0.987  [0.93,0.99]
+             5    3.32         0.757  [0.67,0.82]         0.982  [0.93,0.99]
+            50    5.36         0.853  [0.79,0.89]         0.985  [0.95,0.99]
+          1000   10.57         0.975  [0.94,0.99]         0.983  [0.96,0.99]
+        random   10.96         0.991  [0.97,0.99]         0.991  [0.97,0.99]
+       PLACEBO   -0.03         0.002               PASS -- invents nothing
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6031.61it/s]
+
+  all-mpnet-base-v2   (Cohen's d vs random controls = 1.65)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    2.94         0.691  [0.60,0.76]         0.970  [0.91,0.98]
+             5    3.57         0.691  [0.62,0.75]         0.976  [0.94,0.99]
+            50    6.05         0.817  [0.75,0.86]         0.986  [0.96,0.99]
+          1000   11.56         0.965  [0.93,0.98]         0.990  [0.97,1.00]
+        random   11.54         0.990  [0.96,1.00]         0.995  [0.97,1.00]
+       PLACEBO   -0.08         0.088               PASS -- invents nothing
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7035.35it/s]
+
+  bge-small-en-v1.5   (Cohen's d vs random controls = 1.43)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    4.86         0.824  [0.73,0.89]         0.991  [0.94,0.99]
+             5    5.89         0.779  [0.69,0.84]         0.972  [0.91,0.98]
+            50    9.00         0.845  [0.78,0.89]         0.991  [0.96,1.00]
+          1000   14.08         0.931  [0.88,0.96]         0.989  [0.97,0.99]
+        random   14.71         0.959  [0.92,0.98]         0.988  [0.97,0.99]
+       PLACEBO   -0.16         0.063               PASS -- invents nothing
+
+
+############################################################################################
+# TruthfulQA   n=817   wrong answers: expert-written misconceptions
+############################################################################################
+
+  all-MiniLM-L6-v2   (Cohen's d vs random controls = 3.03)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    4.63         0.441  [0.35,0.52]         0.959  [0.90,0.98]
+             5    5.83         0.436  [0.37,0.53]         0.959  [0.91,0.99]
+            50    9.32         0.776  [0.69,0.86]         0.967  [0.91,0.99]
+          1000      --                    no fit                          
+        random   10.90         0.997  [0.95,1.00]         0.997  [0.96,1.00]
+       PLACEBO   -0.25         0.096               PASS -- invents nothing
+
+  all-mpnet-base-v2   (Cohen's d vs random controls = 3.14)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    4.83         0.426  [0.34,0.50]         0.956  [0.89,0.97]
+             5    6.01         0.440  [0.35,0.52]         0.969  [0.91,0.98]
+            50    9.01         0.648  [0.59,0.81]         0.944  [0.92,0.98]
+          1000      --                    no fit                          
+        random   10.73         0.977  [0.94,0.99]         0.982  [0.95,1.00]
+       PLACEBO   -0.25         0.153               PASS -- invents nothing
+
+  bge-small-en-v1.5   (Cohen's d vs random controls = 2.87)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    8.53         0.527  [0.42,0.63]         0.941  [0.86,0.98]
+             5    9.63         0.517  [0.43,0.65]         0.953  [0.88,0.98]
+            50   12.72         0.720  [0.62,0.81]         0.982  [0.92,0.99]
+          1000   19.36         0.987  [0.96,1.00]         1.000  [0.97,1.00]
+        random   16.19         0.911  [0.82,0.97]         0.969  [0.92,0.99]
+       PLACEBO    0.28         0.045               PASS -- invents nothing
+
+
+############################################################################################
+# SciQ   n=3000   wrong answers: crowdworker distractors
+############################################################################################
+
+  all-MiniLM-L6-v2   (Cohen's d vs random controls = 1.72)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    2.93         0.983  [0.93,0.99]         0.983  [0.93,0.99]
+             5    3.59         0.972  [0.93,0.99]         0.977  [0.94,0.99]
+            50    5.66         0.976  [0.94,0.98]         0.991  [0.97,0.99]
+          1000   11.90         0.986  [0.97,0.99]         0.987  [0.97,0.99]
+        random   12.48         0.980  [0.95,0.99]         0.989  [0.96,0.99]
+       PLACEBO   -0.02         0.001               PASS -- invents nothing
+
+  all-mpnet-base-v2   (Cohen's d vs random controls = 1.93)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    3.04         0.991  [0.95,0.99]         0.994  [0.96,1.00]
+             5    3.90         0.993  [0.96,0.99]         0.994  [0.96,1.00]
+            50    6.32         0.987  [0.96,0.99]         0.991  [0.96,1.00]
+          1000   12.96         0.989  [0.95,0.99]         0.989  [0.95,1.00]
+        random   13.43         0.963  [0.90,0.98]         0.966  [0.90,0.99]
+       PLACEBO   -0.09         0.107               PASS -- invents nothing
+
+  bge-small-en-v1.5   (Cohen's d vs random controls = 1.71)
+      controls    beta               R2 straight                 R2 curved
+    ----------------------------------------------------------------------------------------
+             1    5.89         0.962  [0.89,0.98]         0.988  [0.94,0.99]
+             5    7.05         0.941  [0.89,0.96]         0.978  [0.94,0.99]
+            50   10.64         0.923  [0.87,0.95]         0.973  [0.94,0.99]
+          1000   20.00         0.969  [0.93,0.98]         0.993  [0.97,1.00]
+        random   20.61         0.979  [0.95,0.99]         0.982  [0.95,0.99]
+       PLACEBO   -0.16         0.027               PASS -- invents nothing
+
+
+============================================================================================
+ DOES THE PATTERN REPLICATE?
+============================================================================================
+
+  Pattern claimed: under HARD (topic-matched) controls a STRAIGHT line fits badly,
+  while allowing CURVATURE still fits well. If that holds in all 9 dataset x encoder
+  cells, the conclusion is solid rather than a quirk of one corpus.
+
+  dataset       encoder                    R2 straight (r=1)   R2 curved (r=1)         verdict
+  --------------------------------------------------------------------------------------------
+  HaluEval-QA   all-MiniLM-L6-v2                       0.685             0.987     curved wins
+  HaluEval-QA   all-mpnet-base-v2                      0.691             0.970     curved wins
+  HaluEval-QA   bge-small-en-v1.5                      0.824             0.991     curved wins
+  TruthfulQA    all-MiniLM-L6-v2                       0.441             0.959     curved wins
+  TruthfulQA    all-mpnet-base-v2                      0.426             0.956     curved wins
+  TruthfulQA    bge-small-en-v1.5                      0.527             0.941     curved wins
+  SciQ          all-MiniLM-L6-v2                       0.983             0.983        both fit
+  SciQ          all-mpnet-base-v2                      0.991             0.994        both fit
+  SciQ          bge-small-en-v1.5                      0.962             0.988        both fit
+
+  curvature required in 6/9 cells
+  placebo |beta| max across all cells: 0.277  (must be ~0)
+
+  -> results/triple_replication.json

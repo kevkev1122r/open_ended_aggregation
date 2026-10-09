@@ -1,0 +1,7 @@
+  14 questions, 25 true alias pairs to test
+  ESTIMATE list canonicalisation: 112 new calls (0 cached), ~0.03M input tokens -> ~$0.42 typical, $1.53 worst case; cap $0.60; openai/gpt-5.4-mini, effort low
+    10/14  new calls 71  cached 9  spend $0.07  failures 0
+    14/14  new calls 99  cached 13  spend $0.14  failures 0
+  wrote results/claims_qampari.json (14 questions); spend $0.14; failures 0
+  regex norm     alias pairs matched 0/25 (0.0%), false matches 0
+  LLM canonical  alias pairs matched 8/25 (32.0%), false matches 74

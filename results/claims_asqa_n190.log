@@ -1,0 +1,32 @@
+  ESTIMATE step A (slots): 140 new calls (50 cached), ~0.15M input tokens -> ~$0.53 typical, $3.26 worst case; cap $1.15; google/gemini-3.8-flash, effort low
+  ESTIMATE step B (facts, approx.): 1140 new calls (0 cached), ~0.56M input tokens -> ~$3.84 typical, $26.07 worst case; cap $1.15; google/gemini-3.8-flash, effort low
+    10/190  new calls 0  cached 350  spend $0.00  failures 0
+    20/190  new calls 0  cached 350  spend $0.00  failures 0
+    30/190  new calls 0  cached 350  spend $0.00  failures 0
+    40/190  new calls 0  cached 350  spend $0.00  failures 0
+    50/190  new calls 0  cached 350  spend $0.00  failures 0
+    60/190  new calls 78  cached 350  spend $0.08  failures {'facts': 1}
+    70/190  new calls 149  cached 350  spend $0.16  failures {'facts': 1}
+    80/190  new calls 214  cached 350  spend $0.22  failures {'facts': 2}
+    90/190  new calls 291  cached 350  spend $0.30  failures {'facts': 3}
+    100/190  new calls 348  cached 350  spend $0.35  failures {'facts': 3}
+    110/190  new calls 425  cached 350  spend $0.44  failures {'facts': 4}
+    120/190  new calls 490  cached 350  spend $0.52  failures {'facts': 4, 'slots': 1}
+    130/190  new calls 556  cached 350  spend $0.58  failures {'facts': 4, 'slots': 1}
+    140/190  new calls 630  cached 350  spend $0.66  failures {'facts': 4, 'slots': 1}
+    150/190  new calls 694  cached 350  spend $0.73  failures {'facts': 5, 'slots': 2}
+    160/190  new calls 756  cached 350  spend $0.79  failures {'facts': 6, 'slots': 2}
+    170/190  new calls 826  cached 350  spend $0.86  failures {'facts': 6, 'slots': 2}
+    180/190  new calls 890  cached 350  spend $0.93  failures {'facts': 8, 'slots': 3}
+    190/190  new calls 950  cached 350  spend $0.99  failures {'facts': 9, 'slots': 3}
+  wrote results/claims_asqa.json (187 questions); spend $0.99; failures {'facts': 9, 'slots': 3}
+
+  facts per answer 6.0; slots per question 8.1; facts placed in NEW slots 466
+  slots with >1 distinct value (contradiction or paraphrase): 45%
+  claims by number of agents asserting them, and share matching an ASQA short answer:
+    1 agents:  3109 (75.4%)  match gold   8.4%
+    2 agents:   436 (10.6%)  match gold  14.4%
+    3 agents:   224 ( 5.4%)  match gold  21.9%
+    4 agents:   122 ( 3.0%)  match gold  24.6%
+    5 agents:   112 ( 2.7%)  match gold  40.2%
+    6 agents:   118 ( 2.9%)  match gold  57.6%

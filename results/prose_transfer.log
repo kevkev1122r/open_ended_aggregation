@@ -1,0 +1,9 @@
+
+  ASQA prose scorer, zero-label transfer across agent pools: 80 (split, fold) cases, median 330 target claims
+                              within-question                   pooled
+    full               0.715                       0.678                    
+    - position         0.691 (full wins 58/80)   0.670 (full wins 54/80)
+    - contradiction    0.730 (full wins 30/80)   0.706 (full wins 10/80)
+    contra = silence   0.713 (full wins 40/80)   0.697 (full wins 18/80)
+    support only       0.574 (full wins 80/80)   0.791 (full wins  0/80)
+  wrote results/prose_transfer.json

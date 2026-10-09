@@ -1,0 +1,133 @@
+{
+ "qid": "139__wikidata_comp__dev",
+ "question": "who directed movie written by ken hixon",
+ "n_gold": 5,
+ "n_candidates": 42,
+ "n_correct": 3,
+ "agents": {
+  "Cohere-command-a-plus-05-2026": {
+   "L": 1,
+   "items": [
+    "tony scott"
+   ]
+  },
+  "DeepSeek-V4-Flash": {
+   "L": 31,
+   "items": [
+    "michael mann",
+    "mike nichols",
+    "john badham",
+    "john mctiernan",
+    "john dahl",
+    "john frankenheimer",
+    "john carpenter",
+    "john milius",
+    "john sayles",
+    "john boorman",
+    "john schlesinger",
+    "john irvin",
+    "john mackenzie",
+    "john flynn",
+    "john hancock",
+    "john korty",
+    "john llewellyn moxey",
+    "john nicolella",
+    "john patterson",
+    "john power",
+    "john sacret young",
+    "john t kretchmer",
+    "john watson",
+    "john whitesell",
+    "john woo",
+    "john d hancock",
+    "john erman",
+    "john f link",
+    "john gray",
+    "john herzfeld",
+    "john lafia"
+   ]
+  },
+  "Kimi-K2.5": {
+   "L": 3,
+   "items": [
+    "pat o connor",
+    "michael caton jones",
+    "jake scott"
+   ]
+  },
+  "MAI-Thinking-1": {
+   "L": 1,
+   "items": [
+    "clint eastwood"
+   ]
+  },
+  "gpt-5.4": {
+   "L": 3,
+   "items": [
+    "michael polish",
+    "mark waters",
+    "david f sandberg"
+   ]
+  },
+  "gpt-5.4-mini": {
+   "L": 1,
+   "items": [
+    "john sayles"
+   ]
+  },
+  "gpt-5.4-nano": {
+   "L": 1,
+   "items": [
+    "ken hixon"
+   ]
+  },
+  "grok-4.3": {
+   "L": 3,
+   "items": [
+    "john mackenzie",
+    "roger donaldson",
+    "michael apted"
+   ]
+  }
+ },
+ "supported": [
+  {
+   "name": "john sayles",
+   "support": 2,
+   "asserters": [
+    "DeepSeek-V4-Flash",
+    "gpt-5.4-mini"
+   ],
+   "correct": false
+  },
+  {
+   "name": "john mackenzie",
+   "support": 2,
+   "asserters": [
+    "DeepSeek-V4-Flash",
+    "grok-4.3"
+   ],
+   "correct": false
+  }
+ ],
+ "correct": [
+  {
+   "name": "pat o connor",
+   "asserter": "Kimi-K2.5",
+   "pos": 0,
+   "support": 1
+  },
+  {
+   "name": "michael caton jones",
+   "asserter": "Kimi-K2.5",
+   "pos": 1,
+   "support": 1
+  },
+  {
+   "name": "jake scott",
+   "asserter": "Kimi-K2.5",
+   "pos": 2,
+   "support": 1
+  }
+ ]
+}

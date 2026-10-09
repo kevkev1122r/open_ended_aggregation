@@ -1,0 +1,3018 @@
+{
+ "arms": [
+  "plain",
+  "table",
+  "table_scramble",
+  "table_raw",
+  "band",
+  "usc",
+  "moa",
+  "solo"
+ ],
+ "max_words": 53,
+ "scorer": {
+  "n_claims": 392,
+  "base_rate": 0.12244897959183673,
+  "auc_scorer": 0.7355862403100775,
+  "auc_support": 0.7601744186046512,
+  "threshold": 0.18066540682382268,
+  "weights": {
+   "const": -1.5593444304596393,
+   "support": 0.7603285330334749,
+   "support_rel_slot": -0.22591290624800897,
+   "contradict": 0.31116462031553543,
+   "margin": 1.1529542733792708,
+   "slot_values": 0.17756927118410623,
+   "silent": -1.0714931533490102,
+   "silent_len": 0.6021107393906758,
+   "pos_min": -0.3778690604145555,
+   "pos_mean": -0.36051102960858417,
+   "first_sent": 0.25948307103102797,
+   "sup_len": -0.22737152890654636,
+   "q_claims": 0.08830535499889801,
+   "q_slots": 0.1890439876996122,
+   "q_mean_support": -0.33962185060027983
+  }
+ },
+ "per_question": {
+  "asqa:0029": {
+   "plain": {
+    "text": "At the 2000 Sydney Summer Olympics, Australia won 58 medals in total: 16 gold, 25 silver, and 17 bronze, finishing fourth on the medal table.",
+    "str_em": 1.0,
+    "rouge_l": 0.5090909090909091,
+    "dr": 0.7135060680126758,
+    "words": 25,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Australia won a total of 58 medals at the 2000 Sydney Olympics, with 16 gold, 25 silver and 17 bronze, finishing fourth overall. This accounts for all events participated in by Australian athletes. Ambiguities in the question include whether it asks for the grand total or a categorized list by medal type. It might also be taken to mean the Paralympic Games occurring later that year, yet standard usage points to the Olympics proper and the 58 medal total.",
+    "str_em": 1.0,
+    "rouge_l": 0.2524271844660194,
+    "dr": 0.5024213216674024,
+    "words": 79,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Australia won **58 medals** at the **2000 Sydney Olympics**: **16 gold, 25 silver, and 17 bronze**.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Australia won 58 medals at the 2000 Olympics in Sydney: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.5,
+    "dr": 0.7071067811865476,
+    "words": 17,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.2222222222222222,
+    "dr": 0.4714045207910317,
+    "words": 70
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.30769230769230765,
+    "dr": 0.554700196225229,
+    "words": 76
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.2524271844660194,
+    "dr": 0.5024213216674024,
+    "words": 79
+   },
+   "extractive": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze. Australia won a total of 58 medals at the 2000 Sydney Olympics, with 16 gold, 25 silver and 17 bronze, finishing fourth overall.",
+    "str_em": 1.0,
+    "rouge_l": 0.47058823529411764,
+    "dr": 0.6859943405700354,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0319": {
+   "plain": {
+    "text": "Most woolly mammoths vanished from mainland Eurasia and North America about 10,000\u201312,000 years ago, but the last known population survived on Wrangel Island in the Arctic until around 4,000 years ago, roughly 1650 BCE.",
+    "str_em": 0.5,
+    "rouge_l": 0.5060240963855422,
+    "dr": 0.5030030300035688,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The last woolly mammoths died out about 4,000 years ago, with a small isolated population surviving on Wrangel Island until around 1650 BCE. Most mainland populations had already vanished by about 10,000 years ago, near the end of the last Ice Age.",
+    "str_em": 0.5,
+    "rouge_l": 0.2758620689655172,
+    "dr": 0.37139067635410367,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The last woolly mammoths died out about 4,000 years ago, with the final known population surviving on Wrangel Island in the Arctic Ocean until around 1650 BCE. Most mainland mammoths had already disappeared by about 10,000 years ago, near the end of the last Ice Age.",
+    "str_em": 0.5,
+    "rouge_l": 0.24444444444444444,
+    "dr": 0.3496029493900505,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The last woolly mammoths died out about 4,000 years ago, with the final known population surviving on Wrangel Island in the Arctic until roughly 1650 BCE. Most mainland mammoths had disappeared much earlier, around 10,000 years ago, near the end of the last Ice Age.",
+    "str_em": 0.5,
+    "rouge_l": 0.24719101123595508,
+    "dr": 0.3515615246553262,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The last woolly mammoths died out about 4,000 years ago. While most mainland populations disappeared around the end of the last Ice Age, a small isolated group survived much longer on Wrangel Island, making them the species\u2019 final known survivors.",
+    "str_em": 0.5,
+    "rouge_l": 0.21686746987951808,
+    "dr": 0.329292779969071,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Woolly mammoths largely disappeared from continental regions around 10,000 years ago at the end of the last Ice Age, likely due to warming climates and human hunting pressures. However, the very last populations survived on remote islands like Wrangel Island until about 4,000 years ago, marking the species' complete extinction. Ambiguities arise from differing definitions of \"last,\" whether referring to widespread die-offs or final isolated groups, and ongoing debates about exact dates influenced by new fossil discoveries.",
+    "str_em": 0.5,
+    "rouge_l": 0.27642276422764234,
+    "dr": 0.3717679143145911,
+    "words": 77,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The last known woolly mammoths died out about **4,000 years ago**, around **1650 BCE**, on **Wrangel Island** in the Arctic.\n\nFor context, most woolly mammoths on the mainland disappeared much earlier, roughly **10,000\u201312,000 years ago**, near the end of the last Ice Age. The Wrangel Island group was a small, isolated population and was the species\u2019 final holdout.",
+    "str_em": 0.5,
+    "rouge_l": 0.19801980198019803,
+    "dr": 0.3146583877637763,
+    "words": 58,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The last woolly mammoths are believed to have died out about 4,000 years ago, on Wrangel Island in the Arctic Ocean. Most mainland populations disappeared much earlier, around 10,000 years ago, near the end of the last Ice Age.",
+    "str_em": 0.5,
+    "rouge_l": 0.23809523809523814,
+    "dr": 0.3450327796711771,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.21656050955414013,
+    "dr": 0.3290596523080125,
+    "words": 76
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.34188034188034183,
+    "dr": 0.4134491152973615,
+    "words": 72
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.27642276422764234,
+    "dr": 0.3717679143145911,
+    "words": 77
+   },
+   "extractive": {
+    "text": "The majority of woolly mammoths disappeared from mainland Eurasia and North America around **10,000\u201312,000 years ago**, coinciding with the end of the last Ice Age, likely due to climate change and human hunting. The last woolly mammoths died out around 4,000 years ago, though the exact timing varies by population.",
+    "str_em": 0.5,
+    "rouge_l": 0.35416666666666663,
+    "dr": 0.42081270576508656,
+    "words": 50,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0347": {
+   "plain": {
+    "text": "The first widely recognized, ratified quad jump in figure skating was landed by Canada\u2019s Kurt Browning, who completed a quadruple toe loop at the 1988 World Championships in Budapest. Earlier attempts are debated, but Browning is generally credited with the first official quad.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.24074074074074078,
+    "dr": 0.28327886186626583,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The first quad jump in figure skating is most commonly credited to Kurt Browning, who landed a quadruple toe loop at the 1988 World Championships. Some earlier attempts, such as Jozef Sabov\u010d\u00edk\u2019s in 1986, are disputed, but Browning is generally recognized as the first.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.23636363636363636,
+    "dr": 0.2806917861068948,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Kurt Browning is most widely credited as the first skater to land a quadruple jump in competition, completing a quad toe loop at the 1988 World Championships. Some earlier attempts are disputed, but Browning is the standard answer.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.1836734693877551,
+    "dr": 0.24743582965269675,
+    "words": 38,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Kurt Browning is generally credited with landing the first quadruple jump in figure skating competition, a quad toe loop at the 1988 World Championships in Budapest. Some earlier attempts are disputed, but Browning is the standard answer; for women, the first quad is credited to Miki Ando in 2002.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.23853211009174313,
+    "dr": 0.39877488226796426,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The first skater widely credited with landing a quadruple jump in competition was Kurt Browning, at the 1988 World Championships. For women, the first to land a quad in competition was Miki Ando, in 2002.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.30612244897959184,
+    "dr": 0.45175395145262565,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The first quadruple jump in men's competition is most often credited to Canada's **Kurt Browning**, who landed a quadruple toe loop at the 1988 World Championships in Budapest. However, some argue Czechoslovakia's **Jozef Sabov\u010d\u00edk** landed one at the 1986 European Championships, though its rotation remains debated. For women, Japan's **Miki Ando** landed the first quadruple jump\u2014a salchow\u2014at the 2002 Junior Grand Prix Final, making the answer dependent on gender, timing, and whether practice or competition is considered.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.2361111111111111,
+    "dr": 0.3967460238079361,
+    "words": 77,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The answer usually given is **Kurt Browning of Canada** \u2014 he landed the **first ratified quadruple jump in competition**, a **quad toe loop**, at the **1988 World Championships** in Budapest.\n\nA couple of nuances:\n\n- **Jozef Sabov\u010d\u00edk** is sometimes mentioned for an earlier quad attempt in 1986, but it is generally **not recognized as the first ratified quad**.\n- If you mean **women\u2019s figure skating**, the first woman to land a quad in competition was **Miki Ando**, who landed a **quad Salchow** in **2002**.\n\nSo, in the standard historical sense: **Kurt Browning landed the first quad jump in figure skating competition.**",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.26143790849673204,
+    "dr": 0.417482860723433,
+    "words": 101,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Kurt Browning is generally credited with landing the first ratified quadruple jump in figure skating: a quadruple toe loop at the 1988 World Championships in Budapest.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2417582417582418,
+    "dr": 0.28387687575088005,
+    "words": 26,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.22818791946308725,
+    "dr": 0.39003240845096215,
+    "words": 86
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.2361111111111111,
+    "dr": 0.3967460238079361,
+    "words": 77
+   },
+   "single:grok-4.3": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.20437956204379562,
+    "dr": 0.369124696224095,
+    "words": 74
+   },
+   "extractive": {
+    "text": "The first quad jump in figure skating was landed by Canadian skater Kurt Browning at the 1988 World Championships in Budapest, where he successfully completed a quadruple toe loop. Additionally, in women's skating, the first quad was landed by Miki Ando of Japan at the 2002 Junior World Championships, also a quadruple Salchow.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.27586206896551724,
+    "dr": 0.4288450139351179,
+    "words": 53,
+    "judged_prec": 0.875,
+    "n_supported": 7,
+    "n_contra": 1,
+    "n_unver": 0
+   }
+  },
+  "asqa:0303": {
+   "plain": {
+    "text": "Brad Carlton on The Young and the Restless was played primarily by Don Diamont, who portrayed the character from 1985 to 1996 and again from 1998 to 2009. The role was briefly played by John Gibson and Michael Sabatino, but Diamont is the actor most associated with Brad.",
+    "str_em": 0.5,
+    "rouge_l": 0.22988505747126436,
+    "dr": 0.3390317518104052,
+    "words": 48,
+    "judged_prec": 0.6666666666666666,
+    "n_supported": 4,
+    "n_contra": 2,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Brad Carlton on The Young and the Restless was primarily played by Don Diamont, the actor most associated with the role. Some sources note brief appearances by John Gibson and Michael Sabatino, but Don Diamont is the main answer.",
+    "str_em": 0.5,
+    "rouge_l": 0.23076923076923078,
+    "dr": 0.3396831102433787,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 2
+   },
+   "table_scramble": {
+    "text": "Brad Carlton on The Young and the Restless was primarily played by Don Diamont, the actor most identified with the role. He portrayed Brad for much of the character\u2019s run, though John Gibson originated the part briefly and Michael Sabatino filled in for a short period.",
+    "str_em": 0.5,
+    "rouge_l": 0.2318840579710145,
+    "dr": 0.34050261230349943,
+    "words": 46,
+    "judged_prec": 0.6,
+    "n_supported": 3,
+    "n_contra": 2,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Brad Carlton on The Young and the Restless was primarily played by Don Diamont. Some sources also note that John Gibson originated the role briefly in 1985 and Michael Sabatino filled in for a short time in 1996, but Diamont is the actor most associated with Brad Carlton.",
+    "str_em": 0.5,
+    "rouge_l": 0.2222222222222222,
+    "dr": 0.3333333333333333,
+    "words": 48,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 2
+   },
+   "band": {
+    "text": "Brad Carlton on The Young and the Restless was played primarily by Don Diamont, who is the actor most closely associated with the role.",
+    "str_em": 0.5,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.3779644730092272,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Brad Carlton, a prominent character on the soap opera The Young and the Restless, was played by actor Don Diamont from 1985 to 2009. Diamont's long tenure allowed him to explore the character's evolution from a mysterious newcomer to a key player in Genoa City's business and romantic scenes. This role earned him recognition among daytime television audiences. The question could also refer to any guest appearances or flashbacks, but Diamont remains the primary and most recognized performer associated with Brad Carlton.",
+    "str_em": 0.5,
+    "rouge_l": 0.23333333333333334,
+    "dr": 0.3415650255319866,
+    "words": 82,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Brad Carlton on *The Young and the Restless* was primarily played by **Don Diamont**. He\u2019s the actor most associated with the role and played Brad for many years.",
+    "str_em": 0.5,
+    "rouge_l": 0.29629629629629634,
+    "dr": 0.3849001794597505,
+    "words": 28,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Brad Carlton on The Young and the Restless was best known for being played by Don Diamont, who portrayed the character from 1985 to 2009.",
+    "str_em": 0.5,
+    "rouge_l": 0.3137254901960784,
+    "dr": 0.3960590171906697,
+    "words": 25,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.23655913978494625,
+    "dr": 0.34391796971439736,
+    "words": 73
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.2156862745098039,
+    "dr": 0.32839478871459266,
+    "words": 77
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.23333333333333334,
+    "dr": 0.3415650255319866,
+    "words": 82
+   },
+   "extractive": {
+    "text": "The character Brad Carlton on *The Young and the Restless* was primarily portrayed by actor Don Diamont, who played the role from 1985 to 1996 and again from 1998 to 2009.",
+    "str_em": 0.5,
+    "rouge_l": 0.32142857142857145,
+    "dr": 0.4008918628686366,
+    "words": 31,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0146": {
+   "plain": {
+    "text": "The Bellagio in Las Vegas was built in the late 1990s: construction began on June 1, 1996, and the resort officially opened on October 15, 1998. It was developed by Steve Wynn on the former site of the Dunes Hotel and Casino.",
+    "str_em": 0.5,
+    "rouge_l": 0.3125,
+    "dr": 0.39528470752104744,
+    "words": 42,
+    "judged_prec": 0.8,
+    "n_supported": 4,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The Bellagio in Las Vegas was built in the late 1990s: construction began in 1996, and the resort officially opened on October 15, 1998.",
+    "str_em": 0.5,
+    "rouge_l": 0.4583333333333333,
+    "dr": 0.47871355387816905,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The Bellagio in Las Vegas was built in the late 1990s: construction began in 1996, and the resort officially opened on October 15, 1998. If you mean when it was completed and opened to the public, 1998 is the key date.",
+    "str_em": 0.5,
+    "rouge_l": 0.3492063492063492,
+    "dr": 0.41785544701867244,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The Bellagio in Las Vegas was built in the late 1990s: construction began in 1996, and the resort officially opened on October 15, 1998.",
+    "str_em": 0.5,
+    "rouge_l": 0.4583333333333333,
+    "dr": 0.47871355387816905,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The Bellagio in Las Vegas officially opened on October 15, 1998. If you mean when it was built rather than opened, construction began in 1996 on the former Dunes hotel site.",
+    "str_em": 0.5,
+    "rouge_l": 0.25,
+    "dr": 0.3535533905932738,
+    "words": 31,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The Bellagio in Las Vegas was built and opened on October 15, 1998. However, the question could also refer to the original Bellagio hotel in Italy, which was built in the 19th century, or to the concept of the resort, which began construction in 1996. In the context of Las Vegas, the iconic fountain show and casino debuted in 1998, replacing the former Dunes hotel.",
+    "str_em": 0.5,
+    "rouge_l": 0.22222222222222224,
+    "dr": 0.33333333333333337,
+    "words": 65,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The Bellagio in Las Vegas was built in the late 1990s:\n\n- **Construction began:** **1996**\n- **Opened to the public:** **October 15, 1998**\n\nIt was built on the former site of the **Dunes Hotel and Casino**.",
+    "str_em": 0.5,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.3779644730092272,
+    "words": 36,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The Bellagio in Las Vegas was built in the late 1990s, with construction beginning in 1995 and the resort officially opening on October 15, 1998.",
+    "str_em": 0.5,
+    "rouge_l": 0.40816326530612246,
+    "dr": 0.45175395145262565,
+    "words": 25,
+    "judged_prec": 0.6666666666666666,
+    "n_supported": 2,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.22222222222222224,
+    "dr": 0.33333333333333337,
+    "words": 65
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.19607843137254902,
+    "dr": 0.3131121455425747,
+    "words": 82
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.22,
+    "dr": 0.33166247903553997,
+    "words": 80
+   },
+   "extractive": {
+    "text": "The Bellagio in Las Vegas was built and opened on October 15, 1998. The Bellagio resort in Las Vegas, known for its iconic fountains, was constructed on the site of the former Dunes hotel, which was demolished in 1993.",
+    "str_em": 0.5,
+    "rouge_l": 0.25806451612903225,
+    "dr": 0.3592106040535498,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0237": {
+   "plain": {
+    "text": "If you mean Queen Elizabeth II, she became queen on 6 February 1952, when King George VI died; her coronation was on 2 June 1953. Strictly speaking, she was queen of the United Kingdom, not \u201cQueen of England,\u201d since England ceased to have a separate monarchy in 1707.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.21052631578947367,
+    "dr": 0.1873171623163388,
+    "words": 48,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "If you mean Queen Elizabeth II, she became queen on 6 February 1952, when King George VI died; her coronation was on 2 June 1953. If you mean another queen, the date differs\u2014for example, Elizabeth I became Queen of England on 17 November 1558.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.22900763358778625,
+    "dr": 0.2762894819977688,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "If you mean Queen Elizabeth II, she became queen on 6 February 1952, when King George VI died; her coronation was on 2 June 1953. If you mean another queen, the date differs, and strictly speaking \u201cQueen of England\u201d ceased to be the correct title after 1707.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.18181818181818182,
+    "dr": 0.17407765595569785,
+    "words": 47,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "If you mean Queen Elizabeth II, she became queen on 6 February 1952, when King George VI died; her coronation was on 2 June 1953. If you mean an earlier queen, the date differs\u2014for example, Elizabeth I became Queen of England on 17 November 1558.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.22900763358778625,
+    "dr": 0.2762894819977688,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "If you mean Queen Elizabeth II, she became queen on 6 February 1952, and was crowned on 2 June 1953. If you meant another queen, the date differs\u2014for example, Elizabeth I became queen in 1558 and Victoria in 1837.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.23809523809523808,
+    "dr": 0.19920476822239894,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The question about when the queen became queen of England may be interpreted in multiple ways depending on the historical figure in mind. It most probably concerns Queen Elizabeth II, who acceded to the throne on 6 February 1952 after King George VI passed away, although her coronation ceremony took place on 2 June 1953. Another possibility is Queen Elizabeth I succeeding in 1558. Moreover, the precise title of Queen of England ceased after the 1707 union creating Great Britain.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.2111801242236025,
+    "dr": 0.18760780199821225,
+    "words": 80,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "If you mean **Queen Elizabeth II**, she **became queen on 6 February 1952** when her father, **King George VI**, died. Her **coronation** was later, on **2 June 1953**.\n\nA small historical note: technically, she was **not \u201cQueen of England\u201d**, because **England stopped being a separate kingdom in 1707**. Her proper title was **Queen of the United Kingdom**.\n\nIf you meant a different queen, I can give that date too.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.2236842105263158,
+    "dr": 0.19308211143030823,
+    "words": 69,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Queen Elizabeth II became queen on 6 February 1952, when her father, King George VI, died. She was later crowned on 2 June 1953. Technically, she became queen of the United Kingdom, not just England.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.23140495867768596,
+    "dr": 0.19638608176993516,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.21818181818181817,
+    "dr": 0.0,
+    "words": 78
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.23456790123456792,
+    "dr": 0.3424674446093876,
+    "words": 76
+   },
+   "single:grok-4.3": {
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.2111801242236025,
+    "dr": 0.18760780199821225,
+    "words": 80
+   },
+   "extractive": {
+    "text": "Queen Elizabeth II became queen on February 6, 1952, upon her father's death, with her coronation on June 2, 1953. **Queen Elizabeth II** ascended the British throne on 6 February 1952 following King George VI's death, with her coronation on 2 June 1953.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.2666666666666666,
+    "dr": 0.21081851067789192,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0358": {
+   "plain": {
+    "text": "\u201cI Can\u2019t Let Maggie Go\u201d was originally sung by the British pop group The Honeybus in 1968, with lead vocals by Pete Dello. If you mean the best-known version, The Honeybus is the answer, though it was later covered by other artists such as The Tremeloes.",
+    "str_em": 0.2,
+    "rouge_l": 0.3777777777777778,
+    "dr": 0.27487370837451075,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "\u201cI Can\u2019t Let Maggie Go\u201d was originally sung by The Honeybus. Their 1968 version is the best-known recording, with Pete Dello on lead vocals.",
+    "str_em": 0.2,
+    "rouge_l": 0.2784810126582279,
+    "dr": 0.23600042909207936,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "\u201cI Can\u2019t Let Maggie Go\u201d was originally sung by The Honeybus. Their 1968 version is the best-known recording, with Pete Dello on lead vocals.",
+    "str_em": 0.2,
+    "rouge_l": 0.2784810126582279,
+    "dr": 0.23600042909207936,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "\u201cI Can\u2019t Let Maggie Go\u201d was originally sung by The Honeybus, whose 1968 recording is the best-known version. Pete Dello sang lead on that recording.",
+    "str_em": 0.2,
+    "rouge_l": 0.275,
+    "dr": 0.2345207879911715,
+    "words": 25,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "\u201cI Can\u2019t Let Maggie Go\u201d was originally sung by The Honeybus. Their 1968 recording is the best-known version, with Pete Dello on lead vocals.",
+    "str_em": 0.2,
+    "rouge_l": 0.2784810126582279,
+    "dr": 0.23600042909207936,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The song \"I Can't Let Maggie Go\" was performed by the British pop group The Honeybus, released as a single in 1968. However, the question may also refer to a cover version by the band The Tremeloes, who recorded it in 1969. Additionally, the title is sometimes confused with \"Maggie May\" by Rod Stewart, though that is a different song. If referring to the original, The Honeybus is the correct answer, with lead vocals by Pete Dello.",
+    "str_em": 0.2,
+    "rouge_l": 0.31666666666666665,
+    "dr": 0.2516611478423583,
+    "words": 77,
+    "judged_prec": 0.8333333333333334,
+    "n_supported": 5,
+    "n_contra": 1,
+    "n_unver": 1
+   },
+   "moa": {
+    "text": "\u201cI Can\u2019t Let Maggie Go\u201d was originally sung by **The Honeybus** in **1968**. The lead vocal was by **Pete Dello**.",
+    "str_em": 0.2,
+    "rouge_l": 0.35135135135135137,
+    "dr": 0.2650854018430103,
+    "words": 20,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "\u201cI Can\u2019t Let Maggie Go\u201d was originally sung by the British band Honeybus, with lead vocals by Colin Hare, and released in 1968.",
+    "str_em": 0.2,
+    "rouge_l": 0.3380281690140845,
+    "dr": 0.2600108340104637,
+    "words": 23,
+    "judged_prec": 0.6666666666666666,
+    "n_supported": 2,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.2,
+    "rouge_l": 0.31666666666666665,
+    "dr": 0.2516611478423583,
+    "words": 77
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.2,
+    "rouge_l": 0.24060150375939848,
+    "dr": 0.2193633988428327,
+    "words": 82
+   },
+   "single:grok-4.3": {
+    "str_em": 0.2,
+    "rouge_l": 0.25196850393700787,
+    "dr": 0.2244854133065255,
+    "words": 83
+   },
+   "extractive": {
+    "text": "The song \"I Can't Let Maggie Go\" was performed by the British pop group The Honeybus, released as a single in 1968. The song \"I Can't Let Maggie Go\" is famously sung by the band Honeybus from the late 1960s, with Pete Dello providing the distinctive lead vocals on this UK chart hit.",
+    "str_em": 0.2,
+    "rouge_l": 0.29473684210526313,
+    "dr": 0.24279079146675359,
+    "words": 53,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0054": {
+   "plain": {
+    "text": "To test for lipids, commonly use the ethanol emulsion test or Sudan III/IV stain. In the emulsion test, lipids produce a milky-white cloudy emulsion after adding ethanol and water. Sudan dye stains lipids red. A simple grease spot test on paper can also indicate lipids.",
+    "str_em": 0.5,
+    "rouge_l": 0.1702127659574468,
+    "dr": 0.2917299829957891,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "To test for lipids, you commonly use the ethanol emulsion test or Sudan III stain. In the emulsion test, a milky-white emulsion indicates lipids; with Sudan III, lipids stain red. A simple grease spot test on paper can also show lipids by leaving a translucent mark.",
+    "str_em": 0.5,
+    "rouge_l": 0.17204301075268816,
+    "dr": 0.29329423004270655,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "To test for lipids, use the emulsion test, Sudan III stain, or a grease spot test. In the emulsion test, dissolve the sample in ethanol and add water; a milky-white emulsion shows lipids. Sudan III stains lipids red, and the grease spot test leaves a translucent mark on paper.",
+    "str_em": 0.5,
+    "rouge_l": 0.16417910447761194,
+    "dr": 0.28651274358884277,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "To test for lipids, use the ethanol emulsion test, Sudan III/IV stain, or a grease spot test. In the emulsion test, a milky-white emulsion indicates lipids; Sudan stain colors lipids red; and the grease spot test leaves a translucent mark on paper.",
+    "str_em": 0.5,
+    "rouge_l": 0.15730337078651688,
+    "dr": 0.2804490780752514,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "To test for lipids, you commonly use the ethanol emulsion test, Sudan III/IV stain, or a grease spot test. A milky-white emulsion after ethanol and water, red staining with Sudan dye, or a translucent greasy mark on paper all indicate lipids.",
+    "str_em": 0.5,
+    "rouge_l": 0.13333333333333333,
+    "dr": 0.2581988897471611,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "To test for lipids, the most common method is the **grease spot test**, where a sample is rubbed on paper; a translucent, greasy stain that doesn't evaporate indicates lipids. Another standard test is the **Sudan III or Sudan IV dye test**, where a red-orange dye stains lipids a deep red, forming a separate layer if present. Additionally, the **emulsion test** involves dissolving the sample in ethanol, then adding water; a milky-white emulsion confirms lipids. Each test relies on lipids' insolubility in water and solubility in organic solvents.",
+    "str_em": 0.5,
+    "rouge_l": 0.17647058823529413,
+    "dr": 0.2970442628930023,
+    "words": 87,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "To test for lipids in a basic lab, you commonly use:\n\n- **Ethanol emulsion test**: add the sample to **ethanol**, shake, then add **water**. A **milky-white/cloudy emulsion** means lipids are present.\n- **Sudan III or Sudan IV stain**: these dyes **stain lipids red/orange**.\n\nA very simple check is the **grease spot test** on paper, where lipids leave a **translucent stain**.\n\nIf you want, I can also give the exact steps for the lipid test.",
+    "str_em": 0.5,
+    "rouge_l": 0.16455696202531644,
+    "dr": 0.2868422580664471,
+    "words": 74,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Lipids are commonly tested with Sudan III stain (or Sudan IV), which colors the lipids red/orange if present.",
+    "str_em": 0.0,
+    "rouge_l": 0.05797101449275362,
+    "dr": 0.0,
+    "words": 18,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.17647058823529413,
+    "dr": 0.2970442628930023,
+    "words": 87
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.75,
+    "rouge_l": 0.15503875968992248,
+    "dr": 0.34099716973523675,
+    "words": 86
+   },
+   "single:grok-4.3": {
+    "str_em": 0.75,
+    "rouge_l": 0.186046511627907,
+    "dr": 0.37354368381881425,
+    "words": 82
+   },
+   "extractive": {
+    "text": "In school or biology labs, common methods include the **emulsion test** (mixing a sample with ethanol and water to form a cloudy white layer), **Sudan III or IV stains** (which colour lipids red), or the **grease spot test** (leaving a translucent mark on filter paper).",
+    "str_em": 0.5,
+    "rouge_l": 0.13740458015267176,
+    "dr": 0.2621112169983114,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0288": {
+   "plain": {
+    "text": "The Ranch is set in the fictional town of Garrison, Colorado, where the Bennett family runs Iron River Ranch. It wasn\u2019t filmed there, though: production was done in California, mainly on studio soundstages and nearby ranch locations used to stand in for Colorado.",
+    "str_em": 0.6,
+    "rouge_l": 0.2558139534883721,
+    "dr": 0.3917759207672458,
+    "words": 43,
+    "judged_prec": 0.8,
+    "n_supported": 4,
+    "n_contra": 1,
+    "n_unver": 1
+   },
+   "table": {
+    "text": "The Ranch is set in the fictional town of Garrison, Colorado. If you mean filming location, it was produced in California, with interiors on studio soundstages and exteriors shot at ranch locations in Southern California.",
+    "str_em": 0.4,
+    "rouge_l": 0.25287356321839083,
+    "dr": 0.31803997435441406,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 1
+   },
+   "table_scramble": {
+    "text": "The Ranch is set in the fictional town of Garrison, Colorado. If you mean filming location, it was produced in California, with interiors on studio soundstages and exterior ranch scenes shot in Southern California.",
+    "str_em": 0.4,
+    "rouge_l": 0.25581395348837205,
+    "dr": 0.31988369979626785,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 1
+   },
+   "table_raw": {
+    "text": "The Ranch is set in the fictional town of Garrison, Colorado. If you mean where it was filmed, production took place in California, with interiors on studio soundstages and exteriors shot at ranch locations in Southern California.",
+    "str_em": 0.4,
+    "rouge_l": 0.24719101123595505,
+    "dr": 0.3144461869611111,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 1
+   },
+   "band": {
+    "text": "The Ranch is set in the fictional town of Garrison, Colorado. Although the story takes place in Colorado, the series was filmed in California.",
+    "str_em": 0.4,
+    "rouge_l": 0.2972972972972973,
+    "dr": 0.3448462250321423,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The TV show 'The Ranch' has multiple location aspects worth considering. Narratively, it is set on a family ranch in the fictional town of Garrison, Colorado, capturing rural American life. For filming, the production took place in California, utilizing a real ranch in Santa Clarita for exterior shots and soundstages in Los Angeles for interiors. This choice allowed for cost-effective shooting while portraying the Colorado setting authentically through landscapes and details, though no actual filming occurred in the state itself.",
+    "str_em": 0.4,
+    "rouge_l": 0.22033898305084745,
+    "dr": 0.2968763938415094,
+    "words": 80,
+    "judged_prec": 0.75,
+    "n_supported": 3,
+    "n_contra": 1,
+    "n_unver": 1
+   },
+   "moa": {
+    "text": "*The Ranch* is **set in the fictional town of Garrison, Colorado**.\n\nIf you meant **where it was filmed**, it was shot mainly in **California**, with studio filming in the Los Angeles area and exterior ranch scenes filmed on California locations.",
+    "str_em": 0.4,
+    "rouge_l": 0.26373626373626374,
+    "dr": 0.32479917717646006,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 1
+   },
+   "solo": {
+    "text": "The Ranch is set in the fictional small town of Garrison, Colorado, centered on the Bennett family\u2019s Iron River Ranch. Although the story takes place in Colorado, the series itself was filmed in California on soundstages and with some exterior locations.",
+    "str_em": 0.6,
+    "rouge_l": 0.26373626373626374,
+    "dr": 0.3977961264790775,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.4,
+    "rouge_l": 0.21487603305785125,
+    "dr": 0.2931730090290382,
+    "words": 74
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.1935483870967742,
+    "dr": 0.43994134506405985,
+    "words": 76
+   },
+   "single:grok-4.3": {
+    "str_em": 0.4,
+    "rouge_l": 0.22033898305084745,
+    "dr": 0.2968763938415094,
+    "words": 80
+   },
+   "extractive": {
+    "text": "The TV show *The Ranch* is set in the fictional town of Garrison, Colorado, but it was primarily filmed on a soundstage at Sony Pictures Studios in Culver City, California.",
+    "str_em": 0.4,
+    "rouge_l": 0.27499999999999997,
+    "dr": 0.33166247903553997,
+    "words": 30,
+    "judged_prec": 0.5,
+    "n_supported": 1,
+    "n_contra": 1,
+    "n_unver": 0
+   }
+  },
+  "asqa:0150": {
+   "plain": {
+    "text": "The last perfect game in MLB was thrown by Domingo Germ\u00e1n of the New York Yankees on June 28, 2023, against the Oakland Athletics. He retired all 27 batters in an 11\u20130 Yankees win.",
+    "str_em": 0.0,
+    "rouge_l": 0.1188118811881188,
+    "dr": 0.0,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The most recent MLB perfect game was thrown by Domingo Germ\u00e1n of the New York Yankees on June 28, 2023, against the Oakland Athletics.",
+    "str_em": 0.0,
+    "rouge_l": 0.13186813186813187,
+    "dr": 0.0,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The last perfect game in MLB was thrown by Domingo Germ\u00e1n of the New York Yankees on June 28, 2023, against the Oakland Athletics.",
+    "str_em": 0.0,
+    "rouge_l": 0.13186813186813187,
+    "dr": 0.0,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The last MLB perfect game was thrown by Domingo Germ\u00e1n of the New York Yankees on June 28, 2023, against the Oakland Athletics.",
+    "str_em": 0.0,
+    "rouge_l": 0.13333333333333333,
+    "dr": 0.0,
+    "words": 23,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The most recent perfect game in MLB was thrown by Domingo Germ\u00e1n of the New York Yankees on June 28, 2023, against the Oakland Athletics. He retired all 27 batters in an 11\u20130 win, becoming the pitcher of MLB\u2019s 24th perfect game.",
+    "str_em": 0.0,
+    "rouge_l": 0.12195121951219512,
+    "dr": 0.0,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The most recent perfect game in MLB history was thrown by Domingo Germ\u00e1n of the New York Yankees on June 28, 2023, versus the Oakland Athletics. He faced 27 batters and allowed none to reach base in an 11-0 victory, marking the 24th perfect game overall. If the query means the last postseason perfect game, then it was Don Larsen in the 1956 World Series. Perfect games are exceptionally rare achievements that showcase a pitcher's complete dominance on the mound throughout an entire contest.",
+    "str_em": 0.0,
+    "rouge_l": 0.14,
+    "dr": 0.0,
+    "words": 84,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The last perfect game in MLB was thrown by **Domingo Germ\u00e1n** of the **New York Yankees** on **June 28, 2023**, against the **Oakland Athletics**.\n\nHe retired all **27 batters** he faced in an **11\u20130** Yankees win. It was the **24th perfect game** in MLB history.",
+    "str_em": 0.0,
+    "rouge_l": 0.10843373493975904,
+    "dr": 0.0,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "F\u00e9lix Hern\u00e1ndez threw the most recent perfect game in Major League Baseball, pitching for the Seattle Mariners against the Tampa Bay Rays on August 15, 2012.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.18791946308724833,
+    "dr": 0.17697432162475263,
+    "words": 26,
+    "judged_prec": 0.75,
+    "n_supported": 3,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2585034013605442,
+    "dr": 0.29354352395090366,
+    "words": 85
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.16901408450704225,
+    "dr": 0.16783627165933782,
+    "words": 76
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.14,
+    "dr": 0.0,
+    "words": 84
+   },
+   "extractive": {
+    "text": "The most recent perfect game in MLB history was thrown by **Domingo Germ\u00e1n** of the New York Yankees on June 28, 2023, against the Oakland Athletics. The last perfect game in Major League Baseball was thrown by F\u00e9lix Hern\u00e1ndez of the Seattle Mariners on August 15, 2012, against the Tampa Bay Rays.",
+    "str_em": 0.16666666666666666,
+    "rouge_l": 0.20338983050847456,
+    "dr": 0.18411492357966466,
+    "words": 52,
+    "judged_prec": 0.5,
+    "n_supported": 1,
+    "n_contra": 1,
+    "n_unver": 0
+   }
+  },
+  "asqa:0065": {
+   "plain": {
+    "text": "In Spanish, \u201cflower of the dead\u201d translates literally as \u201cflor de los muertos.\u201d Culturally, it usually refers to the cempas\u00fachil, the marigold used in Mexico\u2019s D\u00eda de los Muertos. In Spain, chrysanthemums are more associated with mourning and graves.",
+    "str_em": 0.5,
+    "rouge_l": 0.2535211267605634,
+    "dr": 0.356034497458156,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "In Spanish, \u201cflower of the dead\u201d is literally **flor de los muertos**. In Mexican D\u00eda de los Muertos tradition, it usually refers to the **cempas\u00fachil**, the marigold, the bright orange flower associated with honoring and guiding the spirits of the dead.",
+    "str_em": 0.5,
+    "rouge_l": 0.28985507246376807,
+    "dr": 0.3806934938134405,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Literally, \u201cflower of the dead\u201d in Spanish is \u201cflor de los muertos.\u201d In Mexican tradition, though, it usually refers to the cempas\u00fachil, the marigold used for D\u00eda de los Muertos, believed to help guide the spirits of the departed.",
+    "str_em": 0.5,
+    "rouge_l": 0.2647058823529411,
+    "dr": 0.3638034375544994,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Literally, \u201cflower of the dead\u201d in Spanish is **flor de los muertos**. Culturally, especially in Mexico, it usually refers to the **cempas\u00fachil**\u2014the marigold used for **D\u00eda de los Muertos** to help guide the spirits of the departed.",
+    "str_em": 0.5,
+    "rouge_l": 0.26865671641791045,
+    "dr": 0.36650833306891567,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "In Spanish, \u201cflower of the dead\u201d literally is \u201cflor de los muertos,\u201d but culturally, especially in Mexico, it usually refers to the cempas\u00fachil, the marigold used in D\u00eda de los Muertos. In Spain, chrysanthemums are more traditionally linked with death and funerals.",
+    "str_em": 0.5,
+    "rouge_l": 0.24657534246575344,
+    "dr": 0.3511234415883917,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The phrase \"flower of the dead\" translates directly to \"flor de los muertos\" in Spanish. However, it often specifically denotes the marigold, known as \"cempas\u00fachil\" or \"flor de muerto,\" used in Day of the Dead altars to attract souls of the departed with its vibrant color and scent. In broader contexts, it could refer to any flower symbolizing death or mourning in Hispanic cultures, like white lilies for funerals. This reflects diverse traditions blending indigenous and Catholic influences in remembrance practices.",
+    "str_em": 0.5,
+    "rouge_l": 0.2727272727272727,
+    "dr": 0.3692744729379982,
+    "words": 81,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "If you mean the literal translation of \u201cflower of the dead,\u201d it\u2019s:\n\n**flor de los muertos**\n\nBut if you mean the flower commonly associated with the dead in Mexican culture, especially **D\u00eda de los Muertos**, it\u2019s:\n\n**cempas\u00fachil**  \nalso called **flor de cempas\u00fachil** or sometimes **flor de muerto**\n\nIf you want, I can also tell you how to pronounce it.",
+    "str_em": 0.5,
+    "rouge_l": 0.1956521739130435,
+    "dr": 0.31277162108561213,
+    "words": 59,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The \u201cflower of the dead\u201d in Spanish is commonly **cempas\u00fachil**, the marigold associated with D\u00eda de los Muertos. It is also called **flor de muerto** in Mexico.",
+    "str_em": 0.5,
+    "rouge_l": 0.26666666666666666,
+    "dr": 0.3651483716701107,
+    "words": 27,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.2698412698412698,
+    "dr": 0.36731544334622646,
+    "words": 78
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.2156862745098039,
+    "dr": 0.32839478871459266,
+    "words": 75
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.2727272727272727,
+    "dr": 0.3692744729379982,
+    "words": 81
+   },
+   "extractive": {
+    "text": "The phrase \"flower of the dead\" in Spanish is most commonly translated as \"flor de los muertos,\" but it specifically refers to the marigold, known as \"cempas\u00fachil\" or \"flor de cempas\u00fachil.\" This bright orange flower is central to D\u00eda de los Muertos (Day of the Dead) celebrations, used to guide spirits with its color and scent.",
+    "str_em": 0.5,
+    "rouge_l": 0.27586206896551724,
+    "dr": 0.3713906763541037,
+    "words": 56,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0353": {
+   "plain": {
+    "text": "You can\u2019t simply buy an official Hollywood Walk of Fame star. Honorees must be nominated and approved by the Hollywood Chamber of Commerce for their achievements. If selected, a sponsor\u2014often a studio, label, or fan club\u2014pays about $75,000 for the star\u2019s creation, installation, and maintenance.",
+    "str_em": 0.0,
+    "rouge_l": 0.16091954022988508,
+    "dr": 0.0,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "You can\u2019t simply buy an official Hollywood Walk of Fame star. Honorees must be nominated and selected by the Hollywood Chamber of Commerce for their achievements. If chosen, a sponsor\u2014often a studio, label, or fan group\u2014pays about $75,000 for the star\u2019s creation, installation, and maintenance.",
+    "str_em": 0.0,
+    "rouge_l": 0.16091954022988508,
+    "dr": 0.0,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "You can\u2019t simply buy an official Hollywood Walk of Fame star. Honorees must be formally nominated and selected by the Hollywood Chamber of Commerce committee for career achievement. If chosen, the nominating sponsor typically pays about $75,000 to cover the star\u2019s creation, installation, and upkeep.",
+    "str_em": 0.0,
+    "rouge_l": 0.1627906976744186,
+    "dr": 0.0,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "No\u2014you can\u2019t simply buy an official Hollywood Walk of Fame star. Honorees must be nominated and chosen by the Hollywood Chamber of Commerce for career achievement. If selected, a sponsor, often a studio or fan group, pays about $75,000 for the star\u2019s creation, installation, and maintenance.",
+    "str_em": 0.0,
+    "rouge_l": 0.16091954022988508,
+    "dr": 0.0,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "You can\u2019t simply buy an official Hollywood Walk of Fame star. A person must be formally nominated and approved based on entertainment achievements, usually by the Hollywood Chamber of Commerce committee. If selected, the nominating party or sponsor pays a substantial fee covering the star\u2019s creation, installation, and maintenance.",
+    "str_em": 0.0,
+    "rouge_l": 0.16091954022988508,
+    "dr": 0.0,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The Hollywood Walk of Fame does not sell stars; recipients are nominated and selected by a committee based on career achievements, with a $75,000 sponsorship fee paid by the nominating party (often a studio or fan club) to cover installation and maintenance. However, some interpret \"pay for a star\" as purchasing a personalized star-shaped plaque from private companies, which are not official Walk of Fame stars. Thus, while you cannot buy an official star, you can sponsor a nominee or buy a decorative replica.",
+    "str_em": 0.0,
+    "rouge_l": 0.15254237288135591,
+    "dr": 0.0,
+    "words": 84,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "You can\u2019t simply buy an official Hollywood Walk of Fame star.\n\nHow it works:\n- A person must be nominated.\n- The Hollywood Chamber of Commerce selects honorees based on their achievements.\n- If selected, there is a sponsorship fee of about $75,000, usually paid by a studio, label, fan club, or other sponsor.\n\nThat fee covers things like:\n- creating the star\n- installation\n- the ceremony\n- maintenance of the Walk of Fame\n\nSo: **officially, no, you can\u2019t just pay and get one** \u2014 but **approved honorees do have a significant fee attached**. If you want, I can also explain the nomination process.",
+    "str_em": 0.0,
+    "rouge_l": 0.13636363636363638,
+    "dr": 0.0,
+    "words": 105,
+    "judged_prec": 1.0,
+    "n_supported": 9,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Yes. A sponsor must pay a fee when a nominee is selected for a Hollywood Walk of Fame star. The fee is currently tens of thousands of dollars, covering creation, installation, and ongoing maintenance; in recent years it has been about $75,000.",
+    "str_em": 0.0,
+    "rouge_l": 0.25,
+    "dr": 0.0,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.15254237288135591,
+    "dr": 0.0,
+    "words": 84
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.12213740458015267,
+    "dr": 0.0,
+    "words": 85
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.1651376146788991,
+    "dr": 0.0,
+    "words": 72
+   },
+   "extractive": {
+    "text": "It depends on what you're asking: if you're hoping to **get** a star, you can't simply buy one\u2014it's awarded by the Hollywood Chamber of Commerce based on merit.",
+    "str_em": 0.0,
+    "rouge_l": 0.12987012987012986,
+    "dr": 0.0,
+    "words": 28,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0115": {
+   "plain": {
+    "text": "Three Billboards Outside Ebbing, Missouri was filmed mainly in and around Sylva, North Carolina, especially Jackson County, which doubled for the fictional town of Ebbing, Missouri. Some nearby locations, including Dillsboro and other western North Carolina areas, were also used, with a few interior scenes reportedly shot in Atlanta.",
+    "str_em": 0.5,
+    "rouge_l": 0.3300970873786408,
+    "dr": 0.4062616689884986,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 1
+   },
+   "table": {
+    "text": "Though set in the fictional town of Ebbing, Missouri, Three Billboards Outside Ebbing, Missouri was filmed primarily in and around Sylva, North Carolina, with nearby Jackson County locations also used.",
+    "str_em": 0.5,
+    "rouge_l": 0.3058823529411765,
+    "dr": 0.39107694443752145,
+    "words": 30,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Although it\u2019s set in the fictional town of Ebbing, Missouri, Three Billboards Outside Ebbing, Missouri was filmed primarily in and around Sylva, North Carolina, with nearby Jackson County locations also used. Some scenes were shot in places like Dillsboro, Franklin, and Asheville, and some interiors may have been filmed in Atlanta.",
+    "str_em": 0.5,
+    "rouge_l": 0.2803738317757009,
+    "dr": 0.37441543222448836,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 2
+   },
+   "table_raw": {
+    "text": "Although it\u2019s set in the fictional town of Ebbing, Missouri, Three Billboards Outside Ebbing, Missouri was primarily filmed in Sylva, North Carolina, with other nearby locations in Jackson County also used.",
+    "str_em": 0.5,
+    "rouge_l": 0.3218390804597701,
+    "dr": 0.401147778542877,
+    "words": 31,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Though the story is set in the fictional town of Ebbing, Missouri, Three Billboards Outside Ebbing, Missouri was filmed primarily in Sylva, North Carolina, with some nearby locations in western North Carolina also used.",
+    "str_em": 0.5,
+    "rouge_l": 0.3409090909090909,
+    "dr": 0.41286141192238524,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Although the story is set in the fictional town of Ebbing, Missouri, the 2017 film Three Billboards Outside Ebbing, Missouri was not shot in that state. Principal filming occurred in Sylva, North Carolina, and nearby areas in Jackson County within the Appalachian region. These locations provided the rural, small-town feel with their mountainous terrain and Southern charm, standing in effectively for Missouri. Additional scenes may have been filmed elsewhere, but North Carolina served as the main production hub to capture the needed atmosphere.",
+    "str_em": 0.5,
+    "rouge_l": 0.28571428571428575,
+    "dr": 0.37796447300922725,
+    "words": 83,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "*Three Billboards Outside Ebbing, Missouri* was filmed mainly in **Sylva, North Carolina**, with additional shooting in nearby **Dillsboro** and around **Jackson County**.\n\nAlthough the movie is set in the fictional town of **Ebbing, Missouri**, it was **not** filmed in Missouri. Some scenes were also shot elsewhere, including **Asheville/Franklin area** and a few interiors on stages in **Atlanta, Georgia**.",
+    "str_em": 0.5,
+    "rouge_l": 0.32142857142857145,
+    "dr": 0.4008918628686366,
+    "words": 58,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 2
+   },
+   "solo": {
+    "text": "Three Billboards Outside Ebbing, Missouri was filmed mainly in and around Sylva, North Carolina, with additional locations in nearby Dillsboro and Black Mountain. The fictional town of Ebbing, Missouri was created using these western North Carolina settings.",
+    "str_em": 0.5,
+    "rouge_l": 0.391304347826087,
+    "dr": 0.4423258684646914,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.33870967741935487,
+    "dr": 0.41152744587655077,
+    "words": 71
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.25757575757575757,
+    "dr": 0.3588702812826367,
+    "words": 85
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.28571428571428575,
+    "dr": 0.37796447300922725,
+    "words": 83
+   },
+   "extractive": {
+    "text": "The film \"Three Billboards Outside Ebbing, Missouri\" was primarily filmed in and around Sylva, North Carolina, which stood in for the fictional town of Ebbing, Missouri. However, the actual production was filmed almost entirely in **Sylva, North Carolina**, with additional scenes shot in nearby Dillsboro and throughout Jackson County.",
+    "str_em": 0.5,
+    "rouge_l": 0.41176470588235287,
+    "dr": 0.45374260648651504,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0299": {
+   "plain": {
+    "text": "Bruce Springsteen played the Super Bowl halftime show on February 1, 2009, during Super Bowl XLIII in Tampa, Florida, performing with the E Street Band. He has never played in the game itself; his Super Bowl appearance was as the halftime performer.",
+    "str_em": 1.0,
+    "rouge_l": 0.375,
+    "dr": 0.6123724356957945,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Bruce Springsteen performed at the Super Bowl halftime show on February 1, 2009, during Super Bowl XLIII.",
+    "str_em": 1.0,
+    "rouge_l": 0.6153846153846154,
+    "dr": 0.7844645405527362,
+    "words": 17,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Bruce Springsteen played the Super Bowl halftime show on February 1, 2009, at Super Bowl XLIII.",
+    "str_em": 1.0,
+    "rouge_l": 0.7200000000000001,
+    "dr": 0.8485281374238571,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Bruce Springsteen played the Super Bowl halftime show on February 1, 2009, at Super Bowl XLIII in Tampa, Florida, performing with the E Street Band.",
+    "str_em": 1.0,
+    "rouge_l": 0.5454545454545454,
+    "dr": 0.7385489458759964,
+    "words": 25,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Bruce Springsteen performed at the Super Bowl halftime show on February 1, 2009, during Super Bowl XLIII.",
+    "str_em": 1.0,
+    "rouge_l": 0.6153846153846154,
+    "dr": 0.7844645405527362,
+    "words": 17,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Bruce Springsteen performed at the Super Bowl halftime show on February 1, 2009, during Super Bowl XLIII. This was his only Super Bowl appearance, where he and the E Street Band played a set of four songs. If the question refers to him playing as a performer in the game itself, that did not occur; he has never been a player in the NFL. Thus, the sole interpretation is his halftime show performance.",
+    "str_em": 1.0,
+    "rouge_l": 0.23404255319148934,
+    "dr": 0.48377944684689667,
+    "words": 73,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Bruce Springsteen played the Super Bowl halftime show on **February 1, 2009**, at **Super Bowl XLIII** with the **E Street Band**.",
+    "str_em": 1.0,
+    "rouge_l": 0.6206896551724138,
+    "dr": 0.7878385971583354,
+    "words": 21,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Bruce Springsteen and the E Street Band performed the Super Bowl halftime show on February 1, 2009, at Super Bowl XLIII.",
+    "str_em": 1.0,
+    "rouge_l": 0.5517241379310345,
+    "dr": 0.7427813527082074,
+    "words": 21,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.23404255319148934,
+    "dr": 0.48377944684689667,
+    "words": 73
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.1509433962264151,
+    "dr": 0.38851434494290565,
+    "words": 82
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.2380952380952381,
+    "dr": 0.4879500364742666,
+    "words": 81
+   },
+   "extractive": {
+    "text": "Bruce Springsteen performed at the Super Bowl halftime show on February 1, 2009, during Super Bowl XLIII. If you're referring to the Super Bowl halftime show, Bruce Springsteen performed on **February 1, 2009**, during Super Bowl XLIII between the Pittsburgh Steelers and Arizona Cardinals in Tampa, Florida.",
+    "str_em": 1.0,
+    "rouge_l": 0.3466666666666666,
+    "dr": 0.5887840577551897,
+    "words": 47,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0180": {
+   "plain": {
+    "text": "If you mean Kevin Williamson\u2019s Tell Me a Story, it didn\u2019t air on the CBS broadcast network. It streamed exclusively on CBS All Access, now Paramount+. Season 1 premiered October 31, 2018, and Season 2 premiered December 5, 2019. There\u2019s no current CBS airtime for new episodes.",
+    "str_em": 0.5,
+    "rouge_l": 0.28571428571428575,
+    "dr": 0.37796447300922725,
+    "words": 47,
+    "judged_prec": 0.8571428571428571,
+    "n_supported": 6,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "If you mean Kevin Williamson\u2019s Tell Me a Story, it didn\u2019t air on the CBS broadcast network. It was released exclusively on CBS All Access, now Paramount+, with Season 1 premiering October 31, 2018, and Season 2 on December 5, 2019.",
+    "str_em": 0.5,
+    "rouge_l": 0.3047619047619048,
+    "dr": 0.3903600291794133,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "*Tell Me a Story* didn\u2019t air on the CBS broadcast network. It was released exclusively on CBS All Access (now Paramount+), with season 1 premiering October 31, 2018, and season 2 on December 5, 2019. There\u2019s no current CBS airtime, since the series has ended.",
+    "str_em": 0.5,
+    "rouge_l": 0.2962962962962963,
+    "dr": 0.3849001794597505,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "If you mean Kevin Williamson\u2019s Tell Me a Story, it didn\u2019t air on the CBS broadcast network; it streamed on CBS All Access, now Paramount+. Season 1 premiered October 31, 2018, and Season 2 premiered December 5, 2019. There\u2019s no regular CBS timeslot for it.",
+    "str_em": 0.5,
+    "rouge_l": 0.2909090909090909,
+    "dr": 0.3813850356982369,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "If you mean Kevin Williamson\u2019s Tell Me a Story, it didn\u2019t air on the CBS broadcast network; it was a CBS All Access streaming series. Season 1 premiered October 31, 2018, and Season 2 began December 5, 2019. It ran from 2018 to 2020 and isn\u2019t currently airing on CBS.",
+    "str_em": 0.5,
+    "rouge_l": 0.2807017543859649,
+    "dr": 0.3746343246326776,
+    "words": 50,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "If you're referring to the Kevin Williamson anthology *Tell Me a Story*, it never actually aired on the CBS broadcast network\u2014it streamed exclusively on CBS All Access (now Paramount+). Season 1 premiered on October 31, 2018, while Season 2 debuted on December 5, 2019, and concluded on February 6, 2020. However, if you're thinking of a different program with the same title or a special, there may be no fixed CBS timeslot, as the show itself was strictly a streaming release.",
+    "str_em": 0.75,
+    "rouge_l": 0.3142857142857143,
+    "dr": 0.4855041562276122,
+    "words": 81,
+    "judged_prec": 0.8333333333333334,
+    "n_supported": 5,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "*Tell Me a Story* did **not air on the CBS broadcast network**. It was a **streaming-only series on CBS All Access** (now **Paramount+**).\n\n- **Season 1 premiered:** October 31, 2018  \n- **Season 2 premiered:** December 5, 2019  \n\nSo there isn\u2019t a regular **CBS TV timeslot** for it. If you want to watch it, check **Paramount+** or current streaming listings.\n\nIf you meant a different show with a similar title, tell me which one and I can help find the schedule.",
+    "str_em": 0.5,
+    "rouge_l": 0.24817518248175183,
+    "dr": 0.3522606864821505,
+    "words": 80,
+    "judged_prec": 0.75,
+    "n_supported": 3,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Tell Me a Story did not air on the CBS broadcast network. It premiered on CBS All Access, CBS\u2019s streaming service, on October 31, 2018, with new episodes released there rather than on a regular CBS TV timeslot.",
+    "str_em": 0.25,
+    "rouge_l": 0.24000000000000005,
+    "dr": 0.24494897427831783,
+    "words": 38,
+    "judged_prec": 0.75,
+    "n_supported": 3,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.12676056338028172,
+    "dr": 0.0,
+    "words": 73
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.75,
+    "rouge_l": 0.3142857142857143,
+    "dr": 0.4855041562276122,
+    "words": 81
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.1568627450980392,
+    "dr": 0.0,
+    "words": 95
+   },
+   "extractive": {
+    "text": "If you're referring to the Kevin Williamson anthology *Tell Me a Story*, it never actually aired on the CBS broadcast network\u2014it streamed exclusively on CBS All Access (now Paramount+).",
+    "str_em": 0.0,
+    "rouge_l": 0.1956521739130435,
+    "dr": 0.0,
+    "words": 29,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0247": {
+   "plain": {
+    "text": "\u201cWake me up when it\u2019s all over\u201d is a lyric from \u201cWake Me Up\u201d by Avicii, featuring Aloe Blacc on vocals. People sometimes confuse it with Green Day\u2019s \u201cWake Me Up When September Ends,\u201d but the exact line is most closely associated with Avicii\u2019s song.",
+    "str_em": 0.5,
+    "rouge_l": 0.3333333333333333,
+    "dr": 0.408248290463863,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The lyric \u201cwake me up when it\u2019s all over\u201d is from \u201cWake Me Up\u201d by Avicii, sung with vocals by Aloe Blacc. If you meant \u201cWake Me Up When September Ends,\u201d that\u2019s by Green Day.",
+    "str_em": 0.5,
+    "rouge_l": 0.37209302325581395,
+    "dr": 0.43133109281375365,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "If you mean the lyric \u201cwake me up when it\u2019s all over,\u201d that\u2019s from \u201cWake Me Up\u201d by Avicii, sung with Aloe Blacc\u2019s vocals. If you mean the often-misquoted \u201cWake Me Up When September Ends,\u201d that\u2019s by Green Day.",
+    "str_em": 0.5,
+    "rouge_l": 0.32608695652173914,
+    "dr": 0.4037864265436241,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "If you mean the lyric \u201cwake me up when it\u2019s all over,\u201d that\u2019s from \u201cWake Me Up\u201d by Avicii, featuring Aloe Blacc on vocals. People often confuse it with Green Day\u2019s \u201cWake Me Up When September Ends,\u201d but the exact line points to Avicii\u2019s song.",
+    "str_em": 0.5,
+    "rouge_l": 0.30927835051546393,
+    "dr": 0.39324187881980727,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "If you mean \u201cWake Me Up When September Ends,\u201d it\u2019s by Green Day. If you mean the exact lyric \u201cwake me up when it\u2019s all over,\u201d that\u2019s from \u201cWake Me Up\u201d by Avicii featuring Aloe Blacc.",
+    "str_em": 0.5,
+    "rouge_l": 0.4318181818181818,
+    "dr": 0.4646601886422926,
+    "words": 36,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The phrase \"Wake Me Up When It's All Over\" is most commonly associated with the band Green Day, who perform the song \"Wake Me Up When September Ends.\" However, if you are referring to a different song with a similar title, such as \"Wake Me Up\" by Avicii, or a misremembered lyric from \"When It's All Over\" by the band Weezer, the answer varies. Without more context, the most likely correct answer is Green Day, as their song is widely known and often misquoted.",
+    "str_em": 0.0,
+    "rouge_l": 0.2992125984251969,
+    "dr": 0.0,
+    "words": 84,
+    "judged_prec": 0.4,
+    "n_supported": 2,
+    "n_contra": 3,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The lyric \u201cwake me up when it\u2019s all over\u201d is from **\u201cWake Me Up\u201d by Avicii**, and the **vocal is sung by Aloe Blacc**.\n\nIf you meant **\u201cWake Me Up When September Ends,\u201d** that\u2019s **Green Day**.",
+    "str_em": 0.5,
+    "rouge_l": 0.37209302325581395,
+    "dr": 0.43133109281375365,
+    "words": 36,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "\u201cWake me up when it\u2019s all over\u201d is sung by Aloe Blacc on Avicii\u2019s 2013 hit \u201cWake Me Up.\u201d",
+    "str_em": 0.5,
+    "rouge_l": 0.3943661971830986,
+    "dr": 0.4440530357868858,
+    "words": 19,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.2992125984251969,
+    "dr": 0.0,
+    "words": 84
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.1487603305785124,
+    "dr": 0.2727272727272727,
+    "words": 73
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.24615384615384614,
+    "dr": 0.35082320772281167,
+    "words": 85
+   },
+   "extractive": {
+    "text": "The phrase \"Wake Me Up When It's All Over\" is most commonly associated with the band Green Day, who perform the song \"Wake Me Up When September Ends.\" However, if you are referring to a different song with a similar title, such as \"Wake Me Up\" by Avicii, or a misremembered lyric from \"When It's All Over\" by the band Weezer, the answer varies.",
+    "str_em": 0.0,
+    "rouge_l": 0.3333333333333333,
+    "dr": 0.0,
+    "words": 64,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 2
+   }
+  },
+  "asqa:0153": {
+   "plain": {
+    "text": "W.C. Handy is most commonly considered the \u201cfather of the blues\u201d because he published and popularized early classics like \u201cMemphis Blues\u201d and \u201cSt. Louis Blues.\u201d However, the title is debated, since musicians such as Charley Patton and earlier African American folk traditions were also foundational to the genre\u2019s development.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.19230769230769232,
+    "dr": 0.35805743701971643,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "W.C. Handy is most commonly considered the \u201cFather of the Blues,\u201d largely because he helped popularize and publish early blues classics such as \u201cThe Memphis Blues.\u201d Still, some historians argue the blues has collective roots, and others cite Charley Patton as a foundational figure, especially in Delta blues.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.21782178217821782,
+    "dr": 0.3810702316530972,
+    "words": 48,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "W.C. Handy is most commonly considered the \u201cFather of the Blues,\u201d largely because he helped popularize the genre through published songs like \u201cThe Memphis Blues\u201d and \u201cSt. Louis Blues.\u201d Some scholars instead emphasize figures like Charley Patton or the blues\u2019 collective folk roots, but Handy is the usual answer.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.198019801980198,
+    "dr": 0.36333620975637976,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "W.C. Handy is most widely considered the \u201cFather of the Blues,\u201d chiefly because he published and popularized early blues classics such as \u201cThe Memphis Blues\u201d and \u201cSt. Louis Blues.\u201d Still, some credit Charley Patton or emphasize that the blues grew from collective African American traditions rather than one single founder.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.19230769230769232,
+    "dr": 0.35805743701971643,
+    "words": 50,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "W.C. Handy is most commonly considered the \u201cFather of the Blues.\u201d Some, however, view Charley Patton as a foundational father figure, especially in Delta blues, and many note that the blues also grew from broader African American folk traditions rather than one single creator.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.28571428571428575,
+    "dr": 0.4364357804719848,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "W.C. Handy is widely considered the father of the blues because he composed and published early hits such as \"Memphis Blues\" and \"St. Louis Blues,\" popularizing the form. However, ambiguity exists as some view Delta blues musicians like Charley Patton as the true originators of the style's emotional depth and guitar techniques. Others interpret the blues as a communal creation from African American folk traditions without one father figure, emerging from work songs and spirituals in the post-slavery South.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.18320610687022904,
+    "dr": 0.3494816226644152,
+    "words": 79,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "W.C. Handy is most commonly considered the **\u201cFather of the Blues.\u201d**\n\nHe earned that title because he helped **popularize and publish blues music**, especially with songs like **\u201cMemphis Blues\u201d (1912)** and **\u201cSt. Louis Blues\u201d (1914)**.\n\nThat said, the title can be debated, since the blues grew out of broader African American musical traditions and many early musicians shaped it. But if you\u2019re asking for the standard answer, it\u2019s **W.C. Handy**.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.15873015873015875,
+    "dr": 0.23002185311411807,
+    "words": 70,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "W. C. Handy is widely considered the \u201cFather of the Blues\u201d because he helped popularize the genre through compositions like \u201cSt. Louis Blues\u201d and by publishing and promoting blues music in the early 20th century.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.22727272727272727,
+    "dr": 0.27524094128159016,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.24285714285714283,
+    "dr": 0.4023739080814782,
+    "words": 85
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.20588235294117646,
+    "dr": 0.37047928681747416,
+    "words": 84
+   },
+   "single:grok-4.3": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.18320610687022904,
+    "dr": 0.3494816226644152,
+    "words": 79
+   },
+   "extractive": {
+    "text": "The title \"father of the blues\" is most commonly attributed to W.C. However, some argue that the true father is Charley Patton, a Delta blues pioneer whose raw, influential style shaped early blues. Handy, the African American composer and musician who published \"The Memphis Blues\" in 1912 and \"St.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.26666666666666666,
+    "dr": 0.2981423969999719,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0209": {
+   "plain": {
+    "text": "The two most successful Spanish soccer clubs are Real Madrid and FC Barcelona. Real Madrid leads in La Liga titles and European Cups/Champions League trophies, while Barcelona is also highly decorated domestically and internationally. By almost any overall measure of success in Spain, these two clubs stand clearly above the rest.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.37623762376237624,
+    "dr": 0.5008244028681618,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The two most successful Spanish soccer clubs are Real Madrid and FC Barcelona. In men\u2019s football, they are Spain\u2019s dominant teams historically, with Real Madrid especially leading in European success and Barcelona also among the most decorated clubs domestically and internationally.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.34782608695652173,
+    "dr": 0.4815434123430768,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The two most successful Spanish soccer clubs are Real Madrid and FC Barcelona. In men\u2019s football, they have dominated Spanish and European competitions more than any other teams, making them the clear top two in Spain.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.32558139534883723,
+    "dr": 0.46589082794780523,
+    "words": 36,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The two most successful Spanish soccer clubs are Real Madrid and FC Barcelona. In men\u2019s football, they dominate Spain historically, with Real Madrid leading in La Liga and European titles overall, and Barcelona also among the most decorated clubs in both domestic and continental competition.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.4210526315789474,
+    "dr": 0.5298129428260175,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The two most successful teams in Spanish men\u2019s soccer are Real Madrid and FC Barcelona. Barcelona has won 27 La Liga titles and 5 UEFA Champions League trophies, and alongside Real Madrid, they have dominated Spanish football history more than any other clubs.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.3191489361702128,
+    "dr": 0.46126560401444255,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Real Madrid and Barcelona stand out as the two most successful teams among Spain's soccer clubs. Real Madrid holds the record for most La Liga titles with 35 and an unmatched 14 UEFA Champions League victories. Barcelona trails with 27 domestic titles and 5 European Cups, renowned for developing world-class talents through their academy. Depending on the metric, success could refer to league points, international cups, or even economic impact, but both teams lead in all aspects of Spanish football history.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.24615384615384614,
+    "dr": 0.4050957468334666,
+    "words": 81,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The two most successful soccer clubs in Spain are **Real Madrid** and **FC Barcelona**.\n\n- **Real Madrid**: Generally considered the most successful overall, especially because of its record **La Liga** titles and unmatched **UEFA Champions League** success.\n- **FC Barcelona**: The other giant of Spanish football, with many **La Liga**, **Copa del Rey**, and international titles.\n\nIf you mean **historically overall**, the answer is:\n\n1. **Real Madrid**  \n2. **FC Barcelona**\n\nThey are also the two clubs in the famous rivalry called **El Cl\u00e1sico**.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.33070866141732286,
+    "dr": 0.46954492963387634,
+    "words": 83,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The two most successful clubs in Spanish soccer are Real Madrid and FC Barcelona. Real Madrid has won the most major trophies overall, especially in La Liga and the UEFA Champions League, while Barcelona is the other dominant club with a huge number of league, cup, and international titles.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.4210526315789474,
+    "dr": 0.5298129428260175,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.2900763358778626,
+    "dr": 0.43975473154768335,
+    "words": 82
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.17518248175182483,
+    "dr": 0.3417430630867044,
+    "words": 86
+   },
+   "single:grok-4.3": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.24615384615384614,
+    "dr": 0.4050957468334666,
+    "words": 81
+   },
+   "extractive": {
+    "text": "The two most successful teams in Spanish soccer are Real Madrid and FC Barcelona. Real Madrid holds the record for the most La Liga titles (35) and UEFA Champions League trophies (14), while Barcelona has 27 La Liga titles and 5 Champions League wins.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.3695652173913043,
+    "dr": 0.4963635881027162,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0256": {
+   "plain": {
+    "text": "*Holes* by Louis Sachar is usually classified as young adult or middle-grade fiction. It blends adventure, mystery, and comedy, with elements of historical fiction, coming-of-age, and slight magical realism through the family curse and coincidences.",
+    "str_em": 0.75,
+    "rouge_l": 0.16793893129770993,
+    "dr": 0.35490026553002524,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "*Holes* by Louis Sachar is best described as a middle-grade or young adult novel that blends adventure, mystery, and comedy, with coming-of-age, historical fiction, and light magical realism elements.",
+    "str_em": 0.75,
+    "rouge_l": 0.14457831325301204,
+    "dr": 0.329292779969071,
+    "words": 29,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "*Holes* by Louis Sachar is generally classified as middle-grade or young adult fiction, blending adventure, mystery, and comedy, with coming-of-age elements and a touch of magical realism.",
+    "str_em": 0.75,
+    "rouge_l": 0.16260162601626016,
+    "dr": 0.3492151478847891,
+    "words": 27,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "*Holes* by Louis Sachar is best described as a middle-grade or young adult novel that blends adventure, mystery, and comedy, with elements of magical realism and historical fiction. It\u2019s also often seen as a coming-of-age story.",
+    "str_em": 0.75,
+    "rouge_l": 0.1818181818181818,
+    "dr": 0.3692744729379982,
+    "words": 36,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "*Holes* by Louis Sachar is usually classified as middle-grade or young adult fiction, blending adventure, mystery, and comedy. It also has coming-of-age and historical fiction elements, with touches of magical realism through the Yelnats family curse.",
+    "str_em": 0.75,
+    "rouge_l": 0.15151515151515152,
+    "dr": 0.3370999312316211,
+    "words": 36,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The genre of *Holes* by Louis Sachar is most commonly classified as young adult fiction, but it also blends elements of adventure, mystery, and comedy. It can be interpreted as a contemporary realistic novel with magical realism, due to the curse and supernatural elements like the onions and yellow-spotted lizards. Additionally, it functions as a survival story and a coming-of-age tale, as the protagonist Stanley Yelnats develops resilience and friendship while uncovering a historical mystery.",
+    "str_em": 0.75,
+    "rouge_l": 0.17073170731707318,
+    "dr": 0.3578390427102734,
+    "words": 75,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "*Holes* by Louis Sachar is best classified as **middle-grade fiction**.\n\nIt also blends several genres, including:\n- **Adventure**\n- **Mystery**\n- **Coming-of-age**\n- **Humor**\n- **Historical elements**\n\nSome readers also note a touch of **magical realism** because of the family curse and unlikely coincidences.\n\nSo the simplest answer is: **middle-grade adventure/mystery novel**.",
+    "str_em": 0.5,
+    "rouge_l": 0.18181818181818185,
+    "dr": 0.30151134457776363,
+    "words": 52,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Louis Sachar\u2019s Holes is primarily a young adult children\u2019s novel, usually classified as adventure and mystery, with elements of realistic fiction, humor, and coming-of-age storytelling.",
+    "str_em": 0.75,
+    "rouge_l": 0.16393442622950818,
+    "dr": 0.35064343665913833,
+    "words": 25,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.75,
+    "rouge_l": 0.17073170731707318,
+    "dr": 0.3578390427102734,
+    "words": 75
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.18784530386740333,
+    "dr": 0.30646802758803676,
+    "words": 86
+   },
+   "single:grok-4.3": {
+    "str_em": 0.75,
+    "rouge_l": 0.16793893129770993,
+    "dr": 0.35490026553002524,
+    "words": 83
+   },
+   "extractive": {
+    "text": "The genre of *Holes* by Louis Sachar is most commonly classified as young adult fiction, but it also blends elements of adventure, mystery, and comedy. It can be interpreted as a contemporary realistic novel with magical realism, due to the curse and supernatural elements like the onions and yellow-spotted lizards.",
+    "str_em": 0.75,
+    "rouge_l": 0.17021276595744678,
+    "dr": 0.35729480050524814,
+    "words": 50,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0270": {
+   "plain": {
+    "text": "The President of the European Parliament is elected by the Members of the European Parliament (MEPs) themselves, by secret ballot. EU citizens elect the MEPs, but they do not directly elect the Parliament\u2019s President.",
+    "str_em": 0.0,
+    "rouge_l": 0.33333333333333337,
+    "dr": 0.0,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The President of the European Parliament is elected by the Members of the European Parliament (MEPs) themselves, by secret ballot in plenary. EU citizens do not vote for the president directly; they elect the MEPs, who then choose the president.",
+    "str_em": 0.0,
+    "rouge_l": 0.3125,
+    "dr": 0.0,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The President of the European Parliament is elected by the Members of the European Parliament (MEPs) themselves, in a secret ballot. EU citizens do not vote directly for this post; they elect the MEPs, who then choose the President.",
+    "str_em": 0.0,
+    "rouge_l": 0.3174603174603175,
+    "dr": 0.0,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The President of the European Parliament is elected by the Members of the European Parliament (MEPs), not directly by the public. MEPs choose the president by secret ballot in Parliament.",
+    "str_em": 0.0,
+    "rouge_l": 0.3272727272727273,
+    "dr": 0.0,
+    "words": 30,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The President of the European Parliament is elected by the Members of the European Parliament (MEPs) in a secret ballot. EU citizens do not vote directly for this post; they elect MEPs, who then choose the President.",
+    "str_em": 0.0,
+    "rouge_l": 0.3225806451612903,
+    "dr": 0.0,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The President of the European Parliament is elected by the Members of the European Parliament (MEPs) themselves, through a secret ballot. Any MEP can be nominated, and the winner requires an absolute majority of valid votes cast. This election occurs at the start of each parliamentary term (every five years) and mid-term. Thus, it is not a direct public election; rather, it is an internal democratic process among the parliament's elected representatives, reflecting the political balance within the chamber.",
+    "str_em": 0.0,
+    "rouge_l": 0.23529411764705882,
+    "dr": 0.0,
+    "words": 79,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The President of the European Parliament is elected by the Members of the European Parliament (MEPs), not directly by the public.\n\n- The election is held internally in Parliament\n- MEPs vote by secret ballot\n- The President is usually elected at the start of a parliamentary term and again at mid-term\n- In practice, political groups often agree on a candidate beforehand\n\nSo EU citizens elect the MEPs, and the MEPs elect the President of the European Parliament.",
+    "str_em": 0.0,
+    "rouge_l": 0.27692307692307694,
+    "dr": 0.0,
+    "words": 79,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The president of the European Parliament is elected by the Members of the European Parliament (MEPs), who vote by secret ballot.",
+    "str_em": 0.0,
+    "rouge_l": 0.3333333333333333,
+    "dr": 0.0,
+    "words": 21,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.23529411764705882,
+    "dr": 0.0,
+    "words": 79
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.2097902097902098,
+    "dr": 0.0,
+    "words": 86
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.1702127659574468,
+    "dr": 0.0,
+    "words": 73
+   },
+   "extractive": {
+    "text": "The President of the European Parliament is elected by the Members of the European Parliament (MEPs) themselves, through a secret ballot. The Members of the European Parliament (MEPs) elect the President by secret ballot at the term's start, needing an absolute majority.",
+    "str_em": 0.0,
+    "rouge_l": 0.37500000000000006,
+    "dr": 0.0,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0129": {
+   "plain": {
+    "text": "If you mean The CW\u2019s *In the Dark* (2019), it was filmed mainly in Toronto, Ontario, Canada, which doubled for Chicago, with some work in nearby Mississauga and Hamilton. If you mean the 2017 UK *In the Dark*, it was filmed in Manchester, England.",
+    "str_em": 1.0,
+    "rouge_l": 0.3561643835616438,
+    "dr": 0.5967950934463552,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "If you mean The CW\u2019s 2019 series *In the Dark*, it was filmed primarily in Toronto, Ontario, Canada, with Toronto standing in for Chicago. If you mean the 2017 UK series of the same name, it was filmed in Manchester, England.",
+    "str_em": 1.0,
+    "rouge_l": 0.39999999999999997,
+    "dr": 0.6324555320336759,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "If you mean The CW\u2019s In the Dark (2019), it was primarily filmed in Toronto, Ontario, Canada, even though it\u2019s set in Chicago. If you mean the 2017 UK series In the Dark, it was filmed in Manchester, England. If you meant Netflix\u2019s Dark, that was filmed around Berlin and Brandenburg, Germany.",
+    "str_em": 1.0,
+    "rouge_l": 0.3373493975903615,
+    "dr": 0.5808178695515157,
+    "words": 52,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "If you mean The CW\u2019s In the Dark (2019), it was filmed mainly in Toronto, Ontario, Canada, even though it\u2019s set in Chicago. If you mean the 2017 UK series In the Dark, it was filmed in Manchester, England. If you meant Netflix\u2019s Dark, it was filmed around Berlin and Brandenburg, Germany.",
+    "str_em": 1.0,
+    "rouge_l": 0.3373493975903615,
+    "dr": 0.5808178695515157,
+    "words": 52,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "If you mean The CW\u2019s *In the Dark* (2019), it was filmed mainly in Toronto, Ontario, Canada, standing in for Chicago. If you mean the 2017 UK series *In the Dark*, it was filmed in Manchester, England. If you actually mean Netflix\u2019s *Dark*, that was filmed around Berlin and Brandenburg, Germany.",
+    "str_em": 1.0,
+    "rouge_l": 0.345679012345679,
+    "dr": 0.5879447357921312,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The TV series *In the Dark* was primarily filmed in Toronto, Ontario, Canada, which doubles for the fictional Chicago setting. Exterior shots of the protagonist's apartment and key city scenes were captured in Toronto neighborhoods like Parkdale and the Distillery District. Additionally, some interior scenes were shot on soundstages at Cinespace Film Studios in Toronto. The show also utilized locations in nearby Mississauga and Hamilton for specific episodes, creating a cohesive urban backdrop for the blind detective's story.",
+    "str_em": 0.5,
+    "rouge_l": 0.23076923076923078,
+    "dr": 0.3396831102433787,
+    "words": 78,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "If you mean the **CW/Netflix-style U.S. series *In the Dark* (2019\u20132022)**, it was **primarily filmed in Toronto, Ontario, Canada**, even though the story is set in **Chicago**. Toronto was used for most street scenes and interiors, with some filming also done in nearby areas.\n\nIf you mean the **British series *In the Dark* (2017)**, it was filmed in **England**, mainly around **Manchester**.\n\nIf you want, I can also tell you **specific filming locations** for either version.",
+    "str_em": 1.0,
+    "rouge_l": 0.28037383177570097,
+    "dr": 0.5295033822136559,
+    "words": 76,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The CW series In the Dark was filmed primarily in Toronto, Ontario, Canada, even though the story is set in Chicago. Many street scenes and interiors were shot around Toronto and nearby areas, with locations chosen to stand in for Chicago neighborhoods.",
+    "str_em": 0.5,
+    "rouge_l": 0.28169014084507044,
+    "dr": 0.37529331252040077,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.23076923076923078,
+    "dr": 0.3396831102433787,
+    "words": 78
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.2201834862385321,
+    "dr": 0.3318007581655986,
+    "words": 76
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.22641509433962265,
+    "dr": 0.4758309514308865,
+    "words": 80
+   },
+   "extractive": {
+    "text": "The TV series *In the Dark* was primarily filmed in Toronto, Ontario, Canada, which doubles for the fictional Chicago setting.",
+    "str_em": 0.5,
+    "rouge_l": 0.32653061224489793,
+    "dr": 0.40406101782088427,
+    "words": 20,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0022": {
+   "plain": {
+    "text": "Whitney Houston won 6 competitive Grammy Awards. If you also include her honorary Grammy Lifetime Achievement Award, her total becomes 7, but the standard answer is 6 Grammys.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.1927710843373494,
+    "dr": 0.25348970020979117,
+    "words": 28,
+    "judged_prec": 0.5,
+    "n_supported": 2,
+    "n_contra": 2,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Whitney Houston won 6 competitive Grammy Awards. If you include honorary recognition, she is sometimes counted as having 7 total, with the Grammy Lifetime Achievement Award added later.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.1686746987951807,
+    "dr": 0.23711790231526925,
+    "words": 28,
+    "judged_prec": 0.5,
+    "n_supported": 1,
+    "n_contra": 1,
+    "n_unver": 1
+   },
+   "table_scramble": {
+    "text": "Whitney Houston won 6 competitive Grammy Awards. If you include honorary recognition, some sources count 7 total because she also received a Grammy Lifetime Achievement Award.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.17283950617283952,
+    "dr": 0.2400274332743652,
+    "words": 26,
+    "judged_prec": 0.5,
+    "n_supported": 1,
+    "n_contra": 1,
+    "n_unver": 1
+   },
+   "table_raw": {
+    "text": "Whitney Houston won 6 competitive Grammy Awards. If you include honorary recognition, some sources count 7 total because she also received a Grammy Lifetime Achievement Award. She was nominated 25 times.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.16279069767441862,
+    "dr": 0.23294541397390262,
+    "words": 31,
+    "judged_prec": 0.6666666666666666,
+    "n_supported": 2,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Whitney Houston won 6 competitive Grammy Awards.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.19047619047619047,
+    "dr": 0.25197631533948484,
+    "words": 7,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Whitney Houston won **6 competitive Grammy Awards** out of 25 nominations during her lifetime. However, depending on interpretation, that number can vary: if you're only counting competitive wins, it's 6, but if you include honorary awards, she also received the **Grammy Lifetime Achievement Award** in 2012, bringing the total to 7. While some fans may hope for posthumous wins, none were awarded, so the most accurate standard answer remains 6 competitive Grammys.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.15748031496062992,
+    "dr": 0.22911446554115691,
+    "words": 72,
+    "judged_prec": 0.6,
+    "n_supported": 3,
+    "n_contra": 2,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Whitney Houston won **6 competitive Grammy Awards**.\n\nIf you also include her **posthumous Grammy Lifetime Achievement Award** from **2023**, then the total is **7 Grammy honors**.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.19753086419753085,
+    "dr": 0.25660011963983365,
+    "words": 26,
+    "judged_prec": 0.5,
+    "n_supported": 1,
+    "n_contra": 1,
+    "n_unver": 1
+   },
+   "solo": {
+    "text": "Whitney Houston won 6 Grammy Awards.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.16129032258064516,
+    "dr": 0.23186944788008412,
+    "words": 6,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.18309859154929578,
+    "dr": 0.0,
+    "words": 90
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.15748031496062992,
+    "dr": 0.22911446554115691,
+    "words": 72
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.15254237288135594,
+    "dr": 0.0,
+    "words": 67
+   },
+   "extractive": {
+    "text": "Whitney Houston won six Grammy Awards out of 25 nominations. However, depending on interpretation, that number can vary: if you're only counting competitive wins, it's 6, but if you include honorary awards, she also received the **Grammy Lifetime Achievement Award** in 2012, bringing the total to 7.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.1941747572815534,
+    "dr": 0.25441092565739215,
+    "words": 47,
+    "judged_prec": 0.5,
+    "n_supported": 2,
+    "n_contra": 2,
+    "n_unver": 0
+   }
+  },
+  "asqa:0210": {
+   "plain": {
+    "text": "Usually, *The Seven Deadly Sins* season 2 means **Revival of the Commandments**, which has **24 episodes**. Some services instead label **Signs of Holy War** as season 2, and that has **4 episodes**, so the count depends on the platform.",
+    "str_em": 0.0,
+    "rouge_l": 0.21875000000000003,
+    "dr": 0.0,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Usually, *The Seven Deadly Sins* season 2 refers to **Revival of the Commandments**, which has **24 episodes**. Some platforms label **Signs of Holy War** as season 2 instead, and that has **4 episodes**, so the count can vary depending on the service.",
+    "str_em": 0.0,
+    "rouge_l": 0.208955223880597,
+    "dr": 0.0,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Usually, *The Seven Deadly Sins* season 2 refers to **Revival of the Commandments**, which has **24 episodes**. But some platforms label **Signs of Holy War** as season 2 instead, and that has **4 episodes**.",
+    "str_em": 0.0,
+    "rouge_l": 0.22950819672131145,
+    "dr": 0.0,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Usually, *The Seven Deadly Sins* season 2 refers to *Revival of the Commandments*, which has **24 episodes**. Some platforms label *Signs of Holy War* as season 2 instead, and that has **4 episodes**.",
+    "str_em": 0.0,
+    "rouge_l": 0.23333333333333334,
+    "dr": 0.0,
+    "words": 33,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Usually, *The Seven Deadly Sins* season 2 refers to *Revival of the Commandments*, which has **24 episodes**. If you mean *Signs of Holy War*, which some platforms label as season 2, that has **4 episodes**.",
+    "str_em": 0.0,
+    "rouge_l": 0.22580645161290322,
+    "dr": 0.0,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The term \"season 2\" for *The Seven Deadly Sins* can be ambiguous. The second season of the anime is often considered to be *The Seven Deadly Sins: Revival of The Commandments*, which has 24 episodes. However, some streaming services label the 4-episode *Signs of Holy War* OVA as a separate season, or count the first 24-episode season as covering the first two arcs. To be precise, the main continuation after the first season is *Revival of The Commandments* with 24 episodes.",
+    "str_em": 0.0,
+    "rouge_l": 0.26262626262626265,
+    "dr": 0.0,
+    "words": 81,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "If you mean **The Seven Deadly Sins: Revival of the Commandments**, which is most commonly treated as **Season 2**, it has **24 episodes**.\n\nNote: some platforms list **Signs of Holy War** as Season 2 instead, and that has **4 episodes**.\n\nSo the answer is usually: **24 episodes**.",
+    "str_em": 0.0,
+    "rouge_l": 0.16438356164383564,
+    "dr": 0.0,
+    "words": 47,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "If you mean the main second season, **The Seven Deadly Sins: Revival of The Commandments**, it has **24 episodes**. If you mean Netflix\u2019s labeled \u201cSeason 2,\u201d **Signs of Holy War**, that has **4 episodes**.",
+    "str_em": 0.0,
+    "rouge_l": 0.26229508196721313,
+    "dr": 0.0,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.26262626262626265,
+    "dr": 0.0,
+    "words": 81
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.1568627450980392,
+    "dr": 0.0,
+    "words": 76
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.23853211009174316,
+    "dr": 0.0,
+    "words": 89
+   },
+   "extractive": {
+    "text": "The second season of *The Seven Deadly Sins*, officially titled **Revival of the Commandments**, consists of **24 episodes**. However, some fans also count *Signs of Holy War*, a 4-episode OVA released between seasons, which can bring the total to 28 if grouped together.",
+    "str_em": 0.0,
+    "rouge_l": 0.23529411764705882,
+    "dr": 0.0,
+    "words": 43,
+    "judged_prec": 0.5,
+    "n_supported": 2,
+    "n_contra": 2,
+    "n_unver": 0
+   }
+  },
+  "asqa:0382": {
+   "plain": {
+    "text": "Most taste buds are on the tongue\u2019s upper surface in tiny bumps called papillae, especially on the tip, sides, and back rather than the center. They\u2019re mainly in fungiform papillae at the tip and sides, and in circumvallate and foliate papillae toward the back and edges.",
+    "str_em": 0.5,
+    "rouge_l": 0.23255813953488372,
+    "dr": 0.34099716973523675,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Most taste buds are located in the papillae on your tongue, especially on the tip, sides, and back. They\u2019re mainly found in fungiform papillae at the tip and sides, foliate papillae along the sides, and circumvallate papillae at the back.",
+    "str_em": 0.5,
+    "rouge_l": 0.22784810126582278,
+    "dr": 0.3375263702778072,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Most of your taste buds are located on the surface of your tongue in tiny bumps called papillae. They\u2019re concentrated especially in the fungiform papillae on the tip and sides, with many also in the foliate papillae along the sides and circumvallate papillae at the back.",
+    "str_em": 0.5,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.3779644730092272,
+    "words": 46,
+    "judged_prec": 0.8333333333333334,
+    "n_supported": 5,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Most taste buds are on the tongue\u2019s papillae, especially the fungiform papillae on the tip and sides, with many also in the foliate papillae along the sides and circumvallate papillae at the back. They aren\u2019t limited to one \u201ctaste zone\u201d; all basic tastes can be sensed across most of the tongue.",
+    "str_em": 0.5,
+    "rouge_l": 0.20930232558139536,
+    "dr": 0.3234983196103153,
+    "words": 51,
+    "judged_prec": 0.8571428571428571,
+    "n_supported": 6,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Most of your taste buds are on the tongue\u2019s papillae, with the greatest concentration on the tip, sides, and back rather than the center. The old \u201ctongue map\u201d is a myth: all five basic tastes can be detected across nearly the entire tongue.",
+    "str_em": 0.5,
+    "rouge_l": 0.18181818181818182,
+    "dr": 0.30151134457776363,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Most taste buds are located on the tongue's surface, primarily within the papillae\u2014small, raised bumps. The majority are found on the fungiform papillae, concentrated at the tip and sides, while circumvallate papillae at the back and foliate papillae on the sides also house many. However, taste buds also exist on the soft palate, throat, and epiglottis, so the tongue is the main but not exclusive site.",
+    "str_em": 0.5,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.3779644730092272,
+    "words": 66,
+    "judged_prec": 0.875,
+    "n_supported": 7,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Most taste buds are on the **tongue\u2019s papillae**\u2014especially:\n\n- **Fungiform papillae**: on the **tip and sides** of the tongue  \n- **Circumvallate papillae**: at the **back** of the tongue  \n- **Foliate papillae**: along the **side edges**, farther back  \n\nSo, most taste buds are located on the **surface of the tongue, especially the tip, sides, and back\u2014not the middle**.\n\nAlso, the old \u201ctongue map\u201d idea is a myth: **all basic tastes can be sensed across most of the tongue**.",
+    "str_em": 0.5,
+    "rouge_l": 0.3076923076923077,
+    "dr": 0.3922322702763681,
+    "words": 77,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Most of your taste buds are located on the surface of your tongue, especially in the tiny bumps called papillae on the top and sides near the tip, edges, and back. You also have a few taste buds on the roof of your mouth and in your throat.",
+    "str_em": 0.5,
+    "rouge_l": 0.2823529411764706,
+    "dr": 0.37573457465108967,
+    "words": 48,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.3779644730092272,
+    "words": 66
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.1626016260162602,
+    "dr": 0.2851329742561005,
+    "words": 88
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.169811320754717,
+    "dr": 0.29138575870717925,
+    "words": 76
+   },
+   "extractive": {
+    "text": "Most taste buds are located on the tongue's surface, primarily within the papillae\u2014small, raised bumps. Anatomically, most of your taste buds are clustered on the **papillae** of your tongue\u2014primarily the fungiform papillae on the tip and sides, and the circumvallate papillae at the very back, with foliate papillae along the rear edges.",
+    "str_em": 0.5,
+    "rouge_l": 0.2988505747126437,
+    "dr": 0.3865556717425342,
+    "words": 52,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0191": {
+   "plain": {
+    "text": "In the original 1966\u20131968 Batman TV series, the Riddler was most famously played by Frank Gorshin. John Astin briefly replaced him for one episode due to scheduling conflicts, but Gorshin is the actor most associated with the role.",
+    "str_em": 1.0,
+    "rouge_l": 0.271604938271605,
+    "dr": 0.5211573066470477,
+    "words": 38,
+    "judged_prec": 0.75,
+    "n_supported": 3,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "In the original 1960s Batman TV series, the Riddler was primarily played by Frank Gorshin. John Astin also played the role as a brief substitute, but Gorshin is the actor most people mean when answering this question.",
+    "str_em": 1.0,
+    "rouge_l": 0.2564102564102564,
+    "dr": 0.5063696835418333,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "In the original 1960s Batman TV series, the Riddler was primarily played by Frank Gorshin. John Astin also played the role briefly as a substitute, but Gorshin is the actor most famously associated with the original series\u2019 Riddler.",
+    "str_em": 1.0,
+    "rouge_l": 0.2564102564102564,
+    "dr": 0.5063696835418333,
+    "words": 38,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "In the original 1960s Batman TV series, the Riddler was played primarily by Frank Gorshin, whose performance became iconic. John Astin also played the role once as a substitute.",
+    "str_em": 1.0,
+    "rouge_l": 0.28169014084507044,
+    "dr": 0.5307448924342753,
+    "words": 29,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "In the original 1960s Batman TV series, the Riddler was primarily played by Frank Gorshin. John Astin also played the character as a substitute in one episode, but Gorshin is the actor most associated with the role.",
+    "str_em": 1.0,
+    "rouge_l": 0.2898550724637681,
+    "dr": 0.5383819020581655,
+    "words": 37,
+    "judged_prec": 0.6666666666666666,
+    "n_supported": 2,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Depending on the interpretation, the answer varies: for the 1966\u20131968 ABC TV series *Batman*, Frank Gorshin famously portrayed the Riddler, though John Astin briefly took over the role for the episode \"The Riddler's Revenge\" (1967) due to scheduling conflicts. If referring to the 1943 Columbia serial *Batman*, the Riddler never appeared at all, as he debuted in *Detective Comics* #140 in October 1948. Of course, in the original comic books, no actor played him\u2014he was a drawn creation by Bill Finger and Dick Sprang.",
+    "str_em": 1.0,
+    "rouge_l": 0.14754098360655735,
+    "dr": 0.38411063979868787,
+    "words": 84,
+    "judged_prec": 0.8888888888888888,
+    "n_supported": 8,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "In the original 1966\u20131968 *Batman* TV series, **Frank Gorshin** was the iconic original Riddler.\n\nA second actor, **John Astin**, also played the Riddler in one episode when Gorshin was unavailable.",
+    "str_em": 1.0,
+    "rouge_l": 0.30136986301369867,
+    "dr": 0.5489716413565446,
+    "words": 30,
+    "judged_prec": 0.8,
+    "n_supported": 4,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "In the original 1960s Batman TV series, the Riddler was played mainly by Frank Gorshin, whose manic performance made the character iconic. John Astin also played the Riddler in a couple of episodes when Gorshin was unavailable.",
+    "str_em": 1.0,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.5345224838248488,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.20512820512820512,
+    "dr": 0.4529108136578383,
+    "words": 79
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.14754098360655735,
+    "dr": 0.38411063979868787,
+    "words": 84
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.1896551724137931,
+    "dr": 0.4354941703556927,
+    "words": 78
+   },
+   "extractive": {
+    "text": "Depending on the interpretation, the answer varies: for the 1966\u20131968 ABC TV series *Batman*, Frank Gorshin famously portrayed the Riddler, though John Astin briefly took over the role for the episode \"The Riddler's Revenge\" (1967) due to scheduling conflicts.",
+    "str_em": 1.0,
+    "rouge_l": 0.19999999999999998,
+    "dr": 0.4472135954999579,
+    "words": 39,
+    "judged_prec": 0.75,
+    "n_supported": 3,
+    "n_contra": 1,
+    "n_unver": 1
+   }
+  }
+ },
+ "failures": {},
+ "spend": 0.0,
+ "judge_spend": 0.0044085,
+ "fold": 0
+}

@@ -1,0 +1,162 @@
+{
+ "arms": [
+  "plain",
+  "table",
+  "table_scramble",
+  "table_raw",
+  "band",
+  "usc",
+  "moa",
+  "solo"
+ ],
+ "max_words": 30,
+ "scorer": {
+  "n_claims": 392,
+  "base_rate": 0.12244897959183673,
+  "auc_scorer": 0.7355862403100775,
+  "auc_support": 0.7601744186046512,
+  "threshold": 0.18066540682382268,
+  "weights": {
+   "const": -1.5593444304596393,
+   "support": 0.7603285330334749,
+   "support_rel_slot": -0.22591290624800897,
+   "contradict": 0.31116462031553543,
+   "margin": 1.1529542733792708,
+   "slot_values": 0.17756927118410623,
+   "silent": -1.0714931533490102,
+   "silent_len": 0.6021107393906758,
+   "pos_min": -0.3778690604145555,
+   "pos_mean": -0.36051102960858417,
+   "first_sent": 0.25948307103102797,
+   "sup_len": -0.22737152890654636,
+   "q_claims": 0.08830535499889801,
+   "q_slots": 0.1890439876996122,
+   "q_mean_support": -0.33962185060027983
+  }
+ },
+ "per_question": {
+  "asqa:0029": {
+   "plain": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Australia won a total of 58 medals at the 2000 Sydney Olympics, with 16 gold, 25 silver and 17 bronze, finishing fourth overall. This accounts for all events participated in by Australian athletes. Ambiguities in the question include whether it asks for the grand total or a categorized list by medal type. It might also be taken to mean the Paralympic Games occurring later that year, yet standard usage points to the Olympics proper and the 58 medal total.",
+    "str_em": 1.0,
+    "rouge_l": 0.2524271844660194,
+    "dr": 0.5024213216674024,
+    "words": 79,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Australia won **58 medals** at the **2000 Sydney Olympics**: **16 gold, 25 silver, and 17 bronze**.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Australia won 58 medals at the 2000 Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4782608695652174,
+    "dr": 0.6915640748081247,
+    "words": 15,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.2222222222222222,
+    "dr": 0.4714045207910317,
+    "words": 70
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.30769230769230765,
+    "dr": 0.554700196225229,
+    "words": 76
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.2524271844660194,
+    "dr": 0.5024213216674024,
+    "words": 79
+   },
+   "extractive": {
+    "text": "Australia won 58 medals at the 2000 Sydney Olympics: 16 gold, 25 silver, and 17 bronze.",
+    "str_em": 1.0,
+    "rouge_l": 0.4680851063829787,
+    "dr": 0.6841674549282352,
+    "words": 16,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  }
+ },
+ "failures": {},
+ "spend": 0.019232500000000003,
+ "judge_spend": 0.0035235,
+ "fold": 0
+}

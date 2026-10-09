@@ -1,0 +1,34 @@
+  longform_asqa_fold0.json: 25 questions, scorer AUC 0.736 vs support 0.760
+  longform_asqa_fold1.json: 25 questions, scorer AUC 0.729 vs support 0.700
+  longform_asqa_blockB_fold0.json: 70 questions, scorer AUC 0.677 vs support 0.688
+  longform_asqa_blockB_fold1.json: 70 questions, scorer AUC 0.734 vs support 0.623
+
+  ASQA long-form, 190 paired test questions (x100)
+  arm                            DR*   STR-EM  ROUGE-L   words  judgedP  F(P,R)
+  judged columns on 188/190 questions judged for every arm
+  plain                        30.61    45.66    26.77      41    95.02   53.67
+  table                        29.74    43.08    26.75      37    94.45   51.44
+  table_scramble               29.71    42.67    27.07      37    95.51   51.42
+  table_raw                    30.20    44.35    27.02      39    94.70   52.69
+  band                         28.87    42.04    26.72      36    95.66   51.12
+  usc                          26.96    43.58    22.06      79    94.34   52.49
+  moa                          29.47    44.75    25.05      60    97.06   53.86
+  solo                         29.02    39.39    28.30      28    94.93   49.08
+  extractive                   27.44    38.71    26.74      40    90.81   46.34
+  single:DeepSeek-V4-Flash     26.58    42.02    23.13      78        -       -
+  single:MAI-Thinking-1        26.87    45.21    21.09      80        -       -
+  single:grok-4.3              23.93    39.54    20.80      81        -       -
+  DR* table - table_scramble    +0.04 [ -0.56,  +0.71]  ns
+  F(P,R) table - table_scramble  +0.02 [ -1.43,  +1.51]  ns
+  DR* table - table_raw         -0.46 [ -1.17,  +0.30]  ns
+  F(P,R) table - table_raw      -1.25 [ -2.61,  +0.06]  ns
+  DR* table - plain             -0.86 [ -1.79,  +0.06]  ns
+  F(P,R) table - plain          -2.23 [ -3.91,  -0.63]  SIG
+  DR* band - plain             -1.73 [ -2.84,  -0.71]  SIG
+  F(P,R) band - plain          -2.55 [ -4.39,  -0.86]  SIG
+  DR* plain - usc               +3.65 [ +2.10,  +5.18]  SIG
+  F(P,R) plain - usc            +1.18 [ -1.66,  +3.90]  ns
+  DR* plain - moa               +1.14 [ +0.03,  +2.27]  SIG
+  F(P,R) plain - moa            -0.20 [ -2.30,  +1.76]  ns
+  DR* table - moa               +0.27 [ -0.88,  +1.47]  ns
+  F(P,R) table - moa            -2.42 [ -4.69,  -0.27]  SIG

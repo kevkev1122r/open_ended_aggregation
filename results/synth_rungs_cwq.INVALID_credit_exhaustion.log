@@ -1,0 +1,24 @@
+  cwq: 120 questions x 5 agents, synthesizer openai/gpt-5.4
+      10/120  text 11.16  evidence 10.43  scramble 10.33   spend $0.10
+      20/120  text 10.80  evidence 10.56  scramble  8.77   spend $0.17
+      30/120  text 12.39  evidence 10.78  scramble 10.21   spend $0.27
+      40/120  text 11.86  evidence 10.42  scramble  8.90   spend $0.35
+      50/120  text  9.99  evidence  8.60  scramble  7.39   spend $0.37
+      60/120  text  8.32  evidence  7.17  scramble  6.16   spend $0.37
+      70/120  text  7.13  evidence  6.14  scramble  5.28   spend $0.37
+      80/120  text  6.24  evidence  5.38  scramble  4.62   spend $0.37
+      90/120  text  5.55  evidence  4.78  scramble  4.11   spend $0.37
+     100/120  text  4.99  evidence  4.30  scramble  3.69   spend $0.37
+     110/120  text  4.54  evidence  3.91  scramble  3.36   spend $0.37
+     120/120  text  4.16  evidence  3.58  scramble  3.08   spend $0.37
+
+  cwq, n=120, synthesizer=openai/gpt-5.4
+    best single agent       20.51
+    union of all agents     20.67
+    synth: text              4.16
+    synth: evidence          3.58
+    synth: scramble          3.08
+
+    evidence - scramble = +0.50   (the control: near zero means the table is being ignored)
+    total spend $0.37
+    wrote results/synth_rungs_cwq.json

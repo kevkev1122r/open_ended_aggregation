@@ -1,0 +1,18 @@
+  ESTIMATE step A (slots): 1 new calls (49 cached), ~0.00M input tokens -> ~$0.00 typical, $0.02 worst case; cap $0.15; google/gemini-3.8-flash, effort low
+  ESTIMATE step B (facts, approx.): 300 new calls (0 cached), ~0.15M input tokens -> ~$1.01 typical, $6.86 worst case; cap $0.15; google/gemini-3.8-flash, effort low
+    10/50  new calls 4  cached 314  spend $0.00  failures 0
+    20/50  new calls 4  cached 314  spend $0.00  failures 0
+    30/50  new calls 4  cached 314  spend $0.00  failures 0
+    40/50  new calls 4  cached 314  spend $0.00  failures 0
+    50/50  new calls 15  cached 335  spend $0.01  failures 0
+  wrote results/claims_asqa.json (50 questions); spend $0.01; failures 0
+
+  facts per answer 6.1; slots per question 8.0; facts placed in NEW slots 112
+  slots with >1 distinct value (contradiction or paraphrase): 47%
+  claims by number of agents asserting them, and share matching an ASQA short answer:
+    1 agents:   814 (74.5%)  match gold   8.1%
+    2 agents:   116 (10.6%)  match gold  14.7%
+    3 agents:    65 ( 5.9%)  match gold  13.8%
+    4 agents:    35 ( 3.2%)  match gold  22.9%
+    5 agents:    33 ( 3.0%)  match gold  45.5%
+    6 agents:    30 ( 2.7%)  match gold  63.3%

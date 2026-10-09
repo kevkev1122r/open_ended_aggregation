@@ -1,0 +1,228 @@
+{
+ "qid": "4__wikitables_composition__dev",
+ "question": "what is greensboro north carolina based museum",
+ "fold": 2,
+ "models": [
+  "Cohere-command-a-plus-05-2026",
+  "DeepSeek-V4-Flash",
+  "Kimi-K2.5",
+  "MAI-Thinking-1",
+  "gpt-5.4",
+  "gpt-5.4-mini",
+  "gpt-5.4-nano",
+  "grok-4.3"
+ ],
+ "list_lengths": {
+  "Cohere-command-a-plus-05-2026": 5,
+  "DeepSeek-V4-Flash": 5,
+  "Kimi-K2.5": 9,
+  "MAI-Thinking-1": 6,
+  "gpt-5.4": 1,
+  "gpt-5.4-mini": 1,
+  "gpt-5.4-nano": 6,
+  "grok-4.3": 6
+ },
+ "gold_count": 8,
+ "ghat": 9.084017820533681,
+ "n_candidates": 14,
+ "k_chosen": 7,
+ "k_oracle": 12,
+ "f1_chosen": 26.666666666666668,
+ "f1_oracle": 50.0,
+ "f1_keep_all": 45.45454545454545,
+ "rows": [
+  {
+   "k": 1,
+   "candidate": "greensboro science center",
+   "asserted": {
+    "MAI-Thinking-1": 3,
+    "DeepSeek-V4-Flash": 5,
+    "grok-4.3": 4,
+    "gpt-5.4-nano": 4,
+    "Kimi-K2.5": 4,
+    "Cohere-command-a-plus-05-2026": 5
+   },
+   "support": 6,
+   "p": 0.6933491272247377,
+   "correct": true,
+   "plugin": 0.1375144589318156,
+   "true_f1": 0.2222222222222222
+  },
+  {
+   "k": 2,
+   "candidate": "international civil rights center museum",
+   "asserted": {
+    "MAI-Thinking-1": 1,
+    "DeepSeek-V4-Flash": 1,
+    "grok-4.3": 2,
+    "gpt-5.4-nano": 2,
+    "Kimi-K2.5": 2,
+    "Cohere-command-a-plus-05-2026": 3
+   },
+   "support": 6,
+   "p": 0.6886042096835814,
+   "correct": false,
+   "plugin": 0.24935963822580356,
+   "true_f1": 0.2
+  },
+  {
+   "k": 3,
+   "candidate": "weatherspoon art museum",
+   "asserted": {
+    "MAI-Thinking-1": 2,
+    "gpt-5.4-mini": 1,
+    "DeepSeek-V4-Flash": 3,
+    "gpt-5.4-nano": 3,
+    "grok-4.3": 3,
+    "Kimi-K2.5": 3,
+    "gpt-5.4": 1,
+    "Cohere-command-a-plus-05-2026": 2
+   },
+   "support": 8,
+   "p": 0.6750363946862876,
+   "correct": true,
+   "plugin": 0.3404479804886222,
+   "true_f1": 0.36363636363636365
+  },
+  {
+   "k": 4,
+   "candidate": "african american atelier",
+   "asserted": {
+    "grok-4.3": 5,
+    "Kimi-K2.5": 9
+   },
+   "support": 2,
+   "p": 0.4943022795422799,
+   "correct": false,
+   "plugin": 0.3899860189937929,
+   "true_f1": 0.3333333333333333
+  },
+  {
+   "k": 5,
+   "candidate": "greensboro history museum",
+   "asserted": {
+    "DeepSeek-V4-Flash": 2,
+    "grok-4.3": 1,
+    "gpt-5.4-nano": 1,
+    "Kimi-K2.5": 1,
+    "Cohere-command-a-plus-05-2026": 1
+   },
+   "support": 5,
+   "p": 0.4179714068197017,
+   "correct": false,
+   "plugin": 0.421650051255626,
+   "true_f1": 0.3076923076923077
+  },
+  {
+   "k": 6,
+   "candidate": "elsewhere",
+   "asserted": {
+    "MAI-Thinking-1": 6,
+    "Kimi-K2.5": 6
+   },
+   "support": 2,
+   "p": 0.39562065855964196,
+   "correct": false,
+   "plugin": 0.44615222768242246,
+   "true_f1": 0.28571428571428575
+  },
+  {
+   "k": 7,
+   "candidate": "greensboro children s museum",
+   "asserted": {
+    "Cohere-command-a-plus-05-2026": 4,
+    "gpt-5.4-nano": 5,
+    "Kimi-K2.5": 7
+   },
+   "support": 3,
+   "p": 0.3309832443205215,
+   "correct": false,
+   "plugin": 0.45957015990350597,
+   "true_f1": 0.26666666666666666
+  },
+  {
+   "k": 8,
+   "candidate": "mattye reed african heritage center",
+   "asserted": {
+    "grok-4.3": 6
+   },
+   "support": 1,
+   "p": 0.14007536310128937,
+   "correct": false,
+   "plugin": 0.4490679797029399,
+   "true_f1": 0.25
+  },
+  {
+   "k": 9,
+   "candidate": "guilford courthouse national military park",
+   "asserted": {
+    "Kimi-K2.5": 8
+   },
+   "support": 1,
+   "p": 0.12437547054953729,
+   "correct": true,
+   "plugin": 0.43799095906561153,
+   "true_f1": 0.35294117647058826
+  },
+  {
+   "k": 10,
+   "candidate": "blandwood mansion",
+   "asserted": {
+    "Kimi-K2.5": 5
+   },
+   "support": 1,
+   "p": 0.12070225809860899,
+   "correct": false,
+   "plugin": 0.42768985556020217,
+   "true_f1": 0.33333333333333326
+  },
+  {
+   "k": 11,
+   "candidate": "blandwood mansion and gardens",
+   "asserted": {
+    "MAI-Thinking-1": 5
+   },
+   "support": 1,
+   "p": 0.07205758434554935,
+   "correct": true,
+   "plugin": 0.41357043536235816,
+   "true_f1": 0.4210526315789474
+  },
+  {
+   "k": 12,
+   "candidate": "greensboro historical museum",
+   "asserted": {
+    "MAI-Thinking-1": 4
+   },
+   "support": 1,
+   "p": 0.0694614622746933,
+   "correct": true,
+   "plugin": 0.4005440988665934,
+   "true_f1": 0.5
+  },
+  {
+   "k": 13,
+   "candidate": "elsewhere museum",
+   "asserted": {
+    "DeepSeek-V4-Flash": 4
+   },
+   "support": 1,
+   "p": 0.028776925328903302,
+   "correct": false,
+   "plugin": 0.3850129463835577,
+   "true_f1": 0.4761904761904762
+  },
+  {
+   "k": 14,
+   "candidate": "elsewhere greensboro museum of art",
+   "asserted": {
+    "gpt-5.4-nano": 6
+   },
+   "support": 1,
+   "p": 0.020630160448449036,
+   "correct": false,
+   "plugin": 0.3701215774650636,
+   "true_f1": 0.45454545454545453
+  }
+ ]
+}

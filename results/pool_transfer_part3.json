@@ -1,0 +1,64 @@
+{
+ "part3": [
+  {
+   "qampari_4x4": {
+    "count/oracle": 30.061205679674654,
+    "paper in-pool/oracle": 35.515611558333184,
+    "invariant in-pool/oracle": 34.04731478405041,
+    "invariant in-pool/real": 27.3008381814255,
+    "invariant TRANSFER/oracle": 33.89953911213442,
+    "invariant TRANSFER/real": 27.054691642515138
+   }
+  },
+  {
+   "src": "qampari",
+   "tgt": "cwq",
+   "src_pool": 5,
+   "count/oracle": 25.769243041098523,
+   "paper in-pool/oracle": 27.401931549724267,
+   "invariant TRANSFER/oracle": 27.285506227405236,
+   "invariant TRANSFER/real thr": 23.198994170996468,
+   "invariant TRANSFER/real bud-src": 23.132685297465667
+  },
+  {
+   "src": "qampari",
+   "tgt": "webqsp",
+   "src_pool": 5,
+   "count/oracle": 34.310641332392684,
+   "paper in-pool/oracle": 36.659163461162834,
+   "invariant TRANSFER/oracle": 36.256309863126766,
+   "invariant TRANSFER/real thr": 28.355634282776503,
+   "invariant TRANSFER/real bud-src": 26.56573655143496
+  },
+  {
+   "src": "qampari",
+   "tgt": "webqsp",
+   "src_pool": 8,
+   "count/oracle": 34.310641332392684,
+   "paper in-pool/oracle": 36.659163461162834,
+   "invariant TRANSFER/oracle": 36.20791295657265,
+   "invariant TRANSFER/real thr": 28.63684220034554,
+   "invariant TRANSFER/real bud-src": 26.26319790569814
+  },
+  {
+   "src": "cwq",
+   "tgt": "webqsp",
+   "src_pool": 5,
+   "count/oracle": 34.310641332392684,
+   "paper in-pool/oracle": 36.659163461162834,
+   "invariant TRANSFER/oracle": 36.15051828587164,
+   "invariant TRANSFER/real thr": 29.547375129170213,
+   "invariant TRANSFER/real bud-src": 28.098428722322993
+  },
+  {
+   "src": "cwq",
+   "tgt": "qampari",
+   "src_pool": 5,
+   "count/oracle": 35.10311473185316,
+   "paper in-pool/oracle": 39.77366282807437,
+   "invariant TRANSFER/oracle": 38.18950474779375,
+   "invariant TRANSFER/real thr": 29.20271865187741,
+   "invariant TRANSFER/real bud-src": 29.49742524227305
+  }
+ ]
+}

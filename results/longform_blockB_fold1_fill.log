@@ -1,0 +1,48 @@
+  scorer transfer (free diagnostic): 1054 target claims, base rate 12.7%, AUC scorer 0.734 vs support-only 0.623; source threshold 0.233
+  70 test questions x 8 arms; length instruction 60 words (median ASQA reference)
+  ESTIMATE long-form composer: 8 new calls (552 cached), ~0.01M input tokens -> ~$0.11 typical, $0.38 worst case; cap $0.12; openai/gpt-5.4, effort low
+  ESTIMATE fact-precision judge (google/gemini-3.8-flash): 12 new calls (618 cached), ~0.01M input tokens -> ~$0.04 typical, $0.14 worst case; cap $0.06; google/gemini-3.8-flash, effort low
+    5/70  paired 5  spend composer $0.00  judge $0.00  failures 0
+    10/70  paired 10  spend composer $0.00  judge $0.00  failures 0
+    15/70  paired 15  spend composer $0.00  judge $0.00  failures 0
+    20/70  paired 20  spend composer $0.00  judge $0.00  failures 0
+    25/70  paired 25  spend composer $0.00  judge $0.00  failures 0
+    30/70  paired 30  spend composer $0.00  judge $0.00  failures 0
+    35/70  paired 35  spend composer $0.00  judge $0.00  failures 0
+    40/70  paired 40  spend composer $0.00  judge $0.00  failures 0
+    45/70  paired 45  spend composer $0.00  judge $0.00  failures 0
+    50/70  paired 50  spend composer $0.00  judge $0.00  failures 0
+    55/70  paired 55  spend composer $0.00  judge $0.00  failures 0
+    60/70  paired 60  spend composer $0.00  judge $0.00  failures 0
+    65/70  paired 65  spend composer $0.03  judge $0.01  failures 0
+    70/70  paired 70  spend composer $0.04  judge $0.01  failures 0
+
+  ASQA long-form, 70 paired test questions (x100)
+  arm                            DR*   STR-EM  ROUGE-L   words  judgedP  F(P,R)
+  judged columns on 70/70 questions judged for every arm
+  plain                        30.34    45.00    27.62      39    92.10   50.43
+  table                        28.56    40.48    26.71      36    90.64   46.84
+  table_scramble               28.13    39.48    27.01      37    91.02   46.33
+  table_raw                    28.71    41.86    27.02      39    91.31   47.65
+  band                         27.58    39.55    26.76      34    92.50   47.12
+  usc                          26.51    42.29    22.08      79    93.70   50.51
+  moa                          28.00    42.67    24.87      64    95.79   50.30
+  solo                         27.66    36.50    28.11      28    92.81   44.21
+  extractive                   26.17    36.05    25.95      37    87.27   41.90
+  single:DeepSeek-V4-Flash     25.56    40.10    22.43      78        -       -
+  single:MAI-Thinking-1        24.97    41.57    21.22      80        -       -
+  single:grok-4.3              21.58    35.50    20.68      81        -       -
+  DR* table - table_scramble    +0.43 [ -0.87,  +1.96]  ns
+  F(P,R) table - table_scramble  +0.51 [ -2.93,  +4.17]  ns
+  DR* table - table_raw         -0.15 [ -1.47,  +1.34]  ns
+  F(P,R) table - table_raw      -0.81 [ -3.23,  +1.56]  ns
+  DR* table - plain             -1.78 [ -3.63,  +0.03]  ns
+  F(P,R) table - plain          -3.59 [ -6.84,  -0.39]  SIG
+  DR* band - plain             -2.76 [ -4.37,  -1.35]  SIG
+  F(P,R) band - plain          -3.31 [ -6.28,  -0.51]  SIG
+  DR* plain - usc               +3.83 [ +0.90,  +6.42]  SIG
+  F(P,R) plain - usc            -0.08 [ -5.19,  +4.61]  ns
+  DR* plain - moa               +2.34 [ +0.70,  +4.02]  SIG
+  F(P,R) plain - moa            +0.13 [ -3.99,  +3.61]  ns
+  DR* table - moa               +0.55 [ -1.21,  +2.44]  ns
+  F(P,R) table - moa            -3.46 [ -7.74,  +0.26]  ns

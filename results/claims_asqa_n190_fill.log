@@ -1,0 +1,32 @@
+  ESTIMATE step A (slots): 3 new calls (187 cached), ~0.00M input tokens -> ~$0.01 typical, $0.07 worst case; cap $0.10; google/gemini-3.8-flash, effort low
+  ESTIMATE step B (facts, approx.): 1140 new calls (0 cached), ~0.56M input tokens -> ~$3.84 typical, $26.07 worst case; cap $0.10; google/gemini-3.8-flash, effort low
+    10/190  new calls 0  cached 596  spend $0.00  failures 0
+    20/190  new calls 0  cached 652  spend $0.00  failures 0
+    30/190  new calls 0  cached 748  spend $0.00  failures 0
+    40/190  new calls 0  cached 748  spend $0.00  failures 0
+    50/190  new calls 0  cached 748  spend $0.00  failures 0
+    60/190  new calls 1  cached 788  spend $0.00  failures 0
+    70/190  new calls 1  cached 788  spend $0.00  failures 0
+    80/190  new calls 4  cached 1038  spend $0.00  failures 0
+    90/190  new calls 4  cached 1038  spend $0.00  failures 0
+    100/190  new calls 4  cached 1038  spend $0.00  failures 0
+    110/190  new calls 4  cached 1038  spend $0.00  failures 0
+    120/190  new calls 26  cached 1300  spend $0.03  failures 0
+    130/190  new calls 26  cached 1300  spend $0.03  failures 0
+    140/190  new calls 26  cached 1300  spend $0.03  failures 0
+    150/190  new calls 28  cached 1300  spend $0.03  failures {'facts': 1}
+    160/190  new calls 28  cached 1300  spend $0.03  failures {'facts': 1}
+    170/190  new calls 28  cached 1300  spend $0.03  failures {'facts': 1}
+    180/190  new calls 29  cached 1300  spend $0.03  failures {'facts': 1}
+    190/190  new calls 29  cached 1300  spend $0.03  failures {'facts': 1}
+  wrote results/claims_asqa.json (190 questions); spend $0.03; failures {'facts': 1}
+
+  facts per answer 6.1; slots per question 8.2; facts placed in NEW slots 474
+  slots with >1 distinct value (contradiction or paraphrase): 45%
+  claims by number of agents asserting them, and share matching an ASQA short answer:
+    1 agents:  3150 (75.2%)  match gold   8.3%
+    2 agents:   448 (10.7%)  match gold  14.7%
+    3 agents:   226 ( 5.4%)  match gold  21.7%
+    4 agents:   130 ( 3.1%)  match gold  23.1%
+    5 agents:   113 ( 2.7%)  match gold  41.6%
+    6 agents:   123 ( 2.9%)  match gold  56.9%

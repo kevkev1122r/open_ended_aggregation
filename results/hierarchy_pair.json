@@ -1,0 +1,75 @@
+{
+ "agent": "Kimi-K2.5",
+ "pool": [
+  "Cohere-command-a-plus-05-2026",
+  "DeepSeek-V4-Flash",
+  "Kimi-K2.5",
+  "MAI-Thinking-1",
+  "gpt-5.4",
+  "gpt-5.4-mini",
+  "gpt-5.4-nano",
+  "grok-4.3"
+ ],
+ "claims": [
+  {
+   "label": "A",
+   "name": "pat o connor",
+   "qid": "139__wikidata_comp__dev",
+   "question": "Who directed a movie written by Ken Hixon?",
+   "asserter": "Kimi-K2.5",
+   "pos": 1,
+   "L": 3,
+   "lengths": {
+    "Cohere-command-a-plus-05-2026": 1,
+    "DeepSeek-V4-Flash": 31,
+    "Kimi-K2.5": 3,
+    "MAI-Thinking-1": 1,
+    "gpt-5.4": 3,
+    "gpt-5.4-mini": 1,
+    "gpt-5.4-nano": 1,
+    "grok-4.3": 3
+   },
+   "correct": true
+  },
+  {
+   "label": "B",
+   "name": "i zw 72",
+   "qid": "538__wikitables_simple__dev",
+   "question": "What are the discovered ring galaxies ?",
+   "asserter": "Kimi-K2.5",
+   "pos": 25,
+   "L": 101,
+   "lengths": {
+    "Cohere-command-a-plus-05-2026": 9,
+    "DeepSeek-V4-Flash": 2398,
+    "Kimi-K2.5": 101,
+    "MAI-Thinking-1": 17,
+    "gpt-5.4": 20,
+    "gpt-5.4-mini": 16,
+    "gpt-5.4-nano": 791,
+    "grok-4.3": 10
+   },
+   "correct": false
+  }
+ ],
+ "col_order": [
+  "Kimi-K2.5",
+  "DeepSeek-V4-Flash",
+  "gpt-5.4-nano",
+  "gpt-5.4",
+  "MAI-Thinking-1",
+  "grok-4.3",
+  "Cohere-command-a-plus-05-2026",
+  "gpt-5.4-mini"
+ ],
+ "mean_length": {
+  "Cohere-command-a-plus-05-2026": 6.6,
+  "DeepSeek-V4-Flash": 28.5,
+  "Kimi-K2.5": 72.2,
+  "MAI-Thinking-1": 15.2,
+  "gpt-5.4": 18.9,
+  "gpt-5.4-mini": 4.9,
+  "gpt-5.4-nano": 24.3,
+  "grok-4.3": 10.4
+ }
+}

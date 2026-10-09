@@ -1,0 +1,3018 @@
+{
+ "arms": [
+  "plain",
+  "table",
+  "table_scramble",
+  "table_raw",
+  "band",
+  "usc",
+  "moa",
+  "solo"
+ ],
+ "max_words": 64,
+ "scorer": {
+  "n_claims": 351,
+  "base_rate": 0.1225071225071225,
+  "auc_scorer": 0.7285563273935367,
+  "auc_support": 0.6997130776200544,
+  "threshold": 0.1953092827583821,
+  "weights": {
+   "const": -0.041295135316153246,
+   "support": 1.2937383522882535,
+   "support_rel_slot": -0.6406529729845537,
+   "contradict": -0.7418322176086917,
+   "margin": 0.12349768190996348,
+   "slot_values": -0.357395706012647,
+   "silent": -0.551906134679562,
+   "silent_len": 0.09475607251457281,
+   "pos_min": -0.9134663240036803,
+   "pos_mean": -0.1421000449523105,
+   "first_sent": -0.1625639009132913,
+   "sup_len": -0.19700894353888043,
+   "q_claims": -0.2845001760789634,
+   "q_slots": -0.46805401608819497,
+   "q_mean_support": 0.33084298287908737
+  }
+ },
+ "per_question": {
+  "asqa:0349": {
+   "plain": {
+    "text": "The original *I Love Lucy* ended with \u201cThe Ricardos Dedicate a Statue,\u201d which aired on May 6, 1957. If you include the follow-up *Lucy\u2013Desi Comedy Hour* specials as part of the same run, the last episode aired on April 1, 1960.",
+    "str_em": 1.0,
+    "rouge_l": 0.38532110091743116,
+    "dr": 0.620742378863753,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The original *I Love Lucy* ended with \u201cThe Ricardos Dedicate a Statue,\u201d which aired on May 6, 1957. If you include the follow-up *Lucy\u2013Desi Comedy Hour* specials as part of the same run, the last episode aired on April 1, 1960.",
+    "str_em": 1.0,
+    "rouge_l": 0.38532110091743116,
+    "dr": 0.620742378863753,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The original *I Love Lucy* ended with \u201cThe Ricardos Dedicate a Statue,\u201d which aired on May 6, 1957. If you include the follow-up *Lucy\u2013Desi Comedy Hour* specials as part of the same run, the last installment aired on April 1, 1960.",
+    "str_em": 1.0,
+    "rouge_l": 0.36697247706422015,
+    "dr": 0.6057825328153826,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The last episode of the original *I Love Lucy* series was \u201cThe Ricardos Dedicate a Statue,\u201d which aired on May 6, 1957. If you include the follow-up *Lucy\u2013Desi Comedy Hour* specials as a continuation, the last installment aired on April 1, 1960.",
+    "str_em": 1.0,
+    "rouge_l": 0.4220183486238532,
+    "dr": 0.649629393288091,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The original *I Love Lucy* ended with \u201cThe Ricardos Dedicate a Statue,\u201d which aired on May 6, 1957. If you include the later continuation specials, *The Lucy\u2013Desi Comedy Hour*, the last episode aired on April 1, 1960.",
+    "str_em": 1.0,
+    "rouge_l": 0.4038461538461538,
+    "dr": 0.6354889093022426,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The last episode of *I Love Lucy* originally aired on May 6, 1957, titled \"The Ricardos Dedicate a Statue.\" However, the show's format evolved; after this, the series continued as *The Lucy\u2013Desi Comedy Hour* until April 1, 1960. If referring strictly to the original half-hour sitcom, the final episode is May 6, 1957. If including the hour-long specials, the last episode is April 1, 1960.",
+    "str_em": 1.0,
+    "rouge_l": 0.366412213740458,
+    "dr": 0.6053199267663819,
+    "words": 65,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "If you mean the original *I Love Lucy* TV series, the last episode aired on **May 6, 1957** \u2014 **\u201cThe Ricardos Dedicate a Statue.\u201d**\n\nIf you\u2019re also including the follow-up hour-long specials, *The Lucy\u2013Desi Comedy Hour*, the final episode aired on **April 1, 1960**.",
+    "str_em": 1.0,
+    "rouge_l": 0.35714285714285715,
+    "dr": 0.5976143046671968,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The last episode of I Love Lucy aired on May 6, 1957.",
+    "str_em": 0.5,
+    "rouge_l": 0.26506024096385544,
+    "dr": 0.3640468657768224,
+    "words": 12,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.366412213740458,
+    "dr": 0.6053199267663819,
+    "words": 65
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.2686567164179105,
+    "dr": 0.5183210553488161,
+    "words": 71
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.2620689655172414,
+    "dr": 0.5119267188936727,
+    "words": 80
+   },
+   "extractive": {
+    "text": "The last episode of *I Love Lucy* originally aired on May 6, 1957, titled \"The Ricardos Dedicate a Statue.\" However, the show's format evolved; after this, the series continued as *The Lucy\u2013Desi Comedy Hour* until April 1, 1960. However, if you're referring to its successor, *The Lucy\u2013Desi Comedy Hour*, the final episode, \"Lucy Meets the Mustache,\" aired on **April 1, 1960**.",
+    "str_em": 1.0,
+    "rouge_l": 0.390625,
+    "dr": 0.625,
+    "words": 61,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0006": {
+   "plain": {
+    "text": "In Thelma & Louise, Louise Sawyer kills Harlan Puckett, the man who tries to rape Thelma outside the bar. She shoots him after stopping the assault, so Louise is the literal killer, acting to protect Thelma in a moment often read as self-defense.",
+    "str_em": 0.5,
+    "rouge_l": 0.14814814814814814,
+    "dr": 0.2721655269759087,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Louise killed him. In Thelma & Louise, the man who dies is Harlan Puckett, and Louise shoots him after he attacks Thelma and attempts to rape her.",
+    "str_em": 0.5,
+    "rouge_l": 0.19512195121951217,
+    "dr": 0.3123475237772121,
+    "words": 27,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "In Thelma & Louise, the man killed is Harlan Puckett, and Louise Sawyer shoots him after he tries to rape Thelma. So, literally, Louise is the one who killed him.",
+    "str_em": 0.5,
+    "rouge_l": 0.1927710843373494,
+    "dr": 0.3104602102825332,
+    "words": 30,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "In Thelma & Louise, the man killed is Harlan Puckett, and Louise Sawyer is the one who shoots him after he attempts to rape Thelma. So, literally, Louise killed him, in defense of her friend.",
+    "str_em": 0.5,
+    "rouge_l": 0.22727272727272727,
+    "dr": 0.337099931231621,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The man killed in Thelma & Louise is Harlan Puckett. He is shot by Louise Sawyer after he attempts to rape Thelma, making Louise the one who kills him.",
+    "str_em": 0.5,
+    "rouge_l": 0.1904761904761905,
+    "dr": 0.3086066999241838,
+    "words": 29,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "In the 1991 film Thelma & Louise, Louise shoots and kills Harlan, a man who attempts to rape Thelma outside a bar, sparking their outlaw road trip. This remains the story's sole male fatality at their hands. Alternative readings might reference the trucker whose tires they blast in retaliation, though he survives, or the state trooper they lock in a trunk without harming. Viewers sometimes misremember these non-lethal encounters as deaths, overlooking how the narrative centers one pivotal act of violence amid themes of resistance and escape rather than a spree of killings.",
+    "str_em": 0.5,
+    "rouge_l": 0.14184397163120568,
+    "dr": 0.26631182064565373,
+    "words": 93,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "In *Thelma & Louise*, **Louise** kills the man.\n\nShe shoots **Harlan**, the man who attacks and attempts to rape Thelma outside the bar. That killing is the key event that sets the rest of the film in motion.",
+    "str_em": 0.5,
+    "rouge_l": 0.2127659574468085,
+    "dr": 0.3261640365267211,
+    "words": 38,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Louise killed him. In *Thelma & Louise*, she shoots Harlan after he assaults Thelma and appears ready to rape her in the parking lot.",
+    "str_em": 0.5,
+    "rouge_l": 0.2631578947368421,
+    "dr": 0.3627381250550058,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.11940298507462686,
+    "dr": 0.24433888871261045,
+    "words": 85
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.15384615384615385,
+    "dr": 0.2773500981126146,
+    "words": 79
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.14184397163120568,
+    "dr": 0.26631182064565373,
+    "words": 93
+   },
+   "extractive": {
+    "text": "In *Thelma & Louise*, the man killed is Harlan Puckett, and he is shot by Louise Sawyer after he attempts to rape Thelma Dickinson.",
+    "str_em": 0.5,
+    "rouge_l": 0.15789473684210525,
+    "dr": 0.28097574347450816,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0231": {
+   "plain": {
+    "text": "No. The Memphis Belle was not the first bomber\u2014or even the first B-17\u2014to complete 25 combat missions. The 303rd Bomb Group\u2019s Hell\u2019s Angels reached that milestone earlier in May 1943. The Memphis Belle became famous because of intense publicity, a documentary, and its war bond tour after completing its 25th mission on May 17, 1943.",
+    "str_em": 1.0,
+    "rouge_l": 0.3025210084033613,
+    "dr": 0.5500190982169267,
+    "words": 55,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "No. The Memphis Belle was not the first bomber, or even the first B-17, to complete 25 combat missions; that distinction generally goes to Hell\u2019s Angels, which did so earlier in May 1943. The Memphis Belle completed its 25th mission on May 17, 1943, and became the most famous because of its publicity and return-home tour.",
+    "str_em": 1.0,
+    "rouge_l": 0.3025210084033613,
+    "dr": 0.5500190982169267,
+    "words": 56,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "No. The Memphis Belle was not the first B-17 to complete 25 combat missions; that distinction generally goes to Hell\u2019s Angels, which reached the mark earlier in May 1943. The Memphis Belle completed its 25th mission on May 17, 1943, and became famous because of its publicity, documentary, and war-bond tour, helping create the misconception.",
+    "str_em": 1.0,
+    "rouge_l": 0.30508474576271183,
+    "dr": 0.552344770738994,
+    "words": 55,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "No. The Memphis Belle was not the first B-17 to complete 25 combat missions; that distinction generally goes to Hell\u2019s Angels, which reached the mark earlier in May 1943. The Belle completed its 25th mission on May 17, 1943, and became famous largely because of its publicity, documentary, and war-bond tour.",
+    "str_em": 1.0,
+    "rouge_l": 0.31304347826086953,
+    "dr": 0.5595028849441882,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "No. The Memphis Belle was not the first aircraft\u2014or even the first B-17\u2014to complete 25 missions; other crews had done so earlier, and Hell\u2019s Angels of the 303rd Bomb Group is often cited as reaching that milestone first in May 1943. The Belle completed its 25th mission on May 17, 1943, and is mainly famous because it became the best-known example.",
+    "str_em": 1.0,
+    "rouge_l": 0.33599999999999997,
+    "dr": 0.5796550698475775,
+    "words": 61,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The Memphis Belle was not the first B-17 Flying Fortress to complete 25 missions in World War II, though it is the most famous. Several other bombers, such as the *Hell's Angels* of the 303rd Bomb Group, actually reached the 25-mission milestone earlier in May 1943. However, the Memphis Belle achieved this feat on May 17, 1943, and gained widespread fame due to a highly publicized war bond tour and a documentary film, cementing its iconic status despite not being the absolute first.",
+    "str_em": 0.25,
+    "rouge_l": 0.34375,
+    "dr": 0.29315098498896436,
+    "words": 83,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "No. The **Memphis Belle** was **not the first B-17 to complete 25 combat missions**.\n\nA B-17 named **Hell\u2019s Angels** of the **303rd Bomb Group** reached 25 missions **before** the Memphis Belle in May 1943.  \n\nWhy the confusion:\n\n- **Memphis Belle** completed its 25th mission on **May 17, 1943**\n- It became **far more famous** because of:\n  - heavy publicity\n  - a documentary film\n  - a stateside war bond tour\n\nSo the short answer is:\n\n- **First to 25 missions?** No\n- **Most famous 25-mission B-17?** Yes\n\nIf you want, I can also explain why \u201c25 missions\u201d was such a big milestone for bomber crews in 1943.",
+    "str_em": 1.0,
+    "rouge_l": 0.32704402515723274,
+    "dr": 0.5718776312789587,
+    "words": 106,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "No. The Memphis Belle was not the first bomber to complete 25 combat missions; that distinction generally goes to Hell\u2019s Angels of the 303rd Bomb Group, which finished its 25th mission before the Belle. The Memphis Belle became the most famous because of extensive publicity and a wartime documentary.",
+    "str_em": 1.0,
+    "rouge_l": 0.3518518518518519,
+    "dr": 0.5931710140017395,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.25,
+    "rouge_l": 0.34375,
+    "dr": 0.29315098498896436,
+    "words": 83
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.2676056338028169,
+    "dr": 0.0,
+    "words": 79
+   },
+   "single:grok-4.3": {
+    "str_em": 0.25,
+    "rouge_l": 0.2686567164179105,
+    "dr": 0.25916052767440806,
+    "words": 76
+   },
+   "extractive": {
+    "text": "Several other bombers, such as the *Hell's Angels* of the 303rd Bomb Group, actually reached the 25-mission milestone earlier in May 1943.",
+    "str_em": 0.25,
+    "rouge_l": 0.273972602739726,
+    "dr": 0.2617119612951068,
+    "words": 22,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 1
+   }
+  },
+  "asqa:0116": {
+   "plain": {
+    "text": "Cowboy Curtis on *Pee-wee's Playhouse* was played by Laurence Fishburne, credited at the time as Larry Fishburne.",
+    "str_em": 0.5,
+    "rouge_l": 0.2692307692307692,
+    "dr": 0.3668996928526714,
+    "words": 17,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Cowboy Curtis on *Pee-wee\u2019s Playhouse* was played by Laurence Fishburne, credited at the time as Larry Fishburne.",
+    "str_em": 0.5,
+    "rouge_l": 0.2692307692307692,
+    "dr": 0.3668996928526714,
+    "words": 17,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Cowboy Curtis on Pee-wee's Playhouse was played by Laurence Fishburne, credited at the time as Larry Fishburne.",
+    "str_em": 0.5,
+    "rouge_l": 0.2692307692307692,
+    "dr": 0.3668996928526714,
+    "words": 17,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Cowboy Curtis on *Pee-wee\u2019s Playhouse* was played by Laurence Fishburne, who was credited at the time as Larry Fishburne.",
+    "str_em": 0.5,
+    "rouge_l": 0.25925925925925924,
+    "dr": 0.3600411499115478,
+    "words": 19,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Cowboy Curtis on *Pee-wee\u2019s Playhouse* was played by Laurence Fishburne.",
+    "str_em": 0.5,
+    "rouge_l": 0.3043478260869565,
+    "dr": 0.39009474880274697,
+    "words": 10,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The character \"Cowboy Curtis\" on *Pee-wee's Playhouse* was played by Laurence Fishburne, who was credited as Larry Fishburne during the show's run from 1986 to 1990. This role was one of Fishburne's early television appearances before he became a major film star. However, it is worth noting that the character was a parody of cowboy stereotypes, and Fishburne's performance was both comedic and iconic. If the question refers to a different \"Cowboy Curtis\" in another context, no other notable portrayal exists.",
+    "str_em": 0.5,
+    "rouge_l": 0.21238938053097348,
+    "dr": 0.3258752679561411,
+    "words": 81,
+    "judged_prec": 0.8333333333333334,
+    "n_supported": 5,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Cowboy Curtis on *Pee-wee's Playhouse* was played by **Laurence Fishburne**, credited at the time as **Larry Fishburne**.",
+    "str_em": 0.5,
+    "rouge_l": 0.2692307692307692,
+    "dr": 0.3668996928526714,
+    "words": 17,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Cowboy Curtis on Pee-wee\u2019s Playhouse was played by Laurence Fishburne.",
+    "str_em": 0.5,
+    "rouge_l": 0.3043478260869565,
+    "dr": 0.39009474880274697,
+    "words": 10,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.21238938053097348,
+    "dr": 0.3258752679561411,
+    "words": 81
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.16822429906542055,
+    "dr": 0.29002094671369905,
+    "words": 68
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.2456140350877193,
+    "dr": 0.35043832202523123,
+    "words": 81
+   },
+   "extractive": {
+    "text": "The character \"Cowboy Curtis\" on *Pee-wee's Playhouse* was played by Laurence Fishburne, who was credited as Larry Fishburne during the show's run from 1986 to 1990. Cowboy Curtis was a character on the children's television program Pee-wee's Playhouse, which starred Pee-wee Herman played by Paul Reubens.",
+    "str_em": 0.5,
+    "rouge_l": 0.3132530120481928,
+    "dr": 0.39576066760618894,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0292": {
+   "plain": {
+    "text": "Season 26 of the U.S. version of The Amazing Race was won by Laura Pierson and Tyler Adams in 2015.",
+    "str_em": 0.0,
+    "rouge_l": 0.23076923076923078,
+    "dr": 0.0,
+    "words": 20,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Season 26 of the U.S. The Amazing Race was won by Laura Pierson and Tyler Adams in 2015.",
+    "str_em": 0.0,
+    "rouge_l": 0.21052631578947367,
+    "dr": 0.0,
+    "words": 18,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Season 26 of the U.S. version of The Amazing Race was won by Laura Pierson and Tyler Adams in 2015.",
+    "str_em": 0.0,
+    "rouge_l": 0.23076923076923078,
+    "dr": 0.0,
+    "words": 20,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Season 26 of the U.S. *The Amazing Race* was won by **Laura Pierson and Tyler Adams** in **2015**.",
+    "str_em": 0.0,
+    "rouge_l": 0.21052631578947367,
+    "dr": 0.0,
+    "words": 18,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Season 26 of the U.S. version of The Amazing Race was won by Laura Pierson and Tyler Adams, the blind-date team.",
+    "str_em": 0.0,
+    "rouge_l": 0.3037974683544304,
+    "dr": 0.0,
+    "words": 21,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Assuming the question refers to the U.S. CBS version of *The Amazing Race*, Season 26 was won by **Laura and Tyler Adams** in 2015. However, since the franchise exists worldwide\u2014such as *The Amazing Race Canada*, *The Amazing Race Australia*, or *The Amazing Race Asia*\u2014\"season 26\" could refer to a different edition with an entirely different winner. Without a specified region, the American edition is the most common, but context ultimately determines which champion is correct.",
+    "str_em": 0.0,
+    "rouge_l": 0.1473684210526316,
+    "dr": 0.0,
+    "words": 75,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Assuming you mean the U.S. CBS version, **Season 26 of *The Amazing Race* was won by Laura Pierson and Tyler Adams**. They were the blind-date team that won the $1 million prize in 2015.",
+    "str_em": 0.0,
+    "rouge_l": 0.26373626373626374,
+    "dr": 0.0,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Season 26 of The Amazing Race was won by Laura Pierson and Tyler Adams.",
+    "str_em": 0.0,
+    "rouge_l": 0.2222222222222222,
+    "dr": 0.0,
+    "words": 14,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.2028985507246377,
+    "dr": 0.0,
+    "words": 86
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.1473684210526316,
+    "dr": 0.0,
+    "words": 75
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.14814814814814817,
+    "dr": 0.0,
+    "words": 79
+   },
+   "extractive": {
+    "text": "CBS version of *The Amazing Race*, Season 26 was won by **Laura and Tyler Adams** in 2015. Season 26 of *The Amazing Race* was won by the team of Laura Pierson and Tyler Adams, a dating couple who competed as \"Blind Date\" partners.",
+    "str_em": 0.0,
+    "rouge_l": 0.28571428571428575,
+    "dr": 0.0,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0101": {
+   "plain": {
+    "text": "In the U.S., spring break has no single start date; it varies by school, district, and college. College breaks often begin in mid-March, but can run from late February to early April. K\u201312 schools usually schedule it in March or early April, often around Easter. For the exact start date, check the specific school\u2019s academic calendar.",
+    "str_em": 0.0,
+    "rouge_l": 0.1935483870967742,
+    "dr": 0.0,
+    "words": 56,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "There\u2019s no single U.S. spring break start date; it varies by school and region. College spring breaks often begin from late February through early April, with many in mid-March. K\u201312 schools usually have spring break in March or early April, sometimes around Easter. Check the specific school\u2019s calendar for exact dates.",
+    "str_em": 0.0,
+    "rouge_l": 0.18181818181818185,
+    "dr": 0.0,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "There\u2019s no single U.S. spring break start date; it varies by school and district. College spring breaks often begin anywhere from late February to early April, with many in March. K\u201312 schools usually have spring break in March or early April, sometimes around Easter. For exact dates, check the specific school\u2019s academic calendar.",
+    "str_em": 0.0,
+    "rouge_l": 0.2,
+    "dr": 0.0,
+    "words": 53,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "There\u2019s no single U.S. spring break start date; it varies by school, district, and college. College spring breaks often begin between late February and early April, with many in mid-March. K\u201312 schools usually have break in March or early April, sometimes around Easter. Check the specific school calendar for exact dates.",
+    "str_em": 0.0,
+    "rouge_l": 0.16528925619834708,
+    "dr": 0.0,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "There\u2019s no single U.S. spring break start date; it varies by school, district, and college. College spring breaks often begin from late February through March or early April, while K\u201312 breaks are commonly in March or early April, sometimes around Easter. For the exact start date, check the specific school\u2019s academic calendar.",
+    "str_em": 0.0,
+    "rouge_l": 0.16326530612244897,
+    "dr": 0.0,
+    "words": 52,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Spring break start dates in the US vary widely by school, district, and university, typically falling between late February and mid-April. Most K-12 schools schedule a one-week break in March or early April, often around Easter. Colleges and universities have their own academic calendars, with some starting as early as late February and others in March. There is no single national start date, so checking specific institution calendars is essential for accurate timing.",
+    "str_em": 0.0,
+    "rouge_l": 0.17021276595744683,
+    "dr": 0.0,
+    "words": 73,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "There\u2019s no single nationwide start date for spring break in the U.S.\n\n- **Colleges/universities:** often **late February through early April**, with many in **March**\n- **K\u201312 schools:** usually **March or early April**, sometimes tied to **Easter**\n\nIf you mean **spring as a season**:\n- **Meteorological spring:** **March 1**\n- **Astronomical spring:** around **March 20**\n\nIf you want, I can help you find the spring break dates for a specific **state, school district, or college**.",
+    "str_em": 0.0,
+    "rouge_l": 0.145985401459854,
+    "dr": 0.0,
+    "words": 74,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "In the U.S., spring break doesn\u2019t start on one fixed date; it varies by school and college. Most spring breaks happen between early March and mid-April, with many falling in March. Colleges often schedule it in March, while K\u201312 schools may have it in late March or around Easter.",
+    "str_em": 0.0,
+    "rouge_l": 0.18750000000000003,
+    "dr": 0.0,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.17021276595744683,
+    "dr": 0.0,
+    "words": 73
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.16883116883116883,
+    "dr": 0.0,
+    "words": 83
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.18055555555555555,
+    "dr": 0.0,
+    "words": 80
+   },
+   "extractive": {
+    "text": "Spring break in the US lacks a uniform start date since it depends on individual schools, colleges, and states. Spring break start dates in the US vary widely by school, district, and university, typically falling between late February and mid-April. For many universities, it typically begins mid-March, though dates range from late February to early April.",
+    "str_em": 0.0,
+    "rouge_l": 0.20202020202020204,
+    "dr": 0.0,
+    "words": 56,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0004": {
+   "plain": {
+    "text": "Virginia has 43 official state parks, according to the Virginia Department of Conservation and Recreation. Some sources may list 41 or 42 depending on whether they count affiliated or jointly managed sites like Breaks Interstate Park, but the standard current count is 43.",
+    "str_em": 0.0,
+    "rouge_l": 0.12612612612612611,
+    "dr": 0.0,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Virginia has 41 official state parks, managed by the Virginia Department of Conservation and Recreation. Some sources may give a slightly different total if they include affiliated sites such as natural area preserves or the shared Breaks Interstate Park, but 41 is the standard count.",
+    "str_em": 0.0,
+    "rouge_l": 0.10958904109589042,
+    "dr": 0.0,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Virginia has 43 official state parks, according to the Virginia Department of Conservation and Recreation. Some sources may cite 41 or 42 depending on whether they exclude newer parks or handle shared sites like Breaks Interstate Park differently, but 43 is the best current official count.",
+    "str_em": 0.0,
+    "rouge_l": 0.14035087719298245,
+    "dr": 0.0,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Virginia has 41 official state parks. That\u2019s the most supported count in the sources and refers to parks managed by the Virginia Department of Conservation and Recreation. Some totals vary if people include related sites such as natural area preserves or the shared Breaks Interstate Park, but 41 is the standard official number.",
+    "str_em": 0.0,
+    "rouge_l": 0.1481481481481481,
+    "dr": 0.0,
+    "words": 53,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Virginia has 43 official state parks, according to the Virginia Department of Conservation and Recreation. Some sources may give a slightly different number depending on whether they include shared or affiliated sites, but 43 is the standard current count.",
+    "str_em": 0.0,
+    "rouge_l": 0.14705882352941177,
+    "dr": 0.0,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Virginia has 41 state parks as of 2024, though the exact number can vary slightly depending on whether you count affiliated sites like natural area preserves or historical parks managed by the Department of Conservation and Recreation. Some sources include 42 if counting the Breaks Interstate Park, which Virginia shares with Kentucky. Additionally, new parks are occasionally added, so the figure may change over time.",
+    "str_em": 0.0,
+    "rouge_l": 0.15053763440860216,
+    "dr": 0.0,
+    "words": 65,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Virginia has **43 official state parks**.\n\nIf you want, I can also list all 43 or link them by region.",
+    "str_em": 0.0,
+    "rouge_l": 0.11538461538461538,
+    "dr": 0.0,
+    "words": 20,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Virginia has 43 state parks.",
+    "str_em": 0.0,
+    "rouge_l": 0.16216216216216214,
+    "dr": 0.0,
+    "words": 5,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.15053763440860216,
+    "dr": 0.0,
+    "words": 65
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.13084112149532712,
+    "dr": 0.0,
+    "words": 79
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.11320754716981132,
+    "dr": 0.0,
+    "words": 77
+   },
+   "extractive": {
+    "text": "Virginia has 41 state parks as of 2024, though the exact number can vary slightly depending on whether you count affiliated sites like natural area preserves or historical parks managed by the Department of Conservation and Recreation.",
+    "str_em": 0.0,
+    "rouge_l": 0.20895522388059704,
+    "dr": 0.0,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0223": {
+   "plain": {
+    "text": "*Places in the Heart* takes place in rural Waxahachie, Texas, during the Great Depression, around 1935, mainly on a cotton farm. The title is also metaphorical, suggesting the emotional \u201cplaces\u201d of grief, love, resilience, and redemption within the characters\u2019 hearts.",
+    "str_em": 1.0,
+    "rouge_l": 0.2597402597402597,
+    "dr": 0.5096471914376255,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "*Places in the Heart* takes place in Waxahachie, Texas, during the Great Depression of the 1930s, mainly on a rural cotton farm.",
+    "str_em": 1.0,
+    "rouge_l": 0.2622950819672131,
+    "dr": 0.5121475197315839,
+    "words": 22,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "*Places in the Heart* takes place in rural Waxahachie, Texas, on a cotton farm during the Great Depression of the 1930s.",
+    "str_em": 1.0,
+    "rouge_l": 0.3333333333333333,
+    "dr": 0.5773502691896257,
+    "words": 21,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "*Places in the Heart* takes place in Waxahachie, Texas, in a rural cotton-farm setting during the Great Depression of the 1930s.",
+    "str_em": 1.0,
+    "rouge_l": 0.3278688524590164,
+    "dr": 0.5725983343138682,
+    "words": 21,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "*Places in the Heart* takes place in Waxahachie, Texas, in a rural farm setting during the 1930s Great Depression.",
+    "str_em": 1.0,
+    "rouge_l": 0.33898305084745767,
+    "dr": 0.582222509739582,
+    "words": 19,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The 1984 film *Places in the Heart*, directed by Robert Benton, is literally set in **Waxahachie, Texas**, during the Great Depression, specifically around 1935, focusing on rural cotton farm life. However, the title itself is deeply metaphorical, referring to the emotional \"places\" within the heart\u2014spaces of grief, love, racism, and redemption. Ultimately, the story unfolds both in the dusty fields of North Texas and in the inner lives of its characters, making its setting as much psychological as it is geographical.",
+    "str_em": 1.0,
+    "rouge_l": 0.20689655172413793,
+    "dr": 0.454858826147342,
+    "words": 81,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "*Places in the Heart* takes place in **Waxahachie, Texas**, during the **Great Depression** in the **1930s**. Most of the story is set on a **rural cotton farm** where the main character struggles to keep her land and support her family.",
+    "str_em": 1.0,
+    "rouge_l": 0.28571428571428575,
+    "dr": 0.5345224838248488,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Places in the Heart takes place in the small town of Waxahachie, Texas, during the Great Depression in the 1930s.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.2711864406779661,
+    "dr": 0.4251952027621871,
+    "words": 20,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.24489795918367344,
+    "dr": 0.49487165930539345,
+    "words": 63
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.20689655172413793,
+    "dr": 0.454858826147342,
+    "words": 81
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.2033898305084746,
+    "dr": 0.4509876168016973,
+    "words": 81
+   },
+   "extractive": {
+    "text": "\"Places in the Heart\" is set in rural Waxahachie, Texas, during the Great Depression of the 1930s. The 1984 film *Places in the Heart*, directed by Robert Benton, is literally set in **Waxahachie, Texas**, during the Great Depression, specifically around 1935, focusing on rural cotton farm life.",
+    "str_em": 1.0,
+    "rouge_l": 0.30952380952380953,
+    "dr": 0.5563486402641868,
+    "words": 47,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0381": {
+   "plain": {
+    "text": "The best-known Ferris wheel in Myrtle Beach is the Myrtle Beach SkyWheel, located on the oceanfront boardwalk at 1110 North Ocean Boulevard. Another large Ferris wheel is at Pavilion Park in Broadway at the Beach, 1190 Celebrity Circle. If you mean a temporary carnival Ferris wheel, its location can vary by season or event.",
+    "str_em": 0.0,
+    "rouge_l": 0.30588235294117644,
+    "dr": 0.0,
+    "words": 54,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The best-known Ferris wheel in Myrtle Beach is the SkyWheel, located on the Myrtle Beach Boardwalk and Promenade at 1110 North Ocean Boulevard, along the oceanfront. If you mean a different Ferris wheel, there\u2019s also one at Broadway at the Beach.",
+    "str_em": 0.0,
+    "rouge_l": 0.32876712328767127,
+    "dr": 0.0,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The best-known Ferris wheel in Myrtle Beach is the SkyWheel, located on the oceanfront boardwalk at 1110 North Ocean Boulevard. There\u2019s also a Ferris wheel at Broadway at the Beach in Pavilion Park, so if you mean a different one, its location may vary.",
+    "str_em": 0.0,
+    "rouge_l": 0.3157894736842105,
+    "dr": 0.0,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The best-known Ferris wheel in Myrtle Beach is the Myrtle Beach SkyWheel, located at 1110 North Ocean Boulevard on the Myrtle Beach Boardwalk and oceanfront. If you mean a different one, there\u2019s also a Ferris wheel at Broadway at the Beach in Pavilion Park.",
+    "str_em": 0.0,
+    "rouge_l": 0.3466666666666667,
+    "dr": 0.0,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The best-known Ferris wheel in Myrtle Beach is the SkyWheel, located on the Myrtle Beach Boardwalk and Promenade along the oceanfront in the downtown area. There is also another large Ferris wheel at Broadway at the Beach.",
+    "str_em": 0.0,
+    "rouge_l": 0.35294117647058826,
+    "dr": 0.0,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The most well-known Ferris wheel in Myrtle Beach is the **Myrtle Beach SkyWheel**, located at 1110 North Ocean Boulevard along the downtown oceanfront boardwalk, directly overlooking the Atlantic Ocean. However, if you're referring to a smaller or traveling Ferris wheel, its location can vary by season, as carnivals often set up rides at places like Broadway at the Beach, the Myrtle Beach Convention Center, or other event grounds throughout the year.",
+    "str_em": 0.0,
+    "rouge_l": 0.28,
+    "dr": 0.0,
+    "words": 71,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The best-known Ferris wheel in Myrtle Beach is the **Myrtle Beach SkyWheel**, located on the **Boardwalk at 1110 North Ocean Boulevard**, right by the ocean.\n\nThere\u2019s also another Ferris wheel at **Broadway at the Beach**, in **Pavilion Park** at **1190 Celebrity Circle**.\n\nIf you mean the main, iconic one people usually refer to, it\u2019s the **SkyWheel on Ocean Boulevard**.",
+    "str_em": 0.0,
+    "rouge_l": 0.2444444444444445,
+    "dr": 0.0,
+    "words": 59,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The Ferris wheel in Myrtle Beach is the SkyWheel, located on the Myrtle Beach Boardwalk at 1110 North Ocean Boulevard, Myrtle Beach, South Carolina.",
+    "str_em": 0.0,
+    "rouge_l": 0.3859649122807018,
+    "dr": 0.0,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.22641509433962265,
+    "dr": 0.0,
+    "words": 78
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.28,
+    "dr": 0.0,
+    "words": 71
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.2545454545454546,
+    "dr": 0.0,
+    "words": 81
+   },
+   "extractive": {
+    "text": "The most famous Ferris wheel in Myrtle Beach, South Carolina, is the SkyWheel positioned on the oceanfront boardwalk at 1200 North Ocean Boulevard with beautiful views of the sea. The most well-known Ferris wheel in Myrtle Beach is the **Myrtle Beach SkyWheel**, located at 1110 North Ocean Boulevard along the downtown oceanfront boardwalk, directly overlooking the Atlantic Ocean.",
+    "str_em": 0.0,
+    "rouge_l": 0.3218390804597701,
+    "dr": 0.0,
+    "words": 58,
+    "judged_prec": 0.875,
+    "n_supported": 7,
+    "n_contra": 1,
+    "n_unver": 0
+   }
+  },
+  "asqa:0062": {
+   "plain": {
+    "text": "Nishiyama Onsen Keiunkan is the Japanese hotel most often cited: a traditional ryokan in Yamanashi founded in 705 CE, operated by the same family for over 1,300 years and recognized by Guinness World Records as the world\u2019s oldest hotel.",
+    "str_em": 0.5,
+    "rouge_l": 0.21782178217821785,
+    "dr": 0.3300165012376032,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The hotel usually meant is Nishiyama Onsen Keiunkan, a traditional ryokan in Yamanashi, founded in 705 and famously operated by the same family for over 1,300 years. H\u014dshi Ryokan is another very old Japanese inn sometimes mentioned, but the better-known answer to this specific claim is Keiunkan.",
+    "str_em": 1.0,
+    "rouge_l": 0.23636363636363636,
+    "dr": 0.4861724348043977,
+    "words": 47,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Nishiyama Onsen Keiunkan is the Japanese inn most often cited: a traditional ryokan in Yamanashi founded in 705, said to have been run by the same family for over 1,300 years. It is also recognized by Guinness World Records as the world\u2019s oldest hotel.",
+    "str_em": 0.5,
+    "rouge_l": 0.22641509433962265,
+    "dr": 0.33646329245522655,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Nishiyama Onsen Keiunkan, a traditional ryokan in Yamanashi, Japan, is the best-known answer. Founded in 705, it has reportedly been operated by the same family for over 1,300 years and is often cited by Guinness World Records as the world\u2019s oldest hotel, though some details of continuous ownership are occasionally debated.",
+    "str_em": 0.5,
+    "rouge_l": 0.2456140350877193,
+    "dr": 0.35043832202523123,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The best-known answer is **Nishiyama Onsen Keiunkan**, a traditional **ryokan** in **Yamanashi**, founded in **705** and recognized by **Guinness World Records** as the world\u2019s oldest hotel, said to have been run by the same family for about **1,300 years**. **H\u014dshi Ryokan** is another famous claimant sometimes mentioned in this context.",
+    "str_em": 1.0,
+    "rouge_l": 0.21875,
+    "dr": 0.46770717334674267,
+    "words": 50,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The most well-known example is **Nishiyama Onsen Keiunkan** in Yamanashi, Japan, which has been run by the same family for over 1,300 years since 705 CE and is recognized by Guinness World Records as the world's oldest hotel. However, \"hotel\" is a Western term\u2014it's actually a traditional ryokan. Some skeptics debate strict continuity due to rebuilds or adoptions, while others may simply question the claim itself. Regardless, its multi-generational legacy remains remarkably well-documented for such an ancient business.",
+    "str_em": 0.5,
+    "rouge_l": 0.16901408450704225,
+    "dr": 0.29070094986690553,
+    "words": 78,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "You\u2019re probably thinking of **Nishiyama Onsen Keiunkan** in **Yamanashi, Japan**.\n\n- **Founded:** **705 CE**\n- **Type:** traditional **ryokan** (inn/hot spring hotel)\n- **Claim to fame:** often cited as the **oldest hotel in the world**\n- **Family management:** traditionally said to have been run by the **same family for over 1,300 years**\n\nA similar famous example is **H\u014dshi Ryokan** in **Ishikawa**, founded in **718 CE**, also very old and long family-run.\n\nSo if you mean the one commonly publicized as the **1300-year-old family-run Japanese hotel**, it\u2019s usually **Nishiyama Onsen Keiunkan**.",
+    "str_em": 1.0,
+    "rouge_l": 0.24096385542168672,
+    "dr": 0.4908806936738159,
+    "words": 89,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Nishiyama Onsen Keiunkan, a hot spring hotel in Yamanashi, Japan, is famous for being run by the same family for about 1,300 years. Founded in 705, it is widely recognized as the world\u2019s oldest hotel.",
+    "str_em": 0.5,
+    "rouge_l": 0.21428571428571433,
+    "dr": 0.3273268353539886,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.24203821656050956,
+    "dr": 0.34787800775595856,
+    "words": 83
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.16901408450704225,
+    "dr": 0.29070094986690553,
+    "words": 78
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.16883116883116883,
+    "dr": 0.29054360157398823,
+    "words": 79
+   },
+   "extractive": {
+    "text": "The most well-known example is **Nishiyama Onsen Keiunkan** in Yamanashi, Japan, which has been run by the same family for over 1,300 years since 705 CE and is recognized by Guinness World Records as the world's oldest hotel. Yes, the H\u014dshi Ryokan in Komatsu, Japan, is widely recognized as the world's oldest hotel, run by the same family for over 1,300 years.",
+    "str_em": 1.0,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.5345224838248488,
+    "words": 62,
+    "judged_prec": 0.8333333333333334,
+    "n_supported": 5,
+    "n_contra": 1,
+    "n_unver": 0
+   }
+  },
+  "asqa:0279": {
+   "plain": {
+    "text": "*Finding Neverland* ran on Broadway from April 15, 2015, to August 21, 2016, at the Lunt-Fontanne Theatre\u2014about 16 months in total. During that time, it played 565 regular performances, plus 31 previews.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.4210526315789474,
+    "dr": 0.3746343246326776,
+    "words": 32,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Finding Neverland ran on Broadway at the Lunt-Fontanne Theatre from April 15, 2015, to August 21, 2016\u2014about 16 months total. It played 565 regular performances.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.48000000000000004,
+    "dr": 0.4,
+    "words": 25,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Finding Neverland ran on Broadway from April 15, 2015, to August 21, 2016\u2014about 16 months\u2014at the Lunt-Fontanne Theatre, with 565 regular performances.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.5,
+    "dr": 0.408248290463863,
+    "words": 22,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Finding Neverland ran on Broadway from April 15, 2015, to August 21, 2016\u2014about 16 months\u2014at the Lunt-Fontanne Theatre, totaling 565 performances.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.5106382978723404,
+    "dr": 0.41256849850351734,
+    "words": 21,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Finding Neverland opened on Broadway on April 15, 2015, at the Lunt-Fontanne Theatre and played 565 regular performances. Its Broadway engagement is commonly reported as ending on August 21, 2016, so it ran for about 16 months.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2950819672131148,
+    "dr": 0.31362502409359005,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The Broadway musical Finding Neverland opened on April 15, 2015, and closed on August 21, 2016, after running for approximately sixteen months and presenting 565 performances at the Lunt-Fontanne Theatre. This indicates the duration of its theatrical engagement in New York City. On the other hand, a single performance typically lasted about two hours and thirty-five minutes with an intermission while depicting J.M. Barrie's inspiration for Peter Pan. These aspects cover the show's run length and per-show runtime.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.19801980198019803,
+    "dr": 0.25691749776935396,
+    "words": 78,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "*Finding Neverland* ran on Broadway from **April 15, 2015, to August 21, 2016** \u2014 about **16 months**.\n\nIt played at the **Lunt-Fontanne Theatre** and gave **565 performances** (plus **31 previews**).",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.4528301886792453,
+    "dr": 0.38851434494290565,
+    "words": 30,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Finding Neverland ran on Broadway for about 16 months, opening on April 15, 2015, and closing on August 21, 2016.",
+    "str_em": 0.0,
+    "rouge_l": 0.45454545454545453,
+    "dr": 0.0,
+    "words": 20,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.21978021978021975,
+    "dr": 0.27066598098038336,
+    "words": 70
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2608695652173913,
+    "dr": 0.29488391230979427,
+    "words": 69
+   },
+   "single:grok-4.3": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.19801980198019803,
+    "dr": 0.25691749776935396,
+    "words": 78
+   },
+   "extractive": {
+    "text": "\"Finding Neverland\" ran on Broadway from April 15, 2015, to December 21, 2015, for a total of approximately 8 months. If you're referring to the Broadway musical *Finding Neverland*, it ran from April 15, 2015, to August 21, 2016, at the Lunt-Fontanne Theatre\u2014about 16 months total, with 565 performances and 31 previews.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.3947368421052631,
+    "dr": 0.3627381250550058,
+    "words": 52,
+    "judged_prec": 0.8333333333333334,
+    "n_supported": 5,
+    "n_contra": 1,
+    "n_unver": 0
+   }
+  },
+  "asqa:0285": {
+   "plain": {
+    "text": "Implantation of the fertilized ovum usually occurs in the endometrium of the uterus, most often in the fundus on the posterior wall, though it may also occur on the anterior wall. Implantation outside the uterus is abnormal and is called an ectopic pregnancy.",
+    "str_em": 0.5,
+    "rouge_l": 0.34920634920634924,
+    "dr": 0.4178554470186725,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Implantation of the fertilized ovum usually occurs in the endometrium, the lining of the uterus, most often in the upper uterine body/fundus, commonly on the posterior wall.",
+    "str_em": 0.5,
+    "rouge_l": 0.4,
+    "dr": 0.4472135954999579,
+    "words": 27,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Implantation of the fertilized ovum usually occurs in the endometrium of the uterus, most often in the upper uterine body near the fundus, commonly on the posterior wall.",
+    "str_em": 0.5,
+    "rouge_l": 0.36000000000000004,
+    "dr": 0.42426406871192857,
+    "words": 28,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Implantation of the fertilized ovum usually occurs in the endometrium of the uterus, most commonly in the upper uterine body/fundus, often on the posterior wall.",
+    "str_em": 0.5,
+    "rouge_l": 0.3673469387755102,
+    "dr": 0.4285714285714286,
+    "words": 25,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Implantation of the fertilized ovum usually occurs in the endometrium of the uterus, most commonly in the fundus, often on the posterior wall.",
+    "str_em": 0.5,
+    "rouge_l": 0.34782608695652173,
+    "dr": 0.41702882811414954,
+    "words": 23,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "In humans, the fertilized ovum usually implants in the **endometrium of the uterine cavity**, most commonly on the posterior wall of the fundus (the upper part of the uterus). However, in some cases, implantation can occur outside the uterus, leading to an ectopic pregnancy. The most frequent ectopic site is the **ampulla of the fallopian tube**, though rarer locations include the ovary, cervix, abdominal cavity, or cesarean scar. Thus, while the uterine lining is the norm, these exceptions are clinically significant as well.",
+    "str_em": 1.0,
+    "rouge_l": 0.18749999999999997,
+    "dr": 0.4330127018922193,
+    "words": 83,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Implantation of a fertilized ovum usually occurs in the **endometrium of the uterus**, most often in the **upper uterine body/fundus**, commonly on the **posterior wall**.\n\nAbnormal implantation outside the uterus is called an **ectopic pregnancy**.",
+    "str_em": 0.5,
+    "rouge_l": 0.3508771929824561,
+    "dr": 0.4188539082916955,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Implantation of the fertilized ovum usually occurs in the endometrium of the uterus, most often in the upper posterior wall near the fundus.",
+    "str_em": 0.5,
+    "rouge_l": 0.34782608695652173,
+    "dr": 0.41702882811414954,
+    "words": 23,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.22727272727272724,
+    "dr": 0.0,
+    "words": 68
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.18749999999999997,
+    "dr": 0.4330127018922193,
+    "words": 83
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.22988505747126434,
+    "dr": 0.3390317518104052,
+    "words": 65
+   },
+   "extractive": {
+    "text": "In humans, the fertilized ovum usually implants in the **endometrium of the uterine cavity**, most commonly on the posterior wall of the fundus (the upper part of the uterus). In rare cases, it may implant elsewhere, such as in the fallopian tube (ectopic pregnancy), cervix, or abdominal cavity, which are abnormal and dangerous.",
+    "str_em": 0.5,
+    "rouge_l": 0.23255813953488372,
+    "dr": 0.34099716973523675,
+    "words": 53,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0167": {
+   "plain": {
+    "text": "The ophthalmic nerve (V1), the first division of the trigeminal nerve, exits the cranial cavity through the superior orbital fissure, between the greater and lesser wings of the sphenoid bone, to enter the orbit. Its terminal branches then pass through other openings, but the nerve\u2019s true skull exit is the superior orbital fissure.",
+    "str_em": 0.0,
+    "rouge_l": 0.26966292134831465,
+    "dr": 0.0,
+    "words": 53,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The ophthalmic nerve (V1), the first division of the trigeminal nerve, exits the cranial cavity through the superior orbital fissure to enter the orbit.",
+    "str_em": 0.0,
+    "rouge_l": 0.31746031746031744,
+    "dr": 0.0,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The ophthalmic nerve (V1), the first division of the trigeminal nerve, exits the cranial cavity through the superior orbital fissure to enter the orbit.",
+    "str_em": 0.0,
+    "rouge_l": 0.31746031746031744,
+    "dr": 0.0,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The ophthalmic nerve (V1), the first division of the trigeminal nerve, exits the cranial cavity through the superior orbital fissure, entering the orbit. This fissure lies between the greater and lesser wings of the sphenoid bone.",
+    "str_em": 0.0,
+    "rouge_l": 0.27397260273972607,
+    "dr": 0.0,
+    "words": 36,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The ophthalmic nerve (V1) exits the cranial cavity through the superior orbital fissure and enters the orbit.",
+    "str_em": 0.0,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.0,
+    "words": 17,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The ophthalmic nerve (V1), the first branch of the trigeminal nerve (CN V), primarily exits the cranial cavity through the **superior orbital fissure**, located between the greater and lesser wings of the sphenoid bone to enter the orbit. However, if \"exit\" refers to its origin, its sensory root arises from the trigeminal ganglion in Meckel's cave within the middle cranial fossa before reaching that fissure. Clinically, some may confuse this with its terminal branches\u2014such as the supraorbital nerve\u2014which exit the orbit onto the face via the supraorbital notch or foramen, rather than the skull itself.",
+    "str_em": 0.0,
+    "rouge_l": 0.23437500000000003,
+    "dr": 0.0,
+    "words": 95,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The ophthalmic nerve (V1) exits the cranial cavity through the **superior orbital fissure**.\n\nIt then enters the orbit.",
+    "str_em": 0.0,
+    "rouge_l": 0.24561403508771928,
+    "dr": 0.0,
+    "words": 18,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The ophthalmic nerve (CN V1), the first division of the trigeminal nerve, exits the skull through the superior orbital fissure to enter the orbit.",
+    "str_em": 0.0,
+    "rouge_l": 0.3492063492063492,
+    "dr": 0.0,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.21238938053097345,
+    "dr": 0.0,
+    "words": 85
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.0,
+    "rouge_l": 0.23437500000000003,
+    "dr": 0.0,
+    "words": 95
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.23140495867768593,
+    "dr": 0.0,
+    "words": 87
+   },
+   "extractive": {
+    "text": "The ophthalmic nerve (V1) exits the skull through the superior orbital fissure, a bony opening located between the greater and lesser wings of the sphenoid bone. The ophthalmic nerve (V1), the first branch of the trigeminal nerve (CN V), primarily exits the cranial cavity through the **superior orbital fissure**, located between the greater and lesser wings of the sphenoid bone to enter the orbit.",
+    "str_em": 0.0,
+    "rouge_l": 0.27368421052631575,
+    "dr": 0.0,
+    "words": 64,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0392": {
+   "plain": {
+    "text": "\u201cYou Make Loving Fun\u201d by Fleetwood Mac is generally understood to have been written by Christine McVie about Curry Grant, the band\u2019s lighting director, with whom she was having a relationship during the Rumours era. McVie did not publicly emphasize that at the time, but Grant is widely cited as the song\u2019s inspiration.",
+    "str_em": 0.5,
+    "rouge_l": 0.3505154639175258,
+    "dr": 0.4186379485411743,
+    "words": 53,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "\u201cYou Make Loving Fun\u201d is generally understood to have been written by Christine McVie about Curry Grant, Fleetwood Mac\u2019s lighting director, during her separation from bassist John McVie. The song appeared on Fleetwood Mac\u2019s 1977 album Rumours.",
+    "str_em": 0.5,
+    "rouge_l": 0.38461538461538464,
+    "dr": 0.4385290096535146,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "\u201cYou Make Loving Fun\u201d is generally understood to have been written by Christine McVie about Curry Grant, Fleetwood Mac\u2019s lighting director, with whom she was having a relationship at the time while still married to John McVie.",
+    "str_em": 0.5,
+    "rouge_l": 0.38554216867469876,
+    "dr": 0.4390570399587614,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "\u201cYou Make Loving Fun\u201d was written by Christine McVie about Curry Grant, Fleetwood Mac\u2019s lighting director/technician, with whom she was having a relationship at the time. The song appeared on Fleetwood Mac\u2019s 1977 album Rumours, during the period when McVie was still married to bassist John McVie.",
+    "str_em": 0.5,
+    "rouge_l": 0.375,
+    "dr": 0.4330127018922193,
+    "words": 47,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "\u201cYou Make Loving Fun,\u201d written by Christine McVie for Fleetwood Mac, was about Curry Grant. At the time, McVie was still married to John McVie.",
+    "str_em": 0.5,
+    "rouge_l": 0.4225352112676056,
+    "dr": 0.4596385597769217,
+    "words": 25,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "\"You Make Loving Fun\" by Fleetwood Mac was written by Christine McVie about her then-lover, the band's lighting director, Curry Grant. The song, from the 1977 album *Rumours*, reflects their secret affair during a tumultuous period when McVie was still married to bassist John McVie. However, some interpretations suggest it could also be a broader ode to the joy of a new, liberating relationship, capturing the euphoria of love amidst personal chaos.",
+    "str_em": 0.5,
+    "rouge_l": 0.3185840707964601,
+    "dr": 0.3991140631426435,
+    "words": 72,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 1
+   },
+   "moa": {
+    "text": "\u201cYou Make Loving Fun\u201d by Fleetwood Mac was written by Christine McVie, and it\u2019s widely understood to be about her relationship with the band\u2019s lighting director, Curry Grant.\n\nIt appeared on *Rumours* (1977), during the period when Christine and John McVie were splitting up. Christine reportedly told John the song was about her dog to avoid more conflict.\n\nSo, short answer: **it was written about Curry Grant**.",
+    "str_em": 1.0,
+    "rouge_l": 0.4247787610619469,
+    "dr": 0.651750535912282,
+    "words": 67,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "\u201cYou Make Loving Fun\u201d was written by Christine McVie about her relationship with Fleetwood Mac\u2019s lighting director, Curry Grant, during a time when she and bassist John McVie were separating.",
+    "str_em": 0.5,
+    "rouge_l": 0.4675324675324675,
+    "dr": 0.48349377841522817,
+    "words": 30,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.3185840707964601,
+    "dr": 0.3991140631426435,
+    "words": 72
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.25806451612903225,
+    "dr": 0.3592106040535498,
+    "words": 81
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.3307086614173228,
+    "dr": 0.4066378372811136,
+    "words": 84
+   },
+   "extractive": {
+    "text": "\"You Make Loving Fun\" by Fleetwood Mac was written by Christine McVie about her then-lover, the band's lighting director, Curry Grant. The Fleetwood Mac song \"You Make Loving Fun,\" written by Christine McVie for their 1977 album *Rumours*, is most often believed to be about Curry Grant, the band's lighting technician, with whom she had a romantic relationship while still married to John McVie.",
+    "str_em": 0.5,
+    "rouge_l": 0.34545454545454546,
+    "dr": 0.41560470729681676,
+    "words": 64,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0036": {
+   "plain": {
+    "text": "The 2022 FIFA World Cup was hosted by Qatar. If you mean the next men\u2019s World Cup after 2022, it will be co-hosted by the United States, Canada, and Mexico in 2026.",
+    "str_em": 0.5,
+    "rouge_l": 0.24000000000000005,
+    "dr": 0.3464101615137755,
+    "words": 32,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The 2022 FIFA World Cup was hosted by Qatar. If you mean the next men\u2019s World Cup after 2022, that will be the 2026 tournament, co-hosted by the United States, Canada, and Mexico.",
+    "str_em": 0.5,
+    "rouge_l": 0.24000000000000005,
+    "dr": 0.3464101615137755,
+    "words": 33,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The 2022 FIFA World Cup was hosted by Qatar, the first World Cup held in the Middle East and in an Arab country.",
+    "str_em": 0.5,
+    "rouge_l": 0.28571428571428575,
+    "dr": 0.37796447300922725,
+    "words": 23,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The 2022 FIFA World Cup was hosted by Qatar, the first World Cup held in the Middle East and in an Arab country. If you meant the next men\u2019s World Cup after 2022, that will be hosted jointly by the United States, Canada, and Mexico in 2026.",
+    "str_em": 0.5,
+    "rouge_l": 0.23255813953488372,
+    "dr": 0.34099716973523675,
+    "words": 47,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "The 2022 FIFA World Cup was hosted by Qatar. If by \u201cnext\u201d you mean the tournament after 2022, the next men\u2019s FIFA World Cup is in 2026 and will be jointly hosted by the United States, Canada, and Mexico.",
+    "str_em": 0.5,
+    "rouge_l": 0.25,
+    "dr": 0.3535533905932738,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The 2022 FIFA World Cup was hosted by **Qatar**, making it the first time the tournament was held in the Middle East. However, if \"next\" refers to the upcoming men's World Cup after 2022, that would be the **2026 FIFA World Cup**, jointly hosted by the United States, Canada, and Mexico. Alternatively, if you're thinking of the FIFA Women's World Cup, the next edition is **2027**, which will be hosted by Brazil. Ultimately, the answer depends on which tournament you're referring to.",
+    "str_em": 0.5,
+    "rouge_l": 0.21656050955414013,
+    "dr": 0.3290596523080125,
+    "words": 82,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "If you mean the **2022 FIFA World Cup**, it was hosted by **Qatar**.\n\nIf you mean the **next FIFA World Cup after 2022**, that will be the **2026 World Cup**, hosted jointly by the **United States, Canada, and Mexico**.",
+    "str_em": 0.5,
+    "rouge_l": 0.2531645569620253,
+    "dr": 0.35578403348241,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The 2022 FIFA World Cup was hosted by Qatar.",
+    "str_em": 0.5,
+    "rouge_l": 0.1923076923076923,
+    "dr": 0.3100868364730211,
+    "words": 9,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.22641509433962262,
+    "dr": 0.33646329245522655,
+    "words": 70
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.5,
+    "rouge_l": 0.21656050955414013,
+    "dr": 0.3290596523080125,
+    "words": 82
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.19480519480519481,
+    "dr": 0.31209389196617965,
+    "words": 80
+   },
+   "extractive": {
+    "text": "The 2022 FIFA World Cup was hosted by Qatar, making it the first World Cup held in the Middle East and the first in an Arab country. This competition featured 32 teams competing for the trophy. The 2022 World Cup in question was hosted by Qatar for FIFA's football event, the first time in an Arab country with eight modern stadiums.",
+    "str_em": 0.5,
+    "rouge_l": 0.20618556701030932,
+    "dr": 0.3210806495339678,
+    "words": 61,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0301": {
+   "plain": {
+    "text": "It depends what you mean: the first federal student loan program began in 1958 under the National Defense Education Act. The broader modern system is often dated to 1965, when the Higher Education Act created the Guaranteed Student Loan program. The direct federal lending system used today began in 1994.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2,
+    "dr": 0.2581988897471611,
+    "words": 50,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "The first federal student loan program began in 1958 under the National Defense Education Act. If you mean the broader modern federal lending system, that generally dates to the Higher Education Act of 1965, which created the guaranteed student loan program.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2368421052631579,
+    "dr": 0.28097574347450816,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "The federal student loan program is usually traced to 1958, when the National Defense Education Act created the first federal student loans. If you mean the broader modern system, its main foundation began with the Higher Education Act of 1965, which established the federal guaranteed student loan program.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.23140495867768596,
+    "dr": 0.27773186030035396,
+    "words": 48,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The first federal student loan program began in 1958 under the National Defense Education Act. If you mean the broader, modern nationwide system, that generally dates to the Higher Education Act of 1965, which created the Guaranteed Student Loan Program. The direct federal lending program started later, in 1994.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.23899371069182387,
+    "dr": 0.28224912795367135,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "It depends what you mean: the first federal student loan program began in 1958 under the National Defense Education Act. The broader modern guaranteed loan system is usually dated to 1965, when the Higher Education Act created the Guaranteed Student Loan Program. If you mean direct federal lending by the Education Department, that began in 1994.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2168674698795181,
+    "dr": 0.26886642896893254,
+    "words": 56,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The federal student loan program began in 1958 with the National Defense Education Act, which created the National Defense Student Loan program (later renamed the Perkins Loan) to support students in higher education, particularly in science and foreign languages. However, the modern, larger-scale program started with the Higher Education Act of 1965, which established the Guaranteed Student Loan program (now the Federal Family Education Loan program). Additionally, the Direct Loan program, where the government lends directly, began in 1994. Thus, the start date depends on which specific program is referenced.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.20408163265306123,
+    "dr": 0.2608202654786505,
+    "words": 90,
+    "judged_prec": 1.0,
+    "n_supported": 10,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The **first federal student loan program began in 1958**, when the **National Defense Education Act (NDEA)** created the **National Defense Student Loan** program.\n\nThat said, many people refer to **1965** as the real start of the broader federal student loan system, because the **Higher Education Act of 1965** created the **Guaranteed Student Loan Program**, which expanded federal lending much more widely.\n\nSo the best short answer is:\n\n- **1958**: first federal student loan program\n- **1965**: start of the modern large-scale federal student loan system\n\nIf you want, I can also give a quick timeline of how it evolved into today\u2019s Direct Loan program.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.22857142857142854,
+    "dr": 0.27602622373694163,
+    "words": 104,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The modern federal student loan program began in 1965, when the Higher Education Act created the Guaranteed Student Loan Program, later called the Federal Family Education Loan Program. A smaller federal loan effort existed earlier under the 1958 National Defense Education Act, but 1965 is generally considered the start of the federal student loan program.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.20634920634920634,
+    "dr": 0.26226526415648105,
+    "words": 55,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.20408163265306123,
+    "dr": 0.2608202654786505,
+    "words": 90
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.22784810126582278,
+    "dr": 0.2755891273047752,
+    "words": 88
+   },
+   "single:grok-4.3": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2105263157894737,
+    "dr": 0.26490647141300877,
+    "words": 78
+   },
+   "extractive": {
+    "text": "However, the modern, larger-scale program started with the Higher Education Act of 1965, which established the Guaranteed Student Loan program (now the Federal Family Education Loan program).",
+    "str_em": 0.0,
+    "rouge_l": 0.1941747572815534,
+    "dr": 0.0,
+    "words": 27,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0098": {
+   "plain": {
+    "text": "Traditionally, the first five books\u2014Genesis, Exodus, Leviticus, Numbers, and Deuteronomy\u2014are attributed to Moses in Jewish and Christian tradition. However, most modern biblical scholars believe they were compiled from multiple sources and editors over centuries, with their final form likely completed long after Moses\u2019 lifetime.",
+    "str_em": 0.25,
+    "rouge_l": 0.14084507042253522,
+    "dr": 0.18764665626020038,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Traditionally, Jewish and Christian belief credits Moses with writing the first five books of the Bible\u2014Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. However, most modern biblical scholars think these books were compiled from multiple sources and editors over time, often explained by the Documentary Hypothesis.",
+    "str_em": 0.25,
+    "rouge_l": 0.1294964028776978,
+    "dr": 0.17992804317122013,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Traditionally, the first five books of the Bible\u2014the Pentateuch\u2014are attributed to Moses in Jewish and Christian tradition. However, most modern biblical scholars think they were compiled from multiple sources and edited over centuries, rather than written entirely by one person.",
+    "str_em": 0.25,
+    "rouge_l": 0.16176470588235292,
+    "dr": 0.2010999166349609,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Traditionally, Jewish and Christian belief credits Moses with writing the first five books of the Bible\u2014Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. However, most modern biblical scholars think these books were compiled from multiple sources and editors over centuries, often explained by the Documentary Hypothesis.",
+    "str_em": 0.25,
+    "rouge_l": 0.1294964028776978,
+    "dr": 0.17992804317122013,
+    "words": 44,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Traditionally, Jewish and Christian belief credits Moses with writing the first five books of the Bible, the Pentateuch. However, many modern biblical scholars think these books were compiled from multiple sources over centuries rather than written solely by Moses.",
+    "str_em": 0.25,
+    "rouge_l": 0.13533834586466165,
+    "dr": 0.18394180184548975,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The traditional attribution for the first five books of Moses\u2014Genesis, Exodus, Leviticus, Numbers, and Deuteronomy\u2014is Moses himself, as stated in Jewish and Christian scriptures. However, modern biblical scholarship, based on textual analysis, suggests they were compiled from multiple sources over centuries, likely finalized around the 5th century BCE. Thus, while Moses is the traditional author, the actual composition is seen as a collective work by various editors and scribes.",
+    "str_em": 0.25,
+    "rouge_l": 0.14814814814814817,
+    "dr": 0.19245008972987526,
+    "words": 69,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Traditionally, the **first five books**\u2014**Genesis, Exodus, Leviticus, Numbers, and Deuteronomy**\u2014are attributed to **Moses**. These are often called the **Books of Moses**, the **Torah**, or the **Pentateuch**.\n\nBut there are two main ways people answer this:\n\n1. **Traditional religious view:**  \n   Moses wrote them, possibly with a small addition by someone else at the end since **Deuteronomy 34** describes Moses\u2019 death.\n\n2. **Modern scholarly view:**  \n   Most biblical scholars think these books were **not written by one person alone**, but were **compiled from several sources and editors over time**, reaching their final form centuries after Moses would have lived.\n\nSo the short answer is:\n\n- **Traditionally:** Moses  \n- **According to most modern scholarship:** multiple authors/editors, not Moses alone\n\nIf you want, I can also explain **why scholars doubt Moses wrote all five books**.",
+    "str_em": 0.25,
+    "rouge_l": 0.16888888888888887,
+    "dr": 0.20548046676563253,
+    "words": 130,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Traditionally, Moses is credited with writing the first five books of the Bible\u2014Genesis, Exodus, Leviticus, Numbers, and Deuteronomy\u2014collectively called the Torah or Pentateuch. However, many modern scholars believe these books were compiled from multiple sources over time rather than written solely by Moses.",
+    "str_em": 0.25,
+    "rouge_l": 0.1438848920863309,
+    "dr": 0.18966081045272037,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.25,
+    "rouge_l": 0.14814814814814817,
+    "dr": 0.19245008972987526,
+    "words": 69
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.25,
+    "rouge_l": 0.15217391304347827,
+    "dr": 0.19504737440137349,
+    "words": 86
+   },
+   "single:grok-4.3": {
+    "str_em": 0.25,
+    "rouge_l": 0.19318181818181818,
+    "dr": 0.21976226824788314,
+    "words": 81
+   },
+   "extractive": {
+    "text": "The traditional attribution for the first five books of Moses\u2014Genesis, Exodus, Leviticus, Numbers, and Deuteronomy\u2014is Moses himself, as stated in Jewish and Christian scriptures. However, most modern biblical scholars reject single authorship, instead favoring the **Documentary Hypothesis**, which suggests four sources (J, E, P, and D) composed by anonymous writers between the 9th and 5th centuries BCE.",
+    "str_em": 0.25,
+    "rouge_l": 0.13157894736842102,
+    "dr": 0.1813690625275029,
+    "words": 57,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0185": {
+   "plain": {
+    "text": "Karl Landsteiner is chiefly credited with figuring out how to determine blood type. In 1901, he discovered the ABO blood group system by observing how different blood samples clumped together, making safe transfusions possible. Others later refined blood classification, but Landsteiner is widely recognized as the primary discoverer of blood typing.",
+    "str_em": 1.0,
+    "rouge_l": 0.22764227642276424,
+    "dr": 0.4771187236136979,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Karl Landsteiner is chiefly credited with figuring out how to determine blood type. In 1901, he discovered the ABO blood group system, laying the foundation for modern blood typing and safe transfusions. Other scientists later expanded the work, but Landsteiner is the main figure associated with the discovery.",
+    "str_em": 1.0,
+    "rouge_l": 0.22222222222222224,
+    "dr": 0.4714045207910317,
+    "words": 48,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Karl Landsteiner is generally credited with figuring out how to determine blood type. In 1901, he discovered the ABO blood group system by observing agglutination when different people\u2019s blood was mixed, laying the foundation for modern blood typing and safe transfusions.",
+    "str_em": 1.0,
+    "rouge_l": 0.24561403508771934,
+    "dr": 0.4955946277833521,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Karl Landsteiner is primarily credited with figuring out how to determine blood type. In 1901, he discovered the ABO blood group system by observing agglutination when different people\u2019s blood was mixed, laying the foundation for safe blood transfusions. Later researchers, including Jan Jansk\u00fd, expanded blood classification, but Landsteiner is the main name associated with the breakthrough.",
+    "str_em": 1.0,
+    "rouge_l": 0.2204724409448819,
+    "dr": 0.46954492963387634,
+    "words": 56,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Karl Landsteiner is primarily credited with figuring out how to determine blood types. In 1901, he discovered the ABO blood group system by observing agglutination when different people\u2019s blood was mixed, laying the foundation for modern blood typing and safer transfusions.",
+    "str_em": 1.0,
+    "rouge_l": 0.24561403508771934,
+    "dr": 0.4955946277833521,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The determination of blood types is credited to Karl Landsteiner, an Austrian biologist and physician, who in 1901 discovered the ABO blood group system by identifying agglutination reactions when mixing different individuals' blood. He later, with Alexander Wiener, discovered the Rh factor in 1937. Landsteiner's work earned him the Nobel Prize in 1930 and laid the foundation for safe blood transfusions. Additionally, others like Jan Jansk\u00fd and William Moss independently classified blood types, but Landsteiner is universally recognized as the primary discoverer.",
+    "str_em": 1.0,
+    "rouge_l": 0.2064516129032258,
+    "dr": 0.4543694673976518,
+    "words": 82,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The person most widely credited is **Karl Landsteiner**. In **1901**, he discovered the **ABO blood group system**, which made it possible to determine blood type and transformed blood transfusion into a much safer practice.\n\nA few others also contributed later:\n- **Jan Jansk\u00fd** helped classify the blood groups\n- **Alfred von Decastello** and **Adriano Sturli** identified the **AB** group\n- **Karl Landsteiner** and **Alexander Wiener** later helped discover the **Rh factor**\n\nSo, if you want the main answer: **Karl Landsteiner**.",
+    "str_em": 1.0,
+    "rouge_l": 0.22377622377622378,
+    "dr": 0.47304991679126607,
+    "words": 80,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Karl Landsteiner figured out how to determine blood type. In 1901, he discovered the major ABO blood groups by observing how different blood samples reacted when mixed, laying the foundation for safe blood transfusions.",
+    "str_em": 1.0,
+    "rouge_l": 0.22641509433962265,
+    "dr": 0.4758309514308865,
+    "words": 34,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.2064516129032258,
+    "dr": 0.4543694673976518,
+    "words": 82
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.20408163265306123,
+    "dr": 0.45175395145262565,
+    "words": 83
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.20408163265306123,
+    "dr": 0.45175395145262565,
+    "words": 79
+   },
+   "extractive": {
+    "text": "The determination of blood types is credited to Karl Landsteiner, an Austrian biologist and physician, who in 1901 discovered the ABO blood group system by identifying agglutination reactions when mixing different individuals' blood. The most widely credited figure is **Karl Landsteiner**, an Austrian immunologist who discovered the ABO blood group system in 1901, paving the way for safe blood transfusions.",
+    "str_em": 1.0,
+    "rouge_l": 0.21212121212121213,
+    "dr": 0.4605661864718383,
+    "words": 60,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0306": {
+   "plain": {
+    "text": "*Despicable Me 3* was released in U.S. theaters on **June 30, 2017**. Some countries got it a little earlier, and its digital/DVD release came later in 2017. If you meant a newer movie, *Despicable Me 4* came out on **July 3, 2024**.",
+    "str_em": 0.5,
+    "rouge_l": 0.2162162162162162,
+    "dr": 0.3287979746107146,
+    "words": 42,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "If you mean *Despicable Me 3*, it came out in U.S. theaters on **June 30, 2017**. Some international countries released it a little earlier.",
+    "str_em": 0.5,
+    "rouge_l": 0.28571428571428575,
+    "dr": 0.37796447300922725,
+    "words": 24,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "*Despicable Me 3* came out in U.S. theaters on **June 30, 2017**. Some international releases were earlier, and home/streaming release dates varied by platform and region.",
+    "str_em": 0.5,
+    "rouge_l": 0.24742268041237112,
+    "dr": 0.3517262290563295,
+    "words": 26,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "*Despicable Me 3* came out in U.S. theaters on **June 30, 2017**. Some international release dates were earlier, but June 30, 2017 is the main U.S. release date.",
+    "str_em": 0.5,
+    "rouge_l": 0.3278688524590164,
+    "dr": 0.404888165089458,
+    "words": 28,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "*Despicable Me 3* came out in U.S. theaters on **June 30, 2017**.",
+    "str_em": 0.5,
+    "rouge_l": 0.3111111111111111,
+    "dr": 0.39440531887330776,
+    "words": 12,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Assuming the misspelled query refers to the film Despicable Me 3, it was released in theaters on June 30, 2017, across the United States and many other countries shortly thereafter. Home media versions including DVD and Blu-ray became available in December 2017, while streaming options have varied over the years on services such as Netflix or Peacock based on regional licenses. There is no new Despicable Me 3 coming out since the series has progressed to a fourth movie planned for 2024.",
+    "str_em": 0.5,
+    "rouge_l": 0.21917808219178087,
+    "dr": 0.33104235544094723,
+    "words": 82,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "If you mean **Despicable Me 3**, it **came out in theaters on June 30, 2017** in the U.S.\n\nIf you meant the newer movie, **Despicable Me 4** was released on **July 3, 2024**.\n\nIf you want, I can also tell you where **Despicable Me 3** is streaming now.",
+    "str_em": 0.5,
+    "rouge_l": 0.24137931034482757,
+    "dr": 0.34740416688982556,
+    "words": 48,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Despicable Me 3 was released in the United States on June 30, 2017.",
+    "str_em": 0.5,
+    "rouge_l": 0.4090909090909091,
+    "dr": 0.45226701686664544,
+    "words": 13,
+    "judged_prec": 1.0,
+    "n_supported": 1,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.5,
+    "rouge_l": 0.3259259259259259,
+    "dr": 0.40368671387966554,
+    "words": 69
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.25806451612903225,
+    "dr": 0.508000508000762,
+    "words": 84
+   },
+   "single:grok-4.3": {
+    "str_em": 0.5,
+    "rouge_l": 0.21917808219178087,
+    "dr": 0.33104235544094723,
+    "words": 82
+   },
+   "extractive": {
+    "text": "If you're referring to its theatrical release, *Despicable Me 3* came out on **June 30, 2017**, in the United States, though some international markets saw it earlier, such as June 14, 2017, in Australia and parts of Europe.",
+    "str_em": 1.0,
+    "rouge_l": 0.2857142857142857,
+    "dr": 0.5345224838248488,
+    "words": 38,
+    "judged_prec": 0.75,
+    "n_supported": 3,
+    "n_contra": 1,
+    "n_unver": 0
+   }
+  },
+  "asqa:0125": {
+   "plain": {
+    "text": "BP has said the Deepwater Horizon spill cost it about $65 billion in total, covering cleanup, legal settlements, fines, and compensation. Estimates vary depending on what is included: direct cleanup alone was far lower, while adding indirect losses like market value declines would make the overall impact much higher.",
+    "str_em": 0.2,
+    "rouge_l": 0.125,
+    "dr": 0.15811388300841897,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "BP\u2019s Deepwater Horizon spill cost is most commonly cited at about $65 billion total, covering cleanup, fines, legal settlements, and compensation. The exact figure varies depending on what is included, and broader estimates can be higher if indirect costs such as lost market value and reputational damage are counted.",
+    "str_em": 0.2,
+    "rouge_l": 0.1095890410958904,
+    "dr": 0.14804664203952106,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "BP has said the Deepwater Horizon disaster cost it about $65 billion overall, including cleanup, fines, legal settlements, and compensation. The exact total can vary depending on whether indirect losses such as reputational damage or share-price decline are included, but $65 billion is the most widely cited figure for BP\u2019s direct financial cost.",
+    "str_em": 0.2,
+    "rouge_l": 0.1342281879194631,
+    "dr": 0.1638463841038081,
+    "words": 53,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "BP\u2019s Deepwater Horizon spill cost is most commonly estimated at about $65 billion in total, covering cleanup, fines, legal settlements, and compensation. The exact figure varies depending on what is included, and broader measures such as lost market value would make the overall impact even higher.",
+    "str_em": 0.2,
+    "rouge_l": 0.11267605633802816,
+    "dr": 0.1501173250081603,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "BP has said the Deepwater Horizon disaster cost it about $65 billion in total direct financial charges, including cleanup, fines, settlements, and compensation. Estimates can vary depending on whether indirect effects such as lost market value or reputational damage are included, but $65 billion is the standard headline figure.",
+    "str_em": 0.2,
+    "rouge_l": 0.125,
+    "dr": 0.15811388300841897,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The costs to BP from the Deepwater Horizon oil spill have been estimated at approximately 65 billion dollars in total payouts for cleanup, legal fines, victim settlements and compensation programs. Various estimates exist depending on whether only immediate costs or all associated expenses are considered. This amount reflects one interpretation focusing on explicit financial outlays but other views incorporate the loss in market capitalization along with ongoing costs for environmental remediation and monitoring that persist affecting the company's bottom line.",
+    "str_em": 0.2,
+    "rouge_l": 0.14942528735632182,
+    "dr": 0.1728729518208802,
+    "words": 80,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "BP has said the Deepwater Horizon disaster cost it about **$65 billion** in total.\n\nThat figure includes:\n- **cleanup and response costs**\n- **compensation payments**\n- **legal settlements**\n- **fines and penalties**\n\nA few useful details:\n- **Immediate cleanup/response** costs were roughly **$14 billion**\n- In **2015**, BP agreed to a **$20.8 billion** settlement with the U.S. federal government and Gulf states\n- That overall total is commonly cited as reaching **around $65 billion by 2018**\n\nIf you mean the broader economic impact on BP, including **lost share value and reputational damage**, the hit was even larger\u2014but for direct financial cost, **about $65 billion** is the standard answer.",
+    "str_em": 0.2,
+    "rouge_l": 0.18461538461538465,
+    "dr": 0.19215378456610457,
+    "words": 108,
+    "judged_prec": 1.0,
+    "n_supported": 10,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "BP has said the Deepwater Horizon disaster ultimately cost it about $65 billion, including cleanup, compensation, legal settlements, and penalties.",
+    "str_em": 0.2,
+    "rouge_l": 0.12068965517241377,
+    "dr": 0.15536386656646634,
+    "words": 20,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.2,
+    "rouge_l": 0.16842105263157894,
+    "dr": 0.1835325870964494,
+    "words": 96
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.6,
+    "rouge_l": 0.192090395480226,
+    "dr": 0.3394911446387602,
+    "words": 78
+   },
+   "single:grok-4.3": {
+    "str_em": 0.2,
+    "rouge_l": 0.14942528735632182,
+    "dr": 0.1728729518208802,
+    "words": 80
+   },
+   "extractive": {
+    "text": "The Deepwater Horizon oil spill cost BP an estimated $65 billion in total, encompassing cleanup expenses, legal settlements, fines, and compensation.",
+    "str_em": 0.2,
+    "rouge_l": 0.15517241379310343,
+    "dr": 0.17616606585441102,
+    "words": 21,
+    "judged_prec": 1.0,
+    "n_supported": 2,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0069": {
+   "plain": {
+    "text": "Green & Black\u2019s organic chocolate is owned by Mondel\u0113z International. The brand was founded in 1991 by Craig Sams and Josephine Fairley, then acquired by Cadbury in 2005; after Kraft bought Cadbury in 2010, it became part of Mondel\u0113z.",
+    "str_em": 1.0,
+    "rouge_l": 0.5753424657534246,
+    "dr": 0.7585133260223084,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Green & Black\u2019s organic chocolate is owned by Mondel\u0113z International. The brand was founded in 1991 by Craig Sams and Josephine Fairley, acquired by Cadbury in 2005, and became part of Mondel\u0113z after Cadbury\u2019s takeover in 2010.",
+    "str_em": 1.0,
+    "rouge_l": 0.611111111111111,
+    "dr": 0.7817359599705715,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Green & Black\u2019s organic chocolate is owned by Mondel\u0113z International. The brand was originally founded in 1991 by Craig Sams and Josephine Fairley, was acquired by Cadbury in 2005, and became part of Mondel\u0113z after Cadbury\u2019s takeover.",
+    "str_em": 1.0,
+    "rouge_l": 0.638888888888889,
+    "dr": 0.7993052538854533,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Green & Black\u2019s organic chocolate is owned by Mondel\u0113z International. The brand was founded in 1991 by Craig Sams and Josephine Fairley, acquired by Cadbury in 2005, and became part of Mondel\u0113z after Cadbury\u2019s takeover in 2010.",
+    "str_em": 1.0,
+    "rouge_l": 0.611111111111111,
+    "dr": 0.7817359599705715,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Green & Black\u2019s organic chocolate is currently owned by Mondel\u0113z International. The brand was founded in 1991 and was acquired by Cadbury in 2005 before later becoming part of Mondel\u0113z.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.5625,
+    "dr": 0.6123724356957945,
+    "words": 30,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Green & Black's is a chocolate brand founded in 1991 by Craig Sams and Josephine Fairley, who initially owned it as an independent company focused on organic and fair-trade principles. Cadbury acquired the brand in 2005, and after Kraft's 2010 takeover of Cadbury, it is now owned by Mondel\u0113z International. Alternatively, if the question refers to a physical product, ownership belongs to the consumer who purchased the chocolate bar. These interpretations address both corporate history and individual possession.",
+    "str_em": 1.0,
+    "rouge_l": 0.3925233644859813,
+    "dr": 0.6265168509194157,
+    "words": 78,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Green & Black\u2019s Organic chocolate brand is currently owned by **Mondel\u0113z International**.\n\nBrief history:\n- **Founded in 1991** by **Craig Sams and Josephine Fairley**\n- **Acquired by Cadbury** in **2005**\n- Became part of **Mondel\u0113z International** after Cadbury was taken over by Kraft, which later split and formed Mondel\u0113z\n\nSo if you mean the brand owner today: **Mondel\u0113z International**.",
+    "str_em": 1.0,
+    "rouge_l": 0.45652173913043476,
+    "dr": 0.6756639246921762,
+    "words": 59,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Green & Black\u2019s Organic chocolate is owned by Mondel\u0113z International. The brand was founded in the UK in 1991, later acquired by Cadbury, and became part of Mondel\u0113z when Cadbury was absorbed into Kraft Foods and then spun into Mondel\u0113z.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.4324324324324324,
+    "dr": 0.5369248441712194,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.376068376068376,
+    "dr": 0.6132441406718665,
+    "words": 88
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.2592592592592593,
+    "dr": 0.5091750772173156,
+    "words": 75
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.3925233644859813,
+    "dr": 0.6265168509194157,
+    "words": 78
+   },
+   "extractive": {
+    "text": "Green & Black's organic chocolate is owned by Mondel\u0113z International, a global snack and confectionery company. Green & Black's is a chocolate brand founded in 1991 by Craig Sams and Josephine Fairley, who initially owned it as an independent company focused on organic and fair-trade principles.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.3589743589743589,
+    "dr": 0.4891995904702285,
+    "words": 46,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0177": {
+   "plain": {
+    "text": "There wasn\u2019t a single \u201clast person\u201d: the final hangings in England were the simultaneous executions of Peter Anthony Allen and Gwynne Owen Evans on 13 August 1964, for the murder of John Alan West. Allen was hanged at Walton Prison, Liverpool, and Evans at Strangeways Prison, Manchester. Ruth Ellis was the last woman hanged, in 1955.",
+    "str_em": 1.0,
+    "rouge_l": 0.40384615384615385,
+    "dr": 0.6354889093022426,
+    "words": 56,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "England\u2019s last executions were on 13 August 1964, when Peter Anthony Allen and Gwynne Owen Evans were hanged simultaneously in separate prisons for murdering John Alan West, so there was no single \u201clast person.\u201d If forced to name one, Peter Anthony Allen is often cited; Ruth Ellis was the last woman hanged, in 1955.",
+    "str_em": 1.0,
+    "rouge_l": 0.33962264150943394,
+    "dr": 0.5827715174143585,
+    "words": 54,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "There wasn\u2019t a single last person hanged in England: the final executions were Peter Anthony Allen and Gwynne Owen Evans, both hanged on 13 August 1964 in separate prisons for the murder of John Alan West. If you mean the last woman hanged, that was Ruth Ellis in 1955.",
+    "str_em": 1.0,
+    "rouge_l": 0.40816326530612246,
+    "dr": 0.6388765649999399,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "The last people hanged in England were Peter Anthony Allen and Gwynne Owen Evans, executed simultaneously on 13 August 1964 in separate prisons for the murder of John Alan West. Because the hangings were carried out at the same time, there is no clear single \u201clast person.\u201d",
+    "str_em": 1.0,
+    "rouge_l": 0.4210526315789474,
+    "dr": 0.6488856845230502,
+    "words": 47,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "England\u2019s last executions by hanging were on 13 August 1964, when Peter Anthony Allen and Gwynne Owen Evans were executed simultaneously in separate prisons for the murder of John Alan West. Because they were hanged at the same time, there was no single \u201clast person.\u201d",
+    "str_em": 1.0,
+    "rouge_l": 0.37500000000000006,
+    "dr": 0.6123724356957946,
+    "words": 45,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Depending on interpretation, there are two answers: the last woman hanged in England was **Ruth Ellis**, executed at Holloway Prison on 13 July 1955 for the murder of David Blakely. However, the very last judicial hangings overall took place on 13 August 1964, when **Gwynne Evans** was hanged at Strangeways Prison, Manchester, and **Peter Allen** at Walton Prison, Liverpool, for the murder of John Alan West. Together, Evans and Allen were the final people hanged in England before capital punishment was suspended in 1965.",
+    "str_em": 1.0,
+    "rouge_l": 0.32061068702290074,
+    "dr": 0.5662249438367235,
+    "words": 84,
+    "judged_prec": 1.0,
+    "n_supported": 8,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "The last people hanged in England were **Peter Anthony Allen** and **Gwynne Owen Evans** on **13 August 1964**.\n\nThey were executed **simultaneously** in separate prisons:\n- **Peter Allen** at **Walton Prison, Liverpool**\n- **Gwynne Evans** at **Strangeways Prison, Manchester**\n\nBoth were convicted of the murder of **John Alan West**. Because the executions were carried out at the same time, there isn\u2019t really a single \u201clast person.\u201d\n\nIf you meant the **last woman hanged in England**, that was **Ruth Ellis** in **1955**.",
+    "str_em": 1.0,
+    "rouge_l": 0.41269841269841273,
+    "dr": 0.642416074439621,
+    "words": 81,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "The last people hanged in England were Peter Anthony Allen and Gwynne Owen Evans, executed on 13 August 1964 for the murder of John Alan West; Allen was hanged at Walton Prison in Liverpool and Evans at Strangeways Prison in Manchester.",
+    "str_em": 1.0,
+    "rouge_l": 0.4175824175824176,
+    "dr": 0.646206172658864,
+    "words": 41,
+    "judged_prec": 1.0,
+    "n_supported": 5,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 1.0,
+    "rouge_l": 0.43283582089552236,
+    "dr": 0.6579025922547519,
+    "words": 89
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 1.0,
+    "rouge_l": 0.32061068702290074,
+    "dr": 0.5662249438367235,
+    "words": 84
+   },
+   "single:grok-4.3": {
+    "str_em": 1.0,
+    "rouge_l": 0.304,
+    "dr": 0.5513619500836089,
+    "words": 78
+   },
+   "extractive": {
+    "text": "The last person hanged in England was Peter Anthony Allen, executed on 13 August 1964 at Walton Prison in Liverpool, alongside Gwynne Owen Evans at Strangeways Prison in Manchester, both for the murder of John Alan West.",
+    "str_em": 1.0,
+    "rouge_l": 0.5977011494252874,
+    "dr": 0.7731113434850684,
+    "words": 37,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0376": {
+   "plain": {
+    "text": "Bill Withers\u2019 original \u201cLean on Me\u201d was released on April 21, 1972, as the lead single from his album Still Bill. If you meant a later version, Club Nouveau\u2019s cover came out in January 1987 and also became a hit.",
+    "str_em": 0.2,
+    "rouge_l": 0.30434782608695654,
+    "dr": 0.2467175818975845,
+    "words": 40,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Bill Withers\u2019s original \u201cLean on Me\u201d came out in 1972, released in April as a single from Still Bill. If you meant a later version, Club Nouveau\u2019s cover was released in 1987.",
+    "str_em": 0.0,
+    "rouge_l": 0.2325581395348837,
+    "dr": 0.0,
+    "words": 32,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Bill Withers\u2019s original \u201cLean on Me\u201d came out in 1972, released as a single from his album Still Bill. If you mean the best-known cover, Club Nouveau\u2019s version was released in 1986 and became a hit in 1987.",
+    "str_em": 0.0,
+    "rouge_l": 0.23913043478260868,
+    "dr": 0.0,
+    "words": 38,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Bill Withers\u2019 original \u201cLean on Me\u201d came out in 1972, with sources here narrowing it to April 1972, and one giving the specific single release date as April 21, 1972. It was released from his album Still Bill and later reached No. 1 on the Billboard Hot 100 in July 1972.",
+    "str_em": 0.2,
+    "rouge_l": 0.20408163265306123,
+    "dr": 0.20203050891044216,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Bill Withers\u2019 original \u201cLean on Me\u201d came out in 1972, released in April as a single from his album Still Bill. If you mean the well-known cover, Club Nouveau released its version in January 1987.",
+    "str_em": 0.0,
+    "rouge_l": 0.22727272727272727,
+    "dr": 0.0,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "The song \"Lean on Me\" by Bill Withers was first released in April 1972 as a single from the album Still Bill, climbing to number one on the US charts by July. Ambiguities in the question might refer to Club Nouveau's 1986 recording that topped charts in 1987, or the soundtrack usage in the 1989 film Lean on Me. Release dates can vary by whether considering the original issue, cover versions, or international launches that extended the song's reach over the years.",
+    "str_em": 0.0,
+    "rouge_l": 0.2790697674418604,
+    "dr": 0.0,
+    "words": 82,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "\u201cLean on Me\u201d most commonly refers to **Bill Withers\u2019 song**, which came out in **1972**. It was released as a single in **April 1972** from his album *Still Bill*.\n\nIf you meant a different song/version:\n- **Club Nouveau\u2019s cover**: **1987**\n- **\u201cLean On\u201d by Major Lazer & DJ Snake feat. M\u00d8**: **2015**\n\nIf you want, I can also give the exact release date and chart history.",
+    "str_em": 0.0,
+    "rouge_l": 0.27499999999999997,
+    "dr": 0.0,
+    "words": 66,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "\u201cLean on Me\u201d was released in April 1972 as a single by Bill Withers, from his album Still Bill.",
+    "str_em": 0.0,
+    "rouge_l": 0.25862068965517243,
+    "dr": 0.0,
+    "words": 19,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.24242424242424243,
+    "dr": 0.0,
+    "words": 70
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.2,
+    "rouge_l": 0.2793296089385475,
+    "dr": 0.23635972962353274,
+    "words": 79
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.2790697674418604,
+    "dr": 0.0,
+    "words": 82
+   },
+   "extractive": {
+    "text": "The song \"Lean on Me\" was released in 1972 by Bill Withers as the lead single from his album *Still Bill*. The song \"Lean on Me\" by Bill Withers was first released in April 1972 as a single from the album Still Bill, climbing to number one on the US charts by July.",
+    "str_em": 0.0,
+    "rouge_l": 0.35862068965517246,
+    "dr": 0.0,
+    "words": 53,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0028": {
+   "plain": {
+    "text": "Fortnite Battle Royale originally launched on Android on August 9, 2018, first as a short Samsung-exclusive release, then expanding to other Android devices a few days later. If you mean a new or re-release on Android stores, there\u2019s no newly announced Android launch date beyond that original release.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.23076923076923075,
+    "dr": 0.2773500981126145,
+    "words": 48,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "Fortnite Battle Royale already released on Android on August 9, 2018, first as a short Samsung-exclusive launch before expanding to other Android devices days later. If you mean a new or official re-release on Android stores, there isn\u2019t a confirmed new release date.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.23076923076923075,
+    "dr": 0.2773500981126145,
+    "words": 43,
+    "judged_prec": 1.0,
+    "n_supported": 4,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "Fortnite Battle Royale originally launched on Android on August 9, 2018, starting with a brief Samsung-exclusive release before wider Android availability. If you mean a new or official re-release on Android stores, there isn\u2019t a confirmed new release date.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.22000000000000003,
+    "dr": 0.27080128015453203,
+    "words": 39,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "Fortnite Battle Royale originally released on Android on August 9, 2018, first as a Samsung-exclusive launch, then expanded to other supported Android devices a few days later, around August 13, 2018. If you mean a new or returning Android release, the sources disagree or give no confirmed new date.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.26168224299065423,
+    "dr": 0.4176779006129438,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "Fortnite Battle Royale was first released on Android on August 9, 2018, initially as a Samsung-exclusive launch, then expanded to other compatible Android devices on August 13, 2018.",
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.3370786516853933,
+    "dr": 0.47404546313997725,
+    "words": 28,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "Fortnite Battle Royale was officially released on Android on August 9, 2018, initially as a Samsung Galaxy Note 9 exclusive for a few days before becoming available to other Android devices. However, it is important to note that the game is no longer available on the Google Play Store or for direct download on Android devices since Epic Games removed it in 2020 due to a dispute with Apple and Google over in-app payment policies. As of now, there is no official Android version, though players can access it via cloud gaming services or alternative methods.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2222222222222222,
+    "dr": 0.2721655269759087,
+    "words": 96,
+    "judged_prec": 0.7142857142857143,
+    "n_supported": 5,
+    "n_contra": 2,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "Fortnite Battle Royale is **already available on Android**.\n\n- **Original Android release:** **August 9, 2018**\n- It first launched as a **Samsung-exclusive beta**, then expanded to other Android devices shortly after.\n- It was later **removed from the Google Play Store in 2020** during Epic\u2019s dispute with Google.\n\nAs of now, Fortnite on Android is typically available through:\n- the **Epic Games Store** app for Android, or\n- other Epic-supported methods in some regions\n\nSo if you mean **\u201cWhen will it come to Android?\u201d** \u2014 it already did.  \nIf you mean **\u201cWhen will it return to the Google Play Store?\u201d** \u2014 there\u2019s **no confirmed date**.\n\nIf you want, I can also tell you **how to install Fortnite on Android right now**.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.18367346938775508,
+    "dr": 0.24743582965269673,
+    "words": 121,
+    "judged_prec": 1.0,
+    "n_supported": 7,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "Fortnite Battle Royale began rolling out on Android on August 9, 2018, starting with Samsung Galaxy devices, with other supported Android phones getting access shortly afterward through Epic Games\u2019 beta/invite system.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.25806451612903225,
+    "dr": 0.29329423004270655,
+    "words": 31,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.2222222222222222,
+    "dr": 0.2721655269759087,
+    "words": 96
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.6666666666666666,
+    "rouge_l": 0.2275449101796407,
+    "dr": 0.38948248585325007,
+    "words": 83
+   },
+   "single:grok-4.3": {
+    "str_em": 0.0,
+    "rouge_l": 0.15942028985507245,
+    "dr": 0.0,
+    "words": 80
+   },
+   "extractive": {
+    "text": "Fortnite Battle Royale was officially released on Android on August 9, 2018, initially as a Samsung Galaxy Note 9 exclusive for a few days before becoming available to other Android devices.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.28888888888888886,
+    "dr": 0.3103164454170876,
+    "words": 31,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   }
+  },
+  "asqa:0068": {
+   "plain": {
+    "text": "In *The Walking Dead* TV series, the prison gate most famously was opened by **Andrew**, one of the surviving inmates. In Season 3, he opened the courtyard gate and let a herd of walkers into the prison, leading to the chaos that killed T-Dog and led to Lori\u2019s death.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.1627906976744186,
+    "dr": 0.23294541397390262,
+    "words": 49,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table": {
+    "text": "In the TV series, the prison gate breach most people mean was done by Andrew, one of the prisoners, who opened the courtyard gate and let walkers in. If you mean the Governor\u2019s later assault, his group breached the prison defenses with a tank rather than someone simply opening the gate.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.1395348837209302,
+    "dr": 0.2156655464068768,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_scramble": {
+    "text": "If you mean the big prison gate breach in the TV series, it was Andrew, one of the prisoners, who opened the courtyard gate and let walkers flood in.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.1791044776119403,
+    "dr": 0.24433888871261042,
+    "words": 29,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "table_raw": {
+    "text": "If you mean the infamous prison gate breach in the TV series, it was Andrew, one of the original prisoners, who opened the courtyard gate and let walkers in. If you mean the later prison assault, the Governor\u2019s forces breached the gate with a tank rather than someone secretly opening it.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.1627906976744186,
+    "dr": 0.23294541397390262,
+    "words": 51,
+    "judged_prec": 1.0,
+    "n_supported": 3,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "band": {
+    "text": "If you mean the famous prison breach in the TV series, it was Andrew, one of the prisoners, who opened the courtyard gate and let walkers into the prison in Season 3\u2019s \u201cSick.\u201d If you mean the later assault, the Governor\u2019s militia breached the prison\u2019s main gate with a tank in Season 4.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.15730337078651685,
+    "dr": 0.22898571337277562,
+    "words": 53,
+    "judged_prec": 0.75,
+    "n_supported": 3,
+    "n_contra": 1,
+    "n_unver": 0
+   },
+   "usc": {
+    "text": "It depends on which moment you're referring to in *The Walking Dead*. In Season 3, Episode 2 (\"Sick\"), Andrew\u2014one of the original prisoners\u2014opened the courtyard gate, allowing a herd of walkers to flood in. Later, in Season 4, Episode 1 (\"30 Days Without an Accident\"), the Governor's militia used a tank to blast open the main front gate during their assault. Of course, for everyday access, Rick Grimes and other group members often opened the gates themselves, but those two are by far the most infamous breaches.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.13008130081300812,
+    "dr": 0.2082316825181414,
+    "words": 87,
+    "judged_prec": 0.5,
+    "n_supported": 2,
+    "n_contra": 2,
+    "n_unver": 0
+   },
+   "moa": {
+    "text": "If you mean the prison breach in the TV series, it was **Andrew**, one of the surviving prisoners.\n\nIn **Season 3, Episode 2 (\"Sick\")**, Andrew is left behind, survives, and later **opens the gate to let walkers into the prison yard**, which leads to the attack where **T-Dog dies**.\n\nIf you meant a different prison gate scene, I can narrow it down.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.14285714285714288,
+    "dr": 0.2182178902359924,
+    "words": 62,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "solo": {
+    "text": "In The Walking Dead\u2019s prison storyline, Andrew\u2014the surviving prisoner Rick\u2019s group left behind\u2014opened the prison gates and let walkers in as revenge. He also led the walkers toward the courtyard before being killed by Oscar.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.15789473684210528,
+    "dr": 0.22941573387056177,
+    "words": 35,
+    "judged_prec": 1.0,
+    "n_supported": 6,
+    "n_contra": 0,
+    "n_unver": 0
+   },
+   "single:DeepSeek-V4-Flash": {
+    "str_em": 0.0,
+    "rouge_l": 0.1415929203539823,
+    "dr": 0.0,
+    "words": 86
+   },
+   "single:MAI-Thinking-1": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.13008130081300812,
+    "dr": 0.2082316825181414,
+    "words": 87
+   },
+   "single:grok-4.3": {
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.13793103448275862,
+    "dr": 0.21442250696755896,
+    "words": 83
+   },
+   "extractive": {
+    "text": "In Season 3, Episode 2 (\"Sick\"), Andrew\u2014one of the original prisoners\u2014opened the courtyard gate, allowing a herd of walkers to flood in.",
+    "str_em": 0.3333333333333333,
+    "rouge_l": 0.15873015873015875,
+    "dr": 0.23002185311411807,
+    "words": 22,
+    "judged_prec": 0.6666666666666666,
+    "n_supported": 2,
+    "n_contra": 1,
+    "n_unver": 0
+   }
+  }
+ },
+ "failures": {},
+ "spend": 0.6226375000000001,
+ "judge_spend": 0.21478875000000006,
+ "fold": 1
+}

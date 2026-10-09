@@ -1,0 +1,2975 @@
+{
+ "e1_e2_e4": [
+  {
+   "none/count(src thr)": 21.661976755319717,
+   "none/scorer bud-src": 26.494420328236117,
+   "none/scorer thr": 24.906688485762192,
+   "none/SIZE=count, CONTENT=scorer": 21.038309033446843,
+   "none/SIZE=max(count,1)": 21.589430986603293,
+   "none/SIZE=mean(count,budget)": 25.406564447305552,
+   "self/count(src thr)": 21.661976755319717,
+   "self/scorer bud-src": 27.432900665493836,
+   "self/scorer thr": 26.383705964267122,
+   "self/SIZE=count, CONTENT=scorer": 20.96600386747831,
+   "self/SIZE=max(count,1)": 21.5102999944812,
+   "self/SIZE=mean(count,budget)": 26.116912401728744,
+   "self/IN-POOL bud-src": 27.918237119701622,
+   "paper in-pool": 28.316168221943865,
+   "count in-pool": 20.858267640166332,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.6236677218728753,
+    -1.0020434034057748,
+    -0.24639270694428958
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.6959728878414073,
+    -1.45540098887004,
+    0.027229088854698713
+   ],
+   "none/scorer bud-src vs count0": [
+    4.8324435729164,
+    3.7360620321421427,
+    5.940390241878738
+   ],
+   "self/scorer bud-src vs count0": [
+    5.770923910174123,
+    4.488250516861822,
+    7.038440091450342
+   ]
+  },
+  {
+   "none/count(src thr)": 24.23485061335232,
+   "none/scorer bud-src": 26.662913215626364,
+   "none/scorer thr": 24.98534872822815,
+   "none/SIZE=count, CONTENT=scorer": 23.335806273185838,
+   "none/SIZE=max(count,1)": 23.65550942349492,
+   "none/SIZE=mean(count,budget)": 26.222763473050588,
+   "self/count(src thr)": 24.23485061335232,
+   "self/scorer bud-src": 27.638065728961404,
+   "self/scorer thr": 26.828126081143168,
+   "self/SIZE=count, CONTENT=scorer": 23.702395714334422,
+   "self/SIZE=max(count,1)": 24.058939153584628,
+   "self/SIZE=mean(count,budget)": 27.27209281636983,
+   "self/IN-POOL bud-src": 28.002676669600675,
+   "paper in-pool": 28.178720153313563,
+   "count in-pool": 24.23485061335232,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.8990443401664793,
+    -1.3337836882822163,
+    -0.4691870246446515
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.5324548990178973,
+    -1.2173573892063205,
+    0.13020899397970775
+   ],
+   "none/scorer bud-src vs count0": [
+    2.4280626022740495,
+    1.5584071862076732,
+    3.3278427045549197
+   ],
+   "self/scorer bud-src vs count0": [
+    3.403215115609084,
+    2.3668538439156155,
+    4.481101491593497
+   ]
+  },
+  {
+   "none/count(src thr)": 21.569607241574275,
+   "none/scorer bud-src": 27.390899607710082,
+   "none/scorer thr": 25.4226305044979,
+   "none/SIZE=count, CONTENT=scorer": 21.569607241574275,
+   "none/SIZE=max(count,1)": 21.569607241574275,
+   "none/SIZE=mean(count,budget)": 23.838984681216417,
+   "self/count(src thr)": 21.569607241574275,
+   "self/scorer bud-src": 28.71481183299806,
+   "self/scorer thr": 27.152032947375567,
+   "self/SIZE=count, CONTENT=scorer": 21.569607241574275,
+   "self/SIZE=max(count,1)": 21.569607241574275,
+   "self/SIZE=mean(count,budget)": 24.227943990963077,
+   "self/IN-POOL bud-src": 28.989563354918367,
+   "paper in-pool": 28.846785654949926,
+   "count in-pool": 25.317923667404717,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    5.821292366135805,
+    4.85709605171933,
+    6.790521774549207
+   ],
+   "self/scorer bud-src vs count0": [
+    7.145204591423782,
+    5.987574824713255,
+    8.297044441744925
+   ]
+  },
+  {
+   "none/count(src thr)": 24.881762694940225,
+   "none/scorer bud-src": 28.624243197564493,
+   "none/scorer thr": 26.891373888949705,
+   "none/SIZE=count, CONTENT=scorer": 24.881762694940225,
+   "none/SIZE=max(count,1)": 24.881762694940225,
+   "none/SIZE=mean(count,budget)": 26.479371400500497,
+   "self/count(src thr)": 24.881762694940225,
+   "self/scorer bud-src": 28.874185267967896,
+   "self/scorer thr": 27.33192026088701,
+   "self/SIZE=count, CONTENT=scorer": 24.881762694940225,
+   "self/SIZE=max(count,1)": 24.881762694940225,
+   "self/SIZE=mean(count,budget)": 26.770085398556088,
+   "self/IN-POOL bud-src": 28.76349831208973,
+   "paper in-pool": 29.009989186269756,
+   "count in-pool": 24.823472769898167,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    3.7424805026242756,
+    2.848484172053127,
+    4.642627362794684
+   ],
+   "self/scorer bud-src vs count0": [
+    3.992422573027671,
+    2.9988084641695756,
+    5.025564440964528
+   ]
+  },
+  {
+   "none/count(src thr)": 20.935897111471153,
+   "none/scorer bud-src": 24.467035944869366,
+   "none/scorer thr": 22.844285502566425,
+   "none/SIZE=count, CONTENT=scorer": 20.532325973026246,
+   "none/SIZE=max(count,1)": 20.842032711304416,
+   "none/SIZE=mean(count,budget)": 24.10913165534509,
+   "self/count(src thr)": 20.935897111471153,
+   "self/scorer bud-src": 24.76720207464173,
+   "self/scorer thr": 23.933756932156015,
+   "self/SIZE=count, CONTENT=scorer": 20.16611278530099,
+   "self/SIZE=max(count,1)": 20.52382671444349,
+   "self/SIZE=mean(count,budget)": 24.19862871738796,
+   "self/IN-POOL bud-src": 25.59023846893222,
+   "paper in-pool": 25.33692992704274,
+   "count in-pool": 19.654227177903934,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.4035711384449042,
+    -0.8071168992545263,
+    -0.01675645153834326
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.7697843261701636,
+    -1.5943362700691417,
+    0.03527954471216752
+   ],
+   "none/scorer bud-src vs count0": [
+    3.531138833398211,
+    2.59807366839317,
+    4.515037852493759
+   ],
+   "self/scorer bud-src vs count0": [
+    3.8313049631705773,
+    2.6954788265717533,
+    4.999358366828693
+   ]
+  },
+  {
+   "none/count(src thr)": 24.944780870981756,
+   "none/scorer bud-src": 28.811921314991245,
+   "none/scorer thr": 26.863178466555592,
+   "none/SIZE=count, CONTENT=scorer": 24.030910808468317,
+   "none/SIZE=max(count,1)": 24.18994739607633,
+   "none/SIZE=mean(count,budget)": 26.555841483865272,
+   "self/count(src thr)": 24.944780870981756,
+   "self/scorer bud-src": 30.122671541793,
+   "self/scorer thr": 29.013324436579214,
+   "self/SIZE=count, CONTENT=scorer": 24.22426145202906,
+   "self/SIZE=max(count,1)": 24.453776681544294,
+   "self/SIZE=mean(count,budget)": 27.645543464571006,
+   "self/IN-POOL bud-src": 30.478693836212507,
+   "paper in-pool": 30.733107332518276,
+   "count in-pool": 27.52109809762824,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.9138700625134386,
+    -1.35742667876697,
+    -0.48904974668148754
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.720519418952692,
+    -1.1677467585751398,
+    -0.28469042390018445
+   ],
+   "none/scorer bud-src vs count0": [
+    3.8671404440094945,
+    2.8036345543663512,
+    4.905065867861647
+   ],
+   "self/scorer bud-src vs count0": [
+    5.177890670811242,
+    4.089639277024381,
+    6.252456644748157
+   ]
+  },
+  {
+   "none/count(src thr)": 21.93148180302242,
+   "none/scorer bud-src": 29.503256217539477,
+   "none/scorer thr": 26.675436908847,
+   "none/SIZE=count, CONTENT=scorer": 21.93148180302242,
+   "none/SIZE=max(count,1)": 21.93148180302242,
+   "none/SIZE=mean(count,budget)": 24.441482829944437,
+   "self/count(src thr)": 21.93148180302242,
+   "self/scorer bud-src": 30.60214744662596,
+   "self/scorer thr": 28.382910800916843,
+   "self/SIZE=count, CONTENT=scorer": 21.93148180302242,
+   "self/SIZE=max(count,1)": 21.93148180302242,
+   "self/SIZE=mean(count,budget)": 24.951881722586553,
+   "self/IN-POOL bud-src": 30.856221484662534,
+   "paper in-pool": 30.781625807134695,
+   "count in-pool": 28.15782842319005,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    7.571774414517058,
+    6.517870485965566,
+    8.639871623974157
+   ],
+   "self/scorer bud-src vs count0": [
+    8.670665643603542,
+    7.609107398389282,
+    9.767897538428189
+   ]
+  },
+  {
+   "none/count(src thr)": 25.077844469269216,
+   "none/scorer bud-src": 29.98725645240215,
+   "none/scorer thr": 28.3506451723764,
+   "none/SIZE=count, CONTENT=scorer": 25.077844469269216,
+   "none/SIZE=max(count,1)": 25.077844469269216,
+   "none/SIZE=mean(count,budget)": 27.15811644960201,
+   "self/count(src thr)": 25.077844469269216,
+   "self/scorer bud-src": 30.914049784792354,
+   "self/scorer thr": 28.097484557065084,
+   "self/SIZE=count, CONTENT=scorer": 25.077844469269216,
+   "self/SIZE=max(count,1)": 25.077844469269216,
+   "self/SIZE=mean(count,budget)": 27.56007736729557,
+   "self/IN-POOL bud-src": 31.07676252221781,
+   "paper in-pool": 30.739070236971028,
+   "count in-pool": 28.50943931603085,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    4.90941198313293,
+    3.920830795306559,
+    5.917316257345453
+   ],
+   "self/scorer bud-src vs count0": [
+    5.83620531552314,
+    4.853677621269745,
+    6.827910829299638
+   ]
+  },
+  {
+   "none/count(src thr)": 22.74048411137964,
+   "none/scorer bud-src": 27.059020694309055,
+   "none/scorer thr": 25.044430940532,
+   "none/SIZE=count, CONTENT=scorer": 21.56937666882324,
+   "none/SIZE=max(count,1)": 22.041019997609425,
+   "none/SIZE=mean(count,budget)": 25.89046451828199,
+   "self/count(src thr)": 22.74048411137964,
+   "self/scorer bud-src": 28.92905739288277,
+   "self/scorer thr": 27.601864445366296,
+   "self/SIZE=count, CONTENT=scorer": 22.2512387009237,
+   "self/SIZE=max(count,1)": 22.7664857497842,
+   "self/SIZE=mean(count,budget)": 28.175767337051973,
+   "self/IN-POOL bud-src": 29.684231185761174,
+   "paper in-pool": 29.45676465498227,
+   "count in-pool": 22.74048411137964,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.1711074425564016,
+    -1.6963823639118212,
+    -0.6813767897599312
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.48924541045593883,
+    -1.2604640453555036,
+    0.24555886672644042
+   ],
+   "none/scorer bud-src vs count0": [
+    4.318536582929413,
+    3.236277891056312,
+    5.4690717218979445
+   ],
+   "self/scorer bud-src vs count0": [
+    6.188573281503129,
+    4.91484410930863,
+    7.453262329354557
+   ]
+  },
+  {
+   "none/count(src thr)": 25.351985640646745,
+   "none/scorer bud-src": 29.55596696323482,
+   "none/scorer thr": 27.36521787892128,
+   "none/SIZE=count, CONTENT=scorer": 24.934151351236547,
+   "none/SIZE=max(count,1)": 25.110347956004574,
+   "none/SIZE=mean(count,budget)": 26.8629124492897,
+   "self/count(src thr)": 25.351985640646745,
+   "self/scorer bud-src": 30.91090186528584,
+   "self/scorer thr": 28.60367506211477,
+   "self/SIZE=count, CONTENT=scorer": 25.3800342541424,
+   "self/SIZE=max(count,1)": 25.599130901810476,
+   "self/SIZE=mean(count,budget)": 28.032528001317274,
+   "self/IN-POOL bud-src": 31.052541553971697,
+   "paper in-pool": 30.874947384616757,
+   "count in-pool": 29.308206249054997,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.41783428941019796,
+    -0.6637799080501972,
+    -0.17749137038989818
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.02804861349565831,
+    -0.10433225363028151,
+    0.16746437193657654
+   ],
+   "none/scorer bud-src vs count0": [
+    4.203981322588074,
+    3.2439620256772725,
+    5.178197512624573
+   ],
+   "self/scorer bud-src vs count0": [
+    5.558916224639098,
+    4.560953376995716,
+    6.594479123623947
+   ]
+  },
+  {
+   "none/count(src thr)": 29.566254744333236,
+   "none/scorer bud-src": 30.25220271480114,
+   "none/scorer thr": 28.76666300576762,
+   "none/SIZE=count, CONTENT=scorer": 28.68515293133629,
+   "none/SIZE=max(count,1)": 28.958589633344417,
+   "none/SIZE=mean(count,budget)": 29.816431824605168,
+   "self/count(src thr)": 29.566254744333236,
+   "self/scorer bud-src": 31.02148348529618,
+   "self/scorer thr": 29.04831911563075,
+   "self/SIZE=count, CONTENT=scorer": 29.28411088520851,
+   "self/SIZE=max(count,1)": 29.58707618817381,
+   "self/SIZE=mean(count,budget)": 30.71044878415504,
+   "self/IN-POOL bud-src": 30.92915171169536,
+   "paper in-pool": 30.91520014232101,
+   "count in-pool": 29.566254744333236,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.8811018129969511,
+    -1.2034685977205104,
+    -0.5564702360816562
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.28214385912472795,
+    -0.5515386972332438,
+    -0.030852229599227197
+   ],
+   "none/scorer bud-src vs count0": [
+    0.6859479704679046,
+    -0.03537230756468599,
+    1.4226433778775223
+   ],
+   "self/scorer bud-src vs count0": [
+    1.455228740962943,
+    0.78898535464123,
+    2.1365406938147373
+   ]
+  },
+  {
+   "none/count(src thr)": 23.542474610367243,
+   "none/scorer bud-src": 27.46599909840522,
+   "none/scorer thr": 25.72456290207611,
+   "none/SIZE=count, CONTENT=scorer": 23.07337530710684,
+   "none/SIZE=max(count,1)": 23.37183703414,
+   "none/SIZE=mean(count,budget)": 25.4487186051153,
+   "self/count(src thr)": 23.542474610367243,
+   "self/scorer bud-src": 28.802990751707597,
+   "self/scorer thr": 27.694267270914818,
+   "self/SIZE=count, CONTENT=scorer": 23.140639090637176,
+   "self/SIZE=max(count,1)": 23.514175892745403,
+   "self/SIZE=mean(count,budget)": 26.643861901902227,
+   "self/IN-POOL bud-src": 29.571962408246588,
+   "paper in-pool": 29.848836813149155,
+   "count in-pool": 26.06169012539383,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.4690993032603981,
+    -0.7788952397300238,
+    -0.1665053105900133
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.4018355197300669,
+    -0.9675386938996605,
+    0.12615814707392936
+   ],
+   "none/scorer bud-src vs count0": [
+    3.9235244880379807,
+    2.8566244534768908,
+    5.011665728718244
+   ],
+   "self/scorer bud-src vs count0": [
+    5.260516141340349,
+    4.199644655488739,
+    6.371131901102123
+   ]
+  },
+  {
+   "none/count(src thr)": 26.402020581269387,
+   "none/scorer bud-src": 30.697946514966624,
+   "none/scorer thr": 28.048736661107082,
+   "none/SIZE=count, CONTENT=scorer": 26.06349647513592,
+   "none/SIZE=max(count,1)": 26.171053011263883,
+   "none/SIZE=mean(count,budget)": 28.069142259211826,
+   "self/count(src thr)": 26.402020581269387,
+   "self/scorer bud-src": 31.287590764009778,
+   "self/scorer thr": 28.462790055981163,
+   "self/SIZE=count, CONTENT=scorer": 26.215987198155027,
+   "self/SIZE=max(count,1)": 26.32967231184014,
+   "self/SIZE=mean(count,budget)": 28.50185903953697,
+   "self/IN-POOL bud-src": 31.4171637624792,
+   "paper in-pool": 31.023200712223755,
+   "count in-pool": 29.42500152906723,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.3385241061334682,
+    -0.5821756865399142,
+    -0.10906496422568031
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.1860333831143556,
+    -0.36690371970939023,
+    -0.018163632299103345
+   ],
+   "none/scorer bud-src vs count0": [
+    4.295925933697231,
+    3.34413457049364,
+    5.264549374267849
+   ],
+   "self/scorer bud-src vs count0": [
+    4.885570182740389,
+    3.892199255990466,
+    5.894934794820262
+   ]
+  },
+  {
+   "none/count(src thr)": 21.03522373577617,
+   "none/scorer bud-src": 28.34321659107572,
+   "none/scorer thr": 25.72720098182433,
+   "none/SIZE=count, CONTENT=scorer": 21.03522373577617,
+   "none/SIZE=max(count,1)": 21.03522373577617,
+   "none/SIZE=mean(count,budget)": 23.574944149436234,
+   "self/count(src thr)": 21.03522373577617,
+   "self/scorer bud-src": 29.496210915664406,
+   "self/scorer thr": 27.03138221866148,
+   "self/SIZE=count, CONTENT=scorer": 21.03522373577617,
+   "self/SIZE=max(count,1)": 21.03522373577617,
+   "self/SIZE=mean(count,budget)": 23.928805525139925,
+   "self/IN-POOL bud-src": 29.894292577602595,
+   "paper in-pool": 29.95912941342288,
+   "count in-pool": 27.373123800756037,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    7.307992855299548,
+    6.288823508200818,
+    8.360512297964522
+   ],
+   "self/scorer bud-src vs count0": [
+    8.460987179888233,
+    7.435011704449601,
+    9.488336955618609
+   ]
+  },
+  {
+   "none/count(src thr)": 23.96353776511538,
+   "none/scorer bud-src": 28.383340927795814,
+   "none/scorer thr": 26.96544984901868,
+   "none/SIZE=count, CONTENT=scorer": 23.96353776511538,
+   "none/SIZE=max(count,1)": 23.96353776511538,
+   "none/SIZE=mean(count,budget)": 25.71801185582733,
+   "self/count(src thr)": 23.96353776511538,
+   "self/scorer bud-src": 29.806303106866377,
+   "self/scorer thr": 27.705714255599172,
+   "self/SIZE=count, CONTENT=scorer": 23.96353776511538,
+   "self/SIZE=max(count,1)": 23.96353776511538,
+   "self/SIZE=mean(count,budget)": 26.384244855779887,
+   "self/IN-POOL bud-src": 30.165998875194962,
+   "paper in-pool": 29.988133778564084,
+   "count in-pool": 27.40359540559634,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    4.419803162680437,
+    3.3931892474007137,
+    5.439185704331805
+   ],
+   "self/scorer bud-src vs count0": [
+    5.842765341750995,
+    4.881103202790735,
+    6.792300724773768
+   ]
+  },
+  {
+   "none/count(src thr)": 20.876176737722982,
+   "none/scorer bud-src": 25.49213150168508,
+   "none/scorer thr": 24.05951113137029,
+   "none/SIZE=count, CONTENT=scorer": 20.066525036116936,
+   "none/SIZE=max(count,1)": 20.75303283894495,
+   "none/SIZE=mean(count,budget)": 24.860772391496834,
+   "self/count(src thr)": 20.876176737722982,
+   "self/scorer bud-src": 27.028197909719793,
+   "self/scorer thr": 26.2603523101344,
+   "self/SIZE=count, CONTENT=scorer": 20.465994446982325,
+   "self/SIZE=max(count,1)": 21.19540229271038,
+   "self/SIZE=mean(count,budget)": 25.763275206002795,
+   "self/IN-POOL bud-src": 26.90790637651937,
+   "paper in-pool": 27.6948454435436,
+   "count in-pool": 21.414710251682063,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.8096517016060468,
+    -1.2007722575754227,
+    -0.43045218897611126
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.41018229074066426,
+    -1.0951918754587642,
+    0.27045945128263943
+   ],
+   "none/scorer bud-src vs count0": [
+    4.615954763962091,
+    3.581040876290763,
+    5.6730367784295845
+   ],
+   "self/scorer bud-src vs count0": [
+    6.152021171996808,
+    4.97234218487487,
+    7.36301620626782
+   ]
+  },
+  {
+   "none/count(src thr)": 22.147033393905044,
+   "none/scorer bud-src": 26.22005687812544,
+   "none/scorer thr": 24.37410557344039,
+   "none/SIZE=count, CONTENT=scorer": 21.107101289709142,
+   "none/SIZE=max(count,1)": 21.62784370120786,
+   "none/SIZE=mean(count,budget)": 25.705283574973752,
+   "self/count(src thr)": 22.147033393905044,
+   "self/scorer bud-src": 27.68751274502402,
+   "self/scorer thr": 25.921440072362344,
+   "self/SIZE=count, CONTENT=scorer": 22.305602958887782,
+   "self/SIZE=max(count,1)": 22.56943179414519,
+   "self/SIZE=mean(count,budget)": 26.00650457552467,
+   "self/IN-POOL bud-src": 27.427883168866725,
+   "paper in-pool": 28.102240681691086,
+   "count in-pool": 22.147033393905044,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.0399321041958984,
+    -1.4740892799985135,
+    -0.6083288499636118
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.15856956498274108,
+    -0.28445333379589055,
+    0.6170554827020155
+   ],
+   "none/scorer bud-src vs count0": [
+    4.073023484220396,
+    3.046113849661939,
+    5.120005374473305
+   ],
+   "self/scorer bud-src vs count0": [
+    5.540479351118977,
+    4.50514620871033,
+    6.707156335825649
+   ]
+  },
+  {
+   "none/count(src thr)": 22.703652689094213,
+   "none/scorer bud-src": 27.509824859922325,
+   "none/scorer thr": 26.33427527613429,
+   "none/SIZE=count, CONTENT=scorer": 22.482715578432273,
+   "none/SIZE=max(count,1)": 22.886715016045148,
+   "none/SIZE=mean(count,budget)": 26.216390993584376,
+   "self/count(src thr)": 22.703652689094213,
+   "self/scorer bud-src": 27.207400753647015,
+   "self/scorer thr": 23.711091816793406,
+   "self/SIZE=count, CONTENT=scorer": 22.711883339643407,
+   "self/SIZE=max(count,1)": 22.87735493368643,
+   "self/SIZE=mean(count,budget)": 25.932957435394293,
+   "self/IN-POOL bud-src": 27.68322109516701,
+   "paper in-pool": 28.377125346535788,
+   "count in-pool": 22.644666520845476,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.22093711066194258,
+    -0.43940684311362677,
+    -0.006254729636710638
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.008230650549199192,
+    -0.23625001938592846,
+    0.24983856615777483
+   ],
+   "none/scorer bud-src vs count0": [
+    4.806172170828116,
+    3.7790646073332885,
+    5.841796176397491
+   ],
+   "self/scorer bud-src vs count0": [
+    4.5037480645528,
+    3.5444882157787605,
+    5.500041794487079
+   ]
+  },
+  {
+   "none/count(src thr)": 18.85221583200496,
+   "none/scorer bud-src": 21.990327052406595,
+   "none/scorer thr": 20.401456660971576,
+   "none/SIZE=count, CONTENT=scorer": 18.77664082552717,
+   "none/SIZE=max(count,1)": 19.17010109293702,
+   "none/SIZE=mean(count,budget)": 21.336809866296242,
+   "self/count(src thr)": 18.85221583200496,
+   "self/scorer bud-src": 21.781759800338225,
+   "self/scorer thr": 20.818235348475685,
+   "self/SIZE=count, CONTENT=scorer": 17.861248267090183,
+   "self/SIZE=max(count,1)": 18.109244943658283,
+   "self/SIZE=mean(count,budget)": 21.12935369531129,
+   "self/IN-POOL bud-src": 22.380134999111004,
+   "paper in-pool": 22.10576990474516,
+   "count in-pool": 18.85221583200496,
+   "best_single": 17.670698464866685,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.0755750064777875,
+    -0.31163252405716124,
+    0.15456015202233317
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.9909675649147816,
+    -1.6042038247694321,
+    -0.41291773345079164
+   ],
+   "none/scorer bud-src vs count0": [
+    3.138111220401639,
+    2.3677919215509613,
+    3.942506567385036
+   ],
+   "self/scorer bud-src vs count0": [
+    2.929543968333261,
+    2.0032798175807147,
+    3.91518555161814
+   ]
+  },
+  {
+   "none/count(src thr)": 23.193422968186486,
+   "none/scorer bud-src": 26.49654246555745,
+   "none/scorer thr": 24.809067510646873,
+   "none/SIZE=count, CONTENT=scorer": 22.719089386838355,
+   "none/SIZE=max(count,1)": 22.83553236042419,
+   "none/SIZE=mean(count,budget)": 25.09442566381107,
+   "self/count(src thr)": 23.193422968186486,
+   "self/scorer bud-src": 27.818029207926315,
+   "self/scorer thr": 26.64638543707242,
+   "self/SIZE=count, CONTENT=scorer": 23.256545385653297,
+   "self/SIZE=max(count,1)": 23.4444884307392,
+   "self/SIZE=mean(count,budget)": 25.922682766109833,
+   "self/IN-POOL bud-src": 27.575958160894377,
+   "paper in-pool": 28.384545699014495,
+   "count in-pool": 24.756991130738506,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.4743335813481301,
+    -0.8043240418899354,
+    -0.1528675427307584
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.06312241746681264,
+    -0.24339017355769463,
+    0.3647857276720761
+   ],
+   "none/scorer bud-src vs count0": [
+    3.3031194973709654,
+    2.3953568125472025,
+    4.1951247531739115
+   ],
+   "self/scorer bud-src vs count0": [
+    4.6246062397398235,
+    3.6088856550515587,
+    5.684324389022615
+   ]
+  },
+  {
+   "none/count(src thr)": 25.33301257602502,
+   "none/scorer bud-src": 27.90821034891875,
+   "none/scorer thr": 27.199642246988386,
+   "none/SIZE=count, CONTENT=scorer": 25.035581440585137,
+   "none/SIZE=max(count,1)": 25.265640704257848,
+   "none/SIZE=mean(count,budget)": 27.021157191506845,
+   "self/count(src thr)": 25.33301257602502,
+   "self/scorer bud-src": 27.818573563870252,
+   "self/scorer thr": 26.948034944242462,
+   "self/SIZE=count, CONTENT=scorer": 25.23296675274346,
+   "self/SIZE=max(count,1)": 25.567791373282372,
+   "self/SIZE=mean(count,budget)": 26.958490288371795,
+   "self/IN-POOL bud-src": 27.718552827219167,
+   "paper in-pool": 28.471863599127428,
+   "count in-pool": 24.837470757683235,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.29743113543988675,
+    -0.5834535955429235,
+    -0.02623638736522443
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.10004582328156025,
+    -0.29888022477827,
+    0.09645082651024935
+   ],
+   "none/scorer bud-src vs count0": [
+    2.5751977728937234,
+    1.7415224685504223,
+    3.421210411097095
+   ],
+   "self/scorer bud-src vs count0": [
+    2.485560987845231,
+    1.7294869063023959,
+    3.2750104606840016
+   ]
+  },
+  {
+   "none/count(src thr)": 19.908237236773513,
+   "none/scorer bud-src": 23.830948646414786,
+   "none/scorer thr": 22.671050858584955,
+   "none/SIZE=count, CONTENT=scorer": 19.57603396722252,
+   "none/SIZE=max(count,1)": 19.969395789155772,
+   "none/SIZE=mean(count,budget)": 23.113833783866408,
+   "self/count(src thr)": 19.908237236773513,
+   "self/scorer bud-src": 24.254627675390957,
+   "self/scorer thr": 23.939933538087256,
+   "self/SIZE=count, CONTENT=scorer": 19.94822758055064,
+   "self/SIZE=max(count,1)": 20.417370192550397,
+   "self/SIZE=mean(count,budget)": 23.96421918871182,
+   "self/IN-POOL bud-src": 24.307785710550682,
+   "paper in-pool": 23.976148857884986,
+   "count in-pool": 19.908237236773513,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.33220326955099194,
+    -0.6775338140212692,
+    -0.0017157330563140794
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.03999034377712715,
+    -0.5962873586538423,
+    0.6809209414140751
+   ],
+   "none/scorer bud-src vs count0": [
+    3.9227114096412725,
+    3.04382802692253,
+    4.832068801657606
+   ],
+   "self/scorer bud-src vs count0": [
+    4.346390438617444,
+    3.3082317243424746,
+    5.405579341602887
+   ]
+  },
+  {
+   "none/count(src thr)": 23.95839830615017,
+   "none/scorer bud-src": 28.607245337494795,
+   "none/scorer thr": 26.706257585517058,
+   "none/SIZE=count, CONTENT=scorer": 23.95839830615017,
+   "none/SIZE=max(count,1)": 23.95839830615017,
+   "none/SIZE=mean(count,budget)": 25.900237943550525,
+   "self/count(src thr)": 23.95839830615017,
+   "self/scorer bud-src": 28.251795201993463,
+   "self/scorer thr": 27.265848264942665,
+   "self/SIZE=count, CONTENT=scorer": 23.95839830615017,
+   "self/SIZE=max(count,1)": 23.95839830615017,
+   "self/SIZE=mean(count,budget)": 25.935155439139763,
+   "self/IN-POOL bud-src": 28.521354699197506,
+   "paper in-pool": 28.986585149034394,
+   "count in-pool": 25.977932557151235,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    4.648847031344623,
+    3.7455656807477817,
+    5.566707936409731
+   ],
+   "self/scorer bud-src vs count0": [
+    4.293396895843293,
+    3.1940136434082245,
+    5.386795660972723
+   ]
+  },
+  {
+   "none/count(src thr)": 21.30549986229107,
+   "none/scorer bud-src": 24.57908406563371,
+   "none/scorer thr": 23.313481703938955,
+   "none/SIZE=count, CONTENT=scorer": 20.606828174604118,
+   "none/SIZE=max(count,1)": 20.957896382815186,
+   "none/SIZE=mean(count,budget)": 24.21100595540828,
+   "self/count(src thr)": 21.30549986229107,
+   "self/scorer bud-src": 25.534221529074376,
+   "self/scorer thr": 23.725921847903127,
+   "self/SIZE=count, CONTENT=scorer": 21.190465909828593,
+   "self/SIZE=max(count,1)": 21.637529928321186,
+   "self/SIZE=mean(count,budget)": 24.717707432426174,
+   "self/IN-POOL bud-src": 25.652128316595302,
+   "paper in-pool": 25.33794353924643,
+   "count in-pool": 21.30549986229107,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.6986716876869506,
+    -1.0928183865581567,
+    -0.3289609851169746
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.11503395246247473,
+    -0.5935044965836217,
+    0.3506623674916154
+   ],
+   "none/scorer bud-src vs count0": [
+    3.2735842033426428,
+    2.4090669216081353,
+    4.187869480796954
+   ],
+   "self/scorer bud-src vs count0": [
+    4.228721666783306,
+    3.2302628876163655,
+    5.275248715382931
+   ]
+  },
+  {
+   "none/count(src thr)": 21.944585484671276,
+   "none/scorer bud-src": 25.474227183010296,
+   "none/scorer thr": 24.63309843471676,
+   "none/SIZE=count, CONTENT=scorer": 21.814526669353917,
+   "none/SIZE=max(count,1)": 22.11881983078993,
+   "none/SIZE=mean(count,budget)": 24.663955894462465,
+   "self/count(src thr)": 21.944585484671276,
+   "self/scorer bud-src": 24.955870062637096,
+   "self/scorer thr": 22.16033629145831,
+   "self/SIZE=count, CONTENT=scorer": 21.859462932388173,
+   "self/SIZE=max(count,1)": 22.125341055409155,
+   "self/SIZE=mean(count,budget)": 24.376335015811875,
+   "self/IN-POOL bud-src": 25.694069169254057,
+   "paper in-pool": 25.544543455900957,
+   "count in-pool": 21.50263060247486,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.1300588153173582,
+    -0.3880591491767771,
+    0.1167563616794109
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.08512255228310077,
+    -0.2853686801734824,
+    0.1059754308950704
+   ],
+   "none/scorer bud-src vs count0": [
+    3.5296416983390193,
+    2.7121859626073324,
+    4.3869010311858805
+   ],
+   "self/scorer bud-src vs count0": [
+    3.0112845779658186,
+    2.2089650271394192,
+    3.8464350496453
+   ]
+  },
+  {
+   "none/count(src thr)": 24.759996862307805,
+   "none/scorer bud-src": 28.942170718300876,
+   "none/scorer thr": 26.84018151294151,
+   "none/SIZE=count, CONTENT=scorer": 24.00808253442849,
+   "none/SIZE=max(count,1)": 24.190714145631535,
+   "none/SIZE=mean(count,budget)": 26.669595982230277,
+   "self/count(src thr)": 24.759996862307805,
+   "self/scorer bud-src": 30.579623233379817,
+   "self/scorer thr": 28.77031155471886,
+   "self/SIZE=count, CONTENT=scorer": 24.809069880414487,
+   "self/SIZE=max(count,1)": 24.965655036999646,
+   "self/SIZE=mean(count,budget)": 27.695169026035227,
+   "self/IN-POOL bud-src": 30.512897146715396,
+   "paper in-pool": 30.79445029300974,
+   "count in-pool": 27.805406748049734,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.7519143278793083,
+    -1.1110647767809372,
+    -0.4234255015460374
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.04907301810668692,
+    -0.22454565326419765,
+    0.3003694685567005
+   ],
+   "none/scorer bud-src vs count0": [
+    4.182173855993078,
+    3.14408871343922,
+    5.144787085601817
+   ],
+   "self/scorer bud-src vs count0": [
+    5.819626371072016,
+    4.750334821938481,
+    6.861123684984231
+   ]
+  },
+  {
+   "none/count(src thr)": 28.484001489659995,
+   "none/scorer bud-src": 29.551832926603282,
+   "none/scorer thr": 28.564942412705175,
+   "none/SIZE=count, CONTENT=scorer": 27.88558333251101,
+   "none/SIZE=max(count,1)": 28.120929996429105,
+   "none/SIZE=mean(count,budget)": 29.356285631303887,
+   "self/count(src thr)": 28.484001489659995,
+   "self/scorer bud-src": 30.712934621053694,
+   "self/scorer thr": 29.6620307472635,
+   "self/SIZE=count, CONTENT=scorer": 28.504626484426687,
+   "self/SIZE=max(count,1)": 28.67102665082686,
+   "self/SIZE=mean(count,budget)": 30.60034214894451,
+   "self/IN-POOL bud-src": 30.398728644466015,
+   "paper in-pool": 30.76394441230536,
+   "count in-pool": 28.484001489659995,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.5984181571489806,
+    -0.9369455723161481,
+    -0.2712616882954206
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.020624994766698518,
+    -0.2932959378773369,
+    0.3304888132520507
+   ],
+   "none/scorer bud-src vs count0": [
+    1.0678314369432944,
+    0.2565955555135828,
+    1.8673419035071952
+   ],
+   "self/scorer bud-src vs count0": [
+    2.228933131393705,
+    1.4352568935712493,
+    3.0618620409117887
+   ]
+  },
+  {
+   "none/count(src thr)": 21.679982390831462,
+   "none/scorer bud-src": 26.78460898635317,
+   "none/scorer thr": 24.497213867608075,
+   "none/SIZE=count, CONTENT=scorer": 21.21841030167054,
+   "none/SIZE=max(count,1)": 21.842775926036172,
+   "none/SIZE=mean(count,budget)": 26.051597591070884,
+   "self/count(src thr)": 21.679982390831462,
+   "self/scorer bud-src": 28.428218047392473,
+   "self/scorer thr": 27.15488944597525,
+   "self/SIZE=count, CONTENT=scorer": 21.72319859115433,
+   "self/SIZE=max(count,1)": 22.482810779337946,
+   "self/SIZE=mean(count,budget)": 28.08253439830312,
+   "self/IN-POOL bud-src": 29.06568945780362,
+   "paper in-pool": 29.22529916326485,
+   "count in-pool": 21.679982390831462,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.46157208916091963,
+    -0.9009685831561124,
+    -0.02377476508736151
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.04321620032286698,
+    -0.8023235702442755,
+    0.873692991575047
+   ],
+   "none/scorer bud-src vs count0": [
+    5.104626595521709,
+    4.00349475041915,
+    6.2046659148558625
+   ],
+   "self/scorer bud-src vs count0": [
+    6.748235656561012,
+    5.412251315455341,
+    8.071374599036925
+   ]
+  },
+  {
+   "none/count(src thr)": 24.00327161261142,
+   "none/scorer bud-src": 30.308082385241512,
+   "none/scorer thr": 27.610848093675717,
+   "none/SIZE=count, CONTENT=scorer": 24.00327161261142,
+   "none/SIZE=max(count,1)": 24.00327161261142,
+   "none/SIZE=mean(count,budget)": 26.19174904435024,
+   "self/count(src thr)": 24.00327161261142,
+   "self/scorer bud-src": 30.86742091682831,
+   "self/scorer thr": 28.412061176192594,
+   "self/SIZE=count, CONTENT=scorer": 24.00327161261142,
+   "self/SIZE=max(count,1)": 24.00327161261142,
+   "self/SIZE=mean(count,budget)": 26.754625226973584,
+   "self/IN-POOL bud-src": 30.924673521442365,
+   "paper in-pool": 30.908599022686218,
+   "count in-pool": 28.550618143390466,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    6.30481077263009,
+    5.274295248544148,
+    7.377788455679872
+   ],
+   "self/scorer bud-src vs count0": [
+    6.86414930421689,
+    5.803535444211422,
+    7.949063150339522
+   ]
+  },
+  {
+   "none/count(src thr)": 21.785771867352377,
+   "none/scorer bud-src": 27.27129187423617,
+   "none/scorer thr": 25.309882564011343,
+   "none/SIZE=count, CONTENT=scorer": 21.342217234958483,
+   "none/SIZE=max(count,1)": 21.59017391148659,
+   "none/SIZE=mean(count,budget)": 25.121761518424996,
+   "self/count(src thr)": 21.785771867352377,
+   "self/scorer bud-src": 29.033388685754375,
+   "self/scorer thr": 27.63615583324608,
+   "self/SIZE=count, CONTENT=scorer": 21.837582291595382,
+   "self/SIZE=max(count,1)": 22.274410585566535,
+   "self/SIZE=mean(count,budget)": 26.334332984366455,
+   "self/IN-POOL bud-src": 29.30512871297029,
+   "paper in-pool": 29.59386064710834,
+   "count in-pool": 23.437149101005776,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.44355463239389376,
+    -0.7430225448995755,
+    -0.17066250772788918
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.05181042424300405,
+    -0.302256785151363,
+    0.39537022942053085
+   ],
+   "none/scorer bud-src vs count0": [
+    5.485520006883793,
+    4.459402006217136,
+    6.543361212160869
+   ],
+   "self/scorer bud-src vs count0": [
+    7.247616818401998,
+    6.140630652531185,
+    8.345031625452876
+   ]
+  },
+  {
+   "none/count(src thr)": 23.927120226079502,
+   "none/scorer bud-src": 27.571966422124568,
+   "none/scorer thr": 26.174044548626128,
+   "none/SIZE=count, CONTENT=scorer": 22.903925233481516,
+   "none/SIZE=max(count,1)": 23.098225427781706,
+   "none/SIZE=mean(count,budget)": 26.24656411019019,
+   "self/count(src thr)": 23.927120226079502,
+   "self/scorer bud-src": 29.38710491225935,
+   "self/scorer thr": 27.713282638948026,
+   "self/SIZE=count, CONTENT=scorer": 23.949358040581735,
+   "self/SIZE=max(count,1)": 24.288557308352434,
+   "self/SIZE=mean(count,budget)": 28.686985728284448,
+   "self/IN-POOL bud-src": 29.65141485213552,
+   "paper in-pool": 29.85549811315314,
+   "count in-pool": 23.097025672594214,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.0231949925979862,
+    -1.4575249151712832,
+    -0.6138032500865275
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.022237814502236927,
+    -0.33913469343816416,
+    0.3852739549923793
+   ],
+   "none/scorer bud-src vs count0": [
+    3.644846196045067,
+    2.6742246866476536,
+    4.662305290644189
+   ],
+   "self/scorer bud-src vs count0": [
+    5.459984686179846,
+    4.43713242345948,
+    6.546220018368689
+   ]
+  },
+  {
+   "none/count(src thr)": 29.578822906914283,
+   "none/scorer bud-src": 30.79535834217501,
+   "none/scorer thr": 28.52418708216279,
+   "none/SIZE=count, CONTENT=scorer": 29.029178556546587,
+   "none/SIZE=max(count,1)": 29.25471021064967,
+   "none/SIZE=mean(count,budget)": 30.248074905180694,
+   "self/count(src thr)": 29.578822906914283,
+   "self/scorer bud-src": 31.281966832994623,
+   "self/scorer thr": 29.288210220666844,
+   "self/SIZE=count, CONTENT=scorer": 29.473537922300764,
+   "self/SIZE=max(count,1)": 29.653523102285938,
+   "self/SIZE=mean(count,budget)": 30.959060638325603,
+   "self/IN-POOL bud-src": 31.033763800103646,
+   "paper in-pool": 31.11663179488141,
+   "count in-pool": 29.578822906914283,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.5496443503676935,
+    -0.8378340580876054,
+    -0.2761476106897169
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.10528498461351839,
+    -0.28323088743983676,
+    0.05416404800509619
+   ],
+   "none/scorer bud-src vs count0": [
+    1.2165354352607325,
+    0.46583369370971894,
+    1.9744553445079072
+   ],
+   "self/scorer bud-src vs count0": [
+    1.703143926080344,
+    1.0136581001394822,
+    2.423947701941857
+   ]
+  },
+  {
+   "none/count(src thr)": 21.184698751111338,
+   "none/scorer bud-src": 27.765690101800516,
+   "none/scorer thr": 25.94816360505936,
+   "none/SIZE=count, CONTENT=scorer": 21.184698751111338,
+   "none/SIZE=max(count,1)": 21.184698751111338,
+   "none/SIZE=mean(count,budget)": 23.53031463287209,
+   "self/count(src thr)": 21.184698751111338,
+   "self/scorer bud-src": 29.426216664857975,
+   "self/scorer thr": 27.658402032853154,
+   "self/SIZE=count, CONTENT=scorer": 21.184698751111338,
+   "self/SIZE=max(count,1)": 21.184698751111338,
+   "self/SIZE=mean(count,budget)": 24.011271188150786,
+   "self/IN-POOL bud-src": 29.48429599445802,
+   "paper in-pool": 29.90511280984254,
+   "count in-pool": 26.39723412906603,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    6.580991350689179,
+    5.603611273357005,
+    7.586236560792456
+   ],
+   "self/scorer bud-src vs count0": [
+    8.241517913746636,
+    7.218796734761532,
+    9.28638753827041
+   ]
+  },
+  {
+   "none/count(src thr)": 24.96126349733018,
+   "none/scorer bud-src": 28.1322804812337,
+   "none/scorer thr": 27.218383762575566,
+   "none/SIZE=count, CONTENT=scorer": 24.697423417067455,
+   "none/SIZE=max(count,1)": 24.902935051150514,
+   "none/SIZE=mean(count,budget)": 26.290095979726676,
+   "self/count(src thr)": 24.96126349733018,
+   "self/scorer bud-src": 29.780322634511887,
+   "self/scorer thr": 28.136110093460644,
+   "self/SIZE=count, CONTENT=scorer": 25.194157438850212,
+   "self/SIZE=max(count,1)": 25.442569115833326,
+   "self/SIZE=mean(count,budget)": 27.744828868481626,
+   "self/IN-POOL bud-src": 29.606665048463395,
+   "paper in-pool": 29.924792205416505,
+   "count in-pool": 27.18119491946603,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.2638400802627274,
+    -0.48259097321295374,
+    -0.04000589788079342
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.23289394152003576,
+    -0.03414827055103346,
+    0.5200771097716461
+   ],
+   "none/scorer bud-src vs count0": [
+    3.171016983903521,
+    2.212772148293339,
+    4.1094890105072555
+   ],
+   "self/scorer bud-src vs count0": [
+    4.8190591371817035,
+    3.9384316641345922,
+    5.732161412627916
+   ]
+  },
+  {
+   "none/count(src thr)": 23.154480249716812,
+   "none/scorer bud-src": 28.677257148602852,
+   "none/scorer thr": 27.081295766095774,
+   "none/SIZE=count, CONTENT=scorer": 23.154480249716812,
+   "none/SIZE=max(count,1)": 23.154480249716812,
+   "none/SIZE=mean(count,budget)": 25.04169556505017,
+   "self/count(src thr)": 23.154480249716812,
+   "self/scorer bud-src": 29.79797389734112,
+   "self/scorer thr": 26.826651278049567,
+   "self/SIZE=count, CONTENT=scorer": 23.154480249716812,
+   "self/SIZE=max(count,1)": 23.154480249716812,
+   "self/SIZE=mean(count,budget)": 25.57717632871293,
+   "self/IN-POOL bud-src": 30.162594829879865,
+   "paper in-pool": 30.33150187738512,
+   "count in-pool": 27.399279158416622,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    5.522776898886041,
+    4.5112100928788985,
+    6.501455907705882
+   ],
+   "self/scorer bud-src vs count0": [
+    6.643493647624305,
+    5.7139125137668945,
+    7.5441872966886
+   ]
+  },
+  {
+   "none/count(src thr)": 17.9898340079935,
+   "none/scorer bud-src": 24.0132555201949,
+   "none/scorer thr": 22.262788181023144,
+   "none/SIZE=count, CONTENT=scorer": 17.35675306588122,
+   "none/SIZE=max(count,1)": 18.247029166241354,
+   "none/SIZE=mean(count,budget)": 21.653590025441034,
+   "self/count(src thr)": 17.9898340079935,
+   "self/scorer bud-src": 25.963780920448578,
+   "self/scorer thr": 25.532087752356663,
+   "self/SIZE=count, CONTENT=scorer": 18.3430299264602,
+   "self/SIZE=max(count,1)": 19.653944173022385,
+   "self/SIZE=mean(count,budget)": 25.96637489154114,
+   "self/IN-POOL bud-src": 26.53698588474218,
+   "paper in-pool": 27.5887605192029,
+   "count in-pool": 21.02877524002875,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.633080942112282,
+    -1.0510736222624948,
+    -0.22802381361781862
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.3531959184666936,
+    -0.414663746139902,
+    1.1082986081492125
+   ],
+   "none/scorer bud-src vs count0": [
+    6.023421512201392,
+    4.942293049480859,
+    7.07896659708377
+   ],
+   "self/scorer bud-src vs count0": [
+    7.973946912455072,
+    6.752418563322321,
+    9.218852063641188
+   ]
+  },
+  {
+   "none/count(src thr)": 20.85258895124569,
+   "none/scorer bud-src": 24.918122339345327,
+   "none/scorer thr": 23.173736449322575,
+   "none/SIZE=count, CONTENT=scorer": 19.706254673335184,
+   "none/SIZE=max(count,1)": 20.485358343195152,
+   "none/SIZE=mean(count,budget)": 24.09066962683469,
+   "self/count(src thr)": 20.85258895124569,
+   "self/scorer bud-src": 26.732394401645315,
+   "self/scorer thr": 25.68794527729893,
+   "self/SIZE=count, CONTENT=scorer": 20.945696431735897,
+   "self/SIZE=max(count,1)": 21.7378929718316,
+   "self/SIZE=mean(count,budget)": 26.671217495144393,
+   "self/IN-POOL bud-src": 27.25453016580805,
+   "paper in-pool": 27.8581759799512,
+   "count in-pool": 20.206727538960298,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.1463342779105055,
+    -1.7084957387013016,
+    -0.6152328666813159
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0931074804902057,
+    -0.548710720476148,
+    0.7049147634359255
+   ],
+   "none/scorer bud-src vs count0": [
+    4.06553338809964,
+    2.9984949367337186,
+    5.093463710659851
+   ],
+   "self/scorer bud-src vs count0": [
+    5.879805450399629,
+    4.721732462193692,
+    7.044543689809009
+   ]
+  },
+  {
+   "none/count(src thr)": 21.653462994055236,
+   "none/scorer bud-src": 26.363474441083984,
+   "none/scorer thr": 25.52330442776032,
+   "none/SIZE=count, CONTENT=scorer": 21.329104999225628,
+   "none/SIZE=max(count,1)": 21.62722315448664,
+   "none/SIZE=mean(count,budget)": 24.556581333603585,
+   "self/count(src thr)": 21.653462994055236,
+   "self/scorer bud-src": 27.287437292474294,
+   "self/scorer thr": 25.46394183255118,
+   "self/SIZE=count, CONTENT=scorer": 21.676458610765227,
+   "self/SIZE=max(count,1)": 22.246532395124728,
+   "self/SIZE=mean(count,budget)": 26.357977958545124,
+   "self/IN-POOL bud-src": 27.897175522644996,
+   "paper in-pool": 28.335815362375037,
+   "count in-pool": 23.593522193048123,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.32435799482960886,
+    -0.6072327316175287,
+    -0.05097454359904416
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.022995616709988873,
+    -0.3583622228317307,
+    0.3973545363883562
+   ],
+   "none/scorer bud-src vs count0": [
+    4.710011447028753,
+    3.7744579979109503,
+    5.671513004937605
+   ],
+   "self/scorer bud-src vs count0": [
+    5.6339742984190515,
+    4.625669634066052,
+    6.63783851074556
+   ]
+  },
+  {
+   "none/count(src thr)": 17.117657419246953,
+   "none/scorer bud-src": 20.020845776279625,
+   "none/scorer thr": 18.382270487835566,
+   "none/SIZE=count, CONTENT=scorer": 16.499028639374043,
+   "none/SIZE=max(count,1)": 16.96539651330494,
+   "none/SIZE=mean(count,budget)": 19.246058601556904,
+   "self/count(src thr)": 17.117657419246953,
+   "self/scorer bud-src": 19.879416457716957,
+   "self/scorer thr": 18.84616598368455,
+   "self/SIZE=count, CONTENT=scorer": 16.325726677032964,
+   "self/SIZE=max(count,1)": 17.187098979581737,
+   "self/SIZE=mean(count,budget)": 19.94843994015406,
+   "self/IN-POOL bud-src": 20.826900362731422,
+   "paper in-pool": 21.39164363502113,
+   "count in-pool": 17.117657419246953,
+   "best_single": 17.670698464866685,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.6186287798729182,
+    -0.9818217666057047,
+    -0.24780233035010504
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.7919307422139945,
+    -1.429349091823338,
+    -0.17026316182580672
+   ],
+   "none/scorer bud-src vs count0": [
+    2.9031883570326706,
+    2.1254303963827375,
+    3.722936404917111
+   ],
+   "self/scorer bud-src vs count0": [
+    2.761759038469995,
+    1.7836845258695784,
+    3.77671165797034
+   ]
+  },
+  {
+   "none/count(src thr)": 22.44837722158386,
+   "none/scorer bud-src": 25.04324893357026,
+   "none/scorer thr": 23.712282653279306,
+   "none/SIZE=count, CONTENT=scorer": 21.37790995948876,
+   "none/SIZE=max(count,1)": 21.702724570017658,
+   "none/SIZE=mean(count,budget)": 24.011310894500802,
+   "self/count(src thr)": 22.44837722158386,
+   "self/scorer bud-src": 27.513607765082636,
+   "self/scorer thr": 25.906328220774505,
+   "self/SIZE=count, CONTENT=scorer": 22.19405093785955,
+   "self/SIZE=max(count,1)": 22.518865548388447,
+   "self/SIZE=mean(count,budget)": 25.773841497073402,
+   "self/IN-POOL bud-src": 27.662011923023282,
+   "paper in-pool": 28.12642093577023,
+   "count in-pool": 23.67877238579128,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.070467262095102,
+    -1.5915541596162135,
+    -0.5965854894854761
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.25432628372431043,
+    -0.7344270690422653,
+    0.19815281433382675
+   ],
+   "none/scorer bud-src vs count0": [
+    2.5948717119863947,
+    1.6552780673775223,
+    3.52795211083048
+   ],
+   "self/scorer bud-src vs count0": [
+    5.065230543498772,
+    4.019532038988323,
+    6.1297519745530815
+   ]
+  },
+  {
+   "none/count(src thr)": 24.50188514209729,
+   "none/scorer bud-src": 26.71921115911744,
+   "none/scorer thr": 26.128293911670585,
+   "none/SIZE=count, CONTENT=scorer": 23.676671148404168,
+   "none/SIZE=max(count,1)": 23.997772044471894,
+   "none/SIZE=mean(count,budget)": 26.02276762712858,
+   "self/count(src thr)": 24.50188514209729,
+   "self/scorer bud-src": 27.801745074964117,
+   "self/scorer thr": 26.45672146289735,
+   "self/SIZE=count, CONTENT=scorer": 23.887223209124542,
+   "self/SIZE=max(count,1)": 24.202640667399145,
+   "self/SIZE=mean(count,budget)": 27.578939759276803,
+   "self/IN-POOL bud-src": 27.994551145396514,
+   "paper in-pool": 28.24813841097501,
+   "count in-pool": 24.224251850137506,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.8252139936931222,
+    -1.2348900134241148,
+    -0.4263678650722383
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.6146619329727491,
+    -1.039976550261856,
+    -0.19475219983152442
+   ],
+   "none/scorer bud-src vs count0": [
+    2.217326017020153,
+    1.3257502911555124,
+    3.091769870269252
+   ],
+   "self/scorer bud-src vs count0": [
+    3.2998599328668234,
+    2.319768115813299,
+    4.219363960706826
+   ]
+  },
+  {
+   "none/count(src thr)": 17.917873086519112,
+   "none/scorer bud-src": 21.769576150610785,
+   "none/scorer thr": 20.093360142309123,
+   "none/SIZE=count, CONTENT=scorer": 17.203257429117702,
+   "none/SIZE=max(count,1)": 17.574759691376272,
+   "none/SIZE=mean(count,budget)": 20.1411708143866,
+   "self/count(src thr)": 17.917873086519112,
+   "self/scorer bud-src": 22.946302463947926,
+   "self/scorer thr": 22.4858891198427,
+   "self/SIZE=count, CONTENT=scorer": 17.516347369938305,
+   "self/SIZE=max(count,1)": 18.43197446203598,
+   "self/SIZE=mean(count,budget)": 22.791997380852592,
+   "self/IN-POOL bud-src": 23.525522399692722,
+   "paper in-pool": 23.90239675137442,
+   "count in-pool": 19.006124633454142,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.7146156574014074,
+    -1.1783270167103062,
+    -0.2676309907787012
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.4015257165808101,
+    -1.2014823665417511,
+    0.38265221994713494
+   ],
+   "none/scorer bud-src vs count0": [
+    3.8517030640916694,
+    3.004685377277739,
+    4.746715633566604
+   ],
+   "self/scorer bud-src vs count0": [
+    5.0284293774288145,
+    3.9464027927134055,
+    6.158034250085966
+   ]
+  },
+  {
+   "none/count(src thr)": 25.336864727549003,
+   "none/scorer bud-src": 27.970208768520855,
+   "none/scorer thr": 26.32886972893565,
+   "none/SIZE=count, CONTENT=scorer": 24.693825253727173,
+   "none/SIZE=max(count,1)": 24.979221967695313,
+   "none/SIZE=mean(count,budget)": 27.3484671073179,
+   "self/count(src thr)": 25.336864727549003,
+   "self/scorer bud-src": 28.640444811186665,
+   "self/scorer thr": 26.76019390753949,
+   "self/SIZE=count, CONTENT=scorer": 25.185891713424258,
+   "self/SIZE=max(count,1)": 25.46515984983525,
+   "self/SIZE=mean(count,budget)": 27.85067368032111,
+   "self/IN-POOL bud-src": 28.815396367570884,
+   "paper in-pool": 29.053493740106894,
+   "count in-pool": 25.336864727549003,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.6430394738218285,
+    -1.0186230348237144,
+    -0.254618488939006
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.15097301412474498,
+    -0.4437541440732779,
+    0.16785273680045237
+   ],
+   "none/scorer bud-src vs count0": [
+    2.6333440409718536,
+    1.734433054838984,
+    3.55663420900166
+   ],
+   "self/scorer bud-src vs count0": [
+    3.3035800836376654,
+    2.4651942957249524,
+    4.144024575732262
+   ]
+  },
+  {
+   "none/count(src thr)": 19.9719367794625,
+   "none/scorer bud-src": 23.400467085683253,
+   "none/scorer thr": 21.819869962923853,
+   "none/SIZE=count, CONTENT=scorer": 18.768744486600827,
+   "none/SIZE=max(count,1)": 19.360889398073468,
+   "none/SIZE=mean(count,budget)": 22.690769203320095,
+   "self/count(src thr)": 19.9719367794625,
+   "self/scorer bud-src": 24.323484708150723,
+   "self/scorer thr": 23.082891269659367,
+   "self/SIZE=count, CONTENT=scorer": 19.599133355524863,
+   "self/SIZE=max(count,1)": 20.43162065019703,
+   "self/SIZE=mean(count,budget)": 24.429263469359483,
+   "self/IN-POOL bud-src": 25.202872703678032,
+   "paper in-pool": 25.247088956786012,
+   "count in-pool": 19.9719367794625,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.20319229286167,
+    -1.7577167723545915,
+    -0.6823302660471682
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.3728034239376362,
+    -1.029848542470189,
+    0.280525536931842
+   ],
+   "none/scorer bud-src vs count0": [
+    3.428530306220756,
+    2.510676760087209,
+    4.395081772141121
+   ],
+   "self/scorer bud-src vs count0": [
+    4.351547928688224,
+    3.2991611461530965,
+    5.4495302616550605
+   ]
+  },
+  {
+   "none/count(src thr)": 21.162577960167223,
+   "none/scorer bud-src": 24.540424638124357,
+   "none/scorer thr": 23.328855335642775,
+   "none/SIZE=count, CONTENT=scorer": 20.649971531242475,
+   "none/SIZE=max(count,1)": 20.866396747667697,
+   "none/SIZE=mean(count,budget)": 23.13434350091467,
+   "self/count(src thr)": 21.162577960167223,
+   "self/scorer bud-src": 25.08977247095131,
+   "self/scorer thr": 23.536186867858465,
+   "self/SIZE=count, CONTENT=scorer": 20.61970641874936,
+   "self/SIZE=max(count,1)": 21.035641834684775,
+   "self/SIZE=mean(count,budget)": 24.45760371796593,
+   "self/IN-POOL bud-src": 25.582742351959336,
+   "paper in-pool": 25.55743110660533,
+   "count in-pool": 20.825344436010887,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.5126064289247412,
+    -0.8905643279227015,
+    -0.1307456743862422
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.5428715414178603,
+    -0.995467164033763,
+    -0.09190737213127528
+   ],
+   "none/scorer bud-src vs count0": [
+    3.3778466779571357,
+    2.5250330052918204,
+    4.249124931022802
+   ],
+   "self/scorer bud-src vs count0": [
+    3.9271945107840898,
+    3.042373968862576,
+    4.8493742946242415
+   ]
+  },
+  {
+   "none/count(src thr)": 24.055408778401084,
+   "none/scorer bud-src": 27.23544887591027,
+   "none/scorer thr": 25.0765443349198,
+   "none/SIZE=count, CONTENT=scorer": 22.92232855677713,
+   "none/SIZE=max(count,1)": 23.14786021088021,
+   "none/SIZE=mean(count,budget)": 25.260037164460826,
+   "self/count(src thr)": 24.055408778401084,
+   "self/scorer bud-src": 29.07042395607085,
+   "self/scorer thr": 27.613084286137664,
+   "self/SIZE=count, CONTENT=scorer": 23.95542218264408,
+   "self/SIZE=max(count,1)": 24.234578890372223,
+   "self/SIZE=mean(count,budget)": 27.11209120562129,
+   "self/IN-POOL bud-src": 30.573053176997856,
+   "paper in-pool": 30.652324121644003,
+   "count in-pool": 26.899256802848676,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.133080221623955,
+    -1.592558677465088,
+    -0.6935180352665897
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.09998659575700061,
+    -0.35646206890682225,
+    0.14444702302954382
+   ],
+   "none/scorer bud-src vs count0": [
+    3.1800400975091807,
+    2.1729090093875882,
+    4.195446036346268
+   ],
+   "self/scorer bud-src vs count0": [
+    5.015015177669769,
+    3.9860468764470136,
+    6.038615366183297
+   ]
+  },
+  {
+   "none/count(src thr)": 27.79137897424387,
+   "none/scorer bud-src": 28.162499911023115,
+   "none/scorer thr": 27.326045275131733,
+   "none/SIZE=count, CONTENT=scorer": 26.581448835509352,
+   "none/SIZE=max(count,1)": 26.81999418683666,
+   "none/SIZE=mean(count,budget)": 27.7863191150368,
+   "self/count(src thr)": 27.79137897424387,
+   "self/scorer bud-src": 30.386759661590233,
+   "self/scorer thr": 28.44560785748871,
+   "self/SIZE=count, CONTENT=scorer": 27.692602443767168,
+   "self/SIZE=max(count,1)": 27.90510134047659,
+   "self/SIZE=mean(count,budget)": 30.24580691996059,
+   "self/IN-POOL bud-src": 30.898040989589692,
+   "paper in-pool": 30.722165861197126,
+   "count in-pool": 27.79137897424387,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.2099301387345136,
+    -1.659089563060893,
+    -0.7799759927358527
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.0987765304767004,
+    -0.5279316106700638,
+    0.3191393046802203
+   ],
+   "none/scorer bud-src vs count0": [
+    0.371120936779245,
+    -0.4791127657584601,
+    1.2310087268969279
+   ],
+   "self/scorer bud-src vs count0": [
+    2.595380687346364,
+    1.7418471942477174,
+    3.4657596175206327
+   ]
+  },
+  {
+   "none/count(src thr)": 19.289627054136364,
+   "none/scorer bud-src": 24.780344497231795,
+   "none/scorer thr": 21.974858880750077,
+   "none/SIZE=count, CONTENT=scorer": 17.864207071511938,
+   "none/SIZE=max(count,1)": 18.592763976539434,
+   "none/SIZE=mean(count,budget)": 22.199856739326414,
+   "self/count(src thr)": 19.289627054136364,
+   "self/scorer bud-src": 26.55119293939292,
+   "self/scorer thr": 25.02916483652802,
+   "self/SIZE=count, CONTENT=scorer": 18.922715668081658,
+   "self/SIZE=max(count,1)": 19.875759583310444,
+   "self/SIZE=mean(count,budget)": 25.714339351174125,
+   "self/IN-POOL bud-src": 28.67734578991748,
+   "paper in-pool": 28.904694226590077,
+   "count in-pool": 21.21822838361344,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.4254199826244232,
+    -1.9371516822875114,
+    -0.914294352667677
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.3669113860547051,
+    -0.8322228977542359,
+    0.11417259164643065
+   ],
+   "none/scorer bud-src vs count0": [
+    5.490717443095431,
+    4.394052204066033,
+    6.571552286515485
+   ],
+   "self/scorer bud-src vs count0": [
+    7.261565885256561,
+    6.101642447024934,
+    8.3838756569845
+   ]
+  },
+  {
+   "none/count(src thr)": 28.244873390925946,
+   "none/scorer bud-src": 29.274442170281045,
+   "none/scorer thr": 27.446854821256046,
+   "none/SIZE=count, CONTENT=scorer": 27.11620016386358,
+   "none/SIZE=max(count,1)": 27.298831775066617,
+   "none/SIZE=mean(count,budget)": 28.759143670400427,
+   "self/count(src thr)": 28.244873390925946,
+   "self/scorer bud-src": 30.922310392499636,
+   "self/scorer thr": 27.775144803360835,
+   "self/SIZE=count, CONTENT=scorer": 27.958453584008048,
+   "self/SIZE=max(count,1)": 28.200838826393287,
+   "self/SIZE=mean(count,budget)": 30.463354037973247,
+   "self/IN-POOL bud-src": 31.10039432524381,
+   "paper in-pool": 30.73816264964523,
+   "count in-pool": 28.244873390925946,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.128673227062367,
+    -1.5444910407624706,
+    -0.7243296255387321
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.28641980691789987,
+    -0.5987997085961897,
+    0.04193901897843751
+   ],
+   "none/scorer bud-src vs count0": [
+    1.0295687793551012,
+    0.15036666368744356,
+    1.8789169225099762
+   ],
+   "self/scorer bud-src vs count0": [
+    2.677437001573688,
+    1.8350886131139195,
+    3.5153055117322163
+   ]
+  },
+  {
+   "none/count(src thr)": 20.862738779735373,
+   "none/scorer bud-src": 25.575362090518045,
+   "none/scorer thr": 23.38471989651732,
+   "none/SIZE=count, CONTENT=scorer": 19.93080852139066,
+   "none/SIZE=max(count,1)": 20.414953039148624,
+   "none/SIZE=mean(count,budget)": 23.20682248007856,
+   "self/count(src thr)": 20.862738779735373,
+   "self/scorer bud-src": 27.549106394544975,
+   "self/scorer thr": 25.46427884222886,
+   "self/SIZE=count, CONTENT=scorer": 20.470215583212163,
+   "self/SIZE=max(count,1)": 20.888060034670065,
+   "self/SIZE=mean(count,budget)": 25.05241503981121,
+   "self/IN-POOL bud-src": 29.472932905855547,
+   "paper in-pool": 29.407273362593372,
+   "count in-pool": 22.188823672177588,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.9319302583447151,
+    -1.3591397482154843,
+    -0.5028977895418982
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.39252319652321027,
+    -0.6820475140233101,
+    -0.11383394266010483
+   ],
+   "none/scorer bud-src vs count0": [
+    4.712623310782665,
+    3.5553308485707924,
+    5.874589662584849
+   ],
+   "self/scorer bud-src vs count0": [
+    6.686367614809596,
+    5.570352030293116,
+    7.774874336713871
+   ]
+  },
+  {
+   "none/count(src thr)": 23.203681681880898,
+   "none/scorer bud-src": 25.994400293385066,
+   "none/scorer thr": 24.877603324361683,
+   "none/SIZE=count, CONTENT=scorer": 21.339206507063082,
+   "none/SIZE=max(count,1)": 21.7604069282635,
+   "none/SIZE=mean(count,budget)": 24.280148972402976,
+   "self/count(src thr)": 23.203681681880898,
+   "self/scorer bud-src": 28.777961390743613,
+   "self/scorer thr": 26.435112670200688,
+   "self/SIZE=count, CONTENT=scorer": 22.926269433385404,
+   "self/SIZE=max(count,1)": 23.404925269184098,
+   "self/SIZE=mean(count,budget)": 28.05848454462322,
+   "self/IN-POOL bud-src": 29.789011518968483,
+   "paper in-pool": 29.67252688572516,
+   "count in-pool": 22.473396880938214,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.8644751748178165,
+    -2.3747802951346695,
+    -1.3926548109778982
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.27741224849549523,
+    -0.686448301239094,
+    0.12511315947912707
+   ],
+   "none/scorer bud-src vs count0": [
+    2.7907186115041736,
+    1.7754590067213871,
+    3.7751084475012653
+   ],
+   "self/scorer bud-src vs count0": [
+    5.574279708862714,
+    4.524362810444129,
+    6.609211363662319
+   ]
+  },
+  {
+   "none/count(src thr)": 29.37346538732481,
+   "none/scorer bud-src": 29.50724004158617,
+   "none/scorer thr": 27.903728952251868,
+   "none/SIZE=count, CONTENT=scorer": 28.391991506085006,
+   "none/SIZE=max(count,1)": 28.617523160188092,
+   "none/SIZE=mean(count,budget)": 29.233780554007755,
+   "self/count(src thr)": 29.37346538732481,
+   "self/scorer bud-src": 30.869331448129095,
+   "self/scorer thr": 28.679611337230753,
+   "self/SIZE=count, CONTENT=scorer": 29.059035854392384,
+   "self/SIZE=max(count,1)": 29.258521053877583,
+   "self/SIZE=mean(count,budget)": 30.52918070595697,
+   "self/IN-POOL bud-src": 30.991921990392946,
+   "paper in-pool": 30.896173293863704,
+   "count in-pool": 29.37346538732481,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.9814738812398031,
+    -1.3828383312447545,
+    -0.6156691209085663
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.3144295329324226,
+    -0.6039225166512808,
+    -0.05380535722979333
+   ],
+   "none/scorer bud-src vs count0": [
+    0.13377465426135693,
+    -0.6055510851607915,
+    0.9053160037286127
+   ],
+   "self/scorer bud-src vs count0": [
+    1.4958660608042837,
+    0.7841560575309058,
+    2.256828179620885
+   ]
+  },
+  {
+   "none/count(src thr)": 22.90408482302194,
+   "none/scorer bud-src": 26.14074835628845,
+   "none/scorer thr": 24.79542963788942,
+   "none/SIZE=count, CONTENT=scorer": 22.148221959098393,
+   "none/SIZE=max(count,1)": 22.448522259398697,
+   "none/SIZE=mean(count,budget)": 24.111910289881063,
+   "self/count(src thr)": 22.90408482302194,
+   "self/scorer bud-src": 28.08973675232934,
+   "self/scorer thr": 26.52137246385204,
+   "self/SIZE=count, CONTENT=scorer": 22.924614147657557,
+   "self/SIZE=max(count,1)": 23.272410924025763,
+   "self/SIZE=mean(count,budget)": 26.17139877684287,
+   "self/IN-POOL bud-src": 29.398060235733464,
+   "paper in-pool": 29.780765253748864,
+   "count in-pool": 25.41188349913454,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.7558628639235467,
+    -1.1389880798542302,
+    -0.40182635112610815
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.02052932463561378,
+    -0.16251544765060247,
+    0.19779578202865727
+   ],
+   "none/scorer bud-src vs count0": [
+    3.2366635332665066,
+    2.2537925470123543,
+    4.274600457490807
+   ],
+   "self/scorer bud-src vs count0": [
+    5.185651929307402,
+    4.197716460107762,
+    6.2086228212989605
+   ]
+  },
+  {
+   "none/count(src thr)": 26.398119403767218,
+   "none/scorer bud-src": 26.66363415392151,
+   "none/scorer thr": 25.693001595870907,
+   "none/SIZE=count, CONTENT=scorer": 24.755605691079904,
+   "none/SIZE=max(count,1)": 25.11577105124526,
+   "none/SIZE=mean(count,budget)": 25.93558263964187,
+   "self/count(src thr)": 26.398119403767218,
+   "self/scorer bud-src": 28.96899825788753,
+   "self/scorer thr": 27.452286843978513,
+   "self/SIZE=count, CONTENT=scorer": 25.91391977206748,
+   "self/SIZE=max(count,1)": 26.340385198532907,
+   "self/SIZE=mean(count,budget)": 28.763267020901452,
+   "self/IN-POOL bud-src": 29.867717380581464,
+   "paper in-pool": 29.924391113804276,
+   "count in-pool": 26.398119403767218,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.6425137126873102,
+    -2.1501941573424133,
+    -1.1456459366545262
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.4841996316997359,
+    -0.921965353690197,
+    -0.03626919048968303
+   ],
+   "none/scorer bud-src vs count0": [
+    0.2655147501542977,
+    -0.6646244480263457,
+    1.210057327994242
+   ],
+   "self/scorer bud-src vs count0": [
+    2.5708788541203123,
+    1.6220345438665245,
+    3.5130688274429605
+   ]
+  },
+  {
+   "none/count(src thr)": 22.949706893456412,
+   "none/scorer bud-src": 27.841523765422377,
+   "none/scorer thr": 26.278049442950053,
+   "none/SIZE=count, CONTENT=scorer": 22.949706893456412,
+   "none/SIZE=max(count,1)": 22.949706893456412,
+   "none/SIZE=mean(count,budget)": 24.773011820193307,
+   "self/count(src thr)": 22.949706893456412,
+   "self/scorer bud-src": 29.584965436201653,
+   "self/scorer thr": 27.3676804244319,
+   "self/SIZE=count, CONTENT=scorer": 22.949706893456412,
+   "self/SIZE=max(count,1)": 22.949706893456412,
+   "self/SIZE=mean(count,budget)": 25.727655519938068,
+   "self/IN-POOL bud-src": 30.19889255080111,
+   "paper in-pool": 29.894065269811666,
+   "count in-pool": 27.20472419762645,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "none/scorer bud-src vs count0": [
+    4.89181687196597,
+    3.9172750797447806,
+    5.8339089804183235
+   ],
+   "self/scorer bud-src vs count0": [
+    6.635258542745246,
+    5.637592713333476,
+    7.587830312320887
+   ]
+  },
+  {
+   "none/count(src thr)": 18.93347104076685,
+   "none/scorer bud-src": 23.639654071299816,
+   "none/scorer thr": 21.878452538376827,
+   "none/SIZE=count, CONTENT=scorer": 17.8748893754026,
+   "none/SIZE=max(count,1)": 18.627437732992973,
+   "none/SIZE=mean(count,budget)": 22.678605393259765,
+   "self/count(src thr)": 18.93347104076685,
+   "self/scorer bud-src": 25.795590953164872,
+   "self/scorer thr": 24.395887312997374,
+   "self/SIZE=count, CONTENT=scorer": 19.028095179907524,
+   "self/SIZE=max(count,1)": 19.898618655473015,
+   "self/SIZE=mean(count,budget)": 25.29404648691505,
+   "self/IN-POOL bud-src": 25.781724780554793,
+   "paper in-pool": 27.477847051771466,
+   "count in-pool": 20.272025873715783,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.0585816653642532,
+    -1.5824325742343746,
+    -0.5468473973172328
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.09462413914067277,
+    -0.4650576343171682,
+    0.6762564314810173
+   ],
+   "none/scorer bud-src vs count0": [
+    4.706183030532964,
+    3.6845397158800064,
+    5.812039991466728
+   ],
+   "self/scorer bud-src vs count0": [
+    6.862119912398014,
+    5.7100515572384305,
+    8.044670886436553
+   ]
+  },
+  {
+   "none/count(src thr)": 20.826205459050463,
+   "none/scorer bud-src": 25.278728558648776,
+   "none/scorer thr": 24.385350031766936,
+   "none/SIZE=count, CONTENT=scorer": 20.46971607704794,
+   "none/SIZE=max(count,1)": 21.231246460427062,
+   "none/SIZE=mean(count,budget)": 23.56146586139367,
+   "self/count(src thr)": 20.826205459050463,
+   "self/scorer bud-src": 26.00815642162936,
+   "self/scorer thr": 25.044675191413063,
+   "self/SIZE=count, CONTENT=scorer": 20.59271725800283,
+   "self/SIZE=max(count,1)": 20.878717544003113,
+   "self/SIZE=mean(count,budget)": 25.79190019751849,
+   "self/IN-POOL bud-src": 26.376446047862988,
+   "paper in-pool": 27.763106435708607,
+   "count in-pool": 23.530241245998162,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.35648938200251906,
+    -0.6114769485566621,
+    -0.11487741486417599
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.23348820104763568,
+    -0.5275332022492112,
+    0.06111614724856508
+   ],
+   "none/scorer bud-src vs count0": [
+    4.45252309959832,
+    3.457700774124443,
+    5.483501508236495
+   ],
+   "self/scorer bud-src vs count0": [
+    5.181950962578894,
+    4.158293432967322,
+    6.263374507893232
+   ]
+  },
+  {
+   "none/count(src thr)": 16.003158296832936,
+   "none/scorer bud-src": 18.783597666802923,
+   "none/scorer thr": 17.5599460639269,
+   "none/SIZE=count, CONTENT=scorer": 15.326570818879118,
+   "none/SIZE=max(count,1)": 15.750794562430592,
+   "none/SIZE=mean(count,budget)": 17.814448379388796,
+   "self/count(src thr)": 16.003158296832936,
+   "self/scorer bud-src": 19.21054994597299,
+   "self/scorer thr": 18.48707071929849,
+   "self/SIZE=count, CONTENT=scorer": 15.287577879642921,
+   "self/SIZE=max(count,1)": 15.656857996822202,
+   "self/SIZE=mean(count,budget)": 18.61272079618989,
+   "self/IN-POOL bud-src": 19.135781482465937,
+   "paper in-pool": 19.553627671205863,
+   "count in-pool": 15.750031782722543,
+   "best_single": 16.42005823309001,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.6765874779538182,
+    -0.999693125641685,
+    -0.3709981717448094
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.7155804171900123,
+    -1.2764136411683997,
+    -0.1920719590466014
+   ],
+   "none/scorer bud-src vs count0": [
+    2.7804393699699914,
+    2.049924445957334,
+    3.5053316900525293
+   ],
+   "self/scorer bud-src vs count0": [
+    3.207391649140054,
+    2.3538727621440327,
+    4.025132349382854
+   ]
+  },
+  {
+   "none/count(src thr)": 22.471472284192785,
+   "none/scorer bud-src": 26.28906028560453,
+   "none/scorer thr": 24.912739413687042,
+   "none/SIZE=count, CONTENT=scorer": 22.201829866423815,
+   "none/SIZE=max(count,1)": 22.565185691964516,
+   "none/SIZE=mean(count,budget)": 24.858521854628954,
+   "self/count(src thr)": 22.471472284192785,
+   "self/scorer bud-src": 27.051329454976607,
+   "self/scorer thr": 23.210948084973616,
+   "self/SIZE=count, CONTENT=scorer": 22.339424657069067,
+   "self/SIZE=max(count,1)": 22.54668200718356,
+   "self/SIZE=mean(count,budget)": 25.6639517457386,
+   "self/IN-POOL bud-src": 27.51078437198146,
+   "paper in-pool": 28.11828565399881,
+   "count in-pool": 21.876542229123192,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.2696424177689718,
+    -0.5366513771565073,
+    0.0002461021765518441
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.1320476271237177,
+    -0.3235963262142911,
+    0.057816495423226075
+   ],
+   "none/scorer bud-src vs count0": [
+    3.817588001411748,
+    2.902355608703744,
+    4.773655686306118
+   ],
+   "self/scorer bud-src vs count0": [
+    4.579857170783823,
+    3.6400856466289486,
+    5.563205266809878
+   ]
+  },
+  {
+   "none/count(src thr)": 17.538206155007032,
+   "none/scorer bud-src": 20.619332613208677,
+   "none/scorer thr": 18.559409753751293,
+   "none/SIZE=count, CONTENT=scorer": 16.88039709901069,
+   "none/SIZE=max(count,1)": 17.322102162564494,
+   "none/SIZE=mean(count,budget)": 19.753154130704132,
+   "self/count(src thr)": 17.538206155007032,
+   "self/scorer bud-src": 21.12160132919237,
+   "self/scorer thr": 19.40681479109897,
+   "self/SIZE=count, CONTENT=scorer": 16.950995376643377,
+   "self/SIZE=max(count,1)": 17.417121893190064,
+   "self/SIZE=mean(count,budget)": 20.94560771039968,
+   "self/IN-POOL bud-src": 21.462098652881135,
+   "paper in-pool": 21.553995907161617,
+   "count in-pool": 17.538206155007032,
+   "best_single": 17.670698464866685,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.657809055996344,
+    -1.058416592651982,
+    -0.2804966414057775
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.5872107783636598,
+    -1.1638611171303088,
+    -0.04177966851387781
+   ],
+   "none/scorer bud-src vs count0": [
+    3.081126458201643,
+    2.2731517865913977,
+    3.9244635467278597
+   ],
+   "self/scorer bud-src vs count0": [
+    3.583395174185331,
+    2.6448328187840335,
+    4.557156402547789
+   ]
+  },
+  {
+   "none/count(src thr)": 18.757102939402326,
+   "none/scorer bud-src": 21.80761103518984,
+   "none/scorer thr": 20.309235171099917,
+   "none/SIZE=count, CONTENT=scorer": 18.602856975921444,
+   "none/SIZE=max(count,1)": 18.752799142670334,
+   "none/SIZE=mean(count,budget)": 20.68372872150984,
+   "self/count(src thr)": 18.757102939402326,
+   "self/scorer bud-src": 21.749862988050406,
+   "self/scorer thr": 20.43435550087851,
+   "self/SIZE=count, CONTENT=scorer": 18.518227209418505,
+   "self/SIZE=max(count,1)": 18.749370297704456,
+   "self/SIZE=mean(count,budget)": 21.176300674444967,
+   "self/IN-POOL bud-src": 22.424599827702984,
+   "paper in-pool": 22.453318098941658,
+   "count in-pool": 18.414853187801253,
+   "best_single": 17.670698464866685,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.1542459634808808,
+    -0.4083174243703234,
+    0.0961189094573672
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.23887572998381942,
+    -0.5024534347939663,
+    0.017987788054969537
+   ],
+   "none/scorer bud-src vs count0": [
+    3.050508095787519,
+    2.2523976931783283,
+    3.901303586932544
+   ],
+   "self/scorer bud-src vs count0": [
+    2.9927600486480777,
+    2.1838486516728723,
+    3.8269441366568047
+   ]
+  },
+  {
+   "none/count(src thr)": 25.020354534792688,
+   "none/scorer bud-src": 26.739466299442128,
+   "none/scorer thr": 25.611822145110235,
+   "none/SIZE=count, CONTENT=scorer": 24.209241200133917,
+   "none/SIZE=max(count,1)": 24.45759607033752,
+   "none/SIZE=mean(count,budget)": 26.288459797650397,
+   "self/count(src thr)": 25.020354534792688,
+   "self/scorer bud-src": 27.496169429861865,
+   "self/scorer thr": 25.765891147052994,
+   "self/SIZE=count, CONTENT=scorer": 24.8979518539337,
+   "self/SIZE=max(count,1)": 25.222472052403482,
+   "self/SIZE=mean(count,budget)": 26.963324959146572,
+   "self/IN-POOL bud-src": 27.83571947827192,
+   "paper in-pool": 28.438057931555427,
+   "count in-pool": 25.020354534792688,
+   "best_single": 27.082821295652177,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.8111133346587671,
+    -1.2091025714341361,
+    -0.42670427329782723
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.12240268085898028,
+    -0.3859627864794596,
+    0.13584032206619565
+   ],
+   "none/scorer bud-src vs count0": [
+    1.7191117646494452,
+    0.8808148848833728,
+    2.589938821251647
+   ],
+   "self/scorer bud-src vs count0": [
+    2.4758148950691834,
+    1.6367947420393645,
+    3.3054718182069385
+   ]
+  },
+  {
+   "none/count(src thr)": 18.168121243789702,
+   "none/scorer bud-src": 22.453700236095962,
+   "none/scorer thr": 21.16757336800705,
+   "none/SIZE=count, CONTENT=scorer": 17.141071752727637,
+   "none/SIZE=max(count,1)": 17.654665123463868,
+   "none/SIZE=mean(count,budget)": 21.32594645332701,
+   "self/count(src thr)": 18.168121243789702,
+   "self/scorer bud-src": 23.732733936112137,
+   "self/scorer thr": 23.19222640753997,
+   "self/SIZE=count, CONTENT=scorer": 18.39669470470828,
+   "self/SIZE=max(count,1)": 19.196297647168368,
+   "self/SIZE=mean(count,budget)": 23.919532314325824,
+   "self/IN-POOL bud-src": 23.651392028544212,
+   "paper in-pool": 23.791937429400736,
+   "count in-pool": 18.794761824889264,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.0270494910620638,
+    -1.5275678017221996,
+    -0.5530042652400553
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.2285734609185792,
+    -0.24598428657773627,
+    0.7099277899716672
+   ],
+   "none/scorer bud-src vs count0": [
+    4.285578992306258,
+    3.3836358654536562,
+    5.220924123203963
+   ],
+   "self/scorer bud-src vs count0": [
+    5.564612692322434,
+    4.561027388855312,
+    6.620774198352487
+   ]
+  },
+  {
+   "none/count(src thr)": 19.91524022537432,
+   "none/scorer bud-src": 23.32172938650043,
+   "none/scorer thr": 22.448713723441355,
+   "none/SIZE=count, CONTENT=scorer": 19.666440746977756,
+   "none/SIZE=max(count,1)": 20.135012042616722,
+   "none/SIZE=mean(count,budget)": 22.019354567815945,
+   "self/count(src thr)": 19.91524022537432,
+   "self/scorer bud-src": 23.96355456725431,
+   "self/scorer thr": 22.442744844551132,
+   "self/SIZE=count, CONTENT=scorer": 19.686108283583064,
+   "self/SIZE=max(count,1)": 20.361273244462307,
+   "self/SIZE=mean(count,budget)": 23.390144519224965,
+   "self/IN-POOL bud-src": 24.08195893500038,
+   "paper in-pool": 24.308595825377072,
+   "count in-pool": 21.618447086977547,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.24879947839655916,
+    -0.4702324679728312,
+    -0.026930100774256765
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.22913194179125287,
+    -0.5115511803020036,
+    0.04756458623730992
+   ],
+   "none/scorer bud-src vs count0": [
+    3.4064891611261126,
+    2.5797419343961736,
+    4.261447914495646
+   ],
+   "self/scorer bud-src vs count0": [
+    4.048314341879996,
+    3.2053182821794044,
+    4.941210297678271
+   ]
+  },
+  {
+   "none/count(src thr)": 21.54510428827237,
+   "none/scorer bud-src": 24.838246107329155,
+   "none/scorer thr": 23.631501100309986,
+   "none/SIZE=count, CONTENT=scorer": 21.15330593546282,
+   "none/SIZE=max(count,1)": 21.360052570780887,
+   "none/SIZE=mean(count,budget)": 23.68123374621859,
+   "self/count(src thr)": 21.54510428827237,
+   "self/scorer bud-src": 24.737668247312985,
+   "self/scorer thr": 22.205777998727765,
+   "self/SIZE=count, CONTENT=scorer": 21.435299576034485,
+   "self/SIZE=max(count,1)": 21.797192080784136,
+   "self/SIZE=mean(count,budget)": 24.21475910518768,
+   "self/IN-POOL bud-src": 25.602657302304948,
+   "paper in-pool": 25.7045145693112,
+   "count in-pool": 20.90598906793226,
+   "best_single": 23.2016575612815,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.3917983528095458,
+    -0.706077627643992,
+    -0.09263718252051811
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.10980471223788278,
+    -0.3526388694769706,
+    0.13760025104830378
+   ],
+   "none/scorer bud-src vs count0": [
+    3.2931418190567894,
+    2.47502259706962,
+    4.156593357544921
+   ],
+   "self/scorer bud-src vs count0": [
+    3.1925639590406174,
+    2.4192819368798846,
+    4.013679350188378
+   ]
+  },
+  {
+   "none/count(src thr)": 25.61210361752399,
+   "none/scorer bud-src": 28.58342312201755,
+   "none/scorer thr": 27.490959586061614,
+   "none/SIZE=count, CONTENT=scorer": 25.154273285973627,
+   "none/SIZE=max(count,1)": 25.336904897176666,
+   "none/SIZE=mean(count,budget)": 26.894663095099503,
+   "self/count(src thr)": 25.61210361752399,
+   "self/scorer bud-src": 30.496079973131458,
+   "self/scorer thr": 28.465984322482228,
+   "self/SIZE=count, CONTENT=scorer": 25.48101163715809,
+   "self/SIZE=max(count,1)": 25.645167389549133,
+   "self/SIZE=mean(count,budget)": 28.258565848407763,
+   "self/IN-POOL bud-src": 30.47190219383419,
+   "paper in-pool": 30.752404682765565,
+   "count in-pool": 28.1193470273928,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.45783033155036706,
+    -0.7044689972375191,
+    -0.23223578124057548
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.13109198036590117,
+    -0.40998056284546625,
+    0.1550667882016481
+   ],
+   "none/scorer bud-src vs count0": [
+    2.9713195044935614,
+    2.025094341124046,
+    3.9236728536929264
+   ],
+   "self/scorer bud-src vs count0": [
+    4.883976355607467,
+    3.939344490567282,
+    5.822753613433697
+   ]
+  },
+  {
+   "none/count(src thr)": 20.479651140531825,
+   "none/scorer bud-src": 25.183192945252554,
+   "none/scorer thr": 22.304044583708794,
+   "none/SIZE=count, CONTENT=scorer": 19.97768791805222,
+   "none/SIZE=max(count,1)": 20.342087568166153,
+   "none/SIZE=mean(count,budget)": 22.927298760431274,
+   "self/count(src thr)": 20.479651140531825,
+   "self/scorer bud-src": 27.684094781996148,
+   "self/scorer thr": 26.196493475205845,
+   "self/SIZE=count, CONTENT=scorer": 20.55217401693337,
+   "self/SIZE=max(count,1)": 21.019645198690267,
+   "self/SIZE=mean(count,budget)": 25.650048572244415,
+   "self/IN-POOL bud-src": 28.772054690542127,
+   "paper in-pool": 29.180766074722897,
+   "count in-pool": 20.53047827016909,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.5019632224796059,
+    -0.8632313133693245,
+    -0.14462251530844836
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.07252287640154488,
+    -0.35941489819179184,
+    0.4881801978293422
+   ],
+   "none/scorer bud-src vs count0": [
+    4.70354180472073,
+    3.7032053208373763,
+    5.729063556401162
+   ],
+   "self/scorer bud-src vs count0": [
+    7.204443641464324,
+    6.151562967250646,
+    8.274148624048804
+   ]
+  },
+  {
+   "none/count(src thr)": 21.980062048144408,
+   "none/scorer bud-src": 25.47103734621133,
+   "none/scorer thr": 24.03461775690057,
+   "none/SIZE=count, CONTENT=scorer": 21.318515465906877,
+   "none/SIZE=max(count,1)": 21.738276599953725,
+   "none/SIZE=mean(count,budget)": 23.65759901961088,
+   "self/count(src thr)": 21.980062048144408,
+   "self/scorer bud-src": 28.756872678095608,
+   "self/scorer thr": 26.839200989549017,
+   "self/SIZE=count, CONTENT=scorer": 22.3052612201478,
+   "self/SIZE=max(count,1)": 23.170804572422686,
+   "self/SIZE=mean(count,budget)": 28.136279904393223,
+   "self/IN-POOL bud-src": 29.113170118852505,
+   "paper in-pool": 29.35309971843641,
+   "count in-pool": 23.121716821920426,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.661546582237533,
+    -0.9800875664089135,
+    -0.34980101490666227
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.32519917200338977,
+    -0.06270331484189066,
+    0.7421597475395445
+   ],
+   "none/scorer bud-src vs count0": [
+    3.4909752980669215,
+    2.5093892962785755,
+    4.508078941125986
+   ],
+   "self/scorer bud-src vs count0": [
+    6.776810629951201,
+    5.691527217737836,
+    7.90787200681613
+   ]
+  },
+  {
+   "none/count(src thr)": 23.58308374147984,
+   "none/scorer bud-src": 26.662256253860512,
+   "none/scorer thr": 24.616272311846572,
+   "none/SIZE=count, CONTENT=scorer": 22.5217711474335,
+   "none/SIZE=max(count,1)": 22.906619032281387,
+   "none/SIZE=mean(count,budget)": 25.247077795805208,
+   "self/count(src thr)": 23.58308374147984,
+   "self/scorer bud-src": 28.884584248114393,
+   "self/scorer thr": 26.609575578840904,
+   "self/SIZE=count, CONTENT=scorer": 23.563141050292298,
+   "self/SIZE=max(count,1)": 24.098556942851047,
+   "self/SIZE=mean(count,budget)": 28.53100073621715,
+   "self/IN-POOL bud-src": 29.554955408040108,
+   "paper in-pool": 29.903323339134563,
+   "count in-pool": 23.58308374147984,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -1.0613125940463322,
+    -1.4852003945228265,
+    -0.6474550599329829
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    -0.019942691187538115,
+    -0.3110268228914524,
+    0.2859575862960596
+   ],
+   "none/scorer bud-src vs count0": [
+    3.079172512380675,
+    2.1261913787491236,
+    4.051772146603486
+   ],
+   "self/scorer bud-src vs count0": [
+    5.301500506634555,
+    4.259180838839377,
+    6.3185567903592395
+   ]
+  },
+  {
+   "none/count(src thr)": 24.263376451467757,
+   "none/scorer bud-src": 27.18347465990117,
+   "none/scorer thr": 26.04509943893469,
+   "none/SIZE=count, CONTENT=scorer": 24.028741367075597,
+   "none/SIZE=max(count,1)": 24.185326523660752,
+   "none/SIZE=mean(count,budget)": 25.563356783796078,
+   "self/count(src thr)": 24.263376451467757,
+   "self/scorer bud-src": 29.70684262097593,
+   "self/scorer thr": 27.597364742740677,
+   "self/SIZE=count, CONTENT=scorer": 24.31237575596513,
+   "self/SIZE=max(count,1)": 24.59766104125042,
+   "self/SIZE=mean(count,budget)": 27.28612925638046,
+   "self/IN-POOL bud-src": 29.99819446653535,
+   "paper in-pool": 29.863183329935687,
+   "count in-pool": 26.56250315500405,
+   "best_single": 27.402376785136056,
+   "none/SIZE=count, CONTENT=scorer vs count0": [
+    -0.23463508439216346,
+    -0.4108607336880594,
+    -0.06529327443978744
+   ],
+   "self/SIZE=count, CONTENT=scorer vs count0": [
+    0.048999304497375266,
+    -0.16612427662407028,
+    0.2751125290499238
+   ],
+   "none/scorer bud-src vs count0": [
+    2.9200982084334077,
+    2.0081147053244903,
+    3.8660164633031195
+   ],
+   "self/scorer bud-src vs count0": [
+    5.4434661695081745,
+    4.538669410683134,
+    6.409141572268591
+   ]
+  }
+ ],
+ "e3": [
+  {
+   "target": "qampari",
+   "sources": [
+    "cwq",
+    "webqsp"
+   ],
+   "both/none/count(src thr)": 29.65405051731795,
+   "both/none/scorer bud-src": 27.851932332519,
+   "both/none/scorer thr": 27.487093902855193,
+   "both/none/SIZE=count, CONTENT=scorer": 28.395392236806504,
+   "both/none/SIZE=max(count,1)": 28.62063400446472,
+   "both/none/SIZE=mean(count,budget)": 29.077146120332348,
+   "both/none/SIZE=count vs count0": [
+    -1.2586582805114452,
+    -1.7153090159384567,
+    -0.8268457264808666
+   ],
+   "both/none/bud-src vs count0": [
+    -1.802118184798946,
+    -2.6979345654465896,
+    -0.8575929484872239
+   ],
+   "both/self/count(src thr)": 29.65405051731795,
+   "both/self/scorer bud-src": 27.218929161716275,
+   "both/self/scorer thr": 26.627470275501658,
+   "both/self/SIZE=count, CONTENT=scorer": 28.7317019558577,
+   "both/self/SIZE=max(count,1)": 28.911455792423872,
+   "both/self/SIZE=mean(count,budget)": 29.10106949154446,
+   "both/self/SIZE=count vs count0": [
+    -0.9223485614602481,
+    -1.4326468768396419,
+    -0.41783994475404423
+   ],
+   "both/self/bud-src vs count0": [
+    -2.4351213556016704,
+    -3.4219837251565433,
+    -1.4111491905786315
+   ],
+   "cwq/none/count(src thr)": 29.65405051731795,
+   "cwq/none/scorer bud-src": 29.04776548859418,
+   "cwq/none/scorer thr": 28.510844770300224,
+   "cwq/none/SIZE=count, CONTENT=scorer": 28.59934930839027,
+   "cwq/none/SIZE=max(count,1)": 28.82459107604849,
+   "cwq/none/SIZE=mean(count,budget)": 29.147185201722248,
+   "cwq/none/SIZE=count vs count0": [
+    -1.0547012089276768,
+    -1.441836403030854,
+    -0.6799761135086849
+   ],
+   "cwq/none/bud-src vs count0": [
+    -0.60628502872377,
+    -1.4563336405561678,
+    0.2970780189532879
+   ],
+   "cwq/self/count(src thr)": 29.65405051731795,
+   "cwq/self/scorer bud-src": 29.254242692114712,
+   "cwq/self/scorer thr": 29.28750433309204,
+   "cwq/self/SIZE=count, CONTENT=scorer": 29.305224637167253,
+   "cwq/self/SIZE=max(count,1)": 29.535056929981558,
+   "cwq/self/SIZE=mean(count,budget)": 30.070602965074688,
+   "cwq/self/SIZE=count vs count0": [
+    -0.3488258801506905,
+    -0.639464722829922,
+    -0.05864949383985829
+   ],
+   "cwq/self/bud-src vs count0": [
+    -0.39980782520323666,
+    -1.3142985656662043,
+    0.5343151517146894
+   ],
+   "webqsp/none/count(src thr)": 29.65405051731795,
+   "webqsp/none/scorer bud-src": 26.477611437189342,
+   "webqsp/none/scorer thr": 27.44963676648437,
+   "webqsp/none/SIZE=count, CONTENT=scorer": 28.326716886153424,
+   "webqsp/none/SIZE=max(count,1)": 28.55195865381165,
+   "webqsp/none/SIZE=mean(count,budget)": 28.308700103611418,
+   "webqsp/none/SIZE=count vs count0": [
+    -1.3273336311645236,
+    -1.784890195605826,
+    -0.8721767700189923
+   ],
+   "webqsp/none/bud-src vs count0": [
+    -3.1764390801286098,
+    -4.181191135308506,
+    -2.1037380833282606
+   ],
+   "webqsp/self/count(src thr)": 29.65405051731795,
+   "webqsp/self/scorer bud-src": 26.02323529613929,
+   "webqsp/self/scorer thr": 26.10943022893295,
+   "webqsp/self/SIZE=count, CONTENT=scorer": 28.918179027603685,
+   "webqsp/self/SIZE=max(count,1)": 29.097932864169863,
+   "webqsp/self/SIZE=mean(count,budget)": 28.414037961498,
+   "webqsp/self/SIZE=count vs count0": [
+    -0.735871489714265,
+    -1.2381889978345562,
+    -0.24684495249991958
+   ],
+   "webqsp/self/bud-src vs count0": [
+    -3.6308152211786577,
+    -4.692692653736116,
+    -2.5329422556759758
+   ]
+  },
+  {
+   "target": "cwq",
+   "sources": [
+    "qampari",
+    "webqsp"
+   ],
+   "both/none/count(src thr)": 21.807619438070226,
+   "both/none/scorer bud-src": 23.620333254306434,
+   "both/none/scorer thr": 22.278331151417962,
+   "both/none/SIZE=count, CONTENT=scorer": 21.662388156176966,
+   "both/none/SIZE=max(count,1)": 21.795050674381656,
+   "both/none/SIZE=mean(count,budget)": 23.038656365529835,
+   "both/none/SIZE=count vs count0": [
+    -0.14523128189324985,
+    -0.4263286018498704,
+    0.12954101256638884
+   ],
+   "both/none/bud-src vs count0": [
+    1.8127138162362155,
+    1.191497206425287,
+    2.46939624456519
+   ],
+   "both/self/count(src thr)": 21.807619438070226,
+   "both/self/scorer bud-src": 23.351246069925537,
+   "both/self/scorer thr": 22.550387145932856,
+   "both/self/SIZE=count, CONTENT=scorer": 21.997317040964354,
+   "both/self/SIZE=max(count,1)": 22.06116216505044,
+   "both/self/SIZE=mean(count,budget)": 23.136109249147278,
+   "both/self/SIZE=count vs count0": [
+    0.18969760289412968,
+    -0.19066485254671758,
+    0.651146882184856
+   ],
+   "both/self/bud-src vs count0": [
+    1.5436266318553125,
+    0.7529218485232285,
+    2.3797808228857424
+   ],
+   "qampari/none/count(src thr)": 21.807619438070226,
+   "qampari/none/scorer bud-src": 22.679806750796022,
+   "qampari/none/scorer thr": 22.652514754142693,
+   "qampari/none/SIZE=count, CONTENT=scorer": 21.70432852026738,
+   "qampari/none/SIZE=max(count,1)": 21.836991038472068,
+   "qampari/none/SIZE=mean(count,budget)": 22.796970956305675,
+   "qampari/none/SIZE=count vs count0": [
+    -0.1032909178028457,
+    -0.3937368954796973,
+    0.1838669290687633
+   ],
+   "qampari/none/bud-src vs count0": [
+    0.8721873127257994,
+    0.171425744613376,
+    1.5713592183553635
+   ],
+   "qampari/self/count(src thr)": 21.807619438070226,
+   "qampari/self/scorer bud-src": 23.232005436225116,
+   "qampari/self/scorer thr": 22.578570814771478,
+   "qampari/self/SIZE=count, CONTENT=scorer": 22.002413168334435,
+   "qampari/self/SIZE=max(count,1)": 22.066258292420518,
+   "qampari/self/SIZE=mean(count,budget)": 23.121208555545962,
+   "qampari/self/SIZE=count vs count0": [
+    0.19479373026420851,
+    -0.19546365347873831,
+    0.7271099674434449
+   ],
+   "qampari/self/bud-src vs count0": [
+    1.4243859981548928,
+    0.6597582786655943,
+    2.244423113965082
+   ],
+   "webqsp/none/count(src thr)": 21.807619438070226,
+   "webqsp/none/scorer bud-src": 23.17941661468367,
+   "webqsp/none/scorer thr": 22.887382237807813,
+   "webqsp/none/SIZE=count, CONTENT=scorer": 21.640592402267064,
+   "webqsp/none/SIZE=max(count,1)": 21.77325492047175,
+   "webqsp/none/SIZE=mean(count,budget)": 22.98248352706795,
+   "webqsp/none/SIZE=count vs count0": [
+    -0.16702703580315637,
+    -0.44722386635154976,
+    0.10940170339935415
+   ],
+   "webqsp/none/bud-src vs count0": [
+    1.371797176613446,
+    0.5990125015946094,
+    2.1743020977459753
+   ],
+   "webqsp/self/count(src thr)": 21.807619438070226,
+   "webqsp/self/scorer bud-src": 22.94181550454149,
+   "webqsp/self/scorer thr": 22.617393158973055,
+   "webqsp/self/SIZE=count, CONTENT=scorer": 22.00927219727867,
+   "webqsp/self/SIZE=max(count,1)": 22.07311732136476,
+   "webqsp/self/SIZE=mean(count,budget)": 23.167433135793082,
+   "webqsp/self/SIZE=count vs count0": [
+    0.20165275920844694,
+    -0.11214618839883071,
+    0.5562491398097766
+   ],
+   "webqsp/self/bud-src vs count0": [
+    1.134196066471269,
+    0.2761063122792336,
+    2.0468972869797226
+   ]
+  },
+  {
+   "target": "webqsp",
+   "sources": [
+    "qampari",
+    "cwq"
+   ],
+   "both/none/count(src thr)": 31.723730970059744,
+   "both/none/scorer bud-src": 28.894336075341393,
+   "both/none/scorer thr": 30.68035355380151,
+   "both/none/SIZE=count, CONTENT=scorer": 31.709107378569367,
+   "both/none/SIZE=max(count,1)": 31.709107378569367,
+   "both/none/SIZE=mean(count,budget)": 31.292553716751947,
+   "both/none/SIZE=count vs count0": [
+    -0.014623591490373046,
+    -0.31216344735443324,
+    0.30121467705498983
+   ],
+   "both/none/bud-src vs count0": [
+    -2.8293948947183507,
+    -4.086542838804349,
+    -1.6938245553474705
+   ],
+   "both/self/count(src thr)": 31.723730970059744,
+   "both/self/scorer bud-src": 28.404930229513624,
+   "both/self/scorer thr": 29.985686587215426,
+   "both/self/SIZE=count, CONTENT=scorer": 31.949915737349134,
+   "both/self/SIZE=max(count,1)": 31.949915737349134,
+   "both/self/SIZE=mean(count,budget)": 30.93337636682068,
+   "both/self/SIZE=count vs count0": [
+    0.2261847672893857,
+    0.05680703428754851,
+    0.42154628429413876
+   ],
+   "both/self/bud-src vs count0": [
+    -3.318800740546119,
+    -4.480914722947319,
+    -2.2497854392517005
+   ],
+   "qampari/none/count(src thr)": 31.723730970059744,
+   "qampari/none/scorer bud-src": 28.341413259085318,
+   "qampari/none/scorer thr": 30.103105334230705,
+   "qampari/none/SIZE=count, CONTENT=scorer": 31.689813255072202,
+   "qampari/none/SIZE=max(count,1)": 31.689813255072202,
+   "qampari/none/SIZE=mean(count,budget)": 31.13240061104624,
+   "qampari/none/SIZE=count vs count0": [
+    -0.033917714987546296,
+    -0.31433803408895633,
+    0.2600776440068519
+   ],
+   "qampari/none/bud-src vs count0": [
+    -3.3823177109744273,
+    -4.686275749948947,
+    -2.184413196070147
+   ],
+   "qampari/self/count(src thr)": 31.723730970059744,
+   "qampari/self/scorer bud-src": 28.654627498209827,
+   "qampari/self/scorer thr": 30.698327913291234,
+   "qampari/self/SIZE=count, CONTENT=scorer": 31.85052623329493,
+   "qampari/self/SIZE=max(count,1)": 31.85052623329493,
+   "qampari/self/SIZE=mean(count,budget)": 31.10989371470555,
+   "qampari/self/SIZE=count vs count0": [
+    0.1267952632351857,
+    -0.09717962832664107,
+    0.33532920040122977
+   ],
+   "qampari/self/bud-src vs count0": [
+    -3.0691034718499206,
+    -4.202805728696142,
+    -2.0052885005423615
+   ],
+   "cwq/none/count(src thr)": 31.723730970059744,
+   "cwq/none/scorer bud-src": 29.76862586148395,
+   "cwq/none/scorer thr": 30.913172822884725,
+   "cwq/none/SIZE=count, CONTENT=scorer": 31.72268575957602,
+   "cwq/none/SIZE=max(count,1)": 31.72268575957602,
+   "cwq/none/SIZE=mean(count,budget)": 31.217570626316714,
+   "cwq/none/SIZE=count vs count0": [
+    -0.0010452104837268697,
+    -0.32207019360633166,
+    0.332540111732056
+   ],
+   "cwq/none/bud-src vs count0": [
+    -1.9551051085757931,
+    -3.083831753783927,
+    -0.8916907330439569
+   ],
+   "cwq/self/count(src thr)": 31.723730970059744,
+   "cwq/self/scorer bud-src": 31.093391702385066,
+   "cwq/self/scorer thr": 32.337640616558275,
+   "cwq/self/SIZE=count, CONTENT=scorer": 31.881612478836306,
+   "cwq/self/SIZE=max(count,1)": 31.888279145502974,
+   "cwq/self/SIZE=mean(count,budget)": 31.956292420108284,
+   "cwq/self/SIZE=count vs count0": [
+    0.15788150877656423,
+    -0.10469807769650473,
+    0.4544275609703506
+   ],
+   "cwq/self/bud-src vs count0": [
+    -0.6303392676746826,
+    -1.5719455702057659,
+    0.33218593228650184
+   ]
+  }
+ ]
+}

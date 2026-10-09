@@ -1,0 +1,10 @@
+  750 questions across 4 benchmarks
+  10 candidate models -> 7,500 calls
+  spend before: $5.8674
+
+  6750 cached, 750 to run
+    250/750     45s  tok 49,677  err 0
+    500/750     93s  tok 135,772  err 0
+    750/750    151s  tok 217,999  err 0
+
+  spend after: $6.1408   (this run: $0.2734)

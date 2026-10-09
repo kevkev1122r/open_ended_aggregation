@@ -1,0 +1,7 @@
+  14 questions, 25 true alias pairs to test
+  ESTIMATE list canonicalisation: 112 new calls (0 cached), ~0.03M input tokens -> ~$0.36 typical, $1.28 worst case; cap $0.60; google/gemini-3.8-flash, effort low
+    10/14  new calls 71  cached 9  spend $0.04  failures 0
+    14/14  new calls 99  cached 13  spend $0.12  failures 0
+  wrote results/claims_qampari.json (14 questions); spend $0.12; failures 0
+  regex norm     alias pairs matched 0/25 (0.0%), false matches 0
+  LLM canonical  alias pairs matched 19/25 (76.0%), false matches 116

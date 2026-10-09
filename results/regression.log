@@ -1,0 +1,106 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+====================================================================================================
+ LOGISTIC REGRESSION -- all raw rows, standard errors clustered by question
+====================================================================================================
+
+
+####################################################################################################
+# HaluEval-QA   (3000 questions -> 27,000 rows)
+####################################################################################################
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6400.39it/s]
+
+  all-MiniLM-L6-v2
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD          3.96 [  3.69,  4.24]    28.5     <1e-16        5.63     <1e-16      <1e-16
+    random       13.47 [ 13.03, 13.91]    60.4     <1e-16        6.50   4.24e-05    8.85e-06
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6526.75it/s]
+
+  all-mpnet-base-v2
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD          3.74 [  3.47,  4.01]    27.2     <1e-16        4.58   2.26e-13      <1e-16
+    random       14.19 [ 13.74, 14.64]    61.8     <1e-16        6.89   4.54e-04    7.22e-06
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6645.96it/s]
+
+  bge-small-en-v1.5
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD          7.07 [  6.63,  7.51]    31.4     <1e-16       17.15     <1e-16      <1e-16
+    random       20.71 [ 20.01, 21.41]    58.1     <1e-16       44.44     <1e-16      <1e-16
+
+
+####################################################################################################
+# TruthfulQA   (817 questions -> 7,353 rows)
+####################################################################################################
+
+  all-MiniLM-L6-v2
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD          8.23 [  7.67,  8.79]    28.6     <1e-16       18.49     <1e-16      <1e-16
+    random       13.44 [ 12.55, 14.33]    29.7     <1e-16        1.86   3.98e-01    4.08e-01
+
+  all-mpnet-base-v2
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD          8.55 [  7.96,  9.15]    28.1     <1e-16       18.95     <1e-16      <1e-16
+    random       13.30 [ 12.48, 14.12]    31.7     <1e-16        3.12   1.16e-01    1.58e-01
+
+  bge-small-en-v1.5
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD         14.20 [ 13.16, 15.24]    26.7     <1e-16       46.17     <1e-16      <1e-16
+    random       22.51 [ 20.98, 24.03]    29.0     <1e-16       46.11   8.57e-08    2.79e-12
+
+
+####################################################################################################
+# SciQ   (3000 questions -> 27,000 rows)
+####################################################################################################
+
+  all-MiniLM-L6-v2
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD          2.44 [  2.25,  2.63]    25.7     <1e-16       -3.87     <1e-16      <1e-16
+    random       12.46 [ 12.00, 12.92]    53.1     <1e-16      -12.17     <1e-16      <1e-16
+
+  all-mpnet-base-v2
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD          2.48 [  2.29,  2.67]    25.6     <1e-16       -3.93     <1e-16      <1e-16
+    random       13.25 [ 12.79, 13.72]    55.7     <1e-16      -13.38     <1e-16      <1e-16
+
+  bge-small-en-v1.5
+    controls               beta (95% CI)       z          p   quad coef     quad p   LR test p
+    -------------------------------------------------------------------------------------------
+    HARD          5.12 [  4.71,  5.53]    24.6     <1e-16       -9.40   5.08e-10    7.99e-10
+    random       23.13 [ 22.31, 23.95]    55.2     <1e-16      -25.47   1.11e-04    1.03e-11
+
+
+====================================================================================================
+ WHAT THE REGRESSION SAYS
+====================================================================================================
+
+  dataset       encoder               controls     beta     curvature needed?   AIC improvement
+  -----------------------------------------------------------------------------------------------
+  HaluEval-QA   all-MiniLM-L6-v2      HARD         3.96          YES  p<0.001               109
+  HaluEval-QA   all-mpnet-base-v2     HARD         3.74          YES  p<0.001                74
+  HaluEval-QA   bge-small-en-v1.5     HARD         7.07          YES  p<0.001               133
+  TruthfulQA    all-MiniLM-L6-v2      HARD         8.23          YES  p<0.001               384
+  TruthfulQA    all-mpnet-base-v2     HARD         8.55          YES  p<0.001               380
+  TruthfulQA    bge-small-en-v1.5     HARD        14.20          YES  p<0.001               319
+  SciQ          all-MiniLM-L6-v2      HARD         2.44          YES  p<0.001                85
+  SciQ          all-mpnet-base-v2     HARD         2.48          YES  p<0.001                87
+  SciQ          bge-small-en-v1.5     HARD         5.12          YES  p<0.001                36
+
+  curvature statistically required in 9/9 cells (hard controls)
+
+  How to read this:
+    beta          how steeply the odds of being a real error rise with similarity.
+                  Every one is positive and enormous in z -- the EFFECT is not in doubt.
+    quad coef     the bend. Positive = the curve accelerates upward.
+    LR test p     'does adding the bend explain significantly more?' This is the
+                  formal version of the R^2 comparison I was doing by eye.
+    AIC improve   how much better the curved model is after penalising the extra
+                  parameter. Anything above ~10 is decisive.
+
+  -> results/regression.json

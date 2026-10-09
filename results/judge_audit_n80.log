@@ -1,0 +1,9 @@
+  ESTIMATE list judge (google/gemini-3.8-flash): 77 new calls (0 cached), ~0.03M input tokens -> ~$0.25 typical, $0.89 worst case; cap $0.50; google/gemini-3.8-flash, effort low
+
+  judge google/gemini-3.8-flash: 1222/2167 gold-unmatched items judged correct (56.4%); 326 unlabelled
+  arm         P exact  P judged  F1 exact  F1 judged
+  text          32.68     80.08     31.12      44.66
+  p             33.37     82.63     29.30      39.77
+  pscramble     32.03     82.89     30.37      41.54
+  solo          36.66     87.42     28.90      32.89
+  scorer        31.19     76.46     31.03      39.45

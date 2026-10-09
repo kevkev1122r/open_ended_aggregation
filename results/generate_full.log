@@ -1,0 +1,206 @@
+  total spent on this key so far: $0.4905
+  3000 questions x 6 models x 2 styles
+  0 already done, 36000 to run
+
+    200/36000     16s  tokens 12,676  errors 0
+    400/36000     31s  tokens 24,662  errors 0
+    600/36000     46s  tokens 36,347  errors 0
+    800/36000     64s  tokens 48,496  errors 0
+    1000/36000     80s  tokens 59,578  errors 0
+    1200/36000     96s  tokens 72,001  errors 0
+    1400/36000    112s  tokens 83,947  errors 0
+    1600/36000    127s  tokens 95,864  errors 0
+    1800/36000    142s  tokens 108,110  errors 0
+    2000/36000    159s  tokens 121,285  errors 0
+    2200/36000    175s  tokens 133,340  errors 0
+    2400/36000    193s  tokens 146,135  errors 0
+    2600/36000    212s  tokens 157,057  errors 0
+    2800/36000    228s  tokens 169,740  errors 0
+    3000/36000    244s  tokens 181,145  errors 0
+    3200/36000    259s  tokens 192,537  errors 0
+    3400/36000    277s  tokens 205,023  errors 0
+    3600/36000    293s  tokens 218,391  errors 0
+    3800/36000    309s  tokens 230,745  errors 0
+    4000/36000    323s  tokens 242,366  errors 0
+    4200/36000    337s  tokens 253,624  errors 0
+    4400/36000    353s  tokens 266,184  errors 0
+    4600/36000    368s  tokens 279,081  errors 0
+    4800/36000    383s  tokens 292,369  errors 0
+    5000/36000    400s  tokens 305,076  errors 0
+    5200/36000    416s  tokens 317,092  errors 0
+    5400/36000    430s  tokens 329,344  errors 0
+    5600/36000    447s  tokens 341,314  errors 0
+    5800/36000    464s  tokens 353,151  errors 0
+    6000/36000    479s  tokens 365,481  errors 0
+    6200/36000    496s  tokens 377,626  errors 0
+    6400/36000    512s  tokens 389,825  errors 0
+    6600/36000    526s  tokens 402,534  errors 0
+    6800/36000    542s  tokens 415,114  errors 0
+    7000/36000    559s  tokens 427,119  errors 0
+    7200/36000    572s  tokens 438,612  errors 0
+    7400/36000    587s  tokens 450,382  errors 0
+    7600/36000    605s  tokens 463,913  errors 0
+    7800/36000    622s  tokens 475,914  errors 0
+    8000/36000    637s  tokens 488,369  errors 0
+    8200/36000    652s  tokens 500,962  errors 0
+    8400/36000    666s  tokens 512,337  errors 0
+    8600/36000    681s  tokens 524,121  errors 0
+    8800/36000    694s  tokens 536,584  errors 0
+    9000/36000    710s  tokens 550,158  errors 0
+    9200/36000    725s  tokens 563,222  errors 0
+    9400/36000    743s  tokens 574,471  errors 0
+    9600/36000    759s  tokens 586,721  errors 0
+    9800/36000    774s  tokens 598,845  errors 0
+    10000/36000    789s  tokens 611,594  errors 0
+    10200/36000    804s  tokens 623,801  errors 0
+    10400/36000    818s  tokens 636,061  errors 0
+    10600/36000    834s  tokens 648,143  errors 0
+    10800/36000    850s  tokens 660,371  errors 0
+    11000/36000    866s  tokens 672,174  errors 0
+    11200/36000    881s  tokens 684,557  errors 0
+    11400/36000    897s  tokens 697,006  errors 0
+    11600/36000    912s  tokens 709,631  errors 0
+    11800/36000    926s  tokens 721,479  errors 0
+    12000/36000    941s  tokens 733,595  errors 0
+    12200/36000    958s  tokens 745,500  errors 0
+    12400/36000    974s  tokens 757,756  errors 0
+    12600/36000    989s  tokens 769,739  errors 0
+    12800/36000   1003s  tokens 782,464  errors 0
+    13000/36000   1018s  tokens 794,708  errors 0
+    13200/36000   1033s  tokens 807,944  errors 0
+    13400/36000   1048s  tokens 819,997  errors 0
+    13600/36000   1066s  tokens 832,118  errors 0
+    13800/36000   1080s  tokens 843,729  errors 0
+    14000/36000   1095s  tokens 855,670  errors 0
+    14200/36000   1110s  tokens 867,155  errors 0
+    14400/36000   1125s  tokens 880,184  errors 0
+    14600/36000   1140s  tokens 891,588  errors 0
+    14800/36000   1155s  tokens 903,655  errors 0
+    15000/36000   1169s  tokens 916,542  errors 0
+    15200/36000   1185s  tokens 929,175  errors 0
+    15400/36000   1199s  tokens 940,679  errors 0
+    15600/36000   1213s  tokens 953,216  errors 0
+    15800/36000   1228s  tokens 964,415  errors 0
+    16000/36000   1246s  tokens 976,301  errors 0
+    16200/36000   1264s  tokens 988,722  errors 0
+    16400/36000   1280s  tokens 1,001,002  errors 0
+    16600/36000   1296s  tokens 1,013,127  errors 0
+    16800/36000   1310s  tokens 1,024,950  errors 0
+    17000/36000   1323s  tokens 1,036,847  errors 0
+    17200/36000   1339s  tokens 1,049,517  errors 0
+    17400/36000   1355s  tokens 1,062,048  errors 0
+    17600/36000   1371s  tokens 1,074,485  errors 0
+    17800/36000   1386s  tokens 1,086,658  errors 0
+    18000/36000   1401s  tokens 1,099,402  errors 0
+    18200/36000   1415s  tokens 1,111,646  errors 0
+    18400/36000   1429s  tokens 1,123,246  errors 0
+    18600/36000   1444s  tokens 1,134,701  errors 0
+    18800/36000   1461s  tokens 1,147,483  errors 0
+    19000/36000   1475s  tokens 1,159,634  errors 0
+    19200/36000   1492s  tokens 1,171,717  errors 0
+    19400/36000   1509s  tokens 1,184,640  errors 0
+    19600/36000   1525s  tokens 1,197,374  errors 0
+    19800/36000   1538s  tokens 1,209,610  errors 0
+    20000/36000   1552s  tokens 1,221,405  errors 0
+    20200/36000   1565s  tokens 1,233,884  errors 0
+    20400/36000   1579s  tokens 1,246,493  errors 0
+    20600/36000   1594s  tokens 1,257,838  errors 0
+    20800/36000   1612s  tokens 1,270,426  errors 0
+    21000/36000   1627s  tokens 1,282,301  errors 0
+    21200/36000   1643s  tokens 1,294,359  errors 0
+    21400/36000   1658s  tokens 1,306,680  errors 0
+    21600/36000   1672s  tokens 1,319,881  errors 0
+    21800/36000   1687s  tokens 1,332,301  errors 0
+    22000/36000   1703s  tokens 1,345,174  errors 0
+    22200/36000   1718s  tokens 1,356,895  errors 0
+    22400/36000   1734s  tokens 1,369,729  errors 0
+    22600/36000   1750s  tokens 1,382,138  errors 0
+    22800/36000   1765s  tokens 1,393,953  errors 0
+    23000/36000   1780s  tokens 1,405,879  errors 0
+    23200/36000   1796s  tokens 1,418,266  errors 0
+    23400/36000   1812s  tokens 1,430,307  errors 0
+    23600/36000   1827s  tokens 1,442,460  errors 0
+    23800/36000   1841s  tokens 1,454,805  errors 0
+    24000/36000   1855s  tokens 1,467,545  errors 0
+    24200/36000   1869s  tokens 1,480,147  errors 0
+    24400/36000   1882s  tokens 1,491,881  errors 0
+    24600/36000   1897s  tokens 1,504,629  errors 0
+    24800/36000   1911s  tokens 1,516,357  errors 0
+    25000/36000   1924s  tokens 1,528,920  errors 0
+    25200/36000   1938s  tokens 1,541,284  errors 0
+    25400/36000   1952s  tokens 1,552,741  errors 0
+    25600/36000   1967s  tokens 1,564,233  errors 0
+    25800/36000   1981s  tokens 1,576,076  errors 0
+    26000/36000   1997s  tokens 1,587,560  errors 0
+    26200/36000   2016s  tokens 1,600,501  errors 0
+    26400/36000   2030s  tokens 1,612,547  errors 0
+    26600/36000   2046s  tokens 1,624,727  errors 0
+    26800/36000   2061s  tokens 1,637,828  errors 0
+    27000/36000   2076s  tokens 1,650,248  errors 0
+    27200/36000   2092s  tokens 1,662,212  errors 0
+    27400/36000   2106s  tokens 1,673,491  errors 0
+    27600/36000   2122s  tokens 1,686,564  errors 0
+    27800/36000   2138s  tokens 1,698,643  errors 0
+    28000/36000   2153s  tokens 1,711,628  errors 0
+    28200/36000   2171s  tokens 1,724,640  errors 0
+    28400/36000   2187s  tokens 1,736,773  errors 0
+    28600/36000   2203s  tokens 1,749,686  errors 0
+    28800/36000   2220s  tokens 1,761,975  errors 0
+    29000/36000   2234s  tokens 1,773,984  errors 0
+    29200/36000   2251s  tokens 1,788,342  errors 0
+    29400/36000   2267s  tokens 1,800,642  errors 0
+    29600/36000   2284s  tokens 1,812,775  errors 0
+    29800/36000   2303s  tokens 1,825,378  errors 0
+    30000/36000   2320s  tokens 1,836,695  errors 0
+    30200/36000   2338s  tokens 1,847,830  errors 0
+    30400/36000   2356s  tokens 1,860,331  errors 0
+    30600/36000   2373s  tokens 1,872,876  errors 0
+    30800/36000   2392s  tokens 1,884,101  errors 0
+    31000/36000   2411s  tokens 1,896,636  errors 0
+    31200/36000   2428s  tokens 1,908,415  errors 0
+    31400/36000   2443s  tokens 1,920,075  errors 0
+    31600/36000   2458s  tokens 1,932,140  errors 0
+    31800/36000   2473s  tokens 1,944,776  errors 0
+    32000/36000   2487s  tokens 1,957,202  errors 0
+    32200/36000   2504s  tokens 1,969,686  errors 0
+    32400/36000   2519s  tokens 1,982,827  errors 0
+    32600/36000   2533s  tokens 1,994,819  errors 0
+    32800/36000   2550s  tokens 2,007,050  errors 0
+    33000/36000   2565s  tokens 2,018,361  errors 0
+    33200/36000   2580s  tokens 2,030,072  errors 0
+    33400/36000   2596s  tokens 2,042,101  errors 0
+    33600/36000   2612s  tokens 2,055,152  errors 0
+    33800/36000   2628s  tokens 2,067,373  errors 0
+    34000/36000   2644s  tokens 2,079,346  errors 0
+    34200/36000   2660s  tokens 2,091,199  errors 0
+    34400/36000   2676s  tokens 2,103,840  errors 0
+    34600/36000   2692s  tokens 2,116,191  errors 0
+    34800/36000   2706s  tokens 2,128,563  errors 0
+    35000/36000   2721s  tokens 2,140,080  errors 0
+    35200/36000   2737s  tokens 2,152,431  errors 0
+    35400/36000   2753s  tokens 2,164,573  errors 0
+    35600/36000   2769s  tokens 2,176,858  errors 0
+    35800/36000   2784s  tokens 2,188,687  errors 0
+    36000/36000   2801s  tokens 2,201,201  errors 0
+
+  responses: 36,000
+
+  model                                     terse   natural
+  ---------------------------------------------------------
+  meta-llama/llama-3.3-70b-instruct         86.6%     90.2%
+  openai/gpt-4o-mini                        81.9%     85.5%
+  microsoft/phi-4                           66.0%     77.2%
+  google/gemma-3-12b-it                     72.0%     76.5%
+  meta-llama/llama-3.1-8b-instruct          69.0%     74.8%
+  meta-llama/llama-3.2-3b-instruct          56.8%     56.4%
+
+  [terse] distinct answer strings per question: mean 2.56 of 6
+  [terse] all 6 models agree exactly: 32.5% of questions
+  [terse] at least one model correct: 93.0%
+  [terse] every model wrong:          7.0%
+
+  [natural] distinct answer strings per question: mean 5.32 of 6
+  [natural] all 6 models agree exactly: 0.3% of questions
+  [natural] at least one model correct: 94.5%
+  [natural] every model wrong:          5.5%
+  total spent on this key so far: $0.8022
