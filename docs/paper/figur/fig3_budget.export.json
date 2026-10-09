@@ -1,0 +1,48 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig3_budget.pdf",
+      "size_bytes": 34294
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig3_budget.png",
+      "size_bytes": 265654
+    }
+  ],
+  "provenance": {
+    "missing_data": "none",
+    "raw_data": "results/worked_example_hit.json (question 68) and results/worked_example_miss.json (question 4), both from analysis/budget_trace.py --json",
+    "transformations": [
+      "none; both curves are printed as computed",
+      "the true-F1 curve is never seen by the rule and is drawn only to show where the argmax lands"
+    ],
+    "uncertainty": "not applicable; two individual held-out questions"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      2.65
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

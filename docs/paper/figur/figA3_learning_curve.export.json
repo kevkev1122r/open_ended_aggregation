@@ -1,0 +1,48 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/figA3_learning_curve.pdf",
+      "size_bytes": 38574
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/figA3_learning_curve.png",
+      "size_bytes": 324529
+    }
+  ],
+  "provenance": {
+    "missing_data": "N=527 exhausts the training pool, so only one draw exists and the range is undefined",
+    "raw_data": "results/learning_curve.json, results/learning_curve_test1.json (both PRE parsing fix)",
+    "transformations": [
+      "gain = (output-structure scorer + budget) minus multi-agent counting, fixed held-out test set",
+      "5 independent training draws per size"
+    ],
+    "uncertainty": "right panel is the observed range across the 5 draws, not a confidence interval"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      2.45
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

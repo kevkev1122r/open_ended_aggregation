@@ -1,0 +1,62 @@
+======================================================================
+  WEBQSP  n=400  agents=5  -> webqsp_gen.jsonl
+======================================================================
+  400 questions x 5 models — 9 cached, 1991 to run
+    gen 100/1991    256s  $0.568  empty 5
+    gen 200/1991    566s  $1.266  empty 10
+    gen 300/1991    726s  $1.652  empty 12
+    gen 400/1991   1003s  $2.268  empty 17
+    gen 500/1991   1264s  $2.978  empty 27
+    gen 600/1991   1545s  $3.624  empty 33
+    gen 700/1991   1908s  $4.425  empty 40
+    gen 800/1991   2121s  $4.895  empty 44
+    gen 900/1991   2366s  $5.570  empty 51
+    gen 1000/1991   2660s  $6.054  empty 55
+    gen 1100/1991   2878s  $6.718  empty 64
+    gen 1200/1991   3129s  $7.247  empty 67
+    gen 1300/1991   3553s  $8.056  empty 75
+    gen 1400/1991   3840s  $8.659  empty 81
+======================================================================
+  WEBQSP  n=400  agents=5  -> webqsp_gen.jsonl
+======================================================================
+  400 questions x 5 models — 1366 cached, 634 to run
+    gen 100/634    964s  $3.136  empty 55
+    gen 200/634   1252s  $3.916  empty 62
+    gen 300/634   1712s  $4.930  empty 73
+    gen 400/634   1793s  $5.109  empty 73
+    gen 500/634   2098s  $5.760  empty 80
+    gen 600/634   2430s  $6.538  empty 89
+    gen 634/634   2746s  $6.749  empty 92
+  pass 1: +538 -> 1904/2000 (95.2%), 308 full q, throttled=0, $6.75
+  400 questions x 5 models — 1904 cached, 96 to run
+======================================================================
+  WEBQSP  n=400  agents=5  -> webqsp_gen.jsonl
+======================================================================
+  400 questions x 5 models — 1909 cached, 91 to run
+    gen 91/91   1050s  $3.248  empty 60
+  pass 1: +27 -> 1936/2000 (96.8%), 338 full q, throttled=0, $3.25
+  400 questions x 5 models — 1936 cached, 64 to run
+======================================================================
+  WEBQSP  n=400  agents=5  -> webqsp_gen.jsonl
+======================================================================
+  400 questions x 5 models — 1936 cached, 64 to run
+    gen 64/64    787s  $2.430  empty 48
+  pass 1: +13 -> 1949/2000 (97.5%), 350 full q, throttled=0, $2.43
+  400 questions x 5 models — 1949 cached, 51 to run
+======================================================================
+  WEBQSP  n=400  agents=5  -> webqsp_gen.jsonl
+======================================================================
+  400 questions x 5 models — 1950 cached, 50 to run
+======================================================================
+  WEBQSP  n=400  agents=5  -> webqsp_gen.jsonl
+======================================================================
+  400 questions x 5 models — 1950 cached, 50 to run
+    gen 50/50    545s  $1.731  empty 33
+  pass 1: +14 -> 1964/2000 (98.2%), 365 full q, throttled=0, $1.73
+  400 questions x 5 models — 1964 cached, 36 to run
+    gen 36/36    431s  $3.143  empty 60
+  pass 2: +7 -> 1971/2000 (98.5%), 372 full q, throttled=0, $3.14
+  400 questions x 5 models — 1971 cached, 29 to run
+    gen 29/29    375s  $4.319  empty 84
+  pass 3: +3 -> 1974/2000 (98.7%), 375 full q, throttled=0, $4.32
+  400 questions x 5 models — 1974 cached, 26 to run

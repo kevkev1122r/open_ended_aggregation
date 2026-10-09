@@ -1,0 +1,309 @@
+{
+  "schema_version": "1.0",
+  "numeric_facts": [
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI method set F1 (scorer + budget), 5-fold cross-fitted",
+      "denominator": null,
+      "evidence_ids": [
+        "E100"
+      ],
+      "fact_id": "N001",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "set F1 x100",
+      "value": 31.7
+    },
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI multi-agent counting set F1",
+      "denominator": null,
+      "evidence_ids": [
+        "E100"
+      ],
+      "fact_id": "N002",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "set F1 x100",
+      "value": 29.21
+    },
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI best single agent set F1 (Kimi-K2.5)",
+      "denominator": null,
+      "evidence_ids": [
+        "E100"
+      ],
+      "fact_id": "N003",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "set F1 x100",
+      "value": 27.4
+    },
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI pattern-lookup ceiling set F1",
+      "denominator": null,
+      "evidence_ids": [
+        "E100"
+      ],
+      "fact_id": "N004",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "set F1 x100",
+      "value": 29.5
+    },
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI method gain over counting",
+      "denominator": null,
+      "evidence_ids": [
+        "E100"
+      ],
+      "fact_id": "N005",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "set F1 x100",
+      "value": 2.5
+    },
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI method gain over best single agent",
+      "denominator": null,
+      "evidence_ids": [
+        "E100"
+      ],
+      "fact_id": "N006",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "set F1 x100",
+      "value": 4.3
+    },
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI method set F1 under leave-one-source-out",
+      "denominator": null,
+      "evidence_ids": [
+        "E101"
+      ],
+      "fact_id": "N007",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "set F1 x100",
+      "value": 31.49
+    },
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI candidate claims after normalisation fix",
+      "denominator": null,
+      "evidence_ids": [
+        "E100",
+        "E117"
+      ],
+      "fact_id": "N008",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "claims",
+      "value": 110136
+    },
+    {
+      "analysis_set": "all QAMPARI questions",
+      "concept": "QAMPARI candidate claims asserted by exactly one agent",
+      "denominator": null,
+      "evidence_ids": [
+        "E100",
+        "E124"
+      ],
+      "fact_id": "N009",
+      "numerator": null,
+      "sample_size": 777,
+      "section": "5 Results",
+      "unit": "claims",
+      "value": 95772
+    },
+    {
+      "analysis_set": "not applicable",
+      "concept": "Features used by the scorer",
+      "denominator": null,
+      "evidence_ids": [
+        "E113",
+        "E114"
+      ],
+      "fact_id": "N010",
+      "numerator": null,
+      "sample_size": null,
+      "section": "3 Method",
+      "unit": "features",
+      "value": 92
+    },
+    {
+      "analysis_set": "all ASQA questions",
+      "concept": "ASQA reliability weighting DR* at ensemble size 6",
+      "denominator": null,
+      "evidence_ids": [
+        "E104"
+      ],
+      "fact_id": "N011",
+      "numerator": null,
+      "sample_size": 400,
+      "section": "5 Results",
+      "unit": "DR* x100",
+      "value": 27.01
+    },
+    {
+      "analysis_set": "all ASQA questions",
+      "concept": "ASQA method DR* at ensemble size 6",
+      "denominator": null,
+      "evidence_ids": [
+        "E104"
+      ],
+      "fact_id": "N012",
+      "numerator": null,
+      "sample_size": 400,
+      "section": "5 Results",
+      "unit": "DR* x100",
+      "value": 26.35
+    }
+  ],
+  "methods": [
+    {
+      "analysis_intent": "confirmatory",
+      "method_id": "M001",
+      "name": "5-fold cross-fitted aggregation with paired bootstrap over questions",
+      "outcome_ids": [
+        "O001",
+        "O002"
+      ],
+      "protocol_status": "prespecified"
+    },
+    {
+      "analysis_intent": "confirmatory",
+      "method_id": "M002",
+      "name": "Leave-one-source-out cross-fitting over QAMPARI question sources",
+      "outcome_ids": [
+        "O001"
+      ],
+      "protocol_status": "prespecified"
+    },
+    {
+      "analysis_intent": "confirmatory",
+      "method_id": "M003",
+      "name": "Exhaustive per-ensemble sweep over agent subsets of size 3-6",
+      "outcome_ids": [
+        "O001",
+        "O002"
+      ],
+      "protocol_status": "prespecified"
+    },
+    {
+      "analysis_intent": "exploratory",
+      "method_id": "M004",
+      "name": "Length-stratified correlation of within-output position with correctness",
+      "outcome_ids": [
+        "O003"
+      ],
+      "protocol_status": "post_hoc"
+    }
+  ],
+  "results": [
+    {
+      "analysis_intent": "confirmatory",
+      "evidence_ids": [
+        "E100"
+      ],
+      "method_id": "M001",
+      "outcome_id": "O001",
+      "reported_sections": [
+        "5 Results"
+      ],
+      "result_id": "R001",
+      "sample_size": 777
+    },
+    {
+      "analysis_intent": "confirmatory",
+      "evidence_ids": [
+        "E101"
+      ],
+      "method_id": "M002",
+      "outcome_id": "O001",
+      "reported_sections": [
+        "5 Results"
+      ],
+      "result_id": "R002",
+      "sample_size": 777
+    },
+    {
+      "analysis_intent": "confirmatory",
+      "evidence_ids": [
+        "E102"
+      ],
+      "method_id": "M003",
+      "outcome_id": "O001",
+      "reported_sections": [
+        "5 Results"
+      ],
+      "result_id": "R003",
+      "sample_size": 777
+    },
+    {
+      "analysis_intent": "confirmatory",
+      "evidence_ids": [
+        "E104"
+      ],
+      "method_id": "M003",
+      "outcome_id": "O002",
+      "reported_sections": [
+        "5 Results"
+      ],
+      "result_id": "R004",
+      "sample_size": 400
+    },
+    {
+      "analysis_intent": "exploratory",
+      "evidence_ids": [
+        "E105"
+      ],
+      "method_id": "M004",
+      "outcome_id": "O003",
+      "reported_sections": [
+        "5 Results"
+      ],
+      "result_id": "R005",
+      "sample_size": 777
+    },
+    {
+      "analysis_intent": "exploratory",
+      "evidence_ids": [
+        "E106"
+      ],
+      "method_id": "M004",
+      "outcome_id": "O003",
+      "reported_sections": [
+        "5 Results"
+      ],
+      "result_id": "R006",
+      "sample_size": 400
+    },
+    {
+      "analysis_intent": "confirmatory",
+      "evidence_ids": [
+        "E103"
+      ],
+      "method_id": "M001",
+      "outcome_id": "O002",
+      "reported_sections": [
+        "5 Results"
+      ],
+      "result_id": "R007",
+      "sample_size": 400
+    }
+  ]
+}

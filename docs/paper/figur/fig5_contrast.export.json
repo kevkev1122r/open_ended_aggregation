@@ -1,0 +1,44 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig5_contrast.pdf",
+      "size_bytes": 41852
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig5_contrast.png",
+      "size_bytes": 79076
+    }
+  ],
+  "provenance": {
+    "derived_from": "two QAMPARI claims asserted by Kimi-K2.5 alone",
+    "source": "results/hierarchy_pair.json",
+    "transform": "support pattern beside within-output position and longest silent-agent length, same claim pair"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      1.28
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

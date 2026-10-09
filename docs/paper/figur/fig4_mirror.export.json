@@ -1,0 +1,49 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig4_mirror.pdf",
+      "size_bytes": 57738
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig4_mirror.png",
+      "size_bytes": 400624
+    }
+  ],
+  "provenance": {
+    "missing_data": "support-pattern ceiling absent from the ASQA per-ensemble sweep; ASQA size 6 has one ensemble",
+    "raw_data": "results/rank_crossover.json (PRE parsing fix); results/asqa_ours_ensembles.json",
+    "transformations": [
+      "per-ensemble gain over multi-agent counting, as stored",
+      "horizontal jitter for legibility only, seed 20260823",
+      "median bar per group"
+    ],
+    "uncertainty": "every ensemble is plotted; legend counts are per-ensemble paired bootstrap, 10k resamples, split by direction"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      2.95
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

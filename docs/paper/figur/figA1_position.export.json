@@ -1,0 +1,48 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/figA1_position.pdf",
+      "size_bytes": 34352
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/figA1_position.png",
+      "size_bytes": 348842
+    }
+  ],
+  "provenance": {
+    "missing_data": "none",
+    "raw_data": "results/rank_effect.json (PRE parsing fix); results/asqa_rank_effect.json; results/cwq_rank_effect.json",
+    "transformations": [
+      "solo assertions only, removing the support confound",
+      "stratified by the asserting agent's own output length, removing the verbosity confound"
+    ],
+    "uncertainty": "not estimated; n reported per band"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      3.15
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

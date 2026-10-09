@@ -1,0 +1,328 @@
+% refs.bib -- generated 2026-08-28.
+% Bibliographic details fetched from the arXiv API (30 entries) and Crossref (2).
+% Every arXiv ID was checked to resolve to the title cited in the manuscript.
+% VERIFIED METADATA IS NOT A VERIFIED READING: entries marked UNREAD below were
+% never opened by an author. See UNRESOLVED.md section 5.
+
+% [1] read
+@inproceedings{thirukovalluru2024atomic,
+  title         = {{Atomic Self-Consistency for Better Long Form Generations}},
+  author        = {Raghuveer Thirukovalluru and Yukun Huang and Bhuwan Dhingra},
+  booktitle     = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages         = {12681--12694},
+  year          = {2024},
+  eprint        = {2405.13131},
+  archivePrefix = {arXiv},
+  doi           = {10.18653/v1/2024.emnlp-main.706},
+}
+
+% [2] read
+@article{ai2025majority,
+  title         = {{Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order Information}},
+  author        = {Rui Ai and Yuqi Pan and David Simchi-Levi and Milind Tambe and Haifeng Xu},
+  year          = {2025},
+  eprint        = {2510.01499},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2510.01499},
+}
+
+% [3] UNREAD
+@article{li2024agents,
+  title         = {{More Agents Is All You Need}},
+  author        = {Junyou Li and Qin Zhang and Yangbin Yu and Qiang Fu and Deheng Ye},
+  year          = {2024},
+  eprint        = {2402.05120},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2402.05120},
+}
+
+% [4] read
+@article{jiang2023llm,
+  title         = {{LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion}},
+  author        = {Dongfu Jiang and Xiang Ren and Bill Yuchen Lin},
+  year          = {2023},
+  eprint        = {2306.02561},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2306.02561},
+}
+
+% [5] read
+@article{guo2024serial,
+  title         = {{Serial Position Effects of Large Language Models}},
+  author        = {Xiaobo Guo and Soroush Vosoughi},
+  year          = {2024},
+  eprint        = {2406.15981},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2406.15981},
+}
+
+% [6] read
+@article{goel2025zero,
+  title         = {{Zero-knowledge LLM hallucination detection and mitigation through fine-grained cross-model consistency}},
+  author        = {Aman Goel and Daniel Schwartz and Yanjun Qi},
+  year          = {2025},
+  eprint        = {2508.14314},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2508.14314},
+}
+
+% [7] read
+@article{zhang2024atomic,
+  title         = {{Atomic Calibration of LLMs in Long-Form Generations}},
+  author        = {Caiqi Zhang and Ruihan Yang and Zhisong Zhang and Xinting Huang and Sen Yang and Dong Yu and Nigel Collier},
+  year          = {2024},
+  eprint        = {2410.13246},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2410.13246},
+}
+
+% [8] read
+@article{wu2026this,
+  title         = {{Is This Your Final Answer? Cross-Contextual Consistency as a Measure of LLM Credibility}},
+  author        = {Siyang Wu and Yibo Jiang and Bryon Aragam},
+  year          = {2026},
+  eprint        = {2608.10315},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2608.10315},
+}
+
+% [9] read
+@article{ananthakrishnan2026power,
+  title         = {{Power and Limitations of Aggregation in Compound AI Systems}},
+  author        = {Nivasini Ananthakrishnan and Meena Jagadeesan},
+  year          = {2026},
+  eprint        = {2602.21556},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2602.21556},
+}
+
+% [10] read
+@article{panou2025harnessing,
+  title         = {{Harnessing Collective Intelligence of LLMs for Robust Biomedical QA: A Multi-Model Approach}},
+  author        = {Dimitra Panou and Alexandros C. Dimopoulos and Manolis Koubarakis and Martin Reczko},
+  year          = {2025},
+  eprint        = {2508.01480},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2508.01480},
+}
+
+% [11] read
+@article{islam2025curious,
+  title         = {{The Curious Case of Factual (Mis)Alignment between LLMs' Short- and Long-Form Answers}},
+  author        = {Saad Obaid ul Islam and Anne Lauscher and Goran Glavaš},
+  year          = {2025},
+  eprint        = {2510.11218},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2510.11218},
+}
+
+% [12] read
+@inproceedings{stelmakh2022asqa,
+  title         = {{ASQA: Factoid Questions Meet Long-Form Answers}},
+  author        = {Ivan Stelmakh and Yi Luan and Bhuwan Dhingra and Ming-Wei Chang},
+  booktitle     = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages         = {8273--8288},
+  year          = {2022},
+  eprint        = {2204.06092},
+  archivePrefix = {arXiv},
+  doi           = {10.18653/v1/2022.emnlp-main.566},
+}
+
+% [13] UNREAD
+@article{amouyal2022qampari,
+  title         = {{QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs}},
+  author        = {Samuel Joseph Amouyal and Tomer Wolfson and Ohad Rubin and Ori Yoran and Jonathan Herzig and Jonathan Berant},
+  year          = {2022},
+  eprint        = {2205.12665},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2205.12665},
+}
+
+% [14] UNREAD
+@article{chen2023universal,
+  title         = {{Universal Self-Consistency for Large Language Model Generation}},
+  author        = {Xinyun Chen and Renat Aksitov and Uri Alon and Jie Ren and Kefan Xiao and Pengcheng Yin and Sushant Prakash and Charles Sutton and Xuezhi Wang and Denny Zhou},
+  year          = {2023},
+  eprint        = {2311.17311},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2311.17311},
+}
+
+% [15] UNREAD
+@article{janiak2025illusion,
+  title         = {{The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs}},
+  author        = {Denis Janiak and Jakub Binkowski and Albert Sawczyn and Bogdan Gabrys and Ravid Shwartz-Ziv and Tomasz Kajdanowicz},
+  year          = {2025},
+  eprint        = {2508.08285},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2508.08285},
+}
+
+% [16] UNREAD
+@article{zhang2024verbosity,
+  title         = {{Verbosity $\neq$ Veracity: Demystify Verbosity Compensation Behavior of Large Language Models}},
+  author        = {Yusen Zhang and Sarkar Snigdha Sarathi Das and Rui Zhang},
+  year          = {2024},
+  eprint        = {2411.07858},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2411.07858},
+}
+
+% [17] UNREAD
+@article{dawid1979maximum,
+  title   = {{Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm}},
+  author  = {Dawid, A. P. and Skene, A. M.},
+  journal = {Journal of the Royal Statistical Society. Series C (Applied Statistics)},
+  volume  = {28},
+  number  = {1},
+  pages   = {20--28},
+  year    = {1979},
+  doi     = {10.2307/2346806},
+}
+
+% [18] UNREAD
+@article{sinha2018fast,
+  title         = {{Fast Dawid-Skene: A Fast Vote Aggregation Scheme for Sentiment Classification}},
+  author        = {Vaibhav B Sinha and Sukrut Rao and Vineeth N Balasubramanian},
+  year          = {2018},
+  eprint        = {1803.02781},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:1803.02781},
+}
+
+% [19] UNREAD
+@article{majdi2023crowd,
+  title         = {{Crowd-Certain: Label Aggregation in Crowdsourced and Ensemble Learning Classification}},
+  author        = {Mohammad S. Majdi and Jeffrey J. Rodriguez},
+  year          = {2023},
+  eprint        = {2310.16293},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2310.16293},
+}
+
+% [20] UNREAD
+@article{kuzin2025improving,
+  title         = {{Improving Deep Ensembles by Estimating Confusion Matrices}},
+  author        = {Danil Kuzin and Olga Isupova and Steven Reece and Brooke D Simmons},
+  year          = {2025},
+  eprint        = {2503.07119},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2503.07119},
+}
+
+% [21] UNREAD
+@article{ahn2025prompt,
+  title         = {{Prompt-Reverse Inconsistency: LLM Self-Inconsistency Beyond Generative Randomness and Prompt Paraphrasing}},
+  author        = {Jihyun Janice Ahn and Wenpeng Yin},
+  year          = {2025},
+  eprint        = {2504.01282},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2504.01282},
+}
+
+% [22] REMOVED 28 Aug 2026. Was cited in Related Work for "consistency under
+% prompt perturbation as a credibility measure". The paper (Chen et al.,
+% Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs, TMLR
+% 2024, arXiv:2305.14279) argues consistency is a criterion SEPARATE from
+% correctness, so it does not support that claim. Do not re-add without
+% rewriting the sentence.
+
+% [23] UNREAD
+@article{ning2025mad,
+  title         = {{MAD-Fact: A Multi-Agent Debate Framework for Long-Form Factuality Evaluation in LLMs}},
+  author        = {Yucheng Ning and Xixun Lin and Fang Fang and Yanan Cao},
+  year          = {2025},
+  eprint        = {2510.22967},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2510.22967},
+}
+
+% [24] UNREAD
+@article{wan2025fastfact,
+  title         = {{FaStfact: Faster, Stronger Long-Form Factuality Evaluations in LLMs}},
+  author        = {Yingjia Wan and Haochen Tan and Xiao Zhu and Xinyu Zhou and Zhiwei Li and Qingsong Lv and Changxuan Sun and Jiaqi Zeng and Yi Xu and Jianqiao Lu and Yinhong Liu and Zhijiang Guo},
+  year          = {2025},
+  eprint        = {2510.12839},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2510.12839},
+}
+
+% [25] UNREAD
+@article{liu2025verifact,
+  title         = {{VeriFact: Enhancing Long-Form Factuality Evaluation with Refined Fact Extraction and Reference Facts}},
+  author        = {Xin Liu and Lechen Zhang and Sheza Munir and Yiyang Gu and Lu Wang},
+  year          = {2025},
+  eprint        = {2505.09701},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2505.09701},
+}
+
+% [26] UNREAD
+@article{zhang2026position,
+  title         = {{The Position Curse: LLMs Struggle to Locate the Last Few Items in a List}},
+  author        = {Zhanqi Zhang and Hua-Dong Xiong and Robert C. Wilson and Mikio Aoi and Marcelo G. Mattar and Li Ji-An},
+  year          = {2026},
+  eprint        = {2605.07127},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2605.07127},
+}
+
+% [27] UNREAD
+@article{salvatore2025lost,
+  title         = {{Lost in the Middle: An Emergent Property from Information Retrieval Demands in LLMs}},
+  author        = {Nikolaus Salvatore and Hao Wang and Qiong Zhang},
+  year          = {2025},
+  eprint        = {2510.10276},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2510.10276},
+}
+
+% [28] UNREAD
+@article{qiao2026llm,
+  title         = {{LLM-based Listwise Reranking under the Effect of Positional Bias}},
+  author        = {Jingfen Qiao and Jin Huang and Xinyu Ma and Shuaiqiang Wang and Dawei Yin and Evangelos Kanoulas and Andrew Yates},
+  year          = {2026},
+  eprint        = {2604.03642},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2604.03642},
+}
+
+% [29] UNREAD
+@article{yan2026evirank,
+  title         = {{EviRank: Evidence-Based Confidence Estimation for LLM-Based Ranking}},
+  author        = {Meng Yan and Cai Xv and Xujing Wang and Ziyu Guan and Wei Zhao},
+  year          = {2026},
+  eprint        = {2606.04727},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2606.04727},
+}
+
+% [30] UNREAD
+@article{gauthier2025adaptive,
+  title         = {{Adaptive Coverage Policies in Conformal Prediction}},
+  author        = {Etienne Gauthier and Francis Bach and Michael I. Jordan},
+  year          = {2025},
+  eprint        = {2510.04318},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2510.04318},
+}
+
+% [31] UNREAD
+@inproceedings{cormack2009reciprocal,
+  title     = {{Reciprocal rank fusion outperforms Condorcet and individual rank learning methods}},
+  author    = {Cormack, Gordon V. and Clarke, Charles L. A. and Buettcher, Stefan},
+  booktitle = {Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages     = {758--759},
+  year      = {2009},
+  doi       = {10.1145/1571941.1572114},
+}
+
+% [32] UNREAD
+@article{wang2022self,
+  title         = {{Self-Consistency Improves Chain of Thought Reasoning in Language Models}},
+  author        = {Xuezhi Wang and Jason Wei and Dale Schuurmans and Quoc Le and Ed Chi and Sharan Narang and Aakanksha Chowdhery and Denny Zhou},
+  year          = {2022},
+  eprint        = {2203.11171},
+  archivePrefix = {arXiv},
+  journal       = {arXiv preprint arXiv:2203.11171},
+}

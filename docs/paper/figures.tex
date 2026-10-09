@@ -1,0 +1,158 @@
+% =====================================================================
+% Figure blocks for main.tex.
+%
+% PREAMBLE: add \usepackage{graphicx} -- main.tex does not currently load
+% it, and neurips_2026.sty should not be relied on to.
+%
+% Upload the PDFs from docs/paper/figures/ to the Overleaf project.
+% If you put them in a subfolder, add \graphicspath{{figures/}}.
+%
+%   fig1  ->  replaces the empty \fbox figure in Section 3.2
+%   fig2  ->  new, in Section 3.1 or 5.1
+%   fig3  ->  new, in Section 3.4
+%   fig4  ->  replaces Tables tab:ens-gain, tab:ens-sig AND tab:asqa
+%   figA1 ->  replaces Table tab:rank, moved to the appendix
+%   figA2 ->  replaces Table tab:calib, moved to the appendix
+%   figA3 ->  replaces Table tab:curve, moved to the appendix
+%
+% Regenerate with:
+%   ./venv/bin/python -m open_ended_aggregation.analysis.pattern_cells
+%   ./venv/bin/python -m open_ended_aggregation.analysis.budget_trace \
+%       --qid 68__wikitables_composition__dev --json results/worked_example_hit.json
+%   ./venv/bin/python -m open_ended_aggregation.analysis.budget_trace \
+%       --qid 4__wikitables_composition__dev  --json results/worked_example_miss.json
+%   ./venv/bin/python -m open_ended_aggregation.analysis.make_figures
+% Each PDF ships a .manifest.json recording its source data and transforms.
+% =====================================================================
+
+
+% ---------------------------------------------------------------- fig 1 ---
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{fig1_worked_example.pdf}
+  \caption{One held-out question, end to end, with every quantity of
+  Section~\ref{sec:background} shown on real data. Rows are the pooled
+  candidate set $C(q)$; a filled cell means that agent asserted the candidate,
+  so the filled cells in a row are the support pattern $S(c)$ and the number
+  inside is the within-output position $r_m(c)$; column headers give each
+  agent's own output length $L_m(q)$; blank cells are the omissions that
+  omission strength grades by $\log L_m(q)$. The scorer of
+  Section~\ref{sec:slotA} orders the rows and the keep-count of
+  Section~\ref{sec:slotB} draws the line. The takeaway is that support alone
+  would not separate these rows cleanly, since \texttt{barchana} is asserted by
+  four agents and \texttt{jajpur road} by one, yet the ordering that results
+  keeps all seven gold answers and drops all seven non-answers. This question
+  is favourable; Figure~\ref{fig:budget} shows one where the same rule misses.}
+  \label{fig:worked}
+\end{figure}
+
+
+% ---------------------------------------------------------------- fig 2 ---
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{fig2_ceiling.pdf}
+  \caption{The support-pattern partition on QAMPARI, which is what the ceiling
+  of Section~\ref{sec:ceiling} is made of. Left: each marker is one support
+  pattern $s$, positioned at its support count and its observed correctness
+  rate, with area proportional to the claims it holds; the black line is the
+  rate a rule reading only $|S(c)|$ can see. Any rule in the bounded class
+  chooses one decision per marker, and multi-agent counting chooses one per
+  column, so the vertical spread within a column is exactly the headroom
+  reliability weighting has over counting. Right: where the claims actually
+  are. The takeaway is that the spread is large where the claims are not:
+  it reaches 59 points at $|S(c)|=4$, which holds 1,655 claims, and is 5.5
+  points at $|S(c)|=1$, which holds 95,772. That is why a bound this loose in
+  principle is worth only $+0.30$ F1 in practice.}
+  \label{fig:ceiling}
+\end{figure}
+
+
+% ---------------------------------------------------------------- fig 3 ---
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{fig3_budget.pdf}
+  \caption{How the keep-count is chosen, on two held-out questions. The solid
+  curve is the plug-in expected F1 that Section~\ref{sec:slotB} maximises,
+  computed from the predicted probabilities and $\hat{G}_q$ alone; the dashed
+  curve is the true F1, which the rule never sees. Left: the argmax lands on
+  the true optimum, and keeping every candidate instead would cost 33 F1.
+  Right: the same rule cuts at 7 against a true optimum of 12 and ends below
+  keeping everything. Note that $\hat{G}_q$ is wrong in both panels, by $+2.4$
+  and $+1.1$ answers. The takeaway is that the rule needs the curve to have an
+  interior maximum, not the gold-count estimate to be accurate, which is why
+  substituting the true count is worth only $+0.55$ F1 overall.}
+  \label{fig:budget}
+\end{figure}
+
+
+% ---------------------------------------------------------------- fig 4 ---
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{fig4_mirror.pdf}
+  \caption{Gain over multi-agent counting for every agent subset of size 3 to
+  6, with each point one ensemble and each bar the group median. Counting is
+  the baseline and is drawn at zero. On QAMPARI the support-pattern ceiling
+  sits above reliability weighting at every size and below the
+  output-structure scorer at every size, so the scorer clears the bound rather
+  than beating one weighting scheme; reliability weighting is significantly
+  \emph{worse} than counting in 55 of 210 ensembles, while the scorer is above
+  baseline in all 210. On ASQA the ordering reverses at every size. The
+  takeaway is that the two benchmarks give mirror-image verdicts on the same
+  two arms, and Table~\ref{tab:solo} predicts which verdict applies before
+  either method is built.}
+  \label{fig:mirror}
+\end{figure}
+
+
+% --------------------------------------------------------------- fig A1 ---
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{figA1_position.pdf}
+  \caption{Within-output position as a correctness signal, restricted to solo
+  assertions to remove the support confound and stratified by the asserting
+  agent's own output length to remove the verbosity confound. Left: on lists of
+  5 items or fewer the relationship runs the wrong way, and the usable gradient
+  appears only on longer lists. Right: the same measurement as a rank
+  correlation, with ASQA added; every ASQA response-length band falls inside
+  $|\rho| < 0.05$, the range where QAMPARI shows no usable signal, and $79\%$
+  of ASQA responses are 3 or 4 sentences. The takeaway is that the signal the
+  method depends on is absent at ASQA's response lengths, so the ASQA loss in
+  Figure~\ref{fig:mirror} is a property of the answer format rather than a
+  failure of the template.}
+  \label{fig:position}
+\end{figure}
+
+
+% --------------------------------------------------------------- fig A2 ---
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{figA2_calibration.pdf}
+  \caption{Calibration of the cross-fitted claim scorer over 110,136 QAMPARI
+  claims. Left: observed minus mean predicted correctness by
+  predicted-probability bin. Right: how many claims fall in each bin.
+  Calibration error is under one point across the five lowest bins, which hold
+  $97\%$ of all claims, and grows monotonically to $-5.8$ points in the highest
+  bin. The takeaway is that the error is concentrated in exactly the region the
+  keep-count reads, so the budget overstates expected hits and keeps too much,
+  and a globally fitted isotonic curve cannot fix it because such a curve is
+  dominated by the bottom bin.}
+  \label{fig:calibration}
+\end{figure}
+
+
+% --------------------------------------------------------------- fig A3 ---
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{figA3_learning_curve.pdf}
+  \caption{Supervision cost of the claim scorer, on a fixed held-out test set
+  with five independent training draws per size and two independent test
+  splits. Left: the gain over counting is negative at 25 labelled questions and
+  saturates by roughly 200 on both splits. Right: the range across the five
+  draws collapses from $1.64$ to $0.15$ F1. The point at 527 is omitted from
+  the right panel because it exhausts the training pool, leaving a single draw
+  for which a range is undefined. The takeaway is that past roughly 200
+  questions it no longer matters which questions were used for fitting, which
+  is what one would expect if the coefficients describe how these models emit
+  lists rather than the subject matter of any particular question.}
+  \label{fig:curve}
+\end{figure}

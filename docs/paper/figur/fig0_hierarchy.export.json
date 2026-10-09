@@ -1,0 +1,44 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig0_hierarchy.pdf",
+      "size_bytes": 63618
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig0_hierarchy.png",
+      "size_bytes": 171742
+    }
+  ],
+  "provenance": {
+    "derived_from": "data/qampari_asc800.jsonl, 8 agents, 777 full-pool questions",
+    "source": "results/hierarchy_pair.json",
+    "transform": "two solo claims asserted by the same agent; positions and per-agent output lengths parsed after the special-token fix of Section 4.4"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      1.65
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

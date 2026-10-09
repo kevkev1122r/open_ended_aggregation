@@ -1,0 +1,1325 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E001",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2405.13131"
+      },
+      "locator": "method and list-pipeline configuration",
+      "source_type": "preprint",
+      "title": "Atomic Self-Consistency for Better Long Form Generations",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2024
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E002",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2510.01499"
+      },
+      "locator": "weight derivation; target prediction type",
+      "source_type": "preprint",
+      "title": "Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order Information",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E003",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2402.05120"
+      },
+      "locator": "sampling-and-voting scaling result",
+      "source_type": "preprint",
+      "title": "More Agents Is All You Need",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2024
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E004",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2306.02561"
+      },
+      "locator": "pairwise ranking and fusion over whole responses",
+      "source_type": "preprint",
+      "title": "LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2023
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E005",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2406.15981"
+      },
+      "locator": "Figure 1; input-side label-selection framing",
+      "source_type": "preprint",
+      "title": "Serial Position Effects of Large Language Models",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2024
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E006",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2508.14314"
+      },
+      "locator": "segmentation and cross-model scoring; evaluation suites",
+      "source_type": "preprint",
+      "title": "Zero-knowledge LLM hallucination detection through fine-grained cross-model consistency (Finch-Zk)",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E007",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2410.13246"
+      },
+      "locator": "single-model atomic-level calibration",
+      "source_type": "preprint",
+      "title": "Atomic Calibration of LLMs in Long-Form Generations",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2024
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E008",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2608.10315"
+      },
+      "locator": "perturbation consistency as credibility",
+      "source_type": "preprint",
+      "title": "Is This Your Final Answer? Cross-Contextual Consistency as a Measure of LLM Credibility",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E009",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2602.21556"
+      },
+      "locator": "bound on member-answer selection policies",
+      "source_type": "preprint",
+      "title": "Power and Limitations of Aggregation in Compound AI Systems",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E010",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2508.01480"
+      },
+      "locator": "union aggregation for list questions",
+      "source_type": "preprint",
+      "title": "Harnessing Collective Intelligence for Biomedical Question Answering",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E011",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2510.11218"
+      },
+      "locator": "SLAQ; 51.3% at first fact to 30.1% at fifth, 16 models",
+      "source_type": "preprint",
+      "title": "The Curious Case of Factual (Mis)Alignment between LLMs' Short- and Long-Form Answers",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E012",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2204.06092"
+      },
+      "locator": "DR definition; statement that STR-EM and Disambig-F1 measure the same aspect",
+      "source_type": "preprint",
+      "title": "ASQA: Factoid Questions Meet Long-Form Answers",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2022
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E013",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2205.12665"
+      },
+      "locator": "dataset description",
+      "source_type": "preprint",
+      "title": "QAMPARI",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2022
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E014",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2311.17311"
+      },
+      "locator": "response selection",
+      "source_type": "preprint",
+      "title": "Universal Self-Consistency",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2023
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E015",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2508.08285"
+      },
+      "locator": "response length as hallucination detector",
+      "source_type": "preprint",
+      "title": "The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E016",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2411.07858"
+      },
+      "locator": "verbosity compensation",
+      "source_type": "preprint",
+      "title": "Verbosity is not Veracity",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2024
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E017",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "annotator confusion-matrix model; bibliographic details unconfirmed",
+      "source_type": "other",
+      "title": "Maximum Likelihood Estimation of Observer Error-Rates Using the EM Algorithm",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 1979
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E018",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/1803.02781"
+      },
+      "locator": "aggregation algorithm",
+      "source_type": "preprint",
+      "title": "Fast Dawid-Skene",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2018
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E019",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2310.16293"
+      },
+      "locator": "label aggregation",
+      "source_type": "preprint",
+      "title": "Crowd-Certain: Label Aggregation in Crowdsourced and Ensemble Learning",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2023
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E020",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2503.07119"
+      },
+      "locator": "soft Dawid-Skene for deep ensembles",
+      "source_type": "preprint",
+      "title": "Improving Deep Ensembles by Estimating Confusion Matrices",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E021",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2504.01282"
+      },
+      "locator": "prompt-transform consistency",
+      "source_type": "preprint",
+      "title": "Prompt-Reverse Inconsistency",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E022",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2305.14279"
+      },
+      "locator": "prompt-transform consistency",
+      "source_type": "preprint",
+      "title": "Self-consistency under prompt transformations",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2023
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E023",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2510.22967"
+      },
+      "locator": "multi-agent long-form factuality evaluation",
+      "source_type": "preprint",
+      "title": "MAD-Fact",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E024",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2510.12839"
+      },
+      "locator": "atomic-claim factuality evaluation",
+      "source_type": "preprint",
+      "title": "FaStfact",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E025",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2505.09701"
+      },
+      "locator": "atomic-claim factuality evaluation",
+      "source_type": "preprint",
+      "title": "VeriFact",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E026",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2605.07127"
+      },
+      "locator": "input-side item location",
+      "source_type": "preprint",
+      "title": "The Position Curse: LLMs Struggle to Locate the Last Few Items in a List",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E027",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2510.10276"
+      },
+      "locator": "context position",
+      "source_type": "preprint",
+      "title": "Lost in the Middle follow-up",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E028",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2604.03642"
+      },
+      "locator": "positional bias when reranking supplied candidates",
+      "source_type": "preprint",
+      "title": "LLM-based Listwise Reranking under Positional Bias",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E029",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2606.04727"
+      },
+      "locator": "position-aware confidence for ranking",
+      "source_type": "preprint",
+      "title": "EviRank",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E030",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2510.04318"
+      },
+      "locator": "per-sample miscoverage and expected set size",
+      "source_type": "preprint",
+      "title": "Adaptive Coverage Policies in Conformal Prediction",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2025
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E031",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "RRF definition; bibliographic details unconfirmed",
+      "source_type": "other",
+      "title": "Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2009
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E032",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2203.11171"
+      },
+      "locator": "majority voting over sampled reasoning paths",
+      "source_type": "preprint",
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2022
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E100",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "QAMPARI headline table, all arms, bootstrap CIs",
+      "source_type": "other",
+      "title": "Run log: weighting_v5 seed 0, post parsing fix",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E101",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "LOSO vs random-fold table; per-source gains",
+      "source_type": "other",
+      "title": "Run log: leave-one-source-out, post parsing fix",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E103",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "ASQA DR* arm table incl. adapt-* and learned-budget arms",
+      "source_type": "other",
+      "title": "Run log: ASQA rank/budget arms",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E104",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "all 42 ASQA ensembles; agent roster",
+      "source_type": "other",
+      "title": "Result file: ASQA per-ensemble sweep",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E106",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "sentence-position correlation by response length",
+      "source_type": "other",
+      "title": "Run log: ASQA rank effect",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E113",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "feature block definitions and sizes",
+      "source_type": "other",
+      "title": "Source: analysis/weighting_v3.py, build_features",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E114",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "cross-fitting protocol; ridge=1.0; arm definitions",
+      "source_type": "other",
+      "title": "Source: analysis/weighting_v5.py",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E115",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "QAMPARI 8-agent roster",
+      "source_type": "other",
+      "title": "Config: model pools",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E116",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "DR* proxy definition and its justification",
+      "source_type": "other",
+      "title": "Source: analysis/asqa_metrics.py",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E117",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "special-token normalisation fix; candidate counts",
+      "source_type": "other",
+      "title": "Source: benchmarks/qampari.py, strip_special",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E119",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "QAMPARI alias coverage and the strict-vs-relaxed sensitivity analysis",
+      "source_type": "other",
+      "title": "Doc: benchmarks.md",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E120",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": "https://arxiv.org/abs/2405.13131"
+      },
+      "locator": "list pipeline has no composition step",
+      "source_type": "preprint",
+      "title": "ASC EMNLP paper, section 'Adapting ASC to list style datasets'",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2024
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E123",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "qualitative merge examples and 7.6% merge rate",
+      "source_type": "other",
+      "title": "Run logs: LLM-judged clustering",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E124",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "occupied cells, claims per cell, and the correctness-rate spread within each support count; post parsing fix",
+      "source_type": "other",
+      "title": "Result file: support-pattern cell occupancy",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E125",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "best single 27.03, count 24.77, pattern 27.20, weighted 27.45, LEAN 26.81/26.88; all comparisons against best single and ceiling",
+      "source_type": "other",
+      "title": "Run log: ASQA full-pool arms with the vs-ceiling column",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E126",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "counting below best single in 39 of 42 ensembles; mean gap -0.70 at n=3 widening to -2.26 at n=6",
+      "source_type": "other",
+      "title": "Result file: ASQA per-ensemble sweep, counting vs best single",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E127",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "MDE 0.92 at 80% power and 1.13 for the method arm; TOST equivalence within +-0.83 F1; bootstrap SE 0.328; post parsing fix",
+      "source_type": "other",
+      "title": "Result file: sensitivity at the achieved sample size",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E128",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "stacking is worth +0.01 DR* mean over 42 ensembles, significant in 5 and negative in 1; the scorer remains below the pattern lookup",
+      "source_type": "other",
+      "title": "Run log: ASQA per-ensemble sweep with the stacked pattern probability added as a feature",
+      "verification": {
+        "source_opened": true,
+        "status": "verified",
+        "verified_by": "project author",
+        "verified_on": "2026-08-23"
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E102",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "per-size gains and significant-win counts; PENDING RERUN",
+      "source_type": "other",
+      "title": "Run log: rank_crossover, 210 ensembles (PRE parsing fix)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E105",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "length-stratified position analysis; PENDING RERUN",
+      "source_type": "other",
+      "title": "Run log: rank effect (PRE parsing fix)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E107",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "per-agent list-length distribution; PENDING RERUN",
+      "source_type": "other",
+      "title": "Run log: omission effect (PRE parsing fix)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E108",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "gain vs training-set size; PENDING RERUN",
+      "source_type": "other",
+      "title": "Run logs: learning curve, two test splits (PRE parsing fix)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E110",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "predicted-vs-actual bins; NO REPRODUCIBLE MODULE",
+      "source_type": "other",
+      "title": "Calibration measurement, run inline with no saved artifact",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E111",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "ablation and negative-result tables; PENDING RERUN",
+      "source_type": "other",
+      "title": "Doc: weighting sweep, ~60 rules (PRE parsing fix)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E112",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "gold-count statistics, Ghat MAE, constant-k control; PENDING RERUN",
+      "source_type": "other",
+      "title": "Doc: ROBUSTNESS.md (PRE parsing fix)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E118",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "solo ratios and pool CVs; PENDING RERUN",
+      "source_type": "other",
+      "title": "Solo-ratio measurements, 20 August 2026 (PRE parsing fix)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E121",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "majority-vote and response-selection degeneracy; PENDING REGENERATION",
+      "source_type": "other",
+      "title": "Doc: results.md (PRE parsing fix, earlier agent pool)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    },
+    {
+      "authors": [],
+      "confidentiality": "public",
+      "evidence_id": "E122",
+      "identifiers": {
+        "doi": "",
+        "isbn": "",
+        "pmcid": "",
+        "pmid": "",
+        "url": ""
+      },
+      "locator": "P(correct | k agents assert); PENDING RERUN",
+      "source_type": "other",
+      "title": "Support-count profile (PRE parsing fix)",
+      "verification": {
+        "source_opened": false,
+        "status": "unverified",
+        "verified_by": "",
+        "verified_on": ""
+      },
+      "year": 2026
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig2_ceiling.pdf",
+      "size_bytes": 32454
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig2_ceiling.png",
+      "size_bytes": 178673
+    }
+  ],
+  "provenance": {
+    "source": "results/pattern_cells.json; results/cwq_ceiling.json",
+    "transform": "upper: claims per support count. lower: max minus min correctness over support patterns holding >=30 claims at that support count, which is what a rule reading S(c) can exploit over one reading |S(c)| alone."
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      3.0
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

@@ -1,0 +1,43 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig4_regimes.pdf",
+      "size_bytes": 28565
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig4_regimes.png",
+      "size_bytes": 197410
+    }
+  ],
+  "provenance": {
+    "source": "results/ensemble_sizes.json (QAMPARI, 210 ensembles), results/asqa_ours_ensembles.json (ASQA, 42 ensembles), results/cwq_kg_ensembles.json (CWQ, 16 ensembles)",
+    "transform": "per ensemble, counting minus the best single agent in that ensemble; line is the mean over ensembles of each size. Solo ratios are Table 9. QAMPARI arm predates the parsing fix of Section 4.4."
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      2.6
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

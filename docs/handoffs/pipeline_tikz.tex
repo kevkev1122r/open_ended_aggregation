@@ -1,0 +1,97 @@
+% Full process map of the synthesizer (v1). \input by PLAN_2026-09-22.tex and
+% PIPELINE_2026-09-22.tex. Needs: tikz with positioning, arrows.meta.
+\begin{tikzpicture}[
+  node distance=5mm and 8mm,
+  >={Stealth[length=2.2mm]},
+  box/.style={draw, rounded corners=2pt, align=center, text width=64mm,
+              inner sep=3pt, font=\small},
+  built/.style={box, fill=green!12},
+  planned/.style={box, fill=orange!18},
+  plain/.style={box, fill=white},
+  io/.style={draw, rounded corners=2pt, align=center, text width=28mm,
+             inner sep=3pt, font=\small, fill=gray!12},
+  small/.style={draw, rounded corners=2pt, align=center, text width=16mm,
+                inner sep=3pt, font=\small},
+  offline/.style={draw, dashed, rounded corners=2pt, align=center,
+                  text width=30mm, inner sep=3pt, font=\small, fill=blue!6},
+  lab/.style={font=\scriptsize\itshape, text=black!70},
+  flow/.style={->, thick},
+  side/.style={->, thick, dashed},
+]
+
+% ---- inputs
+\node[io] (resp) {Responses\\$r_1,\dots,r_n$};
+\node[io, left=of resp] (agents) {Agents $1,\dots,n$\\{\scriptsize any models}};
+\node[io, left=of agents] (q) {Question $q$};
+\draw[flow] (q) -- (agents);
+\draw[flow] (agents) -- (resp);
+
+% ---- main column
+\node[planned, below=7mm of resp] (extract)
+  {\textbf{1~Claim extraction} (LLM, each response separately)\\
+   {\scriptsize canonical claims: entity, or slot $\to$ value $\cdot$ position in response}};
+\node[planned, below=of extract] (match)
+  {\textbf{2~Matching}\\{\scriptsize exact string match on canonical form}};
+\node[plain, below=of match] (table)
+  {\textbf{Claim table}\\
+   {\scriptsize per claim: supporters (with positions) $\cdot$ silent $\cdot$ contradicting}};
+\node[built, below=of table] (feat)
+  {\textbf{3~Features} (pool-invariant, label-free)\\
+   {\scriptsize support $\cdot$ position $\cdot$ verbosity (self-normalised) $\cdot$
+    omission $\cdot$ contradiction$^{\dagger}$ $\cdot$ question context}};
+\node[built, below=of feat] (scorer)
+  {\textbf{4~Scorer}: logistic regression\\{\scriptsize $p(c)$ for every claim $c$}};
+\node[built, below=of scorer] (keep)
+  {\textbf{5~Keep decision}: per-question budget\\
+   {\scriptsize $k^*(q)=\arg\max_k \,2\sum_{i\le k}p_i \,/\, (k+\hat G_q)$}};
+
+% ---- three-way split
+\node[small, fill=yellow!30, below=7mm of keep] (band) {uncertain\\band};
+\node[small, fill=green!30, left=4mm of band] (hi) {keep};
+\node[small, fill=red!18, right=4mm of band] (lo) {drop};
+\draw[flow] (keep.south) -- (hi.north);
+\draw[flow] (keep.south) -- (band.north);
+\draw[flow] (keep.south) -- (lo.north);
+
+% ---- composer and output
+\node[planned, below=8mm of band] (comp)
+  {\textbf{6~LLM composer}\\
+   {\scriptsize rules on the band $\cdot$ settles contradictions $\cdot$
+    writes a list or prose}};
+\node[io, below=of comp] (ans) {Final answer};
+
+% ---- main flow
+\draw[flow] (resp) -- (extract);
+\draw[flow] (extract) -- (match);
+\draw[flow] (match) -- (table);
+\draw[flow] (table) -- (feat);
+\draw[flow] (feat) -- (scorer);
+\draw[flow] (scorer) -- (keep);
+\draw[flow] (hi.south) -- (hi.south |- comp.north);
+\draw[flow] (band) -- (comp);
+\draw[flow] (comp) -- (ans);
+
+% ---- the composer also reads the question and the original responses
+\coordinate (R) at ([xshift=9mm]feat.east);
+\draw[side] (resp.east) -- (resp.east -| R) -- (comp.east -| R) -- (comp.east);
+\node[lab, right=0.5mm, align=left] at (scorer.east -| R) {$q$ +\\responses};
+
+% ---- offline training, once per task
+\node[offline, left=12mm of scorer] (train)
+  {\textbf{Offline}, once per task\\{\scriptsize labelled answers from \emph{other} agents}};
+\draw[side] (train.east) -- (scorer.west);
+\draw[side] (train.south) |- (keep.west);
+\node[lab, below right=0.5mm and -1mm of train.south] {$\hat G$};
+
+% ---- legend
+\node[draw, fill=green!12, minimum width=5mm, minimum height=3mm, inner sep=0pt,
+      below=7mm of ans.south west, anchor=north west, xshift=-18mm] (l1) {};
+\node[right=1mm of l1, font=\scriptsize] (t1) {built};
+\node[draw, fill=orange!18, minimum width=5mm, minimum height=3mm, inner sep=0pt,
+      right=4mm of t1] (l2) {};
+\node[right=1mm of l2, font=\scriptsize] (t2) {planned};
+\node[draw, dashed, fill=blue!6, minimum width=5mm, minimum height=3mm, inner sep=0pt,
+      right=4mm of t2] (l3) {};
+\node[right=1mm of l3, font=\scriptsize] (t3) {offline};
+\node[right=4mm of t3, font=\scriptsize] {$^{\dagger}$\,planned};
+\end{tikzpicture}

@@ -1,0 +1,964 @@
+% =====================================================================
+% DRAFT. NOT SUBMISSION READY.
+%
+% Provenance markers appear as LaTeX comments of the form
+%   % [claim:Cxxx] [evidence:Exxx]
+% They do not render. Registries: source_manifest.json, claims.csv,
+% consistency_manifest.json. Rebuild with build_registries.py after edits.
+%
+% References marked UNVERIFIED in the comment beside them have not been
+% read directly and must not ship until they are.
+%
+% Requires neurips_2026.sty and checklist.tex from https://neurips.cc.
+% Neither is in this repository.
+% =====================================================================
+
+\documentclass{article}
+
+% natbib options are passed before neurips_2026 loads it.
+\PassOptionsToPackage{numbers, compress}{natbib}
+
+% The authors should use one of these tracks.
+% Before accepting by the NeurIPS conference, select one of the options below.
+% 0. "default" for submission
+\usepackage{neurips_2026}
+% the "default" option is equal to the "main" option, which is used for the Main Track with double-blind reviewing.
+% 1. "main" option is used for the Main Track
+%  \usepackage[main]{neurips_2026}
+% 2. "position" option is used for the Position Paper Track
+%  \usepackage[position]{neurips_2026}
+% 3. "eandd" option is used for the Evaluations & Datasets Track
+ % \usepackage[eandd]{neurips_2026}
+% 4. "creativeai" option is used for the Creative AI Track
+%  \usepackage[creativeai]{neurips_2026}
+% 5. "sglblindworkshop" option is used for the Workshop with single-blind reviewing
+ % \usepackage[sglblindworkshop]{neurips_2026}
+% 6. "dblblindworkshop" option is used for the Workshop with double-blind reviewing
+%  \usepackage[dblblindworkshop]{neurips_2026}
+
+% After being accepted, the authors should add "final" behind the track to compile a camera-ready version.
+% 1. Main Track
+ % \usepackage[main, final]{neurips_2026}
+% 2. Position Paper Track
+%  \usepackage[position, final]{neurips_2026}
+% 3. Evaluations & Datasets Track
+ % \usepackage[eandd, final]{neurips_2026}
+% 4. Creative AI Track
+%  \usepackage[creativeai, final]{neurips_2026}
+% 5. Workshop with single-blind reviewing
+%  \usepackage[sglblindworkshop, final]{neurips_2026}
+% 6. Workshop with double-blind reviewing
+%  \usepackage[dblblindworkshop, final]{neurips_2026}
+% Note. For the workshop paper template, both \title{} and \workshoptitle{} are required, with the former indicating the paper title shown in the title and the latter indicating the workshop title displayed in the footnote.
+% For workshops (5., 6.), the authors should add the name of the workshop, "\workshoptitle" command is used to set the workshop title.
+% \workshoptitle{WORKSHOP TITLE}
+
+% "preprint" option is used for arXiv or other preprint submissions
+ % \usepackage[preprint]{neurips_2026}
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2026}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsmath}        % \text, \operatorname, aligned display math
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+\usepackage{graphicx}       % figures
+\usepackage{algorithm}      % procedure float
+\usepackage{algpseudocode}  % pseudocode body
+% The figure PDFs live in a folder called figur, both in the repository
+% and in the Overleaf project. If you instead put them in the project
+% root, comment the next line out.
+\graphicspath{{figures_final/}{figur_new/}{figur/}{./}}
+
+% Note. For the workshop paper template, both \title{} and \workshoptitle{} are required, with the former indicating the paper title shown in the title and the latter indicating the workshop title displayed in the footnote.
+\title{Beyond Votes: Generation Behaviour as Evidence\\
+in Multi-Agent Aggregation}
+
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to break the
+% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
+% authors names on the first line, and the last on the second line, try using
+% \AND instead of \And before the third author name.
+
+
+% The default (main track) option suppresses this block and prints
+% "Anonymous Author(s)". Fill it in only for the camera-ready version.
+\author{%
+  Anonymous Author(s) \\
+  Affiliation withheld for double-blind review \\
+  % examples of more authors
+  % \And
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+  % \AND
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+}
+
+
+\begin{document}
+
+
+\maketitle
+
+
+\begin{abstract}
+  Multi-agent systems pool claims from several language models and keep the ones enough agents assert, using only who asserted each claim. How they wrote it also predicts correctness: where a claim sits in an agent's output, and how much a silent agent wrote before leaving it out. Behavioural aggregation scores claims on both signals, then sets how many to keep per question instead of using one global threshold. On QAMPARI it scores $31.70$ set F1 against $29.21$ for majority counting and $27.40$ for the best single agent, and holds across all 210 agent subsets of size three to six. Agent identity is not what pays: the best identity-only rule beats counting by $0.30$ F1, an interval spanning zero. On ASQA every agent writes about three sentences, both signals vanish, and reliability weighting wins. One ratio computed from the generations predicts which regime a benchmark is in.
+  % [claim:C001] [evidence:E100]
+  % [claim:C002] [evidence:E100,E101]
+\end{abstract}
+
+
+\section{Introduction}
+\label{sec:intro}
+
+Answering a question with several language models and combining their answers is more accurate than using one \cite{li2024agents}. Most systems combine by voting on who asserted each claim, or by fusing whole responses \cite{jiang2023llm}; the weights can be uniform, accuracy-based, or derived from higher-order agreement between agents \cite{ai2025majority}.
+
+All of these rules use the same information: which agents asserted the claim. That is enough for a fixed set of labels, not for open-ended answers, where an agent writes an ordered list or a paragraph of separate statements. Figure~\ref{fig:hierarchy} shows two claims no such rule can tell apart: the same agent asserted both and no other agent asserted either, but one is the first item of a three-item list and the other the twenty-fifth of 101, beside an agent that wrote 2,398 items and never mentioned it. The first is correct; the second is not. On our entity-list pool a strict majority vote scores $22.80$ set F1 against $27.92$ for the best single agent: eight times the compute for less accuracy. % [claim:C003] [evidence:E121]
+
+We use two things a vote throws away: where each agent placed the claim in its own output, and how much each silent agent wrote. Behavioural aggregation scores every claim on those two signals, then picks how many claims to return for each question instead of applying one threshold to all of them.
+
+On QAMPARI this scores $31.70$ set F1 against $27.40$ for the best single agent, and wins in all 210 agent subsets of size three to six. The best rule that uses agent identity alone beats plain counting by $0.30$ F1, an interval that spans zero, so better weighting does not explain the gain. On ASQA every agent writes about three sentences, neither signal exists, and reliability weighting wins; one ratio computed from the generations tells the two cases apart in advance.
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig0_hierarchy.pdf}
+  \caption{Two QAMPARI claims that no published aggregation rule can separate. \texttt{Kimi-K2.5} asserted both and no other agent asserted either, so any rule reading only which agents asserted a claim must decide the same way for both (Section~\ref{sec:ceiling}). They differ only in how that agent generated them: the correct claim is the first of three items it produced, the incorrect one the twenty-fifth of 101, and the agents that stayed silent on it had produced 2,398 and 791 items of their own. Columns are the eight agents in a fixed order, most verbose first.}
+  \label{fig:hierarchy}
+\end{figure}
+
+\begin{enumerate}
+\item \textbf{An information decomposition of multi-agent aggregation} into how many agents asserted a claim, which agents they were, and how they generated it. The second channel saturates: on QAMPARI the strongest identity-only rule beats counting by $+0.30$ set F1, interval $[-0.34, +0.90]$.
+% [claim:C006] [evidence:E100]
+\item \textbf{Behavioural aggregation}, an instantiation for list-structured output using claim position and graded omission, plus a metric-matched decision rule. It reaches $31.70$ F1, $+4.30$ over the best single agent and $+2.50$ over counting, both intervals excluding zero.
+% [claim:C007] [evidence:E100]
+\item \textbf{Evidence that it transfers:} the gain holds in all 210 agent subsets of size three to six and survives holding out a whole question type, while the identity-only rule is indistinguishable from counting under either.
+\item \textbf{A diagnostic for which channel has headroom}, computable from the generations, and the benchmark where it correctly predicts behavioural aggregation will fail.
+\end{enumerate}
+
+
+\section{Method}
+\label{sec:method}
+
+\subsection{Setup and notation}
+\label{sec:setup}
+
+Each of $n$ agents $M$ answers question $q$ once. Claims are normalised and pooled into a candidate set $C(q)$; $c$ is \emph{asserted} by $m$ if $m$ produced a claim normalising to $c$. The aggregator returns a subset of $C(q)$, scored against gold $G(q)$. Write $S(c) \subseteq M$ for the agents asserting $c$, with $|S(c)|$ the \emph{support count}, so $M \setminus S(c)$ stayed silent; $r_m(c)$ for the 1-indexed position of $c$ in $m$'s own output, defined only for $m \in S(c)$; and $L_m(q)$ for how many claims $m$ produced. The last two describe the agent's own output, not any list supplied to it.
+
+Majority voting and reliability weighting read $S(c)$ alone. We write $B(c)$ for what the generations reveal beyond assertion: $r_m(c)$ for each asserter, $L_m(q)$ for each silent agent. Behavioural aggregation reads both, in two modules. The \emph{Claim Scorer} (Section~\ref{sec:slotA}) maps each candidate to a probability, ranking them within a question; the \emph{Keep Budget} (Section~\ref{sec:slotB}) chooses how far down to cut. Both are fitted on training folds only (Section~\ref{sec:crossfit}), and Algorithm~\ref{alg:ba} states the procedure end to end.
+
+\subsection{The support pattern and its ceiling}
+\label{sec:ceiling}
+
+Many rules decide on $c$ only through $S(c)$: weighted voting, Naive Bayes over per-agent true- and false-positive rates with or without silence as evidence, correlation-aware weighting (the co-assertion structure it reads is itself a function of $S(c)$), and Dawid-Skene annotator models \cite{dawid1979maximum}. Any such rule partitions candidates into at most $2^n$ cells and decides once per cell, so for any objective monotone in the probability a kept claim is correct, the best decision follows from $P(\mathrm{correct} \mid S(c) = s)$. Estimating that on training folds and thresholding it is the strongest rule of the class, and gives one number for what agent identity is worth on a dataset. Counting is the special case reading only $|S(c)|$; Figure~\ref{fig:ceiling} shows the headroom between them is widest where the fewest claims are.
+
+The lookup is a finite-sample estimate, so it is an empirical benchmark rather than an attained bound, and it bounds the \emph{population} optimum, so a constrained rule can beat it in sample --- which we observe on ASQA (Section~\ref{sec:rq3}). Set F1 is also not decomposable, so a rule deciding jointly across a question's candidates could in principle beat any per-candidate threshold rule, the form every arm here takes.
+% [claim:C009] [evidence:E103]
+
+
+\subsection{Claim Scorer}
+\label{sec:slotA}
+
+The confidence signal is fixed by the answer format and the decision rule by the metric; the other three pipeline stages are identical across benchmarks (Appendix~\ref{app:pipeline}). For list answers the scorer reads three feature groups, all computed from the agents' own outputs and none a function of $S(c)$ alone. Appendix~\ref{app:features} gives exact definitions.
+% [claim:C010] [evidence:E113]
+
+\textbf{Position.} For each asserter, $\log(1 + r_m(c))$ and the relative position $r_m(c)/L_m(q)$, summarised across $S(c)$ by min, mean, max and standard deviation, plus a per-agent term. A one-hot encoding of $r_m(c)$ into seven logarithmic bands per agent lets the scorer express non-monotone dependence on position without a non-linear model.
+
+\textbf{Omission strength.} Prior rules treat silence as one thing: Naive Bayes assigns every silent agent the same $\log((1-\mathrm{TPR})/(1-\mathrm{FPR}))$, a logistic over support indicators assigns zero. But list lengths here span a median of 1 for the smallest agent to a mean of $72.2$ for the largest.
+% [claim:C011] [evidence:E107]
+An agent that emitted three items without mentioning $c$ has said little; one that emitted fifty has said a great deal without saying $c$. We weight each silent agent by $\log L_m(q)$ and enter the sum, the maximum, the count with $L_m(q) \geq 20$, and a per-agent term.
+
+\textbf{Stacked pattern probability.} The training-fold estimate of $P(\mathrm{correct} \mid S(c) = s)$ enters as one logit-scaled feature, so the scorer takes the ceiling rule's output as input rather than competing with it.
+
+The 92 resulting features feed an L2-regularised logistic regression with ridge coefficient $1.0$.
+% [claim:C012] [evidence:E113,E114]
+Asserter verbosity is excluded: it adds $+0.01$ over position (Appendix~\ref{app:features}). Length survives only inside omission strength, where a silent agent has no position and length is the only evidence.
+
+\subsection{Keep Budget}
+\label{sec:slotB}
+
+QAMPARI gold sets range from 5 to 40 with a mean of $10.2$, so one global threshold is wrong on most questions.
+% [claim:C013] [evidence:E112]
+Take candidates in descending predicted probability $p_1 \geq p_2 \geq \cdots$, substitute $\sum_{i \leq k} p_i$ for the unknown number correct among the top $k$, and $\hat{G}_q$ for the unknown gold size. Equation~\ref{eq:budget} maximises the resulting estimate of set F1:
+\begin{equation}
+\label{eq:budget}
+  k^*(q) \;=\; \arg\max_k \; \frac{2 \sum_{i \leq k} p_i}{k + \hat{G}_q}.
+\end{equation}
+$\hat{G}_q$ is a ridge regression fitted on training questions over quantities available at inference: candidate count, maximum support count, how many candidates have at least two supporters, and the sum and maximum of predicted probabilities. It need not be accurate. Its mean absolute error is $4.62$ against a gold mean of $10.2$, substituting the true count gains only $+0.55$, and a constant $k$ across all questions gains nothing over counting, $29.41$ against $29.21$: the gain comes from the cut varying per question, not from its accuracy.
+% [claim:C014] [evidence:E112,E100]
+
+\subsection{Cross-fitting}
+\label{sec:crossfit}
+
+Every fitted object --- pattern lookup, logistic coefficients, gold-count ridge, per-agent weights, every threshold --- is fitted on training folds and applied to held-out questions, with 5 folds on QAMPARI and 2 on ASQA, where each threshold evaluation costs a ROUGE-L pass. Intervals are paired bootstrap over questions, 10,000 resamples. Selecting a keep threshold on the evaluation set instead moved one measured gain from $+0.08$ to $-1.25$. % [claim:C015] [evidence:E111]
+
+\begin{algorithm}[t]
+\small
+\caption{Behavioural aggregation for one question $q$}
+\label{alg:ba}
+\begin{algorithmic}[1]
+\Require agents $M$, their responses, scorer weights $w$, gold-count coefficients $\beta$
+\State $C(q) \gets$ normalise and pool the claims in every response
+\For{each candidate $c \in C(q)$}
+    \State $S(c) \gets$ the agents whose response contains $c$
+    \State record $r_m(c)$ for $m \in S(c)$, and $L_m(q)$ for $m \in M \setminus S(c)$
+    \State $p_c \gets \sigma\!\left(w^{\top}\phi(S(c), B(c))\right)$ \Comment{Section~\ref{sec:slotA}}
+\EndFor
+\State sort $C(q)$ by $p_c$ descending
+\State $\hat{G}_q \gets \beta^{\top} z(q)$ \Comment{$z(q)$ available at inference}
+\State $k^{*} \gets \arg\max_k 2\sum_{i \leq k} p_i / (k + \hat{G}_q)$ \Comment{Section~\ref{sec:slotB}}
+\State \Return the top $k^{*}$ candidates
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Screening a dataset before filling the slot}
+\label{sec:screen}
+
+Filling the confidence slot is expensive: it means deciding what signal the format affords, implementing it, and labelling enough claims to fit a scorer. Section~\ref{sec:ceiling} says it is worth filling only where the ceiling binds, and this statistic estimates that from the agents' outputs:
+\[
+  \text{solo ratio} \;=\; \frac{P(\mathrm{correct} \mid \text{exactly 1 agent asserts})}{P(\mathrm{correct} \mid \geq 2 \text{ agents assert})}.
+\]
+A low ratio means a \emph{solo} claim, one asserted by exactly one agent, is strong evidence of being wrong, so a support-count threshold already filters well and weighting has little to add; the remaining signal must come from elsewhere. A high ratio means counting discards most of the content for little precision gain, so only weighting can filter. The share of solo candidates carries none of this: it is roughly $87\%$ on both QAMPARI and ASQA.
+% [claim:C016] [evidence:E118]
+
+
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Benchmarks and metrics}
+\label{sec:metrics}
+
+Three benchmarks, chosen so that the confidence signal and the decision rule of Section~\ref{sec:method} must be filled differently in each. A filter trades precision against recall, so only a metric scoring both can adjudicate one; the full pipeline is therefore measured on an entity-list task.
+
+\textbf{QAMPARI} \cite{amouyal2022qampari}. 777 questions with entity-list answers drawn from five structurally different sources (\texttt{wikidata\_simple}, \texttt{wikidata\_intersection}, \texttt{wikidata\_comp}, \texttt{wikitables\_composition}, \texttt{wikitables\_simple}), which give the distribution-shift protocol of Section~\ref{sec:robust}.
+% [claim:C018] [evidence:E101]
+Each list item is natively an atomic fact and grading is programmatic against gold aliases, no judge model. Since $97.2\%$ of gold entries carry no alias, grading is close to exact string match, worth roughly $-7$ F1 near-uniformly across arms. Scored by set F1 against $G(q)$, macro-averaged.
+% [claim:C017] [evidence:E119]
+
+\textbf{ASQA} \cite{stelmakh2022asqa}. 400 ambiguous questions with long-form answers, decomposed into sentence clusters. Scored by $\mathrm{DR}^* = \sqrt{\mathrm{ROUGE\text-L} \times \mathrm{STR\text-EM}}$, where ROUGE-L is an F-measure over the longest common subsequence with the reference and STR-EM the fraction of gold short answers appearing verbatim. This proxies the published Disambig-ROUGE, replacing Disambig-F1 with STR-EM and avoiding a RoBERTa-SQuADv2 reader; the ASQA authors state the two measure the same aspect. Every ASQA number is labelled a proxy.
+% [claim:C008] [evidence:E116,E012]
+
+\textbf{TriviaQA}. 2,757 short-answer questions, scored by accuracy. Each response is a single answer, so position and the keep-count are undefined; TriviaQA is a third point for the screen of Section~\ref{sec:screen}.
+
+\subsection{Agents and baselines}
+
+Eight agents on QAMPARI: \texttt{grok-4.3}, \texttt{Kimi-K2.5}, \texttt{MAI-Thinking-1}, \texttt{gpt-5.4}, \texttt{DeepSeek-V4-Flash}, \texttt{gpt-5.4-mini}, \texttt{gpt-5.4-nano}, \texttt{Cohere-command-a-plus-05-2026}. Six on ASQA and six on TriviaQA. % [claim:C019] [evidence:E115,E104]
+Each agent is sampled once per question at a single decoding setting, and every result comes from that one set of generations. Appendix~\ref{app:agents} gives the per-agent length spread omission strength depends on.
+% [claim:C020] [evidence:E107]
+
+\emph{Best single agent} is the pool member with the highest mean score, selected under the same cross-fitting as every other arm. \emph{Multi-agent count} keeps $c$ if $|S(c)| \geq \theta$; \emph{reliability weighting} keeps $c$ if $\sum_{m \in S(c)} w_m \geq \Theta$; the \emph{pattern lookup} thresholds the training-fold estimate of $P(\mathrm{correct} \mid S(c))$ and is the ceiling of Section~\ref{sec:ceiling}, in substance a Dawid-Skene annotator model \cite{dawid1979maximum} applied to language-model agents, and a baseline here rather than a contribution. Thresholds and weights are fitted on training folds. Appendix~\ref{app:negative} reports the rest of the weighting family and the classical rank-fusion rules: Reciprocal Rank Fusion \cite{cormack2009reciprocal}, Borda, CombSUM and CombMNZ.
+
+For atomic self-consistency \cite{thirukovalluru2024atomic} we run the published list pipeline, which has no composition step, so our no-composition configuration is the paper's pipeline rather than a truncation of it. It draws $m$ samples from one model where we have one per agent, so agents stand in for samples; the estimand becomes inter-model agreement and the single-model form is not evaluated here.
+% [claim:C021] [evidence:E120,E001]
+
+\subsection{Protocol}
+\label{sec:protocol}
+
+5-fold cross-fitting over questions on QAMPARI, 2-fold on ASQA. Paired bootstrap over questions, 10,000 resamples, $95\%$ intervals; $*$ marks an interval excluding zero. Per-ensemble sweeps cover all 210 QAMPARI and all 42 ASQA subsets of sizes 3 to 6. Appendix~\ref{app:hyper} lists every fitting setting.
+
+Literal special-token strings from one agent survived into the parsed item lists, producing 1,244 of 110,801 candidates matching no gold entry and splitting claims that should have merged into two support-1 candidates. Stripping them leaves 110,136 candidates, changes every arm by at most $0.14$ F1, alters no significance verdict, and grows our margin over counting from $+2.39$ to $+2.50$. All QAMPARI numbers are post-fix unless marked.
+% [claim:C022] [evidence:E117,E100]
+
+
+\section{Results and analysis}
+\label{sec:results}
+
+After pooling and normalisation the QAMPARI pool is 110,136 candidates across 777 questions, $3.57\%$ correct and 95,772 ($87.0\%$) asserted by exactly one agent.
+% [claim:C023] [evidence:E100] [evidence:E124]
+
+Figure~\ref{fig:worked} instantiates every quantity of Section~\ref{sec:setup} on one held-out question.
+
+
+\subsection{RQ1: what reliability weighting is worth, and its bound}
+\label{sec:rq1}
+
+\begin{table}
+  \caption{QAMPARI main results: 777 questions, 8 agents, 5-fold cross-fitted by question, paired bootstrap with 10,000 resamples. The best rule expressible from the support pattern alone, which upper-bounds every reliability-weighting scheme, beats counting by $+0.30$ F1, interval $[-0.34, +0.90]$. Everything above about $+0.9$ comes from information the support pattern does not contain.}
+  \label{tab:main}
+  \centering
+  \begin{tabular}{lrll}
+    \toprule
+    Arm & Set F1 & vs.\ best single & vs.\ count \\
+    \midrule
+    best single agent (\texttt{Kimi-K2.5})  & 27.40 & (reference)              & $-1.80$ \\
+    multi-agent count, $\theta$ cross-fitted & 29.21 & $+1.80\ [+0.76,+2.87]^*$ & (reference) \\
+    pattern lookup (ceiling on all weighting) & 29.50 & $+2.10\ [+1.09,+3.09]^*$ & $+0.30\ [-0.34,+0.90]$ \\
+    ours: scorer only, global threshold     & 30.68 & $+3.28\ [+2.31,+4.26]^*$ & $+1.47\ [+0.78,+2.14]^*$ \\
+    \textbf{ours: scorer + budget}          & \textbf{31.70} & $\mathbf{+4.30\ [+3.37,+5.26]^*}$ & $\mathbf{+2.50\ [+1.72,+3.28]^*}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+% [claim:C024] [evidence:E100]
+
+Table~\ref{tab:main} answers RQ1 with a bound: at $95\%$ the data place any rule in the class at no more than about $+0.9$ F1 over counting here. The pattern lookup is not one scheme among many; by Section~\ref{sec:ceiling} it bounds the whole class. The bound is on the population optimum, and the estimated lookup can be beaten in sample where cells are thin; Section~\ref{sec:rq3} reports the one benchmark where that happens.
+
+\paragraph{Sensitivity at the achieved sample size.}
+We report sensitivity at the achieved sample size rather than observed power, which is a
+deterministic function of the $p$-value and uninformative. With 777 paired questions and the
+bootstrap the intervals use, the smallest effect this design detects at $80\%$ power is $0.92$
+F1, and a two one-sided tests procedure establishes equivalence to zero within $\pm 0.83$ F1 at
+$\alpha = 0.05$. Effects above roughly $0.9$ F1 are therefore excluded, while $+0.30$ cannot be
+separated from zero at this $n$. The same design resolves the method's $+2.50$ comfortably,
+against a minimum detectable effect of $1.13$.
+% [claim:C051] [evidence:E127]
+
+Correlation and diversity weighting selected $\lambda = 0$ in all five folds, an explicit pairwise co-assertion parameterisation with 28 indicators gained $+0.05$, and question-domain weights gained $+0.00$. % [claim:C025] [evidence:E111]
+
+$P(\mathrm{correct} \mid \text{exactly } k \text{ agents assert})$ runs $1.2$, $11.1$, $17.4$, $27.2$, $36.5$, $46.3$, $51.9$ and $56.5$ percent for $k = 1 \dots 8$. % [claim:C026] [evidence:E122]
+A solo claim is rarely correct and two agreeing agents raise the odds by roughly an order of magnitude, so a support-count threshold is close to the best this class of information supports.
+
+\subsection{RQ2: what lies outside the bound}
+\label{sec:rq2}
+
+Answering RQ2, the lower two rows of Table~\ref{tab:main} show the confidence slot moves $29.21$ to $30.68$ with a global threshold, and the decision slot adds $1.02$ more to reach $31.70$; both intervals exclude zero, and the two axes are close to independent. In the ablation sweep the confidence signals alone are worth $+1.44$ over counting, and the budget alone --- \texttt{adapt-count}, which uses no agent identity at all --- is worth $+1.19$. % [claim:C027] [evidence:E111]
+Agent identity is worth roughly $+0.3$ on top of either. The literature this work extends places its weight on agent identity; here the two signals that ignore it are worth about five times the one that does not.
+
+Within the confidence slot, omission strength is the largest single block: alone it is worth $+1.65$ over counting.
+% [claim:C028] [evidence:E111]
+
+\paragraph{Ablations, in distribution.}
+Gradient boosting over the same features scores $29.95$ alone and $31.73$ with the budget; a logistic/boosting blend scores $30.80$ and $32.06$. % [claim:C029] [evidence:E100]
+The blend is the highest in-distribution number we measured, and is not our reported arm, for the transfer reason in Section~\ref{sec:robust}.
+
+\paragraph{Off-the-shelf fusion.}
+Of the classical rank-fusion rules only Reciprocal Rank Fusion beats counting, at $+0.84$; Borda, CombSUM and weighted Borda land between $-0.42$ and $-0.67$. % [claim:C030] [evidence:E111]
+
+\subsection{Breadth: every ensemble, not one pool}
+\label{sec:breadth}
+
+To test whether the 8-agent pool was favourable, we evaluate all 210 subsets of sizes 3 to 6 (Appendix~\ref{app:ensembles}). Our method beats counting in all 210 with intervals excluding zero, by $+4.43$, $+4.53$, $+3.13$ and $+2.31$ F1 at sizes 3 to 6; reliability weighting manages 105 of 210 and turns negative at size 6.
+
+
+% [claim:C031] [evidence:E102]
+
+
+Appendix~\ref{app:figs} plots every ensemble individually, with the spread behind these medians.
+
+The size-6 row locates the crossover in support-pattern rules specifically, not in aggregation itself: weighting and the pattern lookup both decay toward zero as the pool grows and weighting turns negative, while the output-structure arms cross over nowhere we can measure.
+% [claim:C032] [evidence:E102]
+
+\subsection{Robustness}
+\label{sec:robust}
+
+\paragraph{Holding out a whole question type.}
+Random folds draw train and test from one distribution, so a rule exploiting something peculiar to QAMPARI as a whole would still look fine. We therefore train on four of its five question sources and test on the fifth, five times; we call this leave-one-source-out, or LOSO (Table~\ref{tab:loso}, Appendix~\ref{app:ensembles}). Our method loses $0.21$ F1 against a gain of $2.50$, so roughly $92\%$ survives and stays significant against counting.
+
+
+% [claim:C033] [evidence:E101]
+
+The extra capacity does not pay out of distribution: the blend gains $+0.36$ over the plain logistic under random folds and loses $0.06$ under shift. We take the out-of-distribution ordering as decision-relevant, drop boosting, and report the boosted arms as an ablation.
+
+Gains are positive on every held-out source. For the blended arm they run $+1.41$ (\texttt{wikidata\_simple}, $n=327$), $+2.26$ (\texttt{wikidata\_intersection}, $n=164$), $+2.80$ (\texttt{wikidata\_comp}, $n=149$), $+3.31$ (\texttt{wikitables\_composition}, $n=84$) and $+3.73$ (\texttt{wikitables\_simple}, $n=53$). % [claim:C034] [evidence:E101]
+The log reports this breakdown for the blended arm rather than for the method as reported.
+
+\paragraph{A claim we retract.}
+Earlier versions argued the pattern lookup collapses under this shift, $+0.25$ to $+0.02$, reading that as the protocol detecting memorisation our features survive. It does not survive the parsing fix: post-fix the arm moves $+0.30$ to $+0.24$, and its interval included zero under either protocol, so the collapse was movement between two non-significant numbers. The protocol discriminates, separating the boosted arm from the plain one, but does not indict the lookup. % [claim:C035] [evidence:E101]
+
+\paragraph{How much supervision this needs.}
+The gain saturates by roughly 200 labelled questions and the draw-to-draw spread collapses from $\pm 1.64$ to $\pm 0.15$ F1; at 25 questions the method loses to counting (Appendix~\ref{app:figs}).
+% [claim:C036] [evidence:E108]
+The features are normalised by their own question's quantities, so they describe how these models emit lists rather than any question's subject matter; by $n \approx 200$ which training questions were used stops mattering.
+
+\subsection{RQ3: predicting the regime, and the benchmark where we lose}
+\label{sec:rq3}
+
+
+% [claim:C037] [evidence:E118]
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig4_regimes.pdf}
+  \caption{Multi-agent counting against the best single agent in the same ensemble, for all 210 QAMPARI subsets and all 42 ASQA subsets of sizes 3 to 6. Faint points are individual ensembles, the line is the mean at each size, and the dashed line is the best single agent. The two benchmarks run in opposite directions: on QAMPARI counting closes a $2.55$ deficit and passes the best agent at six agents, while on ASQA it falls further behind, from $-0.70$ to $-2.26$. The solo ratio of Section~\ref{sec:screen} predicts which regime a benchmark is in before any method is built: $0.06$ on QAMPARI, $0.24$ on TriviaQA, $0.47$ on ASQA. QAMPARI numbers predate the parsing fix of Section~\ref{sec:protocol}.}
+  \label{fig:regimes}
+\end{figure}
+
+The two per-ensemble sweeps are mirror images: on QAMPARI our method beats reliability weighting in all 210 ensembles, and on ASQA the ordering reverses (Table~\ref{tab:asqa}).
+
+
+% [claim:C038] [evidence:E104]
+
+
+\paragraph{On ASQA, aggregating by agreement barely works at all.}
+The reference here is the best single agent, not reliability weighting. On the full six-agent pool it scores $27.03$; counting scores $24.77$, $2.27$ below, interval excluding zero; weighting recovers to $27.45$, $+0.42$ over it; our scorer lands at $26.81$, $-0.22$, interval including zero. Across the sweep counting falls below the best agent in 39 of 42 ensembles, never significantly beats it, and the deficit grows from $-0.70$ at $n=3$ to $-2.26$ at $n=6$.
+% [claim:C048] [evidence:E125,E126]
+The whole family of claim-level filters, ours included, is competing to match one agent rather than improve on an ensemble.
+
+\paragraph{The solo ratio said so in advance.}
+On ASQA a solo claim is $47\%$ as likely to be correct as a supported one; on QAMPARI, $6\%$. Counting deletes solo claims, so on ASQA roughly half of what it deletes is correct, and it deletes more as the pool grows and more unshared content becomes available --- the mechanism behind the widening deficit. Weighting recovers because per-agent weights let a strong agent's unsupported claims survive a cut counting applies uniformly.
+
+\paragraph{Our confidence slot is empty, so the scorer adds variance rather than signal.}
+The QAMPARI position signal is conditional on list length. Table~\ref{tab:rank} restricts to solo assertions, removing the support confound, and stratifies by the asserter's own list length, removing the verbosity confound.
+
+
+% [claim:C039] [evidence:E105]
+
+ASQA responses average $3.5$ sentences and $79\%$ are 3 or 4, inside the band where QAMPARI shows no signal. This was predicted before measuring: the Spearman correlation between sentence position and correctness is $-0.029$ in that band ($n=4{,}064$) and $-0.047$ pooled over solo claims. % [claim:C040] [evidence:E106]
+The scorer takes the pattern probability as a feature and adds the confidence signal, so it should sit above the lookup where that signal informs and below by the extra estimation cost where it does not. On QAMPARI it sits $1.18$ above; on ASQA, $0.39$ below, interval including zero.
+% [claim:C049] [evidence:E125,E100]
+The model pays for the parameters and gets nothing back: every ASQA response-length band falls inside the range where QAMPARI shows no usable signal (Figure~\ref{fig:position}).
+
+\paragraph{The decision slot is not the problem.}
+Metric-matched budget variants for ASQA score $24.98$ to $26.70$, all below the swept threshold, so the failure is upstream in stage 3, not stage 5. % [claim:C041] [evidence:E103]
+
+\paragraph{One reading that cuts against us.}
+On ASQA reliability weighting scores $27.45$ against the pattern lookup's $27.20$, so a constrained rule beats the Section~\ref{sec:ceiling} bound by $+0.25$, interval excluding zero. With 6,015 clusters over $2^6$ cells the lookup estimates on far thinner data than QAMPARI's 110,136 claims over $2^8$, the finite-sample case Section~\ref{sec:ceiling} sets aside. This limits the empirical bound rather than the construction, and is a second reading of the same data shortage that leaves the confidence slot empty. % [claim:C042] [evidence:E103]
+
+\paragraph{Scope of this result.}
+The template's precondition is real, checkable before any implementation, and a benchmark can sit where the expensive slot is not worth filling. Sentence position is not useless in general; it is flat at ASQA's response lengths. We checked the obvious alternative explanation: the ASQA scorer lacks the stacked pattern probability the QAMPARI scorer uses, so it might have been handicapped on the channel that matters most here. Adding it is worth $+0.01$ DR* over the 42 ensembles and the scorer still sits below the lookup, so the gap is not an artefact of that omission.
+% [claim:C050] [evidence:E128]
+
+\paragraph{Scope of the screen.}
+The solo-ratio ordering is consistent across our three benchmarks and mechanistically connected to what counting can do, but we have not validated it on a benchmark held out from its construction, and it supports an ordering only.
+
+\subsection{Where the method is loose}
+\label{sec:calib}
+
+
+% [claim:C043] [evidence:E110]
+
+Because the budget substitutes $\sum p_i$ for the unknown correct count, the overconfidence in Table~\ref{tab:calib} overstates expected hits and biases $k$ toward keeping too much. This explains why isotonic calibration changed nothing: a globally fitted curve is dominated by the bottom bin, already accurate, and barely moves the 3,115 claims above $0.35$ the decision depends on. A high-$p$-weighted recalibration is untried. It cannot threaten the scorer's own result, since the ordering is calibration-invariant and the $30.68$ row of Table~\ref{tab:main} stands regardless; only the budget's $+1.02$ depends on the sums.
+
+\subsection{Negative results}
+\label{sec:negative}
+
+The full sweep is in Appendix~\ref{app:negative}; each entry rules out an approach that would otherwise look untried, cross-fitted against counting on QAMPARI. Three have mechanisms worth giving here.
+
+
+% [claim:C044] [evidence:E111]
+
+String-similar QAMPARI entities are usually genuinely different --- sequels, or people sharing a surname --- rather than aliases, and a false merge deletes a correct answer outright since only the cluster representative survives. At a $0.70$ threshold, 14 good merges came with 413 bad. % [claim:C045] [evidence:E111]
+The same asymmetry sinks an LLM grouping call in place of edit-distance clustering: it correctly merges \texttt{Warner Bros} with \texttt{Warner Bros. Pictures}, but also \texttt{UMass Amherst} with \texttt{University of Nebraska}, at a $7.6\%$ merge rate.
+% [claim:C046] [evidence:E123]
+
+One number looks like available headroom. Keeping the best prefix per question, on the ordering the scorer already produces, scores $39.90$ --- the maximum of roughly 143 noisy prefix scores per question, heavily selection-biased. Every attempt to collect it fell far short: a learned $k$ scored $25.64$, a constant $k$ $29.41$, and three changes to the budget objective each moved the result by at most $0.18$. % [claim:C047] [evidence:E111]
+It is an artefact of post-hoc selection.
+
+
+\section{Related work}
+\label{sec:related}
+
+\paragraph{Aggregating outputs across models.}
+Majority voting over sampled responses \cite{wang2022self}, scaled with agent count \cite{li2024agents}, weighted by higher-order agreement information \cite{ai2025majority}; a parallel branch selects or fuses whole responses \cite{jiang2023llm,chen2023universal}, and theory bounds what any policy returning one member's answer can achieve \cite{ananthakrishnan2026power}. The estimand throughout is a discrete label or a whole response; ours is a claim, and our aggregator emits a set assembled from fragments of several responses. Run on our pool, both branches degenerate. No two open-ended responses coincide, so a global-weight rule returns the highest-weighted agent and reproduces best-single exactly, at $+0.00$ with a zero-width interval. % [claim:C004] [evidence:E121]
+The higher-order theory targets binary and categorical predictions: on set-valued answers its log-odds weight $\log(p/(1-p))$ needs per-agent accuracy above $0.5$, while per-claim precision here runs $5.8\%$ to $28\%$, so every weight is negative. % [claim:C005] [evidence:E002,E121]
+
+\paragraph{Decomposing long-form answers into claims.}
+Self-consistency generalises to clustering atomic units and keeping clusters by member count \cite{thirukovalluru2024atomic}, and atomic decomposition is now infrastructure for factuality evaluation and calibration \cite{zhang2024atomic,ning2025mad,wan2025fastfact,liu2025verifact,goel2025zero,panou2025harnessing}. All draw samples from one model, or use several only to check claims, so agent identity is not a variable. We make it one, and find it worth less than the non-identity signals beside it.
+
+\paragraph{Item-level reliability without labels.}
+Annotator-reliability models from crowdsourcing \cite{dawid1979maximum,sinha2018fast,majdi2023crowd,kuzin2025improving}, and label-free behavioural signals read from the model itself: response length \cite{janiak2025illusion,zhang2024verbosity}, consistency under perturbation \cite{wu2026this,ahn2025prompt}. Position effects are well documented, but on the input side \cite{guo2024serial,zhang2026position,salvatore2025lost,qiao2026llm,yan2026evirank}; conformal prediction sizes sets for coverage rather than F1 \cite{gauthier2025adaptive}.
+
+\paragraph{How ours differs.}
+On granularity, that work scores whole responses while we score each claim. On position, every result above concerns a sequence given to the model, whereas our signal is an item's position in the model's own free-form output --- a different phenomenon, and we read the nearest work in full to verify the distinction \cite{guo2024serial}. On evidence source, the reliability literature models which agent said what; we also grade silence by how much the silent agent said, which we know of no prior work doing. Appendix~\ref{app:related} treats each line in full and reconciles one reported result that conflicts with our position measurement \cite{islam2025curious}.
+
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Aggregation has grown more sophisticated about one observation: which agents asserted a claim. We separated that from a second, what each agent's generation reveals about the claim, and measured both. On QAMPARI the strongest claim-local identity-only rule we can estimate beats counting by $+0.30$ set F1, an interval placing it no higher than about $+0.9$. A scorer over within-output position and graded omission, with a metric-matched keep-count, reaches $+4.30$ over the best single agent and $+2.50$ over counting, holds in all 210 agent subsets, and keeps roughly $92\%$ of its gain on question types never seen in training.
+
+Both signals are keyed to properties of the task rather than to the pool: the answer format determines what confidence signal exists, the metric what decision rule is admissible. On ASQA the first is absent, and we lose to reliability weighting --- an outcome and a mechanism both predicted in advance by a ratio computable from the generations. An agent that generates tells you more than which claims it endorsed, and on this task most of the usable signal was in the part we had been discarding.
+
+
+\begin{ack}
+Funding sources and competing interests will be declared here for the camera-ready
+version. This section is suppressed in the anonymized submission by the
+\texttt{ack} environment.
+\end{ack}
+
+
+% VERIFICATION STATUS. Bibliographic details for every entry in refs.bib were
+% fetched from the arXiv API (30 entries) and Crossref (2) on 28 Aug 2026, and
+% each arXiv ID was confirmed to resolve to the work cited here. That is a check
+% on METADATA, not on content: entries marked UNREAD in refs.bib have still not
+% been opened by an author and must not ship until they are. See UNRESOLVED.md
+% section 5.
+%
+% DO NOT CITE in support of the within-output position signal: lost-in-the-
+% middle, judge position bias, listwise reranking bias, recommender candidate
+% position bias. All concern position in the model's INPUT. \cite{guo2024serial}
+% is the contrast, not support.
+
+\bibliographystyle{plainnat}
+{\small\bibliography{refs}}
+
+
+\appendix
+
+\section{Technical appendices and supplementary material}
+
+\subsection{What the decomposition implies}
+\label{sec:theory}
+
+The first two statements below are elementary; they fix which quantity the experiments have to measure. The third derives the decision rule of Section~\ref{sec:slotB}.
+
+\paragraph{Proposition 1 (information dominance).}
+\emph{Let $R^*(\mathcal{O})$ denote the Bayes risk of the best decision rule measurable with respect to an observation $\mathcal{O}$, under any fixed loss. Then $R^*(S,B) \leq R^*(S)$, with equality whenever $Y_c \perp B(c) \mid S(c)$.}
+
+Any rule using $S$ alone is also a rule using $(S,B)$ that ignores its second argument, so the infimum over the larger class cannot be higher. Behavioural observations can only help if they carry information about correctness that the identity of the asserting agents does not already carry, which is a property of the data rather than of the method. That is the quantity Section~\ref{sec:rq2} measures.
+
+Both consequences occur in our experiments. This is a statement about the population optimum, not about a fitted model: with finite data, adding features that carry no signal costs estimation variance, so a richer observation can and does lose. Section~\ref{sec:rq3} reports exactly this on ASQA, where our scorer lands below the identity-only rule it builds on. The proposition also says nothing about how much $B$ helps, only that the sign cannot be negative in the population, so nothing empirical follows from it alone.
+
+\paragraph{Proposition 2 (behaviour as likelihood evidence).}
+\emph{Write $X_{ic}$ for agent $i$'s complete observation about claim $c$, which is either an assertion together with its position, or silence together with the amount that agent produced. If the $X_{ic}$ are conditionally independent given $Y_c$, then}
+\[
+  \mathrm{logit} P(Y_c = 1 \mid X_{1c}, \dots, X_{nc})
+  \;=\; \mathrm{logit} \pi \;+\; \sum_{i=1}^{n} \log \frac{P(X_{ic} \mid Y_c = 1)}{P(X_{ic} \mid Y_c = 0)} ,
+\]
+\emph{where $\pi$ is the prior probability that a pooled candidate is correct.}
+
+This is Bayes' rule under the stated independence assumption, and it locates reliability weighting precisely. Collapse $X_{ic}$ to the assertion indicator $\mathbf{1}[i \in S(c)]$ and each agent contributes $\log(\mathrm{TPR}_i / \mathrm{FPR}_i)$ when it asserts and $\log((1-\mathrm{TPR}_i)/(1-\mathrm{FPR}_i))$ when it is silent. The posterior log-odds is then an additive score over agents, which is a weighted vote; assuming further that each agent is characterised by a single accuracy $x_i$ with symmetric errors recovers the log-odds weight $\log(x_i / (1 - x_i))$ of the optimal-weight construction \cite{ai2025majority}. Reliability weighting is therefore not a competing family but the special case of this decomposition obtained by discarding position and stopping information.
+
+The independence assumption does not hold here: agents share training data and see the same question, and our own measurements show their errors are correlated. The proposition still identifies the functional form the evidence should take, namely additive per-agent contributions on the log-odds scale, which is what our scorer fits, and it explains why we fit that form discriminatively rather than estimating the likelihoods: a logistic regression over the same observations recovers the additive structure without committing to a generative model, and its coefficients absorb dependence that a Naive Bayes estimator would misattribute. The empirical sweep is consistent with this choice, since an explicit correlation-aware weighting selected $\lambda = 0$ in all five folds and a pairwise co-assertion parameterisation gained $+0.05$.
+
+\paragraph{Proposition 3 (the metric-matched decision).}
+\emph{For a question with $G$ gold answers, keeping $k$ candidates of which $H$ are correct gives}
+\[
+  F_1 \;=\; \frac{2PR}{P+R} \;=\; \frac{2H}{k+G},
+\]
+\emph{since $P = H/k$ and $R = H/G$. If the scorer emits calibrated probabilities and candidates are taken in descending order, then $\mathbb{E}[H] = \sum_{j \leq k} p_{(j)}$, and for known $G$ the expected F1 is exactly $2\sum_{j\leq k} p_{(j)} / (k+G)$.}
+
+The denominator is constant in $H$, so taking the expectation through the ratio is exact once $G$ is fixed; the only approximation in the rule of Section~\ref{sec:slotB} is substituting $\hat{G}_q$ for $G$. Writing $C(k) = \sum_{j \leq k} p_{(j)}$, the objective increases from $k$ to $k+1$ exactly when
+\[
+  p_{(k+1)} \;>\; \frac{C(k)}{k + \hat{G}_q} \;=\; \frac{1}{2}\widehat{F_1}(k),
+\]
+so the rule has a simple reading: keep taking candidates while the next probability exceeds half the expected F1 achieved so far, and stop otherwise. This makes the sensitivity to $\hat{G}_q$ visible. The estimate enters only through a threshold that moves slowly in $\hat{G}_q$, which is why a mean absolute error of $4.62$ answers against a gold mean of $10.2$ costs so little, and why substituting the true count gains only $+0.55$.
+
+\paragraph{What the propositions leave to measurement.}
+Together they say that behavioural observations cannot hurt in the population, that reliability weighting is the special case that ignores them, and that a calibrated scorer implies its own stopping rule. None of them says whether real language models actually place correct claims differently from incorrect ones, or stop generating in an informative way. That is what Sections~\ref{sec:rq1} to~\ref{sec:rq3} are for, and on one of our three benchmarks the answer is no.
+
+
+\subsection{Extended related work}
+\label{app:related}
+
+\paragraph{Aggregating outputs across models.}
+The line runs from majority voting over sampled responses \cite{wang2022self} through scaling it with agent count \cite{li2024agents} to deriving weights from higher-order agreement information \cite{ai2025majority}; a parallel branch selects or fuses whole responses, by pairwise ranking with generative fusion \cite{jiang2023llm} or model-based selection of the most consistent one \cite{chen2023universal}, and theory bounds what any policy whose output is one member's answer can achieve \cite{ananthakrishnan2026power}. Its estimand is a discrete label or a whole response; ours is a claim, and our aggregator emits a set assembled from fragments of several responses, so it is not bounded by any member's answer.
+
+\paragraph{Decomposing long-form answers into claims.}
+Self-consistency over sampled reasoning paths \cite{wang2022self} generalises to selecting the most consistent response \cite{chen2023universal}, then to clustering atomic units and keeping clusters by member count \cite{thirukovalluru2024atomic}. Atomic decomposition is now infrastructure for factuality evaluation and calibration \cite{zhang2024atomic}, including multi-agent evaluators \cite{ning2025mad,wan2025fastfact,liu2025verifact} and cross-model consistency checking at claim granularity \cite{goel2025zero}; a plain union of list answers has been used for biomedical QA \cite{panou2025harnessing}. All draw samples from one model, or use several only to check claims, so agent identity does not exist as a variable. We make it available and find it worth less than the non-identity signals beside it. ASC's own paper concedes model-based decomposition would give better atomic units than its sentence splitter but was too expensive; our ASQA pipeline shares that limitation.
+
+\paragraph{Item-level reliability without labels.}
+Annotator-reliability models originate in crowdsourcing \cite{dawid1979maximum,sinha2018fast,majdi2023crowd} and carry to deep ensembles \cite{kuzin2025improving}. A separate strand reads label-free behavioural signals from the model itself: response length as a hallucination detector \cite{janiak2025illusion,zhang2024verbosity}, consistency under prompt perturbation as a credibility measure \cite{wu2026this,ahn2025prompt}. Position effects are well documented, but on the input side --- which supplied label a model selects \cite{guo2024serial}, locating items in a given list \cite{zhang2026position}, context position \cite{salvatore2025lost}, positional bias when reranking candidates \cite{qiao2026llm,yan2026evirank}. Adaptive set sizing exists in conformal prediction, targeting coverage rather than F1 \cite{gauthier2025adaptive}.
+
+\paragraph{How ours differs, on three axes.}
+On granularity, that work scores whole responses while we score each claim. On position, every result above concerns a sequence given to the model, whereas our signal is an item's position in the model's own free-form output --- a different phenomenon, and we read the nearest work in full to verify the distinction \cite{guo2024serial}. On evidence source, the reliability literature models which agent said what, while we also grade silence by how much the silent agent said, which we know of no prior work doing. One finding does concern generated position: accuracy falling from $51.3\%$ for the first requested fact to $30.1\%$ for the fifth across 16 models \cite{islam2025curious}, in tension with Table~\ref{tab:rank}, which shows no gradient across the first five. Their setting requests a fixed number of facts, so later positions are produced under pressure, while our short lists are self-truncated because the model had no more to give; in our long lists, under enumerative pressure, the gradient reappears. We offer this as a hypothesis consistent with both measurements.
+
+\subsection{Per-ensemble results}
+\label{app:ensembles}
+All 210 QAMPARI and 42 ASQA ensembles, with per-ensemble scores and bootstrap verdicts.
+
+\begin{table}
+  \caption{Gain over counting, averaged across all QAMPARI ensembles of each size. Reliability weighting decays as the pool grows and turns negative at size 6; the output-structure arms decay far more slowly. Our relative gain is largest where the pool is smallest, $+20.0\%$ at $n=3$. Pre-parsing-fix (Section~\ref{sec:protocol}), pending regeneration.}
+  \label{tab:ens-gain}
+  \centering
+  \begin{tabular}{rrrrrrrr}
+    \toprule
+    Size & Ensembles & Best single & Count & Weighted & Pattern & Ours (scorer) & Ours (+budget) \\
+    \midrule
+    3 & 56 & 24.72 & 22.15 & $+2.25$ & $+2.73$ & $+4.12$ & $\mathbf{+4.43}$ \\
+    4 & 70 & 26.00 & 23.69 & $+1.90$ & $+2.57$ & $+4.16$ & $\mathbf{+4.53}$ \\
+    5 & 56 & 26.77 & 26.17 & $+0.40$ & $+1.13$ & $+2.74$ & $\mathbf{+3.13}$ \\
+    6 & 28 & 27.18 & 27.74 & $-0.36$ & $+0.36$ & $+1.86$ & $\mathbf{+2.31}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\begin{table}
+  \caption{QAMPARI ensembles in which each arm beats counting with a bootstrap interval excluding zero. Our method does so in all 210 at every size; reliability weighting manages 105 of 210. Pre-parsing-fix (Section~\ref{sec:protocol}), pending regeneration.}
+  \label{tab:ens-sig}
+  \centering
+  \begin{tabular}{rrrrr}
+    \toprule
+    Size & Weighted & Pattern & Ours (scorer) & Ours (+budget) \\
+    \midrule
+    3 & 39/56 & 45/56 & 56/56 & \textbf{56/56} \\
+    4 & 39/70 & 44/70 & 70/70 & \textbf{70/70} \\
+    5 & 20/56 & 23/56 & 50/56 & \textbf{56/56} \\
+    6 &  7/28 &  7/28 & 21/28 & \textbf{28/28} \\
+    \midrule
+    Total & 105/210 & 119/210 & 197/210 & \textbf{210/210} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\begin{table}
+  \caption{ASQA under the $\mathrm{DR}^*$ proxy, all 42 ensembles of sizes 3 to 6. Our method beats counting everywhere, significantly in 29 of 42 against weighting's 31, but loses to weighting at every size, the gap widening with pool size. This reverses Table~\ref{tab:ens-gain}, as the solo ratios of Figure~\ref{fig:regimes} predict.}
+  \label{tab:asqa}
+  \centering
+  \begin{tabular}{rrrrrr}
+    \toprule
+    Ensemble size & Ensembles & Best single & Count & Weighted & Ours \\
+    \midrule
+    3 & 20 & 26.58 & 25.88 & \textbf{26.71} & 26.59 \\
+    4 & 15 & 26.60 & 25.30 & \textbf{26.74} & 26.51 \\
+    5 &  6 & 26.59 & 24.70 & \textbf{26.90} & 26.48 \\
+    6 &  1 & 26.53 & 24.27 & \textbf{27.01} & 26.35 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Limitations}
+\label{sec:limitations}
+
+The position signal has a measured domain of validity: it is flat or mildly reversed on lists of five items or fewer, and the QAMPARI gain depends on $70\%$ of solo assertions sitting in lists of 101 or more items. The screen rests on three benchmarks, none held out from its construction, and supports an ordering only (Section~\ref{sec:rq3}). Every arm is supervised, ours most heavily, with a floor near 50 labelled questions and saturation near 200 (Section~\ref{sec:robust}). The keep-count is fed by probabilities that are overconfident in exactly the region it reads, and a high-$p$ recalibration is untried (Section~\ref{sec:calib}). Our ASC baseline substitutes agents for stochastic samples, changing the estimand to inter-model agreement and leaving the published single-model form unevaluated (Section~\ref{sec:experiments}). $\mathrm{DR}^*$ substitutes STR-EM for Disambig-F1, and a faithful DR requires a RoBERTa-SQuADv2 reader (Section~\ref{sec:metrics}). QAMPARI grading is close to exact string match, costing roughly 7 F1 near-uniformly across arms (Section~\ref{sec:experiments}). All agents are proprietary API models sampled once at a single decoding setting; we do not measure sensitivity to temperature or to repeated sampling.
+
+Tables~\ref{tab:ens-gain}, \ref{tab:ens-sig} and \ref{tab:negative} were computed before the normalisation fix of Section~\ref{sec:protocol} and are pending regeneration. The fix moved every affected QAMPARI arm by at most $0.14$ F1 and altered no significance verdict where it has been rerun, but for these tables that is an expectation rather than a measurement.
+
+\subsection{The pipeline and its two variable stages}
+\label{app:pipeline}
+
+\begin{table}[h]
+  \caption{The five pipeline stages and what fixes the two that vary. Stage 3 is fixed by the answer format: position inside a list exists only if the agent emitted a list. Stage 5 is fixed by the metric: set F1 admits a keep-count, a recall-only metric does not, a single-answer metric admits only an argmax. Both are fixed before any benchmark is run.}
+  \label{tab:slots}
+  \centering
+  \begin{tabular}{llll}
+    \toprule
+    Stage & QAMPARI & ASQA & TriviaQA \\
+    \midrule
+    1 pool to units       & entity strings   & sentence clusters  & terse answers      \\
+    2 support pattern     & identical        & identical          & identical          \\
+    \textbf{3 confidence signal} & list rank, omission & sentence position & self-consistency \\
+    4 cross-fitted logistic & identical      & identical          & identical          \\
+    \textbf{5 decision rule}     & per-question budget & swept threshold & argmax     \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}
+  \caption{Leave-one-source-out against random 5-fold cross-fitting on QAMPARI. Under a complete change of question type our method loses $0.21$ F1 against a gain of $2.50$, so roughly $92\%$ survives and stays significant against counting. The boosted blend is the best arm under random folds and the worst transfer of any, which is why it is not part of the method.}
+  \label{tab:loso}
+  \centering
+  \begin{tabular}{lrrrl}
+    \toprule
+    Arm & Random 5-fold & LOSO & Shift & LOSO vs.\ count \\
+    \midrule
+    count                        & 29.21 & 29.21 & $+0.00$ & (reference) \\
+    pattern lookup               & 29.50 & 29.44 & $-0.06$ & $+0.24\ [-0.38,+0.80]$ \\
+    ours: scorer                 & 30.68 & 30.57 & $-0.11$ & $+1.36\ [+0.66,+2.05]^*$ \\
+    \textbf{ours: scorer + budget} & \textbf{31.70} & \textbf{31.49} & $\mathbf{-0.21}$ & $\mathbf{+2.29\ [+1.47,+3.10]^*}$ \\
+    logistic/boosting blend + budget & 32.29 & 31.43 & $-0.86$ & $+2.22\ [+1.40,+3.05]^*$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Feature definitions and controls}
+\label{app:features}
+
+Every candidate $c$ in question $q$ is mapped to a fixed vector by one function, \texttt{build\_features} in \texttt{analysis/weighting\_v3.py}. With $n=8$ agents and the five QAMPARI sources of Table~\ref{tab:blocks} the vector has 115 entries. Write $S(c)$ for the set of asserting agents, $r_m(c)$ for the zero-based position of $c$ inside agent $m$'s own output, and $L_m(q)$ for the number of distinct normalised items $m$ emitted on $q$, floored at 1.
+
+\begin{table}
+  \caption{The 115-feature construction and the 92 the method uses. Continuous entries are divided by a constant (5, or 2 and 40 in \texttt{content}) so that a single ridge coefficient is sensible across blocks. The four excluded blocks are the ones whose value is not established by an ablation; \texttt{verb} in particular is excluded on the control below, not on principle.}
+  \label{tab:blocks}
+  \centering
+  \begin{tabular}{llrp{6.1cm}}
+    \toprule
+    Block & In LEAN & Dim. & Entries \\
+    \midrule
+    \texttt{base}        & yes & 10 & intercept; one indicator per agent for $m \in S(c)$; $|S(c)|/n$ \\
+    \texttt{rank}        & yes & 14 & min, mean, max and s.d.\ of $\log(1+r_m)$ over $S(c)$; min and mean of $r_m/L_m$; then $\log(1+r_m)$ in a per-agent slot \\
+    \texttt{rankbuckets} & yes & 56 & per-agent one-hot over the seven position bands \\
+    \texttt{omit}        & yes & 11 & over the \emph{silent} agents: mean and max of $\log L_m$, and the share with $L_m \geq 20$; then $\log L_m$ in a per-agent slot \\
+    \texttt{stack}       & yes &  1 & $\operatorname{logit}$ of the support-pattern probability, refitted on the training folds of each fold \\
+    \midrule
+    \texttt{verb}        & no  & 10 & over the \emph{asserting} agents: mean and min of $\log L_m$; then $\log L_m$ per agent \\
+    \texttt{qctx}        & no  &  4 & $\log(1+|C(q)|)$; max support in $q$ over $n$; share of $C(q)$ with support $\geq 2$; this candidate's support percentile within $q$ \\
+    \texttt{content}     & no  &  4 & $\log(1+\text{words})$; contains a digit; string occurs in the question; truncated length \\
+    \texttt{qtype}       & no  &  5 & one-hot over the five QAMPARI sources \\
+    \midrule
+    \textbf{LEAN total}  &     & \textbf{92} & \\
+    All features         &     & 115 & \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\paragraph{The seven position bands.}
+Precision falls fastest at the start of an output, so the bands are logarithmic rather than uniform: $b(r) = \min(\lfloor \log_2 (1+r) \rfloor, 6)$, giving $\{0\}$, $\{1,2\}$, $\{3\text{--}6\}$, $\{7\text{--}14\}$, $\{15\text{--}30\}$, $\{31\text{--}62\}$ and $\{\geq 63\}$. Each asserting agent contributes a one-hot over its own seven bands, so the scorer can learn that a first item from one agent and a first item from another are worth different amounts --- the only place model identity and position interact.
+
+\paragraph{Why asserter verbosity is excluded.}
+\texttt{omit} and \texttt{verb} are the same measurement, $\log L_m(q)$, applied to the silent and the asserting agents. Only the first is in LEAN, which needs justifying, because the natural objection is that both are just verbosity. Table~\ref{tab:rank} restricts to solo assertions --- removing the support confound, since every row has $|S(c)|=1$ --- and stratifies by the asserter's own list length. The position gradient appears only on long lists, and the control in that table's caption is the decisive one: $P(\mathrm{correct} \mid \text{first position})$ across the four length bands is $2.2$, $4.1$, $4.4$ and $4.3$ percent, which is flat. If the signal were verbosity, first-position precision would fall as lists grow; it does not. The effect is positional. Adding \texttt{verb} on top of position is worth $+0.01$, so it is dropped and length survives only inside \texttt{omit}, where a silent agent has no position and length is the only evidence there is.
+
+\subsection{Per-agent statistics}
+\label{app:agents}
+
+Tables~\ref{tab:lengths} and~\ref{tab:asqa-lengths} give the per-agent picture on both benchmarks. Three spreads matter, and they are what Section~\ref{sec:rq3} turns into a regime prediction.
+
+\emph{Quality} spans $3.1\times$ on QAMPARI, from $8.98$ to $27.40$ set F1. \emph{Volume} spans $14.7\times$ in mean list length, from $4.9$ to $72.2$ items; this is the spread omission strength grades, and it is why silence is informative rather than a single bit. \emph{Solo precision} --- the share correct among claims an agent asserts alone --- spans $26\times$, from $0.22\%$ for \texttt{gpt-5.4-nano} to $5.76\%$ for \texttt{grok-4.3}. That last spread is the identity channel's entire opportunity at $|S(c)|=1$, where $87\%$ of all claims sit.
+
+Volume and quality are close to unrelated here: \texttt{Kimi-K2.5} is both the best agent and the most verbose, but \texttt{gpt-5.4-nano} is the weakest while emitting more than \texttt{gpt-5.4-mini} by an order of magnitude in the mean. An agent's silence is therefore not a proxy for its accuracy, which is why \texttt{omit} adds to \texttt{base} rather than duplicating it.
+
+ASQA has none of this structure. All six agents write $2.9$ to $3.8$ sentences on average, a spread of $1.3\times$ against QAMPARI's $14.7\times$, because the prompt asks for a single paragraph of about 80 words and the agents comply. Omission strength has nothing to grade, and the position signal is absent at that length as well (Figure~\ref{fig:position}). This is the concrete form of the claim in Section~\ref{sec:rq3} that ASQA is the benchmark where our arm loses: the output structure our features read is not present.
+
+\begin{table}
+  \caption{Per-agent statistics on QAMPARI, ordered by set F1. Agents differ by more than an order of magnitude in how much they emit per question, so silence is gradable; they differ by $26\times$ in solo precision, which is what the identity channel has to work with where most claims are. Set F1 is the single agent's own output scored against gold, on all 777 questions.}
+  \label{tab:lengths}
+  \centering
+  \begin{tabular}{lrrrrrr}
+    \toprule
+    Agent & F1 & Median $L$ & Mean $L$ & Max $L$ & Solo claims & Solo prec. \\
+    \midrule
+    \texttt{Kimi-K2.5}             & 27.40 & 13 & 72.2 & 2431 & 45,643 & $1.24\%$ \\
+    \texttt{grok-4.3}              & 27.08 &  7 & 10.4 &  400 &  2,551 & $\mathbf{5.76\%}$ \\
+    \texttt{MAI-Thinking-1}        & 23.20 &  8 & 15.3 &  658 &  4,628 & $2.36\%$ \\
+    \texttt{gpt-5.4}               & 17.67 &  6 & 18.9 &  562 &  7,740 & $1.99\%$ \\
+    \texttt{DeepSeek-V4-Flash}     & 16.42 &  7 & 28.5 & 2398 & 17,077 & $0.36\%$ \\
+    \texttt{gpt-5.4-mini}          & 15.22 &  3 &  4.9 &   77 &  1,058 & $2.65\%$ \\
+    \texttt{Cohere-command-a-plus} &  9.86 &  3 &  6.7 &  140 &  2,405 & $0.91\%$ \\
+    \texttt{gpt-5.4-nano}          &  8.98 &  1 & 24.3 & 1067 & 14,670 & $0.22\%$ \\
+    \midrule
+    Pool                           &       &    &      &      & 95,772 & $1.17\%$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}
+  \caption{Per-agent output lengths on ASQA, in sentences. The prompt asks for a single paragraph of about 80 words and every agent complies, so the spread in mean length is $1.3\times$ against QAMPARI's $14.7\times$. Omission strength has nothing to grade here. The 400 questions yield 8,393 sentences and $15.0$ clusters per question.}
+  \label{tab:asqa-lengths}
+  \centering
+  \begin{tabular}{lrrrr}
+    \toprule
+    Agent & Median & Mean & Max & Total \\
+    \midrule
+    \texttt{DeepSeek-V4-Flash} & 4 & 3.8 &  7 & 1,526 \\
+    \texttt{gpt-5.4}           & 4 & 3.8 & 11 & 1,506 \\
+    \texttt{MAI-Thinking-1}    & 4 & 3.7 &  7 & 1,470 \\
+    \texttt{grok-4.3}          & 4 & 3.6 &  7 & 1,454 \\
+    \texttt{gpt-5.4-mini}      & 3 & 3.2 &  7 & 1,290 \\
+    \texttt{gpt-5.4-nano}      & 3 & 2.9 &  7 & 1,147 \\
+    \midrule
+    Pool                       &   &     &    & 8,393 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Prompts}
+\label{app:prompts}
+
+One prompt per benchmark, used unchanged for every agent. Each agent is sampled once per question at temperature 0 with a 12,000-token generation budget, in a single user turn with no few-shot examples, no retrieval and no system message beyond the prompt itself. Every result in the paper is computed from that one set of generations.
+
+QAMPARI:
+\begin{verbatim}
+List every correct answer to the question, one per line, as a bare
+list. No numbering, no commentary, no explanation. If there are many,
+list as many as you can. Output only the list.
+\end{verbatim}
+
+QUEST, which differs only in naming entities rather than answers:
+\begin{verbatim}
+List every entity that satisfies the query, one per line, as a bare
+list of names. No numbering, no commentary, no explanation. If there
+are many, list as many as you can. Output only the list.
+\end{verbatim}
+
+ASQA:
+\begin{verbatim}
+Answer the question. It may be ambiguous and have several valid
+interpretations -- cover all of them. Write a single paragraph of
+about 80 words. Do not ask for clarification.
+\end{verbatim}
+
+\paragraph{Parsing and normalisation.}
+List parsing is deliberately forgiving, because agents ignore the formatting instruction often enough to matter: numbering, bullets and trailing commentary are stripped rather than treated as list items. Items are then lowercased, stripped of punctuation and articles, and whitespace-collapsed. One step must run first: \texttt{Cohere-command-a-plus} wraps its output in literal \verb+<|START_TEXT|>+ and \verb+<|END_TEXT|>+ tokens, and punctuation-stripping would otherwise turn those into the words \texttt{start text}, producing a candidate that can never match gold while padding the precision denominator of every arm equally. Removing them is the parsing fix of Section~\ref{sec:protocol}; results computed before it are marked where they appear.
+
+\subsection{Hyperparameters}
+\label{app:hyper}
+
+Table~\ref{tab:hyper} gives every setting. Nothing here was tuned against test folds: weights, likelihood tables, calibration maps, ridge coefficients, blend coefficients and keep thresholds are all fitted on training folds only, and the two benchmarks differ in fold count only because each ASQA threshold evaluation costs a ROUGE-L pass.
+
+\begin{table}
+  \caption{All fitting and evaluation settings. The gradient-boosted rows describe the rejected ablation of Section~\ref{sec:negative}, not the method: boosting is retained in the released code as the evidence for rejecting it. Dashes mark settings that do not apply to that benchmark's arms.}
+  \label{tab:hyper}
+  \centering
+  \begin{tabular}{lll}
+    \toprule
+    Setting & QAMPARI & ASQA \\
+    \midrule
+    Questions / agents          & 777 / 8 & 400 / 6 \\
+    Cross-fitting folds         & 5 & 2 (halves, swapped) \\
+    Fold assignment             & shuffle at seed 0, then $i \bmod 5$ & shuffle at seed 0, then split \\
+    \midrule
+    Scorer                      & logistic, 92 features & logistic \\
+    Ridge $\lambda$             & $1.0$ & $1.0$ \\
+    Solver                      & \multicolumn{2}{l}{IRLS, 30 iterations, intercept unpenalised} \\
+    Threshold grid              & 600 quantiles & 160 quantiles \\
+    \midrule
+    Budget objective            & $2S_k / (k + \hat{G}_q)$, Section~\ref{sec:slotB} & --- \\
+    $\hat{G}$ estimator         & ridge, $\lambda = 1.0$ & --- \\
+    \midrule
+    GBM trees (max / kept)      & 300 / $[85, 45, 58, 61, 46]$ & 400 / $[26, 28]$ \\
+    GBM depth, learning rate    & 5, $0.12$ & 4, $0.08$ \\
+    GBM subsample, bins         & \multicolumn{2}{l}{$0.8$; 32 quantile bins per column, fitted on train rows only} \\
+    Early stopping              & \multicolumn{2}{l}{held-out log loss on the last $15\%$ of training questions, patience 25} \\
+    Blend                       & logistic on that same $15\%$ slice & --- \\
+    \midrule
+    Bootstrap                   & \multicolumn{2}{l}{10,000 paired resamples over questions, $95\%$ percentile interval} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The threshold grid deserves one note. A global threshold keeps a prefix of each question's ranked candidates, so one pass per question prices every threshold at once; the grid is then the quantiles of the distinct training-fold scores, and 600 is well past the point where a finer grid changes the selected threshold. The budget arms replace that global threshold entirely, choosing $k$ per question from the predicted gold count.
+
+\subsection{Extended negative results}
+\label{app:negative}
+
+Roughly sixty aggregation rules were cross-fitted on QAMPARI under the protocol of Appendix~\ref{app:hyper}, and the survivors ported to ASQA. The whole sweep ran on cached generations, so no result here required an additional API call and every rule saw exactly the same outputs the reported arms saw. Table~\ref{tab:negative} lists the rules that did not work, each with the reading it supports. They are worth the space because each one closes off an approach that would otherwise look untried, and because several are predicted to fail by the ceiling construction of Section~\ref{sec:ceiling} rather than merely observed to fail.
+
+Three groups are worth separating. \emph{Capped by the ceiling:} error-correlation weighting, pairwise co-assertion and rank agreement are all functions of the support pattern, so Section~\ref{sec:ceiling} bounds them before they are run --- and error-correlation weighting selects $\lambda = 0$ in all five folds, reaching the same conclusion from the data. \emph{Destroys cross-question comparability:} within-question $z$-normalisation and percentile normalisation both score worse than counting, because a global threshold needs scores to mean the same thing in different questions, and normalising within a question deliberately removes that. \emph{Mistakes the mechanism:} a learned per-question $k$ loses $3.71$, while a single constant $k$, cross-fitted, picks $k=8$ and gains $+0.20$ --- so the budget's value is that it varies per question, not that it keeps less.
+
+\paragraph{Alias merging, and why it fails.}
+Merging string-similar candidates before scoring should consolidate split support, and it does not, at any threshold (Table~\ref{tab:alias}). The mechanism is visible in the merge counts: bad merges outnumber good ones everywhere, and the ratio worsens as the threshold loosens. String-similar QAMPARI entities are usually genuinely different entities --- sequels, people sharing a surname --- and a false merge deletes a correct answer outright rather than costing precision. This independently explains the earlier loss from LLM-judged clustering, and the budget's fitted saturation exponent, $\beta = 1.10$, says the same thing from the other side: duplicate spellings of one gold answer are rare in this data, so there is little to consolidate.
+
+\begin{table}
+  \caption{Alias merging at six string-similarity thresholds, with good and bad merge counts audited by hand. No threshold helps, and the damage grows as merging loosens. Pre-parsing-fix sweep, pending regeneration.}
+  \label{tab:alias}
+  \centering
+  \begin{tabular}{rrrrr}
+    \toprule
+    $\tau$ & Candidates & Good / bad merges & LEAN + budget & vs.\ no merge \\
+    \midrule
+    $1.00$ & 110,801 & 0 / 0     & $31.74$ & (reference) \\
+    $0.95$ & 108,706 & 0 / 1     & $31.72$ & $-0.02$ \\
+    $0.90$ & 106,167 & 7 / 10    & $31.68$ & $-0.07$ \\
+    $0.85$ & 102,765 & 7 / 40    & $31.50$ & $-0.24$ \\
+    $0.80$ &  95,090 & 8 / 105   & $31.53$ & $-0.21$ \\
+    $0.70$ &  82,227 & 14 / 413  & $30.44$ & $-1.30$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\paragraph{A number that is not headroom.}
+Keeping the best prefix of each question on the ordering the model already produces scores $39.90$, some $36\%$ above the method. That figure is the maximum of roughly $143$ noisy prefix scores per question and is therefore heavily selection-biased: it is what the best threshold would have earned had it been known in advance, not what any rule can earn. Every honest attempt to collect it fell far short --- a learned per-question $k$ reaches $25.64$, a constant $k$ reaches $29.41$, the plug-in budget collects $2.4$ of a nominal $10.5$, and three separate reformulations of the budget objective each moved the result by at most $0.18$. It should not be read as available headroom.
+
+\begin{table}
+  \caption{Aggregation rules that did not work, with the reading each supports. Several land at or below the Section~\ref{sec:ceiling} ceiling, as that construction predicts. Pre-fix sweep, pending regeneration.}
+  \label{tab:negative}
+  \centering
+  \begin{tabular}{llp{5.4cm}}
+    \toprule
+    Rule & vs.\ count & Reading \\
+    \midrule
+    error-correlation weighting   & $\lambda=0$ in 5/5 folds & a function of the support pattern, so Section~\ref{sec:ceiling} caps it \\
+    pairwise co-assertion, 28 indicators & $+0.05$ & the same conclusion reached discriminatively \\
+    rank agreement across agents  & $+0.07$ & agents agreeing on order adds nothing further \\
+    question-domain weights       & $+0.00$ & the five question sources carry no weighting signal \\
+    Borda / CombSUM / weighted Borda & $-0.42$ to $-0.67$ & below counting; only RRF survives \\
+    within-question $z$-normalisation & $-0.94$ & destroys the cross-question information a global threshold needs \\
+    within-question percentile norm.  & $-2.56$ & the same, more severely \\
+    learned per-question $k$      & $-3.71$ & $k^*$ is close to unpredictable from question features \\
+    single constant $k$           & $+0.20$ & the budget's value is adaptivity, not keeping less \\
+    alias merging, six thresholds & $-0.02$ to $-1.30$ & bad merges outnumber good at every threshold \\
+    isotonic calibration, global  & $-0.03$ & see Section~\ref{sec:calib} for why this is not the null it appears to be \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+\subsection{Figures}
+\label{app:figs}
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig2_ceiling.pdf}
+  \caption{What the identity channel has to work with on QAMPARI. Upper: how many of the 110,136 pooled claims sit at each support count. Lower: the headroom at that support count, the spread in correctness across the support patterns holding at least 30 claims, which is what a rule reading $S(c)$ can exploit over one reading $|S(c)|$ alone. The two panels have opposite shapes: $87\%$ of all claims sit at $|S(c)|=1$, where the headroom is $5.5$ points, and the widest headroom of $59$ points sits at $|S(c)|=4$, which holds $1{,}655$ claims.}
+  \label{fig:ceiling}
+\end{figure}
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{fig1_worked_example.pdf}
+  \caption{One held-out question end to end. Rows are the pooled candidates $C(q)$; filled cells are the support pattern $S(c)$, the number inside the within-output position $r_m(c)$; column headers give each agent's output length $L_m(q)$; blank cells are the omissions that omission strength grades by $\log L_m(q)$. Support alone would not separate these rows: \texttt{barchana} has four asserters and \texttt{jajpur road} one, yet the ordering keeps all seven gold answers and drops all seven non-answers. A dot marks an agent that did not assert the candidate; \texttt{Cohere} returned nothing here, so $L_m=0$ and the omission feature clamps $\log L_m$ at $L_m=1$. The keep-count $k^*(q)=7$ is computed from $p$ and the predicted gold size $\hat{G}_q=9.38$ alone (Section~\ref{sec:slotB}); the true count is 7. \texttt{barchana} and \texttt{barachana} differ by one character and are graded as different entities, the effect discussed in Section~\ref{sec:negative}.}
+  \label{fig:worked}
+\end{figure}
+
+
+\begin{table}
+  \caption{Correctness by within-output position on QAMPARI, restricted to solo assertions and stratified by the asserter's own list length. Short lists show no usable signal --- flat or mildly reversed --- and the gradient appears only on long lists. The feature pays because $70\%$ of solo assertions sit in lists of 101 or more. A control confirms the effect is positional, not verbosity: $P(\mathrm{correct} \mid \text{first position})$ by length band is $2.2$, $4.1$, $4.4$, $4.3$ percent, flat. These numbers predate the parsing fix of Section~\ref{sec:protocol}.}
+  \label{tab:rank}
+  \centering
+  \begin{tabular}{lrrr}
+    \toprule
+    Asserter's list length & 1st quintile & Last quintile & Spearman (rank, correct) \\
+    \midrule
+    1 to 5 items & $2.2\%$ & $4.6\%$ & $+0.084$ \\
+    6 to 20      & $5.2\%$ & $2.8\%$ & $-0.048$ \\
+    21 to 100    & $5.4\%$ & $1.2\%$ & $-0.102$ \\
+    101 or more  & $0.9\%$ & $0.1\%$ & $-0.069$ \\
+    pooled solo  &         &         & $-0.121$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figA1_position.pdf}
+  \caption{Within-output position as a correctness signal, the same measurement as Table~\ref{tab:rank} with ASQA added. Left: on lists of 5 items or fewer the relationship runs the wrong way, and the usable gradient appears only on longer lists. Right: every ASQA response-length band falls inside $|\rho| < 0.05$, the range where QAMPARI shows no usable signal, and a positive $\rho$ would mean later items are more often correct, the reverse of the direction the method exploits. Both panels use solo assertions only, which removes the support confound, stratified by the asserting agent's own output length. The signal the method depends on is absent at ASQA's response lengths. QAMPARI rows predate the parsing fix of Section~\ref{sec:protocol}.}
+  \label{fig:position}
+\end{figure}
+
+\begin{table}
+  \caption{Mean predicted probability against observed correctness, cross-fitted over 110,136 QAMPARI claims. Calibration is near-exact in the bottom bins, holding $74\%$ of claims, and overconfident by up to $5.8$ points in the top bin --- the region the keep-count reads.}
+  \label{tab:calib}
+  \centering
+  \begin{tabular}{lrrrr}
+    \toprule
+    Predicted $p$ & Claims & Mean predicted & Actual & Gap \\
+    \midrule
+    0.00 to 0.02 & 81,541 & $0.4\%$  & $0.4\%$  & $0.0$ \\
+    0.02 to 0.05 & 12,278 & $3.2\%$  & $4.0\%$  & $+0.8$ \\
+    0.05 to 0.10 &  6,925 & $7.1\%$  & $7.5\%$  & $+0.5$ \\
+    0.10 to 0.20 &  3,876 & $13.8\%$ & $13.4\%$ & $-0.5$ \\
+    0.20 to 0.35 &  2,401 & $26.9\%$ & $26.1\%$ & $-0.9$ \\
+    0.35 to 0.50 &  1,602 & $42.1\%$ & $39.5\%$ & $-2.6$ \\
+    0.50 to 0.70 &  1,323 & $58.7\%$ & $55.1\%$ & $-3.6$ \\
+    0.70 to 1.00 &    190 & $74.8\%$ & $68.9\%$ & $-5.8$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+\begin{table}
+  \caption{Gain over counting by training-set size, fixed held-out test set, five independent training draws per size, two test splits. The gain saturates by roughly 200 questions and the draw-to-draw spread collapses from $\pm 1.64$ to $\pm 0.15$, past which point the choice of fitting questions stops mattering. At 25 questions the method loses to counting. The full-data gain here is below the cross-fitted headline of Section~\ref{sec:rq1}; that discrepancy is unresolved.}
+  \label{tab:curve}
+  \centering
+  \begin{tabular}{rrrr}
+    \toprule
+    Training questions & Split A & Split B & Spread across draws \\
+    \midrule
+     25 & $-1.10$ & $+0.18$ & $\pm 1.64$ \\
+     50 & $+0.62$ & $-0.20$ & $\pm 0.22$ \\
+    100 & $+0.97$ & $+0.54$ & $\pm 0.21$ \\
+    200 & $+1.10$ & $+1.00$ & $\pm 0.34$ \\
+    350 & $+1.55$ & $+1.11$ & $\pm 0.15$ \\
+    527 & $+1.45$ & $+1.28$ & \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+
+\subsection{A worked keep-count}
+\label{app:budget}
+The expected-F1 curve candidate by candidate for one held-out question, showing the chosen $k$ against the true optimum and against keeping everything.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+% \input{checklist.tex}  % TODO restore before submission
+
+
+\end{document}

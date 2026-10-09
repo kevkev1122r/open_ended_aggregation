@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "review_id": "REVIEW-LOCAL-OEA-001",
+  "material": {
+    "status": "unpublished_confidential",
+    "contains_personal_or_sensitive_data": false
+  },
+  "authorization": {
+    "basis": "author_request",
+    "documented": true,
+    "local_processing_authorized": true,
+    "external_processing_authorized": false
+  },
+  "reviewer": {
+    "capacity": "author_requested_reader",
+    "human_accountable": true,
+    "competence_areas": [
+      "subject_matter",
+      "statistics",
+      "reproducibility"
+    ],
+    "competence_limits": [
+      "no_independent_reexecution_of_pipeline",
+      "unread_references_cannot_be_checked"
+    ],
+    "conflict_status": "disclosed_to_editor",
+    "conflicts": [
+      "reviewer_is_an_author_self_review"
+    ]
+  },
+  "venue_policy": {
+    "checked": true,
+    "peer_review_model": "open",
+    "confidential_editor_notes_supported": false
+  },
+  "ai_use": {
+    "policy": "permitted_with_disclosure",
+    "planned": "local_deterministic_tools",
+    "permission_confirmed": true,
+    "disclosure_planned": true
+  },
+  "handling": {
+    "local_only": true,
+    "external_service_use": false,
+    "data_reuse_permitted": false,
+    "retention_rule": "retain_per_venue_policy",
+    "deletion_or_retention_record_planned": true
+  },
+  "scope": {
+    "manuscript_type": "other",
+    "requested_focus": [
+      "methods",
+      "statistics",
+      "reporting",
+      "claim_evidence_alignment"
+    ],
+    "out_of_scope": [
+      "copy_editing",
+      "venue_formatting"
+    ],
+    "specialist_review_needed": [
+      "mentor_review",
+      "principal_investigator_review"
+    ]
+  }
+}

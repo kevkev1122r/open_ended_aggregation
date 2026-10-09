@@ -1,0 +1,44 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig5_pipeline.pdf",
+      "size_bytes": 62480
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig5_pipeline.png",
+      "size_bytes": 328565
+    }
+  ],
+  "provenance": {
+    "derived_from": "QAMPARI question 139__wikidata_comp__dev, 8 agents, from analysis/weighting_v3.load_rich",
+    "source": "results/pipeline_example.json",
+    "transform": "one question end to end; support counts, within-output positions and per-agent output lengths parsed after the special-token fix of Section 4.4"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      2.62
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

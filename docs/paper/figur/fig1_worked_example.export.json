@@ -1,0 +1,49 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig1_worked_example.pdf",
+      "size_bytes": 58405
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/fig1_worked_example.png",
+      "size_bytes": 332089
+    }
+  ],
+  "provenance": {
+    "missing_data": "a dot marks an agent that did not assert that candidate; Cohere returned nothing at all",
+    "raw_data": "results/worked_example_hit.json, from analysis/budget_trace.py --qid 68__wikitables_composition__dev --json",
+    "transformations": [
+      "candidates ordered by the scorer's predicted probability",
+      "agent columns ordered by list length",
+      "candidate strings truncated to 22 characters for display"
+    ],
+    "uncertainty": "not applicable; one question shown in full"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      3.5
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

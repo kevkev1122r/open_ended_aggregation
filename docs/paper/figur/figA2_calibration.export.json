@@ -1,0 +1,48 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/figA2_calibration.pdf",
+      "size_bytes": 23336
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/kevinchou/Documents/open-ended-aggregation/docs/paper/figur/figA2_calibration.png",
+      "size_bytes": 181567
+    }
+  ],
+  "provenance": {
+    "missing_data": "none",
+    "raw_data": "measured inline, cross-fitted, 110,136 claims; NO REPRODUCIBLE MODULE, see UNRESOLVED.md section 6",
+    "transformations": [
+      "binned by predicted probability; edges on the y axis",
+      "gap taken as recorded, not recomputed from the rounded columns"
+    ],
+    "uncertainty": "not estimated; bin counts in the right panel"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.5,
+      2.45
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.1",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}
