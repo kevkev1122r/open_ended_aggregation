@@ -1,0 +1,29 @@
+  10/210 subsets
+  20/210 subsets
+  30/210 subsets
+  40/210 subsets
+  50/210 subsets
+  60/210 subsets
+  70/210 subsets
+  80/210 subsets
+  90/210 subsets
+  100/210 subsets
+  110/210 subsets
+  120/210 subsets
+  130/210 subsets
+  140/210 subsets
+  150/210 subsets
+  160/210 subsets
+  170/210 subsets
+  180/210 subsets
+  190/210 subsets
+  200/210 subsets
+  210/210 subsets
+
+  qampari: gain over counting, mean per size (significant / subsets)
+  size  n   best   count          weighted           pattern   LEAN (logistic)    count + budget  weighted + budge  pattern + budget     LEAN + budget
+     3  56  24.74  22.66   +1.96 ( 36/56 )   +2.33 ( 42/56 )   +3.82 ( 56/56 )   +1.23 ( 36/56 )   +1.51 ( 34/56 )   +2.44 ( 50/56 )   +4.20 ( 56/56 )
+     4  70  26.00  24.04   +1.85 ( 40/70 )   +2.41 ( 45/70 )   +4.00 ( 70/70 )   +1.40 ( 45/70 )   +1.75 ( 41/70 )   +2.85 ( 69/70 )   +4.43 ( 70/70 )
+     5  56  26.75  26.24   +0.86 ( 21/56 )   +1.30 ( 26/56 )   +2.83 ( 56/56 )   +0.20 ( 17/56 )   +0.57 ( 22/56 )   +1.93 ( 54/56 )   +3.31 ( 56/56 )
+     6  28  27.17  27.73   +0.38 (  7/28 )   +0.67 (  8/28 )   +2.05 ( 28/28 )   -0.74 (  0/28 )   -0.29 (  7/28 )   +1.45 ( 25/28 )   +2.64 ( 28/28 )
+QDONE

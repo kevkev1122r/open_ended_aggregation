@@ -1,0 +1,31 @@
+  QAMPARI  777 questions, 8 agents
+  building edge cache at tau_max=0.3 ...
+    edges 150/777  159s
+    edges 300/777  602s
+    edges 450/777  1613s
+    edges 600/777  2390s
+    edges 750/777  2767s
+  cached to /Users/kevinchou/Documents/open-ended-aggregation/data/asc_edges.pkl
+  6,982,783 edges total, 142 unique items/question
+    tau=0.05 done
+    tau=0.10 done
+    tau=0.15 done
+    tau=0.20 done
+    tau=0.25 done
+    tau=0.30 done
+  tuned on validation half: tau=0.05, Theta=2 (max F1-5)
+
+  ASC full pool (n=8):  F1 28.43   P 28.16   F1-5 32.18
+    size 3: 56 ensembles (40s)
+    size 4: 70 ensembles (49s)
+    size 5: 56 ensembles (34s)
+    size 6: 28 ensembles (17s)
+
+     n   ens    ASC F1   ASC F1-5   ASC F1 (th tuned on F1)
+     3    56     21.79      25.60                     22.29
+     4    70     23.55      28.35                     23.58
+     5    56     25.69      30.34                     25.68
+     6    28     27.07      31.41                     27.07
+
+  wrote results/asc_ensembles.json
+ASCDONE

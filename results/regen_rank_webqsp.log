@@ -1,0 +1,49 @@
+==============================================================================================
+  RANK EFFECT -- measured, and stratified by how long the asserting agent's list was
+==============================================================================================
+
+  375 questions, 5 agents, 83,783 (claim, asserting agent) pairs
+  48,771 of them are solo assertions (58.2%)
+
+  [1] ALL assertions, by absolute position in the asserting agent's list
+        position           n   P(correct)
+             1st       1,871        50.2%
+             2-3       3,305        49.5%
+             4-7       6,070        47.8%
+            8-15       9,988        42.2%
+           16-30      11,173        37.6%
+           31-70      12,014        27.5%
+             71+      39,362         4.0%
+
+  [2] SOLO assertions only (no support confound), absolute position x list length
+        list len        1st        2-3        4-7       8-15      16-30      31-70        71+
+             1-5          -          -          -          -          -          -          -
+            6-20       4.8%       3.4%       4.7%       6.6%       4.5%          -          -
+          21-100          -      12.8%      13.9%      13.6%      11.9%      10.4%       8.5%
+            101+          -          -          -       8.4%       7.9%       7.8%       1.7%
+      (cells with fewer than 100 observations are suppressed)
+
+  [3] SOLO assertions only, RELATIVE position (rank / list length) x list length
+        list len      0-20%     20-40%     40-60%     60-80%    80-100%
+             1-5          -          -          -          -          -
+            6-20       5.0%       4.8%       6.4%       5.4%       5.1%
+          21-100      16.5%      15.5%      12.2%       9.8%       8.0%
+            101+       4.1%       2.8%       2.4%       1.6%       1.5%
+
+  [4] DISENTANGLING -- solo assertions, first position only, by list length
+      if the gradient in [2] were really a length effect, this row would fall too
+        list len           n   P(correct | 1st)
+             1-5          89               4.5%
+            6-20         124               4.8%
+          21-100          59              16.9%
+            101+          20              25.0%
+
+  [5] WITHIN-BAND SLOPE -- Spearman(rank, correct) computed inside each length band
+      a negative value means later positions are worse, holding list length roughly fixed
+        list len           n       rho    1st vs last-quintile
+             1-5         227     0.132                       -
+            6-20       2,525     0.017            5.0% vs 5.1%
+          21-100       7,135    -0.055           16.5% vs 8.0%
+            101+      38,884    -0.154            4.1% vs 1.5%
+
+  wrote results/rank_effect.json

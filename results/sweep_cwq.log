@@ -1,0 +1,8 @@
+  10/16 subsets
+  16/16 subsets
+
+  cwq: gain over counting, mean per size (significant / subsets)
+  size  n   best   count          weighted           pattern   LEAN (logistic)    count + budget  weighted + budge  pattern + budget     LEAN + budget
+     3  10  21.53  22.07   +0.21 (  2/10 )   +0.28 (  2/10 )   +1.44 ( 10/10 )   -0.27 (  1/10 )   -0.55 (  0/10 )   -0.17 (  0/10 )   +1.13 (  6/10 )
+     4   5  21.30  21.77   +0.23 (  1/5  )   +0.33 (  2/5  )   +1.91 (  5/5  )   +0.19 (  0/5  )   +0.10 (  0/5  )   +0.47 (  1/5  )   +1.63 (  4/5  )
+     5   1  20.92  21.81   -1.02 (  0/1  )   -0.29 (  0/1  )   +1.65 (  1/1  )   +0.24 (  0/1  )   -0.28 (  0/1  )   +0.59 (  1/1  )   +1.55 (  1/1  )

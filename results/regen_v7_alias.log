@@ -1,0 +1,23 @@
+============================================================================================
+  WEIGHTING v7 -- alias merging before scoring
+============================================================================================
+    tau=1.0   110,136 candidates  merges good/bad     0/0      count 29.21  pattern 29.50  LEAN 30.68  LEAN + budget 31.54
+    tau=0.95  108,039 candidates  merges good/bad     0/1      count 29.21  pattern 29.52  LEAN 30.71  LEAN + budget 31.49
+    tau=0.9   105,495 candidates  merges good/bad     7/10     count 29.14  pattern 29.52  LEAN 30.72  LEAN + budget 31.45
+    tau=0.85  102,086 candidates  merges good/bad     7/41     count 29.02  pattern 29.35  LEAN 30.75  LEAN + budget 31.29
+    tau=0.8    94,390 candidates  merges good/bad     8/106    count 29.00  pattern 29.24  LEAN 30.71  LEAN + budget 31.34
+    tau=0.7    81,547 candidates  merges good/bad    15/414    count 28.21  pattern 28.74  LEAN 29.98  LEAN + budget 30.46
+
+     tau  candidates    good/bad    count  pattern     LEAN  LEAN+budget               vs no-merge
+  ----------------------------------------------------------------------------------------------------
+    1.00     110,136      0/0        29.21    29.50    30.68        31.54               (reference)
+    0.95     108,039      0/1        29.21    29.52    30.71        31.49      -0.05 [-0.13,+0.04] 
+    0.90     105,495      7/10       29.14    29.52    30.72        31.45      -0.08 [-0.24,+0.07] 
+    0.85     102,086      7/41       29.02    29.35    30.75        31.29      -0.25 [-0.61,+0.08] 
+    0.80      94,390      8/106      29.00    29.24    30.71        31.34      -0.19 [-0.67,+0.24] 
+    0.70      81,547     15/414      28.21    28.74    29.98        30.46      -1.07 [-1.88,-0.33]*
+
+  good = merged pair shares a gold answer; bad = merged pair had DIFFERENT gold answers
+  * = bootstrap 95% CI over questions excludes 0
+  wrote results/weighting_v7.json
+DONE_A

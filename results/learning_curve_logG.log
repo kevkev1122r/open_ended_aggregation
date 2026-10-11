@@ -1,0 +1,29 @@
+========================================================================================
+  LEARNING CURVE -- mean test F1 against the number of labelled training questions
+========================================================================================
+
+  777 questions, 8 agents, 110,136 claims, 3.6% correct, 115 features
+  92 of them enter the rank scorer
+  test set 250 questions (fixed), training pool 527
+  sizes [25, 50, 100, 200, 350, 527], 5 draws each
+
+    N=25    count 30.08  pattern 28.06+-2.61  rank 28.41+-1.44  rank + budget 28.85+-1.57
+    N=50    count 30.08  pattern 29.58+-0.96  rank 30.06+-0.53  rank + budget 30.54+-0.51
+    N=100   count 30.08  pattern 29.76+-0.63  rank 30.65+-0.32  rank + budget 30.99+-0.31
+    N=200   count 30.08  pattern 30.62+-0.48  rank 30.83+-0.34  rank + budget 31.12+-0.46
+    N=350   count 30.08  pattern 30.66+-0.58  rank 30.87+-0.30  rank + budget 31.73+-0.19
+    N=527   count 30.08  pattern 30.72  rank 30.87  rank + budget 31.69
+
+    N train    count   pattern     rank   rank+bud   bud - count   % of full gain
+  -------------------------------------------------------------------------------
+         25    30.08     28.06    28.41      28.85         -1.23             -76%
+         50    30.08     29.58    30.06      30.54         +0.46              29%
+        100    30.08     29.76    30.65      30.99         +0.91              57%
+        200    30.08     30.62    30.83      31.12         +1.04              65%
+        350    30.08     30.66    30.87      31.73         +1.64             102%
+        527    30.08     30.72    30.87      31.69         +1.61             100%
+
+  full-data gain over counting: +1.61 F1 (+5.4%)
+  +- is the spread over independent training draws at that size
+  wrote results/learning_curve_test0.json
+LCDONE

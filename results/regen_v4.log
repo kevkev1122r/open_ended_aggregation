@@ -1,0 +1,33 @@
+========================================================================================================
+  WEIGHTING v4 -- fixing the DECISION RULE (calibration, within-question normalisation, budgets)
+========================================================================================================
+
+  777 questions, 8 agents, 110,136 claims, 3.6% correct
+    fold 1/5 done
+    fold 2/5 done
+    fold 3/5 done
+    fold 4/5 done
+    fold 5/5 done
+
+  best single = Kimi-K2.5 (27.40)
+  calibration on train: predicted 3.58% raw / 3.56% calibrated vs 3.58% actual
+  top-K picked per fold: [8, 8, 8, 9, 9]
+
+  arm                            F1            vs best single                  vs count
+  -------------------------------------------------------------------------------------
+  count                       29.21 +1.80 (  +6.6%)[+0.76,+2.87]*               (reference)
+  pattern                     29.50 +2.10 (  +7.7%)[+1.09,+3.09]* +0.30 (  +1.0%)[-0.34,+0.90] 
+  LEAN                        30.68 +3.28 ( +12.0%)[+2.31,+4.26]* +1.47 (  +5.0%)[+0.78,+2.14]*
+  LEAN z-norm                 27.64 +0.23 (  +0.8%)[-0.77,+1.25]  -1.57 (  -5.4%)[-2.47,-0.66]*
+  LEAN max-norm               31.04 +3.64 ( +13.3%)[+2.66,+4.62]* +1.83 (  +6.3%)[+1.11,+2.56]*
+  LEAN pct-norm               26.27 -1.13 (  -4.1%)[-2.16,-0.05]* -2.93 ( -10.0%)[-3.93,-1.94]*
+  LEAN top-K                  29.45 +2.05 (  +7.5%)[+0.96,+3.18]* +0.25 (  +0.9%)[-0.72,+1.21] 
+  LEAN + budget               31.51 +4.11 ( +15.0%)[+3.16,+5.08]* +2.31 (  +7.9%)[+1.49,+3.12]*
+  LEAN + budget(calib)        31.63 +4.23 ( +15.4%)[+3.28,+5.21]* +2.43 (  +8.3%)[+1.62,+3.23]*
+  LEAN pct + budget(calib)    28.99 +1.59 (  +5.8%)[+0.45,+2.76]* -0.21 (  -0.7%)[-1.24,+0.78] 
+  LEAN + oracle-k             39.78+12.38 ( +45.2%)[+11.30,+13.50]*+10.57 ( +36.2%)[+9.69,+11.45]*
+  ORACLE selection            59.44+32.04 (+116.9%)[+30.09,+34.00]*+30.23 (+103.5%)[+28.51,+31.92]*
+
+  * = bootstrap 95% CI over questions excludes 0
+  oracle-k and ORACLE selection are headroom diagnostics, not methods
+  wrote results/weighting_v4.json

@@ -1,0 +1,32 @@
+============================================================================================
+  WEIGHTING v5 -- gradient boosted scoring, then the per-question budget
+============================================================================================
+  benchmark: cwq; agents: Cohere-command-a-plus-05-2026, DeepSeek-V4-Flash, Kimi-K2.5, MAI-Thinking-1, grok-4.3
+
+  415 questions, 5 agents, 33,461 claims, 5.5% correct, 78 features
+  GBM: 300 trees max, depth 5, lr 0.12, early stop on a held-out slice of train
+    fold 1/5 done  (186 trees, AP 0.5325 -> 0.7095)
+    fold 2/5 done  (88 trees, AP 0.5428 -> 0.6854)
+    fold 3/5 done  (115 trees, AP 0.5774 -> 0.7908)
+    fold 4/5 done  (51 trees, AP 0.3608 -> 0.4805)
+    fold 5/5 done  (111 trees, AP 0.4701 -> 0.6203)
+
+  best single = Kimi-K2.5 (20.92)
+  average precision on held-out claims: logistic 0.4967 -> GBM 0.6573 -> blend 0.6573
+  trees kept per fold: [186, 88, 115, 51, 111]
+
+  arm                        F1             vs best single                   vs count
+  -----------------------------------------------------------------------------------
+  count                   21.81 +0.89 (  +4.3%)[-0.27,+2.05]                 (reference)
+  pattern                 21.52 +0.60 (  +2.9%)[-0.40,+1.64]  -0.29 (  -1.3%)[-0.95,+0.38] 
+  LEAN (logistic)         23.45 +2.54 ( +12.1%)[+1.49,+3.61]* +1.65 (  +7.6%)[+0.97,+2.35]*
+  LEAN + budget           23.35 +2.44 ( +11.7%)[+1.38,+3.52]* +1.55 (  +7.1%)[+0.83,+2.30]*
+  GBM                     22.15 +1.24 (  +5.9%)[+0.11,+2.38]* +0.34 (  +1.6%)[-0.48,+1.20] 
+  GBM + budget            23.86 +2.94 ( +14.1%)[+1.91,+4.04]* +2.05 (  +9.4%)[+1.20,+2.96]*
+  BLEND                   22.42 +1.51 (  +7.2%)[+0.40,+2.66]* +0.62 (  +2.8%)[-0.19,+1.46] 
+  BLEND + budget          23.82 +2.91 ( +13.9%)[+1.89,+3.98]* +2.02 (  +9.2%)[+1.17,+2.91]*
+  ORACLE selection        34.27+13.35 ( +63.8%)[+11.40,+15.41]*+12.46 ( +57.1%)[+10.71,+14.31]*
+
+  * = bootstrap 95% CI over questions excludes 0
+  wrote results/weighting_v5_cwq_logG_seed0.json
+  wrote results/weighting_v5_cwq_logG_perq_seed0.json

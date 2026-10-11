@@ -1,0 +1,31 @@
+============================================================================================
+  WEIGHTING v5 -- gradient boosted scoring, then the per-question budget
+============================================================================================
+  benchmark: webqsp; agents: Cohere-command-a-plus-05-2026, DeepSeek-V4-Flash, Kimi-K2.5, MAI-Thinking-1, grok-4.3
+
+  375 questions, 5 agents, 59,716 claims, 10.9% correct, 78 features
+  GBM: 300 trees max, depth 5, lr 0.12, early stop on a held-out slice of train
+    fold 1/5 done
+    fold 2/5 done
+    fold 3/5 done
+    fold 4/5 done
+    fold 5/5 done
+
+  best single = Kimi-K2.5 (30.45)
+
+  arm                        F1             vs best single                   vs count
+  -----------------------------------------------------------------------------------
+  count                   31.72 +1.28 (  +4.2%)[+0.03,+2.46]*                (reference)
+  weighted                31.61 +1.16 (  +3.8%)[-0.08,+2.33]  -0.11 (  -0.4%)[-0.22,-0.03]*
+  pattern                 31.73 +1.28 (  +4.2%)[+0.07,+2.41]* +0.00 (  +0.0%)[-0.26,+0.40] 
+  LEAN (logistic)         32.26 +1.82 (  +6.0%)[+0.71,+2.88]* +0.54 (  +1.7%)[-0.13,+1.25] 
+  count + budget          31.22 +0.77 (  +2.5%)[-0.60,+2.07]  -0.51 (  -1.6%)[-1.28,+0.30] 
+  weighted + budget       30.80 +0.36 (  +1.2%)[-1.06,+1.67]  -0.92 (  -2.9%)[-1.67,-0.14]*
+  pattern + budget        32.04 +1.59 (  +5.2%)[+0.43,+2.71]* +0.31 (  +1.0%)[-0.21,+0.94] 
+  LEAN + budget           32.75 +2.31 (  +7.6%)[+1.35,+3.27]* +1.03 (  +3.2%)[+0.28,+1.85]*
+  ORACLE selection        49.81+19.36 ( +63.6%)[+17.04,+21.67]*+18.08 ( +57.0%)[+16.08,+20.17]*
+
+  * = bootstrap 95% CI over questions excludes 0
+  wrote results/weighting_v5_webqsp_nogbm_seed0.json
+  wrote results/weighting_v5_webqsp_nogbm_perq_seed0.json
+MAINDONE

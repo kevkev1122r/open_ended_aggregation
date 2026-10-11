@@ -1,0 +1,32 @@
+============================================================================================
+  WEIGHTING v5 -- gradient boosted scoring, then the per-question budget
+============================================================================================
+  benchmark: qampari; agents: Cohere-command-a-plus-05-2026, DeepSeek-V4-Flash, Kimi-K2.5, MAI-Thinking-1, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, grok-4.3
+
+  777 questions, 8 agents, 110,136 claims, 3.6% correct, 115 features
+  GBM: 300 trees max, depth 5, lr 0.12, early stop on a held-out slice of train
+    fold 1/5 done  (85 trees, AP 0.4057 -> 0.3694)
+    fold 2/5 done  (45 trees, AP 0.4208 -> 0.4480)
+    fold 3/5 done  (58 trees, AP 0.3653 -> 0.3923)
+    fold 4/5 done  (61 trees, AP 0.3778 -> 0.4226)
+    fold 5/5 done  (46 trees, AP 0.4109 -> 0.4543)
+
+  best single = Kimi-K2.5 (27.40)
+  average precision on held-out claims: logistic 0.3961 -> GBM 0.4173 -> blend 0.4166
+  trees kept per fold: [85, 45, 58, 61, 46]
+
+  arm                        F1             vs best single                   vs count
+  -----------------------------------------------------------------------------------
+  count                   29.21 +1.80 (  +6.6%)[+0.76,+2.87]*                (reference)
+  pattern                 29.50 +2.10 (  +7.7%)[+1.09,+3.09]* +0.30 (  +1.0%)[-0.34,+0.90] 
+  LEAN (logistic)         30.68 +3.28 ( +12.0%)[+2.31,+4.26]* +1.47 (  +5.0%)[+0.78,+2.14]*
+  LEAN + budget           31.70 +4.30 ( +15.7%)[+3.37,+5.26]* +2.50 (  +8.5%)[+1.72,+3.28]*
+  GBM                     29.95 +2.54 (  +9.3%)[+1.54,+3.54]* +0.74 (  +2.5%)[+0.00,+1.47]*
+  GBM + budget            31.73 +4.33 ( +15.8%)[+3.36,+5.34]* +2.52 (  +8.6%)[+1.75,+3.31]*
+  BLEND                   30.80 +3.40 ( +12.4%)[+2.39,+4.43]* +1.60 (  +5.5%)[+0.89,+2.31]*
+  BLEND + budget          32.06 +4.66 ( +17.0%)[+3.69,+5.63]* +2.85 (  +9.8%)[+2.06,+3.66]*
+  ORACLE selection        59.44+32.04 (+116.9%)[+30.09,+34.00]*+30.23 (+103.5%)[+28.51,+31.92]*
+
+  * = bootstrap 95% CI over questions excludes 0
+  wrote results/weighting_v5_seed0.json
+  wrote results/weighting_v5_perq_seed0.json

@@ -1,0 +1,9 @@
+  10/16 subsets
+  16/16 subsets
+
+  webqsp: gain over counting, mean per size (significant / subsets)
+  size  n   best   count          weighted           pattern   LEAN (logistic)    count + budget  weighted + budge  pattern + budget     LEAN + budget
+     3  10  30.40  30.42   +0.08 (  3/10 )   +0.48 (  5/10 )   +1.33 (  9/10 )   +0.23 (  2/10 )   -0.22 (  1/10 )   +0.42 (  5/10 )   +1.48 (  8/10 )
+     4   5  30.45  31.33   -0.00 (  0/5  )   -0.15 (  0/5  )   +0.70 (  2/5  )   -0.49 (  0/5  )   -0.78 (  0/5  )   +0.31 (  1/5  )   +1.12 (  4/5  )
+     5   1  30.45  31.72   -0.11 (  0/1  )   +0.00 (  0/1  )   +0.54 (  0/1  )   -0.51 (  0/1  )   -0.92 (  0/1  )   +0.31 (  0/1  )   +1.03 (  1/1  )
+KGDONE

@@ -1,0 +1,22 @@
+  ASQA  400 questions, 6 agents, 8,393 sentences
+  embeddings loaded from cache
+  400 questions, 6 agents, 15.0 clusters/question
+  building the DR-marginal label ...
+  25.8% cover an interpretation, 24.6% improve DR
+    fold done (14,047 DR evals, 26 trees)
+    fold done (21,520 DR evals, 28 trees)
+
+  ASQA under DR*   best single = gpt-5.4 (27.03)   trees [26, 28]
+  arm                     DR*  STR-EM  ROUGE-L           vs best single                 vs count           vs ceiling
+  --------------------------------------------------------------------------------------------------------------
+  count                 24.77   37.38    24.51 -2.27 (  -8.4%)[-3.52,-1.11]*              (reference) -2.44 [-3.59,-1.37]*
+  weighted              27.45   46.01    22.04 +0.42 (  +1.6%)[+0.02,+0.86]* +2.69 ( +10.9%)[+1.64,+3.84]* +0.25 [+0.02,+0.54]*
+  pattern               27.20   45.36    22.05 +0.17 (  +0.6%)[-0.30,+0.66]  +2.44 (  +9.8%)[+1.37,+3.60]*            (ceiling)
+  LEAN (cover-label)    26.81   47.15    20.51 -0.22 (  -0.8%)[-0.96,+0.54]  +2.05 (  +8.3%)[+0.92,+3.22]* -0.39 [-1.07,+0.31] 
+  LEAN (dr-label)       26.88   48.25    20.19 -0.15 (  -0.6%)[-1.11,+0.83]  +2.12 (  +8.5%)[+0.97,+3.29]* -0.32 [-1.25,+0.61] 
+  GBM (dr-label)        26.42   47.23    20.03 -0.61 (  -2.3%)[-1.64,+0.46]  +1.65 (  +6.7%)[+0.56,+2.82]* -0.78 [-1.78,+0.21] 
+
+  DR* = sqrt(ROUGE-L x STR-EM), proxy for published DR
+  LEAN (cover-label) - weighted: -0.64 [-1.31, +0.02]  not significant
+  LEAN (dr-label) - weighted: -0.57 [-1.47, +0.31]  not significant
+  wrote results/asqa_v5.json, results/asqa_v5_perq.json

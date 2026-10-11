@@ -1,0 +1,7 @@
+============================================================================================
+  WEIGHTING v5 -- gradient boosted scoring, then the per-question budget
+============================================================================================
+  benchmark: quest; agents: DeepSeek-V4-Flash, Kimi-K2.5, MAI-Thinking-1, gpt-5.4, gpt-5.4-mini, gpt-5.4-nano, grok-4.3
+
+  386 questions, 7 agents, 126,539 claims, 0.8% correct, 100 features
+  GBM: 300 trees max, depth 5, lr 0.12, early stop on a held-out slice of train

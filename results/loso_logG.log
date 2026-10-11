@@ -1,0 +1,46 @@
+==========================================================================================
+  LEAVE-ONE-SOURCE-OUT vs RANDOM 5-FOLD  (QAMPARI)
+==========================================================================================
+
+  question sources:
+    wikidata_simple             327 questions
+    wikidata_intersection       164 questions
+    wikidata_comp               149 questions
+    wikitables_composition       84 questions
+    wikitables_simple            53 questions
+
+  leave-one-source-out
+    LOSO fold wikidata_comp__dev done (149 test questions)
+    LOSO fold wikidata_intersection__dev done (164 test questions)
+    LOSO fold wikidata_simple__dev done (327 test questions)
+    LOSO fold wikitables_composition__dev done (84 test questions)
+    LOSO fold wikitables_simple__dev done (53 test questions)
+
+  random 5-fold (same arms, same code path)
+    random fold 0 done (156 test questions)
+    random fold 1 done (156 test questions)
+    random fold 2 done (155 test questions)
+    random fold 3 done (155 test questions)
+    random fold 4 done (155 test questions)
+
+  best single = Kimi-K2.5 (27.40)
+
+  arm                 random 5-fold      LOSO    shift             LOSO vs count
+  ------------------------------------------------------------------------------
+  count                       29.21     29.21    +0.00               (reference)
+  pattern                     29.50     29.44    -0.06 +0.24 ( +0.8%)[-0.38,+0.80] 
+  LEAN                        30.68     30.57    -0.11 +1.36 ( +4.7%)[+0.66,+2.05]*
+  LEAN + budget               31.54     31.10    -0.44 +1.89 ( +6.5%)[+1.02,+2.73]*
+  BLEND + budget              32.16     31.26    -0.90 +2.05 ( +7.0%)[+1.18,+2.93]*
+
+  PER-SOURCE, held out entirely from training
+  source                        n    count  BLEND+budget     gain
+  ---------------------------------------------------------------
+  wikidata_simple             327    25.09         26.42    +1.33
+  wikidata_intersection       164    39.12         41.03    +1.91
+  wikidata_comp               149    24.41         27.46    +3.05
+  wikitables_composition       84    37.96         40.76    +2.80
+  wikitables_simple            53    23.55         26.49    +2.94
+
+  wrote results/loso.json
+LOSODONE
