@@ -1,0 +1,193 @@
+{
+ "tau": 0.05,
+ "full_pool": {
+  "f1": 29.414013759329627,
+  "f15": 47.9908794800302,
+  "prec": 45.755056964531725
+ },
+ "ensembles": [
+  {
+   "k": 3,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "DeepSeek-V4-Flash",
+    "Kimi-K2.5"
+   ],
+   "asc": 27.240164353391332,
+   "asc_f15": 46.02529668588646,
+   "asc_f1tuned": 29.073633484218075
+  },
+  {
+   "k": 3,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "DeepSeek-V4-Flash",
+    "MAI-Thinking-1"
+   ],
+   "asc": 25.832125055623717,
+   "asc_f15": 44.59540661569933,
+   "asc_f1tuned": 28.428523778604376
+  },
+  {
+   "k": 3,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "DeepSeek-V4-Flash",
+    "grok-4.3"
+   ],
+   "asc": 25.4106805266174,
+   "asc_f15": 46.230177600278374,
+   "asc_f1tuned": 28.266934965744024
+  },
+  {
+   "k": 3,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "Kimi-K2.5",
+    "MAI-Thinking-1"
+   ],
+   "asc": 30.083627115718464,
+   "asc_f15": 46.01407705761959,
+   "asc_f1tuned": 29.02025444650316
+  },
+  {
+   "k": 3,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "Kimi-K2.5",
+    "grok-4.3"
+   ],
+   "asc": 28.747921738391945,
+   "asc_f15": 47.23353035334438,
+   "asc_f1tuned": 28.615432102397353
+  },
+  {
+   "k": 3,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "MAI-Thinking-1",
+    "grok-4.3"
+   ],
+   "asc": 27.466054725560134,
+   "asc_f15": 46.71328224761865,
+   "asc_f1tuned": 29.082078005975585
+  },
+  {
+   "k": 3,
+   "ens": [
+    "DeepSeek-V4-Flash",
+    "Kimi-K2.5",
+    "MAI-Thinking-1"
+   ],
+   "asc": 30.577513584941478,
+   "asc_f15": 45.99734889451592,
+   "asc_f1tuned": 30.577513584941478
+  },
+  {
+   "k": 3,
+   "ens": [
+    "DeepSeek-V4-Flash",
+    "Kimi-K2.5",
+    "grok-4.3"
+   ],
+   "asc": 30.06533492479554,
+   "asc_f15": 47.38966964519436,
+   "asc_f1tuned": 29.14730532321726
+  },
+  {
+   "k": 3,
+   "ens": [
+    "DeepSeek-V4-Flash",
+    "MAI-Thinking-1",
+    "grok-4.3"
+   ],
+   "asc": 28.76702867797395,
+   "asc_f15": 46.688489818167376,
+   "asc_f1tuned": 28.63775332992079
+  },
+  {
+   "k": 3,
+   "ens": [
+    "Kimi-K2.5",
+    "MAI-Thinking-1",
+    "grok-4.3"
+   ],
+   "asc": 30.717687190085467,
+   "asc_f15": 46.07801918018081,
+   "asc_f1tuned": 30.717687190085467
+  },
+  {
+   "k": 4,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "DeepSeek-V4-Flash",
+    "Kimi-K2.5",
+    "MAI-Thinking-1"
+   ],
+   "asc": 30.963671919918657,
+   "asc_f15": 46.37532099212592,
+   "asc_f1tuned": 30.963671919918657
+  },
+  {
+   "k": 4,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "DeepSeek-V4-Flash",
+    "Kimi-K2.5",
+    "grok-4.3"
+   ],
+   "asc": 30.472912877503155,
+   "asc_f15": 47.20479554539486,
+   "asc_f1tuned": 30.472912877503155
+  },
+  {
+   "k": 4,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "DeepSeek-V4-Flash",
+    "MAI-Thinking-1",
+    "grok-4.3"
+   ],
+   "asc": 29.48276180146975,
+   "asc_f15": 47.34123833781126,
+   "asc_f1tuned": 28.443255101131914
+  },
+  {
+   "k": 4,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "Kimi-K2.5",
+    "MAI-Thinking-1",
+    "grok-4.3"
+   ],
+   "asc": 27.20942453318732,
+   "asc_f15": 46.786286504478895,
+   "asc_f1tuned": 31.19722904839132
+  },
+  {
+   "k": 4,
+   "ens": [
+    "DeepSeek-V4-Flash",
+    "Kimi-K2.5",
+    "MAI-Thinking-1",
+    "grok-4.3"
+   ],
+   "asc": 28.411470102385532,
+   "asc_f15": 46.7134354167912,
+   "asc_f1tuned": 31.56364505224033
+  },
+  {
+   "k": 5,
+   "ens": [
+    "Cohere-command-a-plus-05-2026",
+    "DeepSeek-V4-Flash",
+    "Kimi-K2.5",
+    "MAI-Thinking-1",
+    "grok-4.3"
+   ],
+   "asc": 29.414013759329627,
+   "asc_f15": 47.9908794800302,
+   "asc_f1tuned": 31.58213335662016
+  }
+ ]
+}

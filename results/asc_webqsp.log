@@ -1,0 +1,25 @@
+  WEBQSP  375 questions, 5 agents
+  building edge cache at tau_max=0.3 ...
+    edges 150/375  162s
+    edges 300/375  259s
+  cached to /Users/kevinchou/Documents/open-ended-aggregation/data/asc_edges_webqsp.pkl
+  1,150,883 edges total, 159 unique items/question
+    tau=0.05 done
+    tau=0.10 done
+    tau=0.15 done
+    tau=0.20 done
+    tau=0.25 done
+    tau=0.30 done
+  tuned on validation half: tau=0.05, Theta=3 (max F1-5)
+
+  ASC full pool (n=5):  F1 29.41   P 45.76   F1-5 47.99
+    size 3: 10 ensembles (2s)
+    size 4: 5 ensembles (1s)
+    size 5: 1 ensembles (0s)
+
+     n   ens    ASC F1   ASC F1-5   ASC F1 (th tuned on F1)
+     3    10     28.49      46.30                     29.16
+     4     5     29.31      46.88                     30.53
+     5     1     29.41      47.99                     31.58
+
+  wrote results/asc_ensembles_webqsp.json

@@ -1,0 +1,25 @@
+  CWQ  415 questions, 5 agents
+  building edge cache at tau_max=0.3 ...
+    edges 150/415  58s
+    edges 300/415  95s
+  cached to /Users/kevinchou/Documents/open-ended-aggregation/data/asc_edges_cwq.pkl
+  983,218 edges total, 81 unique items/question
+    tau=0.05 done
+    tau=0.10 done
+    tau=0.15 done
+    tau=0.20 done
+    tau=0.25 done
+    tau=0.30 done
+  tuned on validation half: tau=0.05, Theta=2 (max F1-5)
+
+  ASC full pool (n=5):  F1 21.62   P 28.23   F1-5 29.01
+    size 3: 10 ensembles (1s)
+    size 4: 5 ensembles (1s)
+    size 5: 1 ensembles (0s)
+
+     n   ens    ASC F1   ASC F1-5   ASC F1 (th tuned on F1)
+     3    10     20.28      26.35                     21.04
+     4     5     20.50      27.79                     20.97
+     5     1     21.62      29.01                     21.19
+
+  wrote results/asc_ensembles_cwq.json

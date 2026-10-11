@@ -14,7 +14,7 @@ main table, the ablation and the subset sweeps can no longer disagree.
 | Counting | 29.21 | 21.81 | 31.72 | 24.77 |
 | Reliability weighting | 29.47 | 20.78 | 31.61 | **27.45** |
 | Pattern lookup (ceiling on weighting) | 29.50 | 21.52 | 31.73 | 27.20 |
-| ASC (published pipeline) | 28.43 | – | – | – |
+| ASC (published pipeline) | 28.43 | 21.62 | 29.41 | – |
 | **Behavioural aggregation** | **31.54** | **23.35** | **32.75** | 26.81 |
 | vs counting | +2.33 [+1.51, +3.14]* | +1.55 [+0.83, +2.30]* | +1.03 [+0.28, +1.85]* | +2.05 [+0.92, +3.22]* |
 | vs best single | +4.14 [+3.19, +5.10]* | +2.44 [+1.38, +3.52]* | +2.31 [+1.35, +3.27]* | −0.22 (ns) |
@@ -25,9 +25,11 @@ main table, the ablation and the subset sweeps can no longer disagree.
   counting but is statistically tied with reliability weighting.
 - Reliability weighting is the Naive Bayes rule over agents (assertions and
   omissions), as before; it reproduces the FAST paper's 29.47 / 20.78 exactly.
-- ASC is paper-exact (edit-distance clustering, Θ tuned on F1-5), rebuilt on
-  post-parsing-fix data. The old handoff's "22.21" was a 3-agent subset, not
-  the full pool.
+- ASC is paper-exact (edit-distance clustering, τ and Θ tuned on F1-5 on a
+  validation half, as published), rebuilt on post-parsing-fix data; it sits
+  below counting on all three list benchmarks. Tuning on F1-5 handicaps it under
+  set F1 — say so in the caption. The old handoff's "22.21" was a 3-agent
+  subset, not the full pool. Script: `asc_ensembles.py --bench qampari|cwq|webqsp`.
 
 ### Single-answer format: TriviaQA (2,757 questions × 6 agents, accuracy)
 
@@ -176,7 +178,7 @@ worse on long lists. P(correct | first position) by band is flat on QAMPARI
 ./venv/bin/python -m open_ended_aggregation.analysis.triviaqa_selfcons
 ./venv/bin/python -m open_ended_aggregation.analysis.loso
 ./venv/bin/python -m open_ended_aggregation.analysis.learning_curve
-./venv/bin/python -m open_ended_aggregation.analysis.asc_ensembles
+./venv/bin/python -m open_ended_aggregation.analysis.asc_ensembles --bench qampari|cwq|webqsp
 ./venv/bin/python -m open_ended_aggregation.analysis.rank_effect --bench qampari|cwq|webqsp
 ./venv/bin/python -m open_ended_aggregation.analysis.weighting_v7      # alias table
 ```

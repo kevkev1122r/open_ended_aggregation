@@ -111,25 +111,42 @@ def cluster(order, first, E, occ, emask, tau):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tau", type=float, default=None)
-    ap.add_argument("--sizes", default="3,4,5,6")
+    ap.add_argument("--sizes", default="")
+    ap.add_argument("--bench", default="qampari", choices=["qampari", "cwq", "webqsp"])
     a = ap.parse_args()
-    sizes = [int(x) for x in a.sizes.split(",")]
 
-    byq, models, qids, items = ASC.load()
+    if a.bench == "qampari":
+        byq, models, qids, items = ASC.load()
+        cache, outname = CACHE, "asc_ensembles.json"
+    else:   # same generations and gold loader as the main table (weighting_v3)
+        from open_ended_aggregation.analysis.weighting_v3 import BENCHES, bench_items
+        byq = collections.defaultdict(dict)
+        for l in open(DATA / BENCHES[a.bench], errors="ignore"):
+            try:
+                r = json.loads(l)
+            except Exception:
+                continue
+            r["items"] = r.get("items") or []
+            byq[r["qid"]].setdefault(r["model"], r)
+        items = bench_items(a.bench)
+        models = sorted({m for d in byq.values() for m in d})
+        qids = sorted(q for q, d in byq.items() if set(models) <= set(d) and q in items)
+        cache, outname = DATA / f"asc_edges_{a.bench}.pkl", f"asc_ensembles_{a.bench}.json"
     n = len(models)
+    sizes = [int(x) for x in a.sizes.split(",")] if a.sizes else list(range(3, min(n, 6) + 1))
     gs = {q: ASC.goldsets(items[q]) for q in qids}
-    print(f"  QAMPARI  {len(qids)} questions, {n} agents", flush=True)
+    print(f"  {a.bench.upper()}  {len(qids)} questions, {n} agents", flush=True)
 
-    if os.path.exists(CACHE):
-        with open(CACHE, "rb") as f:
+    if os.path.exists(cache):
+        with open(cache, "rb") as f:
             EC = pickle.load(f)
         print(f"  edge cache loaded ({len(EC)} questions)", flush=True)
     else:
         print(f"  building edge cache at tau_max={max(TAUS)} ...", flush=True)
         EC = build_cache(byq, models, qids, max(TAUS))
-        with open(CACHE, "wb") as f:
+        with open(cache, "wb") as f:
             pickle.dump(EC, f)
-        print(f"  cached to {CACHE}", flush=True)
+        print(f"  cached to {cache}", flush=True)
     tot_e = sum(len(EC[q][2]) for q in qids)
     print(f"  {tot_e:,} edges total, "
           f"{statistics.mean(len(EC[q][0]) for q in qids):.0f} unique items/question",
@@ -245,8 +262,8 @@ def main():
                              "f15": 100 * statistics.mean(per_full[q][1] for q in qids),
                              "prec": 100 * statistics.mean(per_full[q][2] for q in qids)},
                "ensembles": out},
-              open(RESULTS / "asc_ensembles.json", "w"), indent=1)
-    print("\n  wrote results/asc_ensembles.json")
+              open(RESULTS / outname, "w"), indent=1)
+    print(f"\n  wrote results/{outname}")
 
 
 if __name__ == "__main__":
