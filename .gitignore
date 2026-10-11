@@ -41,7 +41,7 @@ data/longweave.jsonl
 data/asqa_sent_emb.npy
 
 # ASC edit-distance edge cache (124 MB) — derived, rebuilt by analysis/asc_ensembles.py
-data/asc_edges.pkl
+data/asc_edges*.pkl
 
 # raw CWQ/WebQSP source parquet shards (3.4 GB, files over GitHub's 100 MB limit) -- public downloads
 data/raw_cwq/

@@ -51,12 +51,16 @@ def rate(d):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--bench', default='qampari', choices=['qampari', 'cwq', 'webqsp'])
+    bench = ap.parse_args().bench
     print("=" * 94)
     print("  RANK EFFECT -- measured, and stratified by how long the asserting "
           "agent's list was")
     print("=" * 94)
 
-    models, qids, cand, ngold, nlist, qtype, qtext = load_rich()
+    models, qids, cand, ngold, nlist, qtype, qtext = load_rich(None, bench)
 
     rows = []                      # (rank, list_len, support_count, correct)
     for q in qids:
@@ -152,7 +156,7 @@ def main():
         summary[Lb] = dict(n=len(sub), rho=rho, first=rate(top), last=rate(bot))
         print(f"      {Lb:>10}{len(sub):>12,}{rho:>10.3f}{cmp_:>24}")
 
-    json.dump(summary, open(RESULTS / "rank_effect.json", "w"), indent=2)
+    json.dump(summary, open(RESULTS / ("rank_effect.json" if bench == "qampari" else f"rank_effect_{bench}.json"), "w"), indent=2)
     print("\n  wrote results/rank_effect.json")
 
 

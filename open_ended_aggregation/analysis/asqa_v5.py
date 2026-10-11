@@ -248,8 +248,17 @@ def main():
         print(f"  {arm:<20}{res[arm]:7.2f}{100*statistics.mean(se):8.2f}"
               f"{100*statistics.mean(rl):9.2f}{cell(v, best_v):>25}{c1:>25}{c2:>21}")
     print("\n  DR* = sqrt(ROUGE-L x STR-EM), proxy for published DR")
+    # Reviewer KQ24: is ASQA's loss to reliability weighting significant?
+    ref_w = [out["weighted"][qi][0] for qi in allq]
+    for arm in ("LEAN (cover-label)", "LEAN (dr-label)"):
+        d, lo, hi = bootstrap([out[arm][qi][0] for qi in allq], ref_w)
+        print(f"  {arm} - weighted: {d:+.2f} [{lo:+.2f}, {hi:+.2f}]"
+              f"{'  SIGNIFICANT' if (lo > 0 or hi < 0) else '  not significant'}")
     json.dump(res, open(RESULTS / "asqa_v5.json", "w"), indent=2)
-    print("  wrote results/asqa_v5.json")
+    json.dump({"per_question_dr": {arm: [out[arm][qi][0] for qi in allq] for arm in ARMS},
+               "best_single": bm, "best_single_dr": best_v},
+              open(RESULTS / "asqa_v5_perq.json", "w"))
+    print("  wrote results/asqa_v5.json, results/asqa_v5_perq.json")
 
 
 if __name__ == "__main__":

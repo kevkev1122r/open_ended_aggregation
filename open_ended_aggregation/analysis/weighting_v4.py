@@ -215,8 +215,8 @@ def main():
             QG[qi, QF.shape[1]:] = [p_cal[w_].sum() / 10.0,
                                     p_cal[w_][cnt[w_] >= 2].sum() / 10.0,
                                     float(p_cal[w_].max()) if len(w_) else 0.0]
-        beta = fit_gold_ridge(QG[tr_q], ng_arr[tr_q])
-        Ghat = np.maximum(QG @ beta, 1.0)
+        beta = fit_gold_ridge(QG[tr_q], np.log(np.maximum(ng_arr[tr_q], 1.0)))   # log-scale answer count
+        Ghat = np.maximum(np.exp(QG @ beta), 1.0)
 
         for arm, p in (("LEAN + budget", p_raw), ("LEAN + budget(calib)", p_cal)):
             fa, _ = ev(adaptive_keep(p, rowq, nq, Ghat), list(tr_q))

@@ -67,12 +67,21 @@ def main():
     ap.add_argument("--depth", type=int, default=5)
     ap.add_argument("--lr", type=float, default=0.12)
     ap.add_argument("--seed", type=int, default=SEED)
+    ap.add_argument("--bench", default="qampari", choices=["qampari", "cwq", "webqsp", "quest"])
+    ap.add_argument("--pool", default="", help="comma-separated agents (default: all)")
+    ap.add_argument("--out", default="", help="write one JSON (means + per-question) here and nothing else")
+    ap.add_argument("--no-gbm", action="store_true",
+                    help="skip the boosted arms (not part of the method); used for subset sweeps")
+    ap.add_argument("--ghat", default="log", choices=["linear", "log"],
+                    help="answer-count estimate: ridge on G (paper) or on log G (heavy-tailed gold)")
     a = ap.parse_args()
+    pool = [x for x in a.pool.split(",") if x] or None
 
     print("=" * 92)
     print("  WEIGHTING v5 -- gradient boosted scoring, then the per-question budget")
     print("=" * 92)
-    models, qids, cand, ngold, nlist, qtype, qtext = load_rich()
+    models, qids, cand, ngold, nlist, qtype, qtext = load_rich(pool, a.bench)
+    print(f"  benchmark: {a.bench}; agents: {', '.join(models)}")
     X, y, rowq, pats, gis, RK, blocks, STACK = build_features(
         models, qids, cand, nlist, qtype, qtext)
     nq, n = len(qids), len(models)
@@ -101,9 +110,20 @@ def main():
                       (cnt[w].max() if len(w) else 0) / n, (cnt[w] >= 2).sum() / 20.0]
         QF[qi, 4 + tix.index(qtype[q])] = 1.0
 
-    ARMS = ["count", "pattern", "LEAN (logistic)", "LEAN + budget",
+    # "weighted" is reliability weighting (Naive Bayes over agents, as in the paper);
+    # "* + budget" on count / weighted / pattern applies the SAME per-question
+    # budget to scorers that read no generation behaviour (budget ablation).
+    ARMS = ["count", "weighted", "pattern", "LEAN (logistic)",
+            "count + budget", "weighted + budget", "pattern + budget", "LEAN + budget",
             "GBM", "GBM + budget", "BLEND", "BLEND + budget",
             "ORACLE selection"]
+    if a.no_gbm:
+        ARMS = [x for x in ARMS if not x.startswith(("GBM", "BLEND"))]
+    mi_ = {m: j for j, m in enumerate(models)}
+    Zs = np.zeros((len(pats), n))
+    for i, ms in enumerate(pats):
+        for m in ms:
+            Zs[i, mi_[m]] = 1.0
     per = {arm: np.zeros(nq) for arm in ARMS}
     diag = collections.defaultdict(list)
 
@@ -125,34 +145,44 @@ def main():
         wl = fit_logistic(X[np.ix_(trm, LEAN)], y[trm], ridge=1.0)
         s_lean = X[:, LEAN] @ wl
 
-        # ---- GBM. Binning is fitted on train rows only.
-        inner = tr_q[: int(0.85 * len(tr_q))]
-        held = tr_q[int(0.85 * len(tr_q)):]
-        im, hm = np.isin(rowq, inner), np.isin(rowq, held)
-        codes_tr, edges = bin_features(X[trm][:, ALL])
-        allc = np.zeros((len(X), len(ALL)), dtype=np.uint8)
-        for j, e in enumerate(edges):
-            allc[:, j] = np.searchsorted(e, X[:, ALL[j]], side="right")
-        g = GBM(n_trees=a.trees, lr=a.lr, max_depth=a.depth,
-                subsample=0.8, seed=f).fit(
-                    None, y[im], codes=allc[im], edges=edges,
-                    val=(allc[hm], y[hm]))
-        s_gbm = g.decision(allc)
-        diag["ntrees"].append(len(g.trees))
-        diag["ap_lean"].append(ap_score(s_lean[~trm], y[~trm]))
-        diag["ap_gbm"].append(ap_score(s_gbm[~trm], y[~trm]))
+        if not a.no_gbm:
+            # ---- GBM. Binning is fitted on train rows only.
+            inner = tr_q[: int(0.85 * len(tr_q))]
+            held = tr_q[int(0.85 * len(tr_q)):]
+            im, hm = np.isin(rowq, inner), np.isin(rowq, held)
+            codes_tr, edges = bin_features(X[trm][:, ALL])
+            allc = np.zeros((len(X), len(ALL)), dtype=np.uint8)
+            for j, e in enumerate(edges):
+                allc[:, j] = np.searchsorted(e, X[:, ALL[j]], side="right")
+            g = GBM(n_trees=a.trees, lr=a.lr, max_depth=a.depth,
+                    subsample=0.8, seed=f).fit(
+                        None, y[im], codes=allc[im], edges=edges,
+                        val=(allc[hm], y[hm]))
+            s_gbm = g.decision(allc)
+            diag["ntrees"].append(len(g.trees))
+            diag["ap_lean"].append(ap_score(s_lean[~trm], y[~trm]))
+            diag["ap_gbm"].append(ap_score(s_gbm[~trm], y[~trm]))
 
-        # BLEND: the two scorers disagree in useful ways -- the logistic is
-        # better calibrated ACROSS questions, the GBM ranks better WITHIN them.
-        # Combine them on the held-out slice, which the GBM did not train on.
-        Zb = np.column_stack([np.ones(len(y)), s_lean, s_gbm])
-        wb = fit_logistic(Zb[hm], y[hm], ridge=1.0)
-        s_blend = Zb @ wb
+            # BLEND: the two scorers disagree in useful ways -- the logistic is
+            # better calibrated ACROSS questions, the GBM ranks better WITHIN them.
+            # Combine them on the held-out slice, which the GBM did not train on.
+            Zb = np.column_stack([np.ones(len(y)), s_lean, s_gbm])
+            wb = fit_logistic(Zb[hm], y[hm], ridge=1.0)
+            s_blend = Zb @ wb
 
-        diag["ap_blend"].append(ap_score(s_blend[~trm], y[~trm]))
-
-        scores = {"count": cnt, "pattern": pat_p,
-                  "LEAN (logistic)": s_lean, "GBM": s_gbm, "BLEND": s_blend}
+            diag["ap_blend"].append(ap_score(s_blend[~trm], y[~trm]))
+        # Reliability weighting as reported in the paper (weighting_schemes.py
+        # "nb-full"): Naive Bayes log-likelihood ratio per agent, from train-fold
+        # TPR_j = P(j asserts | correct) and FPR_j = P(j asserts | wrong), with
+        # silence scored by log((1-TPR)/(1-FPR)).
+        pos_, neg_ = y[trm].sum(), (1 - y[trm]).sum()
+        tpr = ((Zs[trm] * y[trm, None]).sum(0) + 1.0) / (pos_ + 2.0)
+        fpr = ((Zs[trm] * (1 - y[trm])[:, None]).sum(0) + 1.0) / (neg_ + 2.0)
+        s_w = (np.log((pos_ + 1) / (neg_ + 1)) + Zs @ np.log(tpr / fpr)
+               + (1 - Zs) @ np.log((1 - tpr) / (1 - fpr)))
+        scores = {"count": cnt, "weighted": s_w, "pattern": pat_p, "LEAN (logistic)": s_lean}
+        if not a.no_gbm:
+            scores.update({"GBM": s_gbm, "BLEND": s_blend})
         for arm, s in scores.items():
             S, F = C(s)
             gg = np.unique(s[trm])
@@ -163,8 +193,18 @@ def main():
             for qi in te_q:
                 per[arm][qi] = got[qi]
 
-        for arm, s in (("LEAN + budget", s_lean), ("GBM + budget", s_gbm), ("BLEND + budget", s_blend)):
-            p = 1.0 / (1.0 + np.exp(-np.clip(s, -30, 30)))
+        # calibrated probabilities for the non-behavioural scorers, fitted on train
+        cal = lambda sc: 1.0 / (1.0 + np.exp(-np.clip(
+            np.column_stack([np.ones(len(sc)), sc]) @ fit_logistic(
+                np.column_stack([np.ones(trm.sum()), sc[trm]]), y[trm], ridge=1.0), -30, 30)))
+        probs = {"count + budget": cal(cnt / n), "weighted + budget": cal(s_w),
+                 "pattern + budget": pat_p}
+        budget_arms = [("count + budget", None), ("weighted + budget", None),
+                       ("pattern + budget", None), ("LEAN + budget", s_lean)]
+        if not a.no_gbm:
+            budget_arms += [("GBM + budget", s_gbm), ("BLEND + budget", s_blend)]
+        for arm, s in budget_arms:
+            p = probs[arm] if s is None else 1.0 / (1.0 + np.exp(-np.clip(s, -30, 30)))
             QG = np.zeros((nq, QF.shape[1] + 3))
             QG[:, :QF.shape[1]] = QF
             for qi in range(nq):
@@ -172,8 +212,12 @@ def main():
                 QG[qi, QF.shape[1]:] = [p[w_].sum() / 10.0,
                                         p[w_][cnt[w_] >= 2].sum() / 10.0,
                                         float(p[w_].max()) if len(w_) else 0.0]
-            beta = fit_gold_ridge(QG[tr_q], ng_arr[tr_q])
-            Gh = np.maximum(QG @ beta, 1.0)
+            if a.ghat == "log":   # gold counts are heavy-tailed (WebQSP mean ~76)
+                beta = fit_gold_ridge(QG[tr_q], np.log(ng_arr[tr_q]))
+                Gh = np.maximum(np.exp(QG @ beta), 1.0)
+            else:
+                beta = fit_gold_ridge(QG[tr_q], ng_arr[tr_q])
+                Gh = np.maximum(QG @ beta, 1.0)
             fa, _ = ev(adaptive_keep(p, rowq, nq, Gh), list(tr_q))
             for qi in te_q:
                 per[arm][qi] = fa[qi]
@@ -181,8 +225,8 @@ def main():
         fa, _ = ev(np.array([x is not None for x in gis]), list(tr_q))
         for qi in te_q:
             per["ORACLE selection"][qi] = fa[qi]
-        print(f"    fold {f+1}/{FOLDS} done  ({len(g.trees)} trees, "
-              f"AP {diag['ap_lean'][-1]:.4f} -> {diag['ap_gbm'][-1]:.4f})", flush=True)
+        print(f"    fold {f+1}/{FOLDS} done" + ("" if a.no_gbm else f"  ({len(g.trees)} trees, "
+              f"AP {diag['ap_lean'][-1]:.4f} -> {diag['ap_gbm'][-1]:.4f})"), flush=True)
 
     singles = {}
     for j, m in enumerate(models):
@@ -193,11 +237,12 @@ def main():
     ref_c = list(per["count"])
 
     print(f"\n  best single = {bm} ({100*singles[bm].mean():.2f})")
-    print(f"  average precision on held-out claims: logistic "
-          f"{statistics.mean(diag['ap_lean']):.4f} -> GBM "
-          f"{statistics.mean(diag['ap_gbm']):.4f} -> blend "
-          f"{statistics.mean(diag['ap_blend']):.4f}")
-    print(f"  trees kept per fold: {diag['ntrees']}")
+    if not a.no_gbm:
+        print(f"  average precision on held-out claims: logistic "
+              f"{statistics.mean(diag['ap_lean']):.4f} -> GBM "
+              f"{statistics.mean(diag['ap_gbm']):.4f} -> blend "
+              f"{statistics.mean(diag['ap_blend']):.4f}")
+        print(f"  trees kept per fold: {diag['ntrees']}")
     print(f"\n  {'arm':<22}{'F1':>7}{'vs best single':>27}{'vs count':>27}")
     print("  " + "-" * 83)
 
@@ -214,16 +259,28 @@ def main():
         print(f"  {arm:<22}{res[arm]:7.2f}{cell(v, best_v):>27}{c1:>27}")
     print("\n  * = bootstrap 95% CI over questions excludes 0")
 
-    json.dump(res, open(RESULTS / f"weighting_v5_seed{a.seed}.json", "w"), indent=2)
-    print(f"  wrote results/weighting_v5_seed{a.seed}.json")
+    if a.out:   # sweep mode: one self-contained file, nothing else touched
+        json.dump({"bench": a.bench, "agents": models, "n_questions": nq, "f1": res,
+                   "best_single": bm, "singles": {m: 100 * float(singles[m].mean()) for m in models},
+                   "per_question": {arm: [float(x) for x in per[arm]] for arm in ARMS},
+                   "best_single_per_question": [float(x) for x in best_v]}, open(a.out, "w"))
+        return
+    tag = ("" if a.bench == "qampari" and not pool else f"_{a.bench}" + (f"_{len(models)}agents" if pool else "")) \
+        + ("_linearG" if a.ghat == "linear" else "") + ("_nogbm" if a.no_gbm else "")
+    json.dump(res, open(RESULTS / f"weighting_v5{tag}_seed{a.seed}.json", "w"), indent=2)
+    print(f"  wrote results/weighting_v5{tag}_seed{a.seed}.json")
+    json.dump({"bench": a.bench, "agents": models, "best_single": bm,
+               "singles": {m: 100 * float(singles[m].mean()) for m in models},
+               "best_single_per_question": [float(x) for x in best_v]},
+              open(RESULTS / f"weighting_v5{tag}_meta_seed{a.seed}.json", "w"), indent=1)
 
     # Per-question scores, kept so that power and equivalence analyses can be
     # run without refitting. `per[arm]` is one held-out F1 per question, in the
     # order of `qids`, which is what the paired bootstrap resamples.
     json.dump({"qids": list(qids),
                "per_question": {arm: [float(x) for x in per[arm]] for arm in ARMS}},
-              open(RESULTS / f"weighting_v5_perq_seed{a.seed}.json", "w"))
-    print(f"  wrote results/weighting_v5_perq_seed{a.seed}.json")
+              open(RESULTS / f"weighting_v5{tag}_perq_seed{a.seed}.json", "w"))
+    print(f"  wrote results/weighting_v5{tag}_perq_seed{a.seed}.json")
 
 
 if __name__ == "__main__":

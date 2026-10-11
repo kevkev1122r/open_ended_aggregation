@@ -199,8 +199,8 @@ def run_ensemble(S, Z, RK, LL, rowq, rowgi, ngold, nq, folds):
                 continue
             QG[qi] = [1.0, np.log1p(len(ww)) / 5.0, cnt[ww].max() / k,
                       (cnt[ww] >= 2).sum() / 20.0, pr[ww].sum() / 10.0]
-        beta = fit_gold_ridge(QG[train_q], ngold[train_q])
-        Gh = np.maximum(QG @ beta, 1.0)
+        beta = fit_gold_ridge(QG[train_q], np.log(ngold[train_q]))   # log-scale answer count
+        Gh = np.maximum(np.exp(QG @ beta), 1.0)
         fb = sc.f1_of_mask(adaptive_keep(pr, rq, nq, Gh))
         arms.setdefault("rank+budget", np.zeros(nq))[test_q] = fb[test_q]
     return arms

@@ -103,8 +103,8 @@ def run(qids, qtype, fold_of, X, y, rowq, pats, gis, RK, blocks, STACK,
                 QG[qi, QF.shape[1]:] = [p[w_].sum() / 10.0,
                                         p[w_][cnt[w_] >= 2].sum() / 10.0,
                                         float(p[w_].max()) if len(w_) else 0.0]
-            beta = fit_gold_ridge(QG[tr_q], ng_arr[tr_q])
-            Gh = np.maximum(QG @ beta, 1.0)
+            beta = fit_gold_ridge(QG[tr_q], np.log(np.maximum(ng_arr[tr_q], 1.0)))   # log-scale answer count
+            Gh = np.maximum(np.exp(QG @ beta), 1.0)
             fa, _ = ev(adaptive_keep(p, rowq, nq, Gh), list(tr_q))
             for qi in te_q:
                 per[arm][qi] = fa[qi]

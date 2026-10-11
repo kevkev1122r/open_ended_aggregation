@@ -102,8 +102,8 @@ def main():
         w = np.nonzero(rowq == j)[0]
         QG[j, QF.shape[1]:] = [p[w].sum() / 10.0, p[w][cnt[w] >= 2].sum() / 10.0,
                                float(p[w].max()) if len(w) else 0.0]
-    beta = fit_gold_ridge(QG[tr_q], ng_arr[tr_q])
-    Ghat = max(float(QG[qi] @ beta), 1.0)
+    beta = fit_gold_ridge(QG[tr_q], np.log(np.maximum(ng_arr[tr_q], 1.0)))   # log-scale answer count
+    Ghat = max(float(np.exp(QG[qi] @ beta)), 1.0)
 
     w = np.nonzero(rowq == qi)[0]
     o = w[np.argsort(-p[w])]

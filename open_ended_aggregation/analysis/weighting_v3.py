@@ -57,14 +57,39 @@ from open_ended_aggregation.paths import DATA, RESULTS
 
 GEN = "qampari_asc800.jsonl"
 
+# One code path for every list benchmark, so every table in the paper comes from
+# the same features, folds and budget. Each entry: generations file, item loader.
+BENCHES = {
+    "qampari": GEN,
+    "cwq":     "cwq_gen.jsonl",
+    "webqsp":  "webqsp_gen.jsonl",
+    "quest":   "quest_gen.jsonl",
+}
 
-def load_rich(pool=None):
-    recs = [json.loads(l) for l in open(DATA / GEN)]
+
+def bench_items(bench):
+    """{qid: item} with gold in QAMPARI's shape [{answer_text, aliases}]."""
+    if bench == "qampari":
+        return {it["qid"]: it for it in QA.load_items(100000)}
+    if bench == "quest":
+        from open_ended_aggregation.benchmarks import quest as QU
+        return {it["qid"]: dict(it, gold=[{"answer_text": g, "aliases": []} for g in it["gold"]])
+                for it in QU.load_items(400)}
+    return {it["qid"]: it for it in json.load(open(DATA / f"{bench}_items.json"))}
+
+
+def load_rich(pool=None, bench="qampari"):
+    recs = []
+    for l in open(DATA / BENCHES[bench], errors="ignore"):
+        try:
+            recs.append(json.loads(l))
+        except Exception:
+            continue
     byq = collections.defaultdict(dict)
     for r in recs:
         byq[r["qid"]].setdefault(r["model"], r)
     models = sorted({r["model"] for r in recs}) if pool is None else sorted(pool)
-    items = {it["qid"]: it for it in QA.load_items(100000)}
+    items = bench_items(bench)
     qids = sorted(q for q, d in byq.items() if set(models) <= set(d) and q in items)
 
     cand, ngold, nlist, qtype, qtext = {}, {}, {}, {}, {}
@@ -72,12 +97,12 @@ def load_rich(pool=None):
         gold = [{QA.norm(a) for a in [g["answer_text"]] + list(g.get("aliases") or [])
                  if str(a).strip()} for g in items[q]["gold"]]
         ngold[q] = len(gold)
-        qtype[q] = q.split("__", 1)[1]
+        qtype[q] = q.split("__", 1)[1] if bench == "qampari" else bench
         qtext[q] = QA.norm(items[q]["question"])
         rank, L = collections.defaultdict(dict), {}
         for m in models:
             seen = 0
-            for it in byq[q][m]["items"]:
+            for it in byq[q][m].get("items") or []:
                 k = QA.norm(it)
                 if not k:
                     continue
@@ -198,6 +223,7 @@ def build_features(models, qids, cand, nlist, qtype, qtext):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pool", default="")
+    ap.add_argument("--bench", default="qampari", choices=list(BENCHES))
     a = ap.parse_args()
     pool = [x for x in a.pool.split(",") if x] or None
 
@@ -205,7 +231,8 @@ def main():
     print("  WEIGHTING v3 -- omission strength, per-agent rank buckets, "
           "within-question context, claim content")
     print("=" * 100)
-    models, qids, cand, ngold, nlist, qtype, qtext = load_rich(pool)
+    models, qids, cand, ngold, nlist, qtype, qtext = load_rich(pool, a.bench)
+    print(f"  benchmark: {a.bench}; agents: {', '.join(models)}")
     X, y, rowq, pats, gis, RK, blocks, STACK = build_features(
         models, qids, cand, nlist, qtype, qtext)
     nq, n = len(qids), len(models)
@@ -315,8 +342,8 @@ def main():
             QG[qi, QF.shape[1]:] = [p_lean[w_].sum() / 10.0,
                                     p_lean[w_][cnt[w_] >= 2].sum() / 10.0,
                                     float(p_lean[w_].max()) if len(w_) else 0.0]
-        beta = fit_gold_ridge(QG[tr_q], ng_arr[tr_q])
-        Ghat = np.maximum(QG @ beta, 1.0)
+        beta = fit_gold_ridge(QG[tr_q], np.log(np.maximum(ng_arr[tr_q], 1.0)))   # log-scale answer count
+        Ghat = np.maximum(np.exp(QG @ beta), 1.0)
         ghat_err.append(float(np.abs(Ghat[te_q] - ng_arr[te_q]).mean()))
 
         S, F = C(scores["v3 LEAN"])
@@ -375,8 +402,16 @@ def main():
     print("\n  * = bootstrap 95% CI over questions excludes 0. "
           "(%) is relative to that column's baseline.")
 
-    json.dump(res, open(RESULTS / "weighting_v3.json", "w"), indent=2)
-    print("  wrote results/weighting_v3.json")
+    singles_mean = {m: 100 * float(singles[m].mean()) for m in models}
+    out = {"bench": a.bench, "agents": models, "n_questions": nq, "f1": res,
+           "best_single": bm, "singles": singles_mean,
+           "per_question": {arm: [float(x) for x in per[arm]] for arm in ARMS},
+           "best_single_per_question": [float(x) for x in best], "qids": list(qids)}
+    tag = a.bench + ("_" + "-".join(m.split("-")[0] for m in models) if pool else "")
+    json.dump(out, open(RESULTS / f"weighting_v3_{tag}.json", "w"), indent=1)
+    print(f"  wrote results/weighting_v3_{tag}.json")
+    if a.bench == "qampari" and not pool:
+        json.dump(res, open(RESULTS / "weighting_v3.json", "w"), indent=2)
 
 
 if __name__ == "__main__":

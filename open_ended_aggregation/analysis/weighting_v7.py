@@ -169,8 +169,8 @@ def run_pipeline(models, qids, cand, ngold, nlist, qtype, qtext, seed, arms_want
                 QG[qi, QF.shape[1]:] = [p[ww].sum() / 10.0,
                                         p[ww][cnt[ww] >= 2].sum() / 10.0,
                                         float(p[ww].max()) if len(ww) else 0.0]
-            beta = fit_gold_ridge(QG[tr_q], ng_arr[tr_q])
-            Gh = np.maximum(QG @ beta, 1.0)
+            beta = fit_gold_ridge(QG[tr_q], np.log(np.maximum(ng_arr[tr_q], 1.0)))   # log-scale answer count
+            Gh = np.maximum(np.exp(QG @ beta), 1.0)
             fa, _ = ev(adaptive_keep(p, rowq, nq, Gh), list(tr_q))
             for qi in te_q:
                 per["LEAN + budget"][qi] = fa[qi]
