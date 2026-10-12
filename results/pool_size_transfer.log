@@ -1,0 +1,6 @@
+4->4: n=70  transfer 27.63 | count(src) 22.72 | count(tgt gold) 23.94 | full(tgt gold) 28.13
+      vs count +4.91  sig wins 70/70  sig losses 0/70 | beats count(tgt gold) 70/70 | vs full -0.50
+3->5: n=56  transfer 28.14 | count(src) 23.58 | count(tgt gold) 26.19 | full(tgt gold) 29.21
+      vs count +4.57  sig wins 46/56  sig losses 1/56 | beats count(tgt gold) 55/56 | vs full -1.06
+5->3: n=56  transfer 26.29 | count(src) 19.83 | count(tgt gold) 22.57 | full(tgt gold) 26.54
+      vs count +6.46  sig wins 56/56  sig losses 0/56 | beats count(tgt gold) 56/56 | vs full -0.25

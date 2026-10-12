@@ -71,7 +71,12 @@ questions):
 | 4 agents → other 4 (70 splits) | 27.63 | +4.91, significant 70/70 |
 | 3 agents → other 5 (56 splits) | 28.14 | +4.57, significant 46/56 |
 | 5 agents → other 3 (56 splits) | 26.29 | +6.46, significant 56/56 |
-| Paper scorer trained on the target agents' gold | 28.25 | reference |
+| Paper scorer trained on the target agents' gold (4 / 5 / 3 agents) | 28.13 / 29.21 / 26.54 | reference |
+
+Script: `analysis/pool_size_transfer.py` → `results/pool_size_transfer.json`
+(all three rows; the 3→5 and 5→3 rows were previously unsaved terminal output).
+Counting fitted on the target agents' gold: 23.94 / 26.19 / 22.57; the
+transferred scorer beats it in 70/70, 55/56, 56/56 splits.
 
 **Unseen question types** (leave-one-source-out, QAMPARI): 31.10 vs 31.54 with
 random folds; **+1.89 [+1.02, +2.73]* over counting, 81% of the gain retained**.

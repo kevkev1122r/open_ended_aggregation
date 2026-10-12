@@ -1,0 +1,249 @@
+24c24
+< \documentclass{article}
+---
+> \documentclass[11pt]{article}
+26,27c26,30
+< % natbib options are passed before neurips_2026 loads it.
+< \PassOptionsToPackage{numbers, compress}{natbib}
+---
+> % ARR (ACL Rolling Review) submission. Converted from neurips_source.tex by
+> % convert_to_acl.py: formatting changes only, no content changes.
+> \usepackage[review]{acl}   % review mode: anonymous, line numbers
+> \usepackage{times}
+> \usepackage{latexsym}
+29,38d31
+< % The authors should use one of these tracks.
+< % Before accepting by the NeurIPS conference, select one of the options below.
+< % 0. "default" for submission
+< \usepackage[dblblindworkshop]{neurips_2026}
+< % 5. "sglblindworkshop" option is used for the Workshop with single-blind reviewing
+<  % \usepackage[sglblindworkshop]{neurips_2026}
+< % 6. "dblblindworkshop" option is used for the Workshop with double-blind reviewing
+< %  \usepackage[dblblindworkshop]{neurips_2026}
+< \workshoptitle{FAST: Foundations of Agentic Systems Theory}
+< 
+41d33
+< \usepackage{hyperref}       % hyperlinks
+47a40
+> \usepackage{inconsolata}    % typewriter font (ACL template)
+52a46,47
+> \usepackage{comment}        % ack is NeurIPS-only; suppressed as in the anonymized NeurIPS build
+> \excludecomment{ack}
+73c68
+< Combining answers from several language models can be more accurate than relying on a single model \cite{li2024agents}. For closed-ended tasks, aggregation is straightforward because every agent chooses from the same answer space. Majority voting counts how many agents select each option, while more general methods can weight agents using their measured reliability or higher-order agreement patterns \cite{ai2025majority}.
+---
+> Combining answers from several language models can be more accurate than relying on a single model \citep{li2024agents}. For closed-ended tasks, aggregation is straightforward because every agent chooses from the same answer space. Majority voting counts how many agents select each option, while more general methods can weight agents using their measured reliability or higher-order agreement patterns \citep{ai2025majority}.
+79c74
+< We study this problem for open-ended answers that can be decomposed into claims. Following work on atomic self-consistency \cite{thirukovalluru2024atomic}, we split responses into smaller units and pool equivalent claims across agents. This creates a shared candidate space after generation. Counting and reliability weighting can then be applied at the claim level. This setting is narrower than open-ended generation in general. Other tasks, such as summarization, may require different units and may care about factors such as coverage, salience, redundancy, or coherence.
+---
+> We study this problem for open-ended answers that can be decomposed into claims. Following work on atomic self-consistency \citep{thirukovalluru2024atomic}, we split responses into smaller units and pool equivalent claims across agents. This creates a shared candidate space after generation. Counting and reliability weighting can then be applied at the claim level. This setting is narrower than open-ended generation in general. Other tasks, such as summarization, may require different units and may care about factors such as coverage, salience, redundancy, or coherence.
+99c94
+< \begin{figure}[t]
+---
+> \begin{figure*}[t]
+104c99
+< \end{figure}
+---
+> \end{figure*}
+224c219
+< \begin{table}[t]
+---
+> \begin{table*}[t]
+239c234
+< \end{table}
+---
+> \end{table*}
+250c245
+< \textbf{QAMPARI} \cite{amouyal2022qampari}. 777 questions with entity-list answers drawn from five structurally different sources (\texttt{wikidata\_simple}, \texttt{wikidata\_intersection}, \texttt{wikidata\_comp}, \texttt{wikitables\_composition}, \texttt{wikitables\_simple}), which give the distribution-shift protocol of Section~\ref{sec:robust}.
+---
+> \textbf{QAMPARI} \citep{amouyal2022qampari}. 777 questions with entity-list answers drawn from five structurally different sources (\texttt{wikidata\_simple}, \texttt{wikidata\_intersection}, \texttt{wikidata\_comp}, \texttt{wikitables\_composition}, \texttt{wikitables\_simple}), which give the distribution-shift protocol of Section~\ref{sec:robust}.
+255c250
+< \textbf{CWQ} \cite{talmor2018web}. 415 questions from ComplexWebQuestions, filtered to those carrying more than ten gold answers so that the answer is a list rather than a single entity; the filtered questions have a median of 15 gold answers and a mean of 16.0. Grading is programmatic against gold strings, which carry no aliases, so matching is exact after the normalisation of Section~\ref{sec:setup}. Scored by set F1, macro-averaged, as for QAMPARI. CWQ has no question-source split, so the distribution-shift protocol of Section~\ref{sec:robust} does not apply to it.
+---
+> \textbf{CWQ} \citep{talmor2018web}. 415 questions from ComplexWebQuestions, filtered to those carrying more than ten gold answers so that the answer is a list rather than a single entity; the filtered questions have a median of 15 gold answers and a mean of 16.0. Grading is programmatic against gold strings, which carry no aliases, so matching is exact after the normalisation of Section~\ref{sec:setup}. Scored by set F1, macro-averaged, as for QAMPARI. CWQ has no question-source split, so the distribution-shift protocol of Section~\ref{sec:robust} does not apply to it.
+257c252
+< \textbf{ASQA} \cite{stelmakh2022asqa}. 400 ambiguous questions with long-form answers, decomposed into sentence clusters. Scored by $\mathrm{DR}^* = \sqrt{\mathrm{ROUGE\text-L} \times \mathrm{STR\text-EM}}$, a proxy for the published Disambig-ROUGE that replaces Disambig-F1 with STR-EM and so avoids a RoBERTa-SQuADv2 reader. The ASQA authors state the two measure the same aspect; every ASQA number is labelled a proxy.
+---
+> \textbf{ASQA} \citep{stelmakh2022asqa}. 400 ambiguous questions with long-form answers, decomposed into sentence clusters. Scored by $\mathrm{DR}^* = \sqrt{\mathrm{ROUGE\text-L} \times \mathrm{STR\text-EM}}$, a proxy for the published Disambig-ROUGE that replaces Disambig-F1 with STR-EM and so avoids a RoBERTa-SQuADv2 reader. The ASQA authors state the two measure the same aspect; every ASQA number is labelled a proxy.
+265c260
+< \emph{Best single agent} is the pool member with the highest mean score, selected under the same cross-fitting as every other arm. \emph{Multi-agent count} keeps $c$ if $|S(c)| \geq \theta$; \emph{reliability weighting} keeps $c$ if $\sum_{m \in S(c)} w_m \geq \Theta$; the \emph{pattern lookup} thresholds the training-fold estimate of $P(\mathrm{correct} \mid S(c))$ and is the strongest rule expressible from the support pattern alone, in substance a Dawid-Skene model \cite{dawid1979maximum}, a baseline here rather than a contribution. All thresholds and weights are fitted on training folds. Appendix~\ref{app:negative} reports the rest of the weighting family and the rank-fusion rules \cite{cormack2009reciprocal}.
+---
+> \emph{Best single agent} is the pool member with the highest mean score, selected under the same cross-fitting as every other arm. \emph{Multi-agent count} keeps $c$ if $|S(c)| \geq \theta$; \emph{reliability weighting} keeps $c$ if $\sum_{m \in S(c)} w_m \geq \Theta$; the \emph{pattern lookup} thresholds the training-fold estimate of $P(\mathrm{correct} \mid S(c))$ and is the strongest rule expressible from the support pattern alone, in substance a Dawid-Skene model \citep{dawid1979maximum}, a baseline here rather than a contribution. All thresholds and weights are fitted on training folds. Appendix~\ref{app:negative} reports the rest of the weighting family and the rank-fusion rules \citep{cormack2009reciprocal}.
+267c262
+< For atomic self-consistency \cite{thirukovalluru2024atomic} we run the published default. It draws $m$ samples from one model where we have one per agent, so agents stand in for samples: the estimand becomes inter-model agreement, and the single-model form is not evaluated here.
+---
+> For atomic self-consistency \citep{thirukovalluru2024atomic} we run the published default. It draws $m$ samples from one model where we have one per agent, so agents stand in for samples: the estimand becomes inter-model agreement, and the single-model form is not evaluated here.
+285c280
+< \begin{table}[h]
+---
+> \begin{table*}[t]
+300c295
+< \end{table}
+---
+> \end{table*}
+340c335
+< A common way to improve language-model answers is to sample multiple responses and aggregate them. Self-consistency uses majority voting over sampled reasoning paths \cite{wang2022self}, while later work studies aggregation across multiple models and the effect of increasing the number of agents \cite{li2024agents}. More general methods assign different weights to agents using measured reliability or higher-order agreement patterns \cite{ai2025majority}. Other approaches combine or fuse whole responses rather than selecting among discrete answers \cite{jiang2023llm,chen2023universal}. Recent theory also studies the limits of aggregation policies that must return one of the answers produced by the agents \cite{ananthakrishnan2026power}. These methods are most natural when agents choose among shared alternatives or when whole responses are treated as the unit of aggregation. We instead study open-ended answers after decomposing them into smaller claims.
+---
+> A common way to improve language-model answers is to sample multiple responses and aggregate them. Self-consistency uses majority voting over sampled reasoning paths \citep{wang2022self}, while later work studies aggregation across multiple models and the effect of increasing the number of agents \citep{li2024agents}. More general methods assign different weights to agents using measured reliability or higher-order agreement patterns \citep{ai2025majority}. Other approaches combine or fuse whole responses rather than selecting among discrete answers \citep{jiang2023llm,chen2023universal}. Recent theory also studies the limits of aggregation policies that must return one of the answers produced by the agents \citep{ananthakrishnan2026power}. These methods are most natural when agents choose among shared alternatives or when whole responses are treated as the unit of aggregation. We instead study open-ended answers after decomposing them into smaller claims.
+343c338
+< Decomposing generated answers into atomic claims has become common in factuality evaluation and self-consistency methods \cite{thirukovalluru2024atomic,zhang2024atomic,ning2025mad,wan2025fastfact,liu2025verifact,goel2025zero,panou2025harnessing}. Atomic self-consistency, in particular, scores claims by how often they reappear across samples from one model \cite{thirukovalluru2024atomic}. Our setting differs because the responses come from different agents, so agent identity and reliability can also be used. This connects the problem to work on estimating annotator reliability from observed agreement patterns \cite{dawid1979maximum,sinha2018fast,majdi2023crowd,kuzin2025improving}. We use this connection to extend counting and reliability weighting to claims extracted from open-ended answers.
+---
+> Decomposing generated answers into atomic claims has become common in factuality evaluation and self-consistency methods \citep{thirukovalluru2024atomic,zhang2024atomic,ning2025mad,wan2025fastfact,liu2025verifact,goel2025zero,panou2025harnessing}. Atomic self-consistency, in particular, scores claims by how often they reappear across samples from one model \citep{thirukovalluru2024atomic}. Our setting differs because the responses come from different agents, so agent identity and reliability can also be used. This connects the problem to work on estimating annotator reliability from observed agreement patterns \citep{dawid1979maximum,sinha2018fast,majdi2023crowd,kuzin2025improving}. We use this connection to extend counting and reliability weighting to claims extracted from open-ended answers.
+346c341
+< Several lines of work use properties of model outputs as signals of confidence or correctness. Response length and verbosity have been studied as indicators of model behaviour \cite{janiak2025illusion,zhang2024verbosity}, while consistency under perturbations provides another source of confidence \cite{wu2026this,ahn2025prompt}. Position effects have also been studied in language models, although this work mainly concerns where information appears in the model's input \cite{guo2024serial,zhang2026position,salvatore2025lost,qiao2026llm}. Our position signal instead concerns where a claim appears in the model's own generated output. We also study omission strength: whether an agent's failure to mention a claim should count more strongly when that agent produced many other candidates.
+---
+> Several lines of work use properties of model outputs as signals of confidence or correctness. Response length and verbosity have been studied as indicators of model behaviour \citep{janiak2025illusion,zhang2024verbosity}, while consistency under perturbations provides another source of confidence \citep{wu2026this,ahn2025prompt}. Position effects have also been studied in language models, although this work mainly concerns where information appears in the model's input \citep{guo2024serial,zhang2026position,salvatore2025lost,qiao2026llm}. Our position signal instead concerns where a claim appears in the model's own generated output. We also study omission strength: whether an agent's failure to mention a claim should count more strongly when that agent produced many other candidates.
+378,379c373,374
+< \bibliographystyle{plainnat}
+< {\small\bibliography{refs}}
+---
+> \bibliographystyle{acl_natbib}
+> \bibliography{refs}
+422c417
+< \begin{table}
+---
+> \begin{table*}[t]
+451c446
+< \end{table}
+---
+> \end{table*}
+458c453
+< \begin{table}
+---
+> \begin{table*}[t]
+473c468
+< \end{table}
+---
+> \end{table*}
+480c475
+< \begin{table}
+---
+> \begin{table*}[t]
+503c498
+< \end{table}
+---
+> \end{table*}
+511c506
+< \begin{table}[H]
+---
+> \begin{table*}[t]
+541c536
+< \end{table}
+---
+> \end{table*}
+543c538
+< \begin{table}[H]
+---
+> \begin{table*}[t]
+561c556
+< \end{table}
+---
+> \end{table*}
+573c568
+< \begin{table}[H]
+---
+> \begin{table*}[t]
+593c588
+< \end{table}
+---
+> \end{table*}
+595c590
+< \begin{table}[H]
+---
+> \begin{table*}[t]
+619c614
+< \end{table}
+---
+> \end{table*}
+621c616
+< \begin{table}[H]
+---
+> \begin{table*}[t]
+635c630
+< \end{table}
+---
+> \end{table*}
+647c642
+< \begin{table}
+---
+> \begin{table*}[t]
+663c658
+< \end{table}
+---
+> \end{table*}
+665c660
+< \begin{table}
+---
+> \begin{table*}[t]
+686c681
+< \end{table}
+---
+> \end{table*}
+691c686
+< \begin{figure}[t]
+---
+> \begin{figure*}[t]
+696c691
+< \end{figure}
+---
+> \end{figure*}
+698c693
+< \begin{figure}[t]
+---
+> \begin{figure*}[t]
+703c698
+< \end{figure}
+---
+> \end{figure*}
+705c700
+< \begin{figure}[t]
+---
+> \begin{figure*}[t]
+710c705
+< \end{figure}
+---
+> \end{figure*}
+712c707
+< \begin{figure}[t]
+---
+> \begin{figure*}[t]
+717c712
+< \end{figure}
+---
+> \end{figure*}
+719c714
+< \begin{table}
+---
+> \begin{table*}[t]
+742c737
+< \end{table}
+---
+> \end{table*}
+744c739
+< \begin{figure}[t]
+---
+> \begin{figure*}[t]
+749c744
+< \end{figure}
+---
+> \end{figure*}
+751c746
+< \begin{table}
+---
+> \begin{table*}[t]
+769c764
+< \end{table}
+---
+> \end{table*}
+771c766
+< \begin{table}
+---
+> \begin{table*}[t]
+787c782
+< \end{table}
+---
+> \end{table*}
+793c788
+< \input{checklist.tex}
+---
+> % \input{checklist.tex}  % NeurIPS checklist: not used by ARR
